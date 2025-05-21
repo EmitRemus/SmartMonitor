@@ -1,0 +1,13 @@
+{
+  "files.exclude": {
+    "**/.git": true,
+    "**/.svn": true,
+    "**/.hg": true,
+    "**/.DS_Store": true,
+    "**/Thumbs.db": true,
+    "**/__pycache__": true,
+    "**/.*": true
+  },
+  "explorerExclude.backup": {},
+  "cSpell.words": ["asgi", "dotenv", "granian"]
+}
