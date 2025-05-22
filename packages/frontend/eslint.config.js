@@ -9,7 +9,7 @@ import globals from 'globals';
 import tseslint from 'typescript-eslint';
 
 export default tseslint.config(
-    {ignores: ['dist']},
+    { ignores: ['dist'] },
     {
         extends: [
             js.configs.recommended,
@@ -30,7 +30,11 @@ export default tseslint.config(
             ...reactHooks.configs.recommended.rules,
             'react-refresh/only-export-components': [
                 'warn',
-                {allowConstantExport: true},
+                { allowConstantExport: true },
+            ],
+            'no-unused-vars': [
+                'error',
+                { vars: 'all', args: 'after-used', ignoreRestSiblings: false },
             ],
             'prettier/prettier': 'error',
         },

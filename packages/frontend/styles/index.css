@@ -1,1 +1,9 @@
 @import "tailwindcss";
+
+@theme {
+  --color-palette-blue-sapphire: #0088FF;
+}
+
+:root {
+  --default-font-family: 'Raleway';
+}
