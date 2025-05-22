@@ -4,12 +4,18 @@ import {StrictMode} from 'react';
 import {createRoot} from 'react-dom/client';
 import {RouterProvider, createBrowserRouter} from 'react-router';
 
-import {Home} from './pages/home';
+import {SidebarLayout} from './layout/sidebarLayout';
+import {Home} from './pages/home/home';
+import {Settings} from './pages/settings/settings';
 
 const router = createBrowserRouter([
     {
         path: '/',
-        Component: Home,
+        element: <SidebarLayout />,
+        children: [
+            {index: true, element: <Home />},
+            {path: 'settings', element: <Settings />},
+        ],
     },
 ]);
 
