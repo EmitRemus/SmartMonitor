@@ -2,7 +2,30 @@
 
 @theme {
   --color-palette-blue-sapphire: #0088FF;
+
+  @keyframes overshot {
+    0%  {
+      transform: translateX(0);
+    }
+    80% {
+      transform: translateX(120%);
+    }
+    100% {
+      transform: translateX(100%);
+    }
+  }
+
+  @keyframes retract {
+    0%  {
+      transform: translateX(100%);
+    }
+    100% {
+      transform: translateX(0);
+    }
+  }
 }
+
+
 
 :root {
   --default-font-family: 'Raleway';

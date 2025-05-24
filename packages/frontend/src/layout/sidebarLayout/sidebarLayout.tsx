@@ -4,7 +4,7 @@ import { MenuIcon } from 'lucide-react';
 import { useState } from 'react';
 import { Outlet } from 'react-router';
 
-import { SideBar } from './fragments/sideBar';
+import { Sidebar } from './fragments/sidebar';
 
 export const SidebarLayout = () => {
   const [isOpened, setIsOpened] = useState<boolean>(false);
@@ -17,7 +17,7 @@ export const SidebarLayout = () => {
       >
         <MenuIcon />
       </Button>
-      <SideBar isOpen={isOpened} onClose={() => setIsOpened(false)} />
+      <Sidebar isOpen={isOpened} onClose={() => setIsOpened(false)} />
       <Outlet />
     </>
   );
