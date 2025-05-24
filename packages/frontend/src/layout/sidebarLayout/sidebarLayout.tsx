@@ -2,7 +2,7 @@ import { MenuIcon } from 'lucide-react';
 import { useState } from 'react';
 import { Outlet } from 'react-router';
 
-import { Sidebar } from './fragments/sidebar';
+import { Sidebar } from '@/layout/sidebarLayout/fragments/sidebar';
 
 export const SidebarLayout = () => {
   const [isOpened, setIsOpened] = useState<boolean>(false);

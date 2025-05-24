@@ -3,14 +3,15 @@ import '@styles/cssHacksRadix.css';
 import '@styles/index.css';
 import '@styles/scrollbar.css';
 
-import { StrictMode } from 'react';
+import { StrictMode, lazy } from 'react';
 import { createRoot } from 'react-dom/client';
 import { RouterProvider, createBrowserRouter } from 'react-router';
 
 import { SidebarLayout } from '@/layout/sidebarLayout/sidebarLayout';
 
-import { Home } from './pages/home/home';
-import { Settings } from './pages/settings/settings';
+const Home = lazy(() => import('@/pages/home/home'));
+const Settings = lazy(() => import('@/pages/settings/settings'));
+const AllApartments = lazy(() => import('@/pages/apartment/all/allApartments'));
 
 const router = createBrowserRouter([
   {
@@ -19,6 +20,10 @@ const router = createBrowserRouter([
     children: [
       { index: true, element: <Home /> },
       { path: 'settings', element: <Settings /> },
+      {
+        path: 'apartment',
+        children: [{ path: 'all', element: <AllApartments /> }],
+      },
     ],
   },
 ]);

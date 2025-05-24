@@ -4,15 +4,11 @@ import { Search, Settings } from 'lucide-react';
 import { useState } from 'react';
 import { useNavigate } from 'react-router';
 
-import { TextInputField } from '@/components/input/textInput/TextInputField';
+import { TextInputField } from '@/components/input/textInput/textInputField/TextInputField';
 
-export const Home = () => {
+const Home = () => {
   const navigate = useNavigate();
   const [searchValue, setSearchValue] = useState<string>('');
-
-  const onSearchChange = (value: string | null) => {
-    if (/^([1-9]+-?)*$/.test(value ?? '')) setSearchValue(value ?? '');
-  };
 
   return (
     <Flex justify="center" align="center" className="relative w-dvw h-dvh">
@@ -21,8 +17,9 @@ export const Home = () => {
       </h1>
       <TextInputField
         value={searchValue}
-        onChange={onSearchChange}
+        onChange={setSearchValue}
         placeholder="Search by apartment id..."
+        type="id"
       >
         <button
           className="cursor-pointer"
@@ -31,6 +28,7 @@ export const Home = () => {
           <Search className="text-palette-blue-sapphire w-8 h-8" />
         </button>
       </TextInputField>
+
       <button className="cursor-pointer absolute right-4 bottom-2">
         <Settings
           onClick={() => navigate('/settings')}
@@ -40,3 +38,5 @@ export const Home = () => {
     </Flex>
   );
 };
+
+export default Home;

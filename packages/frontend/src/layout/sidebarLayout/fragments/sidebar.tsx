@@ -3,7 +3,7 @@ import { Box, Flex, Text } from '@radix-ui/themes';
 import { ArrowLeft } from 'lucide-react';
 import { twMerge } from 'tailwind-merge';
 
-import { SidebarBoxOfEntries } from './sidebarBoxOfEntries';
+import { SidebarBoxOfEntries } from '@/layout/sidebarLayout/fragments/sidebarBoxOfEntries';
 
 interface SidebarProps {
   isOpen: boolean;
@@ -79,20 +79,20 @@ const SidebarMap: SidebarMapType = Object.freeze([
       to: '/',
     },
     {
-      label: 'All apartments [no]',
-      to: '/apartments',
+      label: 'All apartments',
+      to: '/apartment/all',
     },
     {
       label: 'All buildings [no]',
-      to: '/buildings',
+      to: '/building/all',
     },
     {
       label: 'All pipes [no]',
-      to: '/pipes',
+      to: '/pipe/all',
     },
     {
       label: 'All pump stations [no]',
-      to: '/stations',
+      to: '/station/all',
     },
   ],
   [
