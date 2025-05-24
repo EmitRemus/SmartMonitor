@@ -3,7 +3,7 @@ import { Box, Flex, Text } from '@radix-ui/themes';
 import { ArrowLeft } from 'lucide-react';
 import { twMerge } from 'tailwind-merge';
 
-import { SidebarBoxOfEntries } from './sideBarBoxOfEntries';
+import { SidebarBoxOfEntries } from './sidebarBoxOfEntries';
 
 interface SidebarProps {
   isOpen: boolean;
