@@ -98,6 +98,20 @@ export default tseslint.config(
           css: 'always',
         },
       ],
+
+      'no-restricted-imports': [
+        'error',
+        {
+          paths: [],
+          patterns: [
+            {
+              group: ['../**', './**'],
+              message:
+                'Use aliases instead of relative imports where possible.',
+            },
+          ],
+        },
+      ],
     },
   },
 );
