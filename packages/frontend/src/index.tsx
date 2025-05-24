@@ -1,13 +1,14 @@
 import { Theme } from '@radix-ui/themes';
+import '@styles/cssHacksRadix.css';
+import '@styles/index.css';
+import '@styles/scrollbar.css';
 
 import { StrictMode } from 'react';
 import { createRoot } from 'react-dom/client';
 import { RouterProvider, createBrowserRouter } from 'react-router';
 
-import '../styles/cssHacksRadix.css';
-import '../styles/index.css';
-import '../styles/scrollbar.css';
-import { SidebarLayout } from './layout/sidebarLayout/sidebarLayout';
+import { SidebarLayout } from '@/layout/sidebarLayout/sidebarLayout';
+
 import { Home } from './pages/home/home';
 import { Settings } from './pages/settings/settings';
 

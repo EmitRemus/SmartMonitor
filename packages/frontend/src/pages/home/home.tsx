@@ -4,7 +4,7 @@ import { Search, Settings } from 'lucide-react';
 import { useState } from 'react';
 import { useNavigate } from 'react-router';
 
-import { TextInputField } from '../../components/input/textInput/TextInputField';
+import { TextInputField } from '@/components/input/textInput/TextInputField';
 
 export const Home = () => {
   const navigate = useNavigate();
