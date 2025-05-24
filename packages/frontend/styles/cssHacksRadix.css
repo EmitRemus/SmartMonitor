@@ -1,0 +1,7 @@
+/*
+  Reason: Remove outline from TextField.Root when :has(.rt-TextFieldInput:focus)
+*/
+.cssHacksInputNoFocusOutline.rt-TextFieldRoot:where(:has(.rt-TextFieldInput:focus)) {
+  outline: 0 !important;
+  outline-offset: 0 !important;
+}

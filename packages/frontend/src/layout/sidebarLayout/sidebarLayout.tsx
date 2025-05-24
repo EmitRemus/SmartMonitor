@@ -1,5 +1,3 @@
-import { Button } from '@radix-ui/themes';
-
 import { MenuIcon } from 'lucide-react';
 import { useState } from 'react';
 import { Outlet } from 'react-router';
@@ -11,14 +9,15 @@ export const SidebarLayout = () => {
 
   return (
     <>
-      <Button
-        className="cursor-pointer"
+      <Outlet />
+
+      <button
+        className="cursor-pointer fixed top-7 left-6"
         onClick={() => setIsOpened((value) => !value)}
       >
-        <MenuIcon />
-      </Button>
+        <MenuIcon className="stroke-1 w-15 h-15" />
+      </button>
       <Sidebar isOpen={isOpened} onClose={() => setIsOpened(false)} />
-      <Outlet />
     </>
   );
 };

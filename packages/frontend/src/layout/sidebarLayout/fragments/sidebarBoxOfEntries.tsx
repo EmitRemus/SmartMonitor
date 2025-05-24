@@ -13,7 +13,7 @@ export const SidebarBoxOfEntries = ({
   onLinkClick,
 }: SidebarBoxOfEntriesProps) => {
   return (
-    <Flex className="gap-6 flex flex-col items-start">
+    <Flex direction="column" align="start" className="gap-6">
       {values.map((value) => (
         <Link
           to={value.to}

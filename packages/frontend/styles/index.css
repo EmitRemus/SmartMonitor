@@ -1,4 +1,5 @@
 @import "tailwindcss";
+@import '@radix-ui/themes/styles.css';
 
 @theme {
   --color-palette-blue-sapphire: #0088FF;
@@ -26,7 +27,6 @@
 }
 
 
-
-:root {
-  --default-font-family: 'Raleway';
+* {
+  --default-font-family: 'Raleway' !important;
 }
