@@ -4,6 +4,8 @@
 @theme {
   --color-palette-blue-sapphire: #0088FF;
 
+  --color-palette-gray-storm: #CACACA;
+
   @keyframes overshot {
     0%  {
       transform: translateX(0);
