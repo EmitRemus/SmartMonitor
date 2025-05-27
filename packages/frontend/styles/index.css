@@ -1,1 +1,34 @@
 @import "tailwindcss";
+@import '@radix-ui/themes/styles.css';
+
+@theme {
+  --color-palette-blue-sapphire: #0088FF;
+
+  --color-palette-gray-storm: #CACACA;
+
+  @keyframes overshot {
+    0%  {
+      transform: translateX(0);
+    }
+    80% {
+      transform: translateX(120%);
+    }
+    100% {
+      transform: translateX(100%);
+    }
+  }
+
+  @keyframes retract {
+    0%  {
+      transform: translateX(100%);
+    }
+    100% {
+      transform: translateX(0);
+    }
+  }
+}
+
+
+* {
+  --default-font-family: 'Raleway' !important;
+}

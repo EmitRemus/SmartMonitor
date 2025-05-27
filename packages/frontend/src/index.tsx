@@ -1,28 +1,48 @@
-import {Theme} from '@radix-ui/themes';
+import { Theme } from '@radix-ui/themes';
+import '@styles/cssHacksRadix.css';
+import '@styles/index.css';
+import '@styles/scrollbar.css';
 
-import {StrictMode} from 'react';
-import {createRoot} from 'react-dom/client';
-import {RouterProvider, createBrowserRouter} from 'react-router';
+import { StrictMode, lazy } from 'react';
+import { createRoot } from 'react-dom/client';
+import { RouterProvider, createBrowserRouter } from 'react-router';
 
-import {SidebarLayout} from './layout/sidebarLayout';
-import {Home} from './pages/home/home';
-import {Settings} from './pages/settings/settings';
+import { SidebarLayout } from '@/layout/sidebarLayout/sidebarLayout';
+
+const SidesPaddingLayout = lazy(
+  () => import('@/layout/sidesPaddingLayout/sidesPaddingLayout'),
+);
+
+const Home = lazy(() => import('@/pages/home/home'));
+const Settings = lazy(() => import('@/pages/settings/settings'));
+const AllApartments = lazy(() => import('@/pages/apartment/all/allApartments'));
 
 const router = createBrowserRouter([
-    {
-        path: '/',
-        element: <SidebarLayout />,
+  {
+    path: '/',
+    element: <SidebarLayout />,
+    children: [
+      { index: true, element: <Home /> },
+      { path: 'settings', element: <Settings /> },
+      {
+        element: <SidesPaddingLayout />,
         children: [
-            {index: true, element: <Home />},
-            {path: 'settings', element: <Settings />},
+          {
+            path: 'apartment',
+            children: [{ path: 'all', element: <AllApartments /> }],
+          },
         ],
-    },
+      },
+    ],
+  },
 ]);
 
 createRoot(document.getElementById('root')!).render(
-    <StrictMode>
-        <Theme appearance="light" accentColor="cyan">
-            <RouterProvider router={router} />
-        </Theme>
-    </StrictMode>,
+  <StrictMode>
+    <div className="font-[Raleway]">
+      <Theme appearance="light" accentColor="blue">
+        <RouterProvider router={router} />
+      </Theme>
+    </div>
+  </StrictMode>,
 );
