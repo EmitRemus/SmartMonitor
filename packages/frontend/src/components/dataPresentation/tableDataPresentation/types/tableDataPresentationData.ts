@@ -6,4 +6,5 @@ import type {
 export type TableDataPresentationData = {
   columns: Record<string, TableDataPresentationItemType>;
   data: (TableDataPresentationItemValueType | null)[][];
+  dataId: number[];
 };

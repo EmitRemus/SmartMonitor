@@ -1,18 +1,18 @@
 export type TableDataPresentationItemType =
   | 'string'
   | 'date'
-  | 'money'
   | 'meter'
-  | 'temperature';
+  | 'temperature'
+  | 'pressure';
 
-export type TableDataPresentationItemValueType = string | number;
+export type TableDataPresentationItemValueType = string | number | null;
 
 const _typeSpecification = {
   string: {} as { type: 'string'; value: string },
   date: {} as { type: 'date'; value: number },
-  money: {} as { type: 'money'; value: number },
   meter: {} as { type: 'meter'; value: number },
   temperature: {} as { type: 'temperature'; value: number },
+  pressure: {} as { type: 'pressure'; value: number },
 } satisfies Record<
   TableDataPresentationItemType,
   { value: TableDataPresentationItemValueType }

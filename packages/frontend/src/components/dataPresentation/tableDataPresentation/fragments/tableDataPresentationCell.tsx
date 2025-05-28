@@ -1,3 +1,7 @@
+import { Text } from '@radix-ui/themes';
+
+import { twMerge } from 'tailwind-merge';
+
 import type {
   TableDataPresentationItemType,
   TableDataPresentationItemValueType,
@@ -6,16 +10,23 @@ import type {
 interface TableDataPresentationCellProps {
   data: TableDataPresentationItemValueType | null;
   type: TableDataPresentationItemType;
+  isFirst: boolean;
 }
 
 export const TableDataPresentationCell = ({
   data,
   type,
+  isFirst,
 }: TableDataPresentationCellProps) => {
   return (
-    <h1>
-      {data}
-      {type}
-    </h1>
+    <Text
+      align="center"
+      className={twMerge(
+        'px-2 block !w-full h-7 !text-left whitespace-nowrap',
+        !isFirst && 'border-l-2',
+      )}
+    >
+      {data} - {type}
+    </Text>
   );
 };

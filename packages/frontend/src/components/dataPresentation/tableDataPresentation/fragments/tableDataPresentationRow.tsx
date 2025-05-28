@@ -1,5 +1,3 @@
-import { Table } from '@radix-ui/themes';
-
 import { TableDataPresentationCell } from '@/components/dataPresentation/tableDataPresentation/fragments/tableDataPresentationCell';
 import type {
   TableDataPresentationItemType,
@@ -9,7 +7,7 @@ import type {
 interface TableDataPresentationRowProps {
   rowData: (TableDataPresentationItemValueType | null)[];
   rowTypes: TableDataPresentationItemType[];
-  index: number;
+  columns: string[];
 }
 
 // TODO: use in hook
@@ -40,18 +38,19 @@ interface TableDataPresentationRowProps {
 export const TableDataPresentationRow = ({
   rowData,
   rowTypes,
-  index,
+  columns,
 }: TableDataPresentationRowProps) => {
   return (
     <>
-      {rowTypes.map((_, cellIndex) => {
-        <Table.Cell key={`${index}-${cellIndex}`}>
+      {rowTypes.map((_, index) => (
+        <td key={columns[index]}>
           <TableDataPresentationCell
             data={rowData[index]}
             type={rowTypes[index]}
+            isFirst={index == 0}
           />
-        </Table.Cell>;
-      })}
+        </td>
+      ))}
     </>
   );
 };

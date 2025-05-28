@@ -1,6 +1,9 @@
+import { Box } from '@radix-ui/themes';
+
 import { MenuIcon } from 'lucide-react';
 import { useState } from 'react';
 import { Outlet } from 'react-router';
+import { twMerge } from 'tailwind-merge';
 
 import { Sidebar } from '@/layout/sidebarLayout/fragments/sidebar';
 
@@ -17,7 +20,14 @@ export const SidebarLayout = () => {
       >
         <MenuIcon className="stroke-1 w-15 h-15" />
       </button>
-      <Sidebar isOpen={isOpened} onClose={() => setIsOpened(false)} />
+      <Box
+        className={twMerge(
+          'z-[1400] position absolute top-0 left-0 w-full h-full',
+          !isOpened && 'pointer-events-none',
+        )}
+      >
+        <Sidebar isOpen={isOpened} onClose={() => setIsOpened(false)} />
+      </Box>
     </>
   );
 };
