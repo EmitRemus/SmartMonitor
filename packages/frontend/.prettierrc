@@ -1,0 +1,15 @@
+{
+    "extends": ["plugin:prettier/recommended"],
+    "tabWidth": 2,
+    "useTabs": false,
+    "trailingComma": "all",
+    "singleQuote": true,
+    "plugins": [
+        "prettier-plugin-tailwindcss",
+        "@trivago/prettier-plugin-sort-imports"
+    ],
+    "importOrder": ["^[a-zA-Z]", "^@/", "^[./]"],
+    "importOrderSeparation": true,
+    "importOrderSortSpecifiers": true,
+    "endOfLine": "auto"
+}
