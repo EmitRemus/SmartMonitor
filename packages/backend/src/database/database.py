@@ -1,9 +1,16 @@
 # import asyncio
 # import pprint
+import os
+
 from pymongo import AsyncMongoClient
 from pymongo.server_api import ServerApi
+from dotenv import load_dotenv
 
-uri = "mongodb+srv://buhaienkomykyta:12344321@cluster0.xgn08.mongodb.net/?retryWrites=true&w=majority&appName=Cluster0"
+load_dotenv()
+
+# Access the URI
+uri = os.getenv("MONGODB_URI")
+
 client = AsyncMongoClient(uri, server_api=ServerApi('1'))
 
 
