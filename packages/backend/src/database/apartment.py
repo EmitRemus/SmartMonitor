@@ -1,9 +1,10 @@
 from database import client
-
+# import asyncio
 
 async def show_apartments():
     try:
         await client.admin.command('ping')
+        # print("Connected to MongoDB!")
         db = client.SmartMonitor
         col_apartment = db.apartment
 
@@ -17,3 +18,5 @@ async def show_apartments():
     except Exception as e:
         print(e)
         return []
+
+# asyncio.run(show_apartments())
