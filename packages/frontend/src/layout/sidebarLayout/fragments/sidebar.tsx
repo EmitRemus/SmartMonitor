@@ -87,7 +87,7 @@ const SidebarMap: SidebarMapType = Object.freeze([
       to: '/apartment/all',
     },
     {
-      label: 'All buildings [no]',
+      label: 'All buildings',
       to: '/building/all',
     },
     {

@@ -8,20 +8,20 @@ import {
   type TableDataPresentationItemType,
   tableDataPresentationItemNone,
 } from '@/components/dataPresentation/tableDataPresentation/types/tableDataPresentationItem';
-import type { TabledInputDataType } from '@/hooks/dataFetch/types/tabledInput';
-import { usePaginatedTableQuery } from '@/hooks/dataFetch/useFetch.tables';
+import type { TabledInputDataType } from '@/hooks/dataFetch/tables/types/tabledInput';
+import { usePaginatedTableQuery } from '@/hooks/dataFetch/tables/useFetch.tables';
 import { isArraysEqual } from '@/utils/dataComparing/isArraysEqual';
 
-interface fetchAllApartmentReturns {
+interface fetchAllBuildingsReturns {
   data: TableDataPresentationData;
   onEndReached: () => void;
   isDataFinished: boolean;
 }
 
-export const useFetchAllApartments = (): fetchAllApartmentReturns => {
+export const useFetchAllBuildings = (): fetchAllBuildingsReturns => {
   const page = usePaginatedTableQuery(
-    `${environment.API_BASE_URL}/apartment/all`,
-    ['apartment', 'all'],
+    `${environment.API_BASE_URL}/building/all`,
+    ['building', 'all'],
     20,
   );
   const data = useRef<Pick<TableDataPresentationData, 'data' | 'dataId'>>({
@@ -69,8 +69,13 @@ function _parseData(
   }
 
   // parse data (and value validation)
-  const result: [string | null, number | null, number | null, Date | null][] =
-    [];
+  const result: [
+    string | null,
+    number | null,
+    number | null,
+    number | null,
+    Date | null,
+  ][] = [];
 
   for (const row of data.data) {
     if (row.some((cell, i) => typeof cell !== _columnTypes[i])) return null;
@@ -78,10 +83,12 @@ function _parseData(
     const apartmentId = row[0] as string | null;
     const coldWater = row[1] as number | null;
     const hotWater = row[2] as number | null;
-    const updatedAt = row[3] as string | null;
+    const pressure = row[3] as number | null;
+    const updatedAt = row[4] as string | null;
 
     if (coldWater !== null && coldWater < 0) return null;
     if (hotWater !== null && hotWater < 0) return null;
+    if (pressure !== null && pressure < 0) return null;
 
     const parsedDate = updatedAt === null ? null : Date.parse(updatedAt);
     if (parsedDate !== null && isNaN(parsedDate)) return null;
@@ -90,6 +97,7 @@ function _parseData(
       apartmentId as string,
       coldWater,
       hotWater,
+      pressure,
       parsedDate === null ? null : new Date(parsedDate),
     ]);
   }
@@ -108,16 +116,20 @@ function _parseData(
       : { type: 'meter', value: row[2] },
     row[3] === null
       ? tableDataPresentationItemNone
-      : { type: 'date', value: row[3] },
+      : { type: 'pressure', value: row[3] },
+    row[4] === null
+      ? tableDataPresentationItemNone
+      : { type: 'date', value: row[4] },
   ]);
 }
 
 const _columns: Record<string, TableDataPresentationItemType> = {
-  'Apartment ID': 'string',
+  'Building ID': 'string',
   'Cold Water': 'meter',
   'Hot Water': 'meter',
+  Pressure: 'pressure',
   'Updated at': 'date',
 };
 
 const _columnNames = Object.keys(_columns).sort();
-const _columnTypes = ['string', 'number', 'number', 'string'];
+const _columnTypes = ['string', 'number', 'number', 'number', 'string'];

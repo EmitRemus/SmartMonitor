@@ -2,6 +2,7 @@ import { lazy } from 'react';
 import { createBrowserRouter } from 'react-router';
 
 import { SidebarLayout } from '@/layout/sidebarLayout/sidebarLayout';
+import AllBuildings from '@/pages/building/all/allBuildings.js';
 
 const SidesPaddingLayout = lazy(
   () => import('@/layout/sidesPaddingLayout/sidesPaddingLayout'),
@@ -24,6 +25,10 @@ export const router = createBrowserRouter([
           {
             path: 'apartment',
             children: [{ path: 'all', element: <AllApartments /> }],
+          },
+          {
+            path: 'building',
+            children: [{ path: 'all', element: <AllBuildings /> }],
           },
         ],
       },

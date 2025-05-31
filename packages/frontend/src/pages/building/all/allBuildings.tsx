@@ -1,14 +1,14 @@
 import { Box } from '@radix-ui/themes';
 
 import { BorderedTableDataPresentation } from '@/components/dataPresentation/borderedTableDataPresentation/borderedTableDataPresentation';
-import { useFetchAllApartments } from '@/hooks/dataFetch/tables/specific/useFetch.allApartments.js';
+import { useFetchAllBuildings } from '@/hooks/dataFetch/tables/specific/useFetch.allBuildings';
 
-const AllApartments = () => {
-  const { data, onEndReached, isDataFinished } = useFetchAllApartments();
+const AllBuildings = () => {
+  const { data, onEndReached, isDataFinished } = useFetchAllBuildings();
 
   return (
     <Box className="pt-40 w-full">
-      <h2 className="text-3xl pl-5 pb-1">All apartments</h2>
+      <h2 className="text-3xl pl-5 pb-1">All buildings</h2>
       <BorderedTableDataPresentation
         className="h-100"
         data={data}
@@ -19,4 +19,4 @@ const AllApartments = () => {
   );
 };
 
-export default AllApartments;
+export default AllBuildings;

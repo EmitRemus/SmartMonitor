@@ -10,7 +10,7 @@ import { useCallback, useRef } from 'react';
 import {
   TabledInputSchema,
   type TabledInputType,
-} from '@/hooks/dataFetch/types/tabledInput.js';
+} from '@/hooks/dataFetch/tables/types/tabledInput';
 
 async function fetcher(
   pageParam: string | null,
