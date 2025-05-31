@@ -124,7 +124,7 @@ function _parseData(
 }
 
 const _columns: Record<string, TableDataPresentationItemType> = {
-  'Pump station ID': 'string',
+  'Pump Station ID': 'string',
   'Cold Water': 'meter',
   'Hot Water': 'meter',
   Pressure: 'pressure',

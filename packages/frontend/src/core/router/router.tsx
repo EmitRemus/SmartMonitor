@@ -3,6 +3,8 @@ import { createBrowserRouter } from 'react-router';
 
 import { SidebarLayout } from '@/layout/sidebarLayout/sidebarLayout';
 import AllBuildings from '@/pages/building/all/allBuildings.js';
+import AllPipes from '@/pages/pipe/all/allPipes';
+import AllPumpStations from '@/pages/pumpStation/all/allPumpStations';
 
 const SidesPaddingLayout = lazy(
   () => import('@/layout/sidesPaddingLayout/sidesPaddingLayout'),
@@ -29,6 +31,14 @@ export const router = createBrowserRouter([
           {
             path: 'building',
             children: [{ path: 'all', element: <AllBuildings /> }],
+          },
+          {
+            path: 'pump-station',
+            children: [{ path: 'all', element: <AllPumpStations /> }],
+          },
+          {
+            path: 'pipe',
+            children: [{ path: 'all', element: <AllPipes /> }],
           },
         ],
       },

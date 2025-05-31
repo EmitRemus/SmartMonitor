@@ -57,7 +57,7 @@ const _mockedDataPumpStations = {
     'Pressure',
     'Updated at',
   ],
-  data: Array.from({ length: 30 }, (_, i) => {
+  data: Array.from({ length: 50 }, (_, i) => {
     const stationId = `P-${i + 1}`;
     const coldWater = +(1500000 + Math.random() * 300000).toFixed(2);
     const hotWater = +(2500000 + Math.random() * 500000).toFixed(2);
@@ -74,5 +74,5 @@ const _mockedDataPumpStations = {
 
     return [stationId, coldWater, hotWater, pressure, updatedAt];
   }),
-  dataId: Array.from({ length: 30 }, (_, i) => `PID-${i + 1}`),
+  dataId: Array.from({ length: 50 }, (_, i) => `PID-${i + 1}`),
 };

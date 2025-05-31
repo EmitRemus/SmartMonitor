@@ -91,12 +91,12 @@ const SidebarMap: SidebarMapType = Object.freeze([
       to: '/building/all',
     },
     {
-      label: 'All pipes [no]',
+      label: 'All pipes',
       to: '/pipe/all',
     },
     {
-      label: 'All pump stations [no]',
-      to: '/station/all',
+      label: 'All pump stations',
+      to: '/pump-station/all',
     },
   ],
   [
@@ -110,18 +110,6 @@ const SidebarMap: SidebarMapType = Object.freeze([
     },
   ],
   [
-    {
-      label: 'Settings',
-      to: '/settings',
-    },
-    {
-      label: 'Settings',
-      to: '/settings',
-    },
-    {
-      label: 'Settings',
-      to: '/settings',
-    },
     {
       label: 'Settings',
       to: '/settings',
