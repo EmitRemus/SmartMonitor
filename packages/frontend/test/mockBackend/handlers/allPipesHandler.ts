@@ -43,7 +43,7 @@ async function resolveGetAllPipes({
 }
 
 const _mockedDataPipes = {
-  columns: ['PipeID'],
+  columns: ['Pipe ID'],
   data: Array.from({ length: 50 }, (_, i) => {
     const pipeId = `P-${i + 1}`;
     return [pipeId];
