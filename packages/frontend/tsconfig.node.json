@@ -3,7 +3,9 @@
     "baseUrl": ".",
     "paths": {
       "@/*": ["src/*"],
-      "@styles/*": ["styles/*"]
+      "@styles/*": ["styles/*"],
+      "@config/*": ["config/*"],
+      "@test/*": ["test/*"]
     },
 
     "tsBuildInfoFile": "./node_modules/.tmp/tsconfig.node.tsbuildinfo",

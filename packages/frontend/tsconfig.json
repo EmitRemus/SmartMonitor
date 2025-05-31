@@ -1,17 +1,27 @@
 {
   "compilerOptions": {
+    "strict": true,
+    "strictNullChecks": true,
     "baseUrl": ".",
     "paths": {
       "@/*": ["src/*"],
-      "@styles/*": ["styles/*"]
-    }
+      "@styles/*": ["styles/*"],
+      "@config/*": ["config/*"],
+      "@test/*": ["test/*"]
+    },
+    "moduleResolution": "nodenext",
+    "module": "NodeNext"
   },
   "include": [
     "./src/**/*.ts",
     "./src/**/*.tsx",
     "./src/**/*.js",
     "./src/**/*.jsx",
-    "./tailwind.config.ts"
+    "tailwind.config.mts",
+
+    "./mock/**/*.ts",
+
+    "./config/**/*.ts"
   ],
   "references": [
     { "path": "./tsconfig.app.json" },
