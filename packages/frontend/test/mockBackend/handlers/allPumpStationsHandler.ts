@@ -6,14 +6,14 @@ import {
   http,
 } from 'msw';
 
-export const allPipeStationsHandler = http.get(
-  /.*\/api\/pipe-station\/all$/,
-  resolveGetAllPipeStations,
+export const allPumpStationsHandler = http.get(
+  /.*\/api\/pump-station\/all$/,
+  resolveGetAllPumpStations,
 );
 
 // --------------------------------------
 
-async function resolveGetAllPipeStations({
+async function resolveGetAllPumpStations({
   request,
   params: _params,
 }: {
@@ -30,28 +30,28 @@ async function resolveGetAllPipeStations({
   const offset =
     id == null
       ? 0
-      : _mockedDataPipeStations.dataId.findIndex((value) => value == id);
+      : _mockedDataPumpStations.dataId.findIndex((value) => value == id);
 
   const lastIndex = Math.min(
-    _mockedDataPipeStations.data.length,
+    _mockedDataPumpStations.data.length,
     offset + limit,
   );
-  const isFinished = lastIndex == _mockedDataPipeStations.data.length;
+  const isFinished = lastIndex == _mockedDataPumpStations.data.length;
 
   return HttpResponse.json({
     data: {
-      columns: _mockedDataPipeStations.columns,
-      data: _mockedDataPipeStations.data.slice(offset, lastIndex),
-      dataId: _mockedDataPipeStations.dataId.slice(offset, lastIndex),
+      columns: _mockedDataPumpStations.columns,
+      data: _mockedDataPumpStations.data.slice(offset, lastIndex),
+      dataId: _mockedDataPumpStations.dataId.slice(offset, lastIndex),
     },
     isFinished: isFinished,
-    lastId: isFinished ? null : _mockedDataPipeStations.dataId[lastIndex],
+    lastId: isFinished ? null : _mockedDataPumpStations.dataId[lastIndex],
   });
 }
 
-const _mockedDataPipeStations = {
+const _mockedDataPumpStations = {
   columns: [
-    'Pipe Station ID',
+    'Pump Station ID',
     'Cold Water',
     'Hot Water',
     'Pressure',
