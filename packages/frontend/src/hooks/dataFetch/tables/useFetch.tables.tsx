@@ -38,6 +38,8 @@ export function usePaginatedTableQuery(
   onEndReached: () => void;
   isDataFinished: boolean;
 } {
+  // Note: useInfiniteQuery periodically false fires is stable manner
+  // and returns the same amount of data as previous fire
   const { data, fetchNextPage, hasNextPage, isFetchingNextPage } =
     useInfiniteQuery<
       TabledInputType | null,
