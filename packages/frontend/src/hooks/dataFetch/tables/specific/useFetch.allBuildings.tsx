@@ -80,7 +80,7 @@ function _parseData(
   for (const row of data.data) {
     if (row.some((cell, i) => typeof cell !== _columnTypes[i])) return null;
 
-    const apartmentId = row[0] as string | null;
+    const buildingId = row[0] as string | null;
     const coldWater = row[1] as number | null;
     const hotWater = row[2] as number | null;
     const pressure = row[3] as number | null;
@@ -94,7 +94,7 @@ function _parseData(
     if (parsedDate !== null && isNaN(parsedDate)) return null;
 
     result.push([
-      apartmentId as string,
+      buildingId as string,
       coldWater,
       hotWater,
       pressure,
