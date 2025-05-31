@@ -54,10 +54,6 @@ export function usePaginatedTableQuery(
       initialPageParam: null,
     });
 
-  // somewhy there is duplication of batches (no new data fetched yet hook is fired)
-  // so to prevent this check number of batches
-  const amountOfBatches = useRef<number>(0);
-
   // used to go over cache
   const [_boolFlipper, setBoolFlipper] = useState<boolean>(false);
   const lastPageIndex = useRef<number>(0);
@@ -68,7 +64,6 @@ export function usePaginatedTableQuery(
   let lastPage: TabledInputType | null = null;
 
   if (pages !== null && pages.length > lastPageIndex.current) {
-    amountOfBatches.current = pages.length;
     lastPage = pages[lastPageIndex.current];
     lastPageIndex.current += 1;
   }
