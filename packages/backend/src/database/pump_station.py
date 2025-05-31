@@ -1,20 +1,16 @@
 from database import client
-import asyncio
 from bson import ObjectId
 
-async def get_apartments():
+async def get_pump_stations():
     try:
         await client.admin.command('ping')
         db = client.SmartMonitor
-        col_apartment = db.apartment
-
-        apartments = []
-        async for doc in col_apartment.find({}):
+        col = db.pump_station
+        docs = []
+        async for doc in col.find({}):
             doc["_id"] = str(doc["_id"])
-            apartments.append(doc)
-
-        return apartments
-
+            docs.append(doc)
+        return docs
     except Exception as e:
         print(e)
         return []
@@ -22,7 +18,7 @@ async def get_apartments():
 async def get_apartment_list(last_id = None, limit: int = 20):
     await client.admin.command('ping')
     db = client.SmartMonitor
-    col = db.apartment
+    col = db.pump_station
 
     query = {}
     if last_id:
@@ -42,6 +38,7 @@ async def get_apartment_list(last_id = None, limit: int = 20):
             str(doc.get("_id")),
             doc.get("total_cw_usage", None),
             doc.get("total_hw_usage", None),
+            doc.get("pressure", None),
         ])
 
     last_object_id = ObjectId(data_id[-1]) if data_id else None
@@ -49,7 +46,7 @@ async def get_apartment_list(last_id = None, limit: int = 20):
     is_finished = remaining_docs == 0
 
     response = {
-        "columnName": ['apartment_id', 'cold_water', 'hot_water'],
+        "columnName": ['station_id', 'cold_water', 'hot_water', 'pressure'],
         "data": data,
         "dataId": data_id,
         "lastId": data_id[-1] if data_id else None,
@@ -57,7 +54,3 @@ async def get_apartment_list(last_id = None, limit: int = 20):
     }
     print(response)
     return response
-
-# if __name__ == '__main__':
-#
-#     asyncio.run(get_apartment_list())

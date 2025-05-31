@@ -13,9 +13,9 @@ def _assert_environment():
 
 def production():
     _assert_environment()
-    subprocess.run(f"granian --interface asgi src/main:app --port {config["PORT"]}", check=False)
+    subprocess.run(f"granian --interface asgi src/main:app --port {config['PORT']}", check=False)
 
 
 def development():
     _assert_environment()
-    subprocess.run(f"granian --interface asgi src/main:app --reload --port {config["PORT"]}", check=False)
+    subprocess.run(f"granian --interface asgi src/main:app --reload --port {config['PORT']}", check=False)
