@@ -27,7 +27,6 @@ export const TableDataPresentation = ({
   }
   const isEndReached = _isEndReached(onEndReached, isDataFinished);
 
-  const types = Object.values(data.columns);
   const columnsNames = Object.keys(data.columns);
 
   const [customScroll, setCustomScroll] = useState<HTMLElement | null>(null);
@@ -58,7 +57,6 @@ export const TableDataPresentation = ({
         return (
           <TableDataPresentationRow
             rowData={data.data[index]}
-            rowTypes={types}
             key={data.dataId[index]}
             columns={columnsNames}
           />
