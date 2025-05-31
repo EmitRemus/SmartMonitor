@@ -1,48 +1,31 @@
-import { Theme } from '@radix-ui/themes';
+import { environment } from '@config/environment';
 import '@styles/cssHacksRadix.css';
 import '@styles/index.css';
 import '@styles/scrollbar.css';
 
-import { StrictMode, lazy } from 'react';
+import { StrictMode } from 'react';
 import { createRoot } from 'react-dom/client';
-import { RouterProvider, createBrowserRouter } from 'react-router';
+import { RouterProvider } from 'react-router';
 
-import { SidebarLayout } from '@/layout/sidebarLayout/sidebarLayout';
+import { AppWrapper } from '@/core/appWrapper/appWrapper';
+import { router } from '@/core/router/router';
 
-const SidesPaddingLayout = lazy(
-  () => import('@/layout/sidesPaddingLayout/sidesPaddingLayout'),
-);
-
-const Home = lazy(() => import('@/pages/home/home'));
-const Settings = lazy(() => import('@/pages/settings/settings'));
-const AllApartments = lazy(() => import('@/pages/apartment/all/allApartments'));
-
-const router = createBrowserRouter([
-  {
-    path: '/',
-    element: <SidebarLayout />,
-    children: [
-      { index: true, element: <Home /> },
-      { path: 'settings', element: <Settings /> },
-      {
-        element: <SidesPaddingLayout />,
-        children: [
-          {
-            path: 'apartment',
-            children: [{ path: 'all', element: <AllApartments /> }],
-          },
-        ],
-      },
-    ],
-  },
-]);
-
-createRoot(document.getElementById('root')!).render(
+const _App = (
   <StrictMode>
-    <div className="font-[Raleway]">
-      <Theme appearance="light" accentColor="blue">
-        <RouterProvider router={router} />
-      </Theme>
-    </div>
-  </StrictMode>,
+    <AppWrapper>
+      <RouterProvider router={router} />
+    </AppWrapper>
+  </StrictMode>
 );
+
+if (environment.USE_MOCKED_BACKEND) {
+  import('@test/mockBackend/browserWorker')
+    .then(({ worker }) => {
+      worker.start();
+    })
+    .then(() => {
+      createRoot(document.getElementById('root')!).render(_App);
+    });
+} else {
+  createRoot(document.getElementById('root')!).render(_App);
+}

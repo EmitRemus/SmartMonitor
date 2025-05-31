@@ -14,9 +14,10 @@ export const SidebarBoxOfEntries = ({
 }: SidebarBoxOfEntriesProps) => {
   return (
     <Flex direction="column" align="start" className="gap-6">
-      {values.map((value) => (
+      {values.map((value, index) => (
         <Link
           to={value.to}
+          key={index}
           onClick={onLinkClick}
           className={twMerge(
             'text-white text-xl inline-block relative',

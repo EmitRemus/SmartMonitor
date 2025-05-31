@@ -6,6 +6,9 @@
 
   --color-palette-gray-storm: #CACACA;
 
+  /* fonts */
+  --font-mono: 'Roboto Mono' !important;
+
   @keyframes overshot {
     0%  {
       transform: translateX(0);

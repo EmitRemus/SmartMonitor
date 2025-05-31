@@ -59,8 +59,12 @@ export const Sidebar = ({ isOpen, onClose }: SidebarProps) => {
               direction="column"
               className="gap-14 overflow-y-auto box-border"
             >
-              {SidebarMap.map((entry) => (
-                <SidebarBoxOfEntries values={entry} onLinkClick={onClose} />
+              {SidebarMap.map((entry, index) => (
+                <SidebarBoxOfEntries
+                  values={entry}
+                  onLinkClick={onClose}
+                  key={index}
+                />
               ))}
             </Flex>
           </Flex>

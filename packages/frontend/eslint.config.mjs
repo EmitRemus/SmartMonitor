@@ -37,6 +37,8 @@ export default tseslint.config(
           map: [
             ['@', path.resolve(__dirname, './src')],
             ['@styles', path.resolve(__dirname, './styles')],
+            ['@config', path.resolve(__dirname, './config')],
+            ['@test', path.resolve(__dirname, './test')],
           ],
           extensions: ['.js', '.jsx', '.ts', '.tsx', '.css'],
         },
