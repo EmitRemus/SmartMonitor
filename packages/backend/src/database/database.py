@@ -3,7 +3,6 @@ import asyncio
 # import pprint
 import os
 
-from pymongo.asynchronous import collection as AsyncCollection
 from pymongo import AsyncMongoClient
 from pymongo.server_api import ServerApi
 from dotenv import load_dotenv

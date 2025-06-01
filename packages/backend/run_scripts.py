@@ -1,6 +1,9 @@
+import asyncio
 import subprocess
-from dotenv import dotenv_values
 import logging
+
+from dotenv import dotenv_values
+from src.database.producer import cycler
 
 logger = logging.getLogger("run_scripts")
 
@@ -19,3 +22,7 @@ def production():
 def development():
     _assert_environment()
     subprocess.run(f"granian --interface asgi src/main:app --reload --port {config['PORT']}", check=False)
+
+
+def run_producer():
+    asyncio.run(cycler(2))

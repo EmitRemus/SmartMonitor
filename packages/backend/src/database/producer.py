@@ -27,9 +27,9 @@ async def produce_data(meter_ids, to_mutate):
     return (mutated_meter_values, mutated_building_usage, true_station_usage)
 
 
-async def get_data_from_mqtt(recieved_data: tuple):
+async def get_data_from_mqtt(received_data: tuple):
 
-    meters, apartment_buildings, pipe_stations = recieved_data
+    meters, apartment_buildings, pipe_stations = received_data
 
     for meter_id, meter in meters.items():
         meter_insert = {"meter_id": meter_id, "entries": [{"date": meter["date"], "value": meter["value"]}]}
@@ -57,5 +57,4 @@ async def cycler(limit: int = 1):
 
 
 if __name__ == "__main__":
-
     asyncio.run(cycler(2))

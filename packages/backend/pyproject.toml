@@ -14,6 +14,7 @@ dependencies = [
 [project.scripts]
 prod = "run_scripts:production"
 dev = "run_scripts:development"
+producer = "run_scripts:run_producer"
 
 [build-system]
 requires = ["poetry-core>=2.0.0,<3.0.0"]
