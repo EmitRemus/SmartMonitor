@@ -7,17 +7,17 @@ import { twMerge } from 'tailwind-merge';
 import { GroupedNavigationItem } from '@/components/input/selectInput/groupedNavigation/fragment/GroupedNavigationItem';
 import type { GroupedNavigationTypes } from '@/components/input/selectInput/groupedNavigation/type/groupedNavigation.types';
 
-interface GroupedNavigationSubgroupProp {
+interface GroupedNavigationSubGroupProp {
   name: string;
   subGroup: GroupedNavigationTypes.NavigationSubGroup;
   className?: string;
 }
 
-export const GroupedNavigationSubgroup = ({
+export const GroupedNavigationSubGroup = ({
   name,
   subGroup,
   className,
-}: GroupedNavigationSubgroupProp) => {
+}: GroupedNavigationSubGroupProp) => {
   return (
     <Menubar.Sub>
       <Menubar.SubTrigger className="data-[highlighted]:bg-palette-blue-ice">

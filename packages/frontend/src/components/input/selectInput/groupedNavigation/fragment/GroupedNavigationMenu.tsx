@@ -1,7 +1,7 @@
 import { Menubar } from 'radix-ui';
 import { twJoin, twMerge } from 'tailwind-merge';
 
-import { GroupedNavigationLinkSubgroup } from '@/components/input/selectInput/groupedNavigation/fragment/GroupNavigationLinkSubGroup';
+import { GroupedNavigationLinkSubGroup } from '@/components/input/selectInput/groupedNavigation/fragment/GroupNavigationLinkSubGroup';
 import type { GroupedNavigationTypes } from '@/components/input/selectInput/groupedNavigation/type/groupedNavigation.types';
 
 interface GroupedNavigationMenuProp {
@@ -37,7 +37,7 @@ export const GroupedNavigationMenu = ({
             className,
           )}
         >
-          <GroupedNavigationLinkSubgroup
+          <GroupedNavigationLinkSubGroup
             group={group}
             classNameSubGroup={classNameSubGroup}
           />
