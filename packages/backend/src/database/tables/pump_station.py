@@ -239,7 +239,7 @@ async def update_pipe_stations(result: dict):
     }
     """
     db = client.SmartMonitor
-    col = db.pipe_station
+    col = db.pump_station
 
     operations = []
 
@@ -264,7 +264,6 @@ async def update_pipe_stations(result: dict):
                 },
             },
         )
-
         operations.append(update_op)
 
     results = await asyncio.gather(*operations)
