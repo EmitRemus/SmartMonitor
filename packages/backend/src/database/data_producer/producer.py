@@ -28,7 +28,6 @@ async def produce_data(meter_ids, to_mutate):
 
 
 async def get_data_from_mqtt(received_data: tuple):
-
     meters, apartment_buildings, pipe_stations = received_data
 
     for meter_id, meter in meters.items():
@@ -36,7 +35,6 @@ async def get_data_from_mqtt(received_data: tuple):
         await add_history_entries([meter_insert])
 
     await update_apartment_buildings(apartment_buildings)
-
     await update_pipe_stations(pipe_stations)
 
 

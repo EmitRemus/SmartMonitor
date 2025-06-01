@@ -112,10 +112,7 @@ async def add_history_entries(updates: list[dict]):
 
         for update in updates:
             meter_id = ObjectId(update["meter_id"])
-            entries = [
-                {"date": datetime.datetime.fromisoformat(e["date"]), "value": float(e["value"])}
-                for e in update["entries"]
-            ]
+            entries = [{"date": e["date"], "value": float(e["value"])} for e in update["entries"]]
 
             ops.append(col.update_one({"_id": meter_id}, {"$push": {"history": {"$each": entries}}}))
 
