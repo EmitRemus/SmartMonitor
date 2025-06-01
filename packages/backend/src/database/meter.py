@@ -1,10 +1,10 @@
 import datetime
 import time
-# import asyncio
-from database import client, Meter
-
+import asyncio
+from database import client, meter
+from bson import ObjectId
 from fastapi import HTTPException, status
-
+from datetime import datetime
 
 async def get_meters():
     try:
@@ -42,7 +42,7 @@ async def get_meter_history_by_range(start_date: datetime.date, end_date: dateti
     }
 
     try:
-        result = await (await Meter.aggregate([{
+        result = await (await meter.aggregate([{
             '$addFields': {
                 'meter_mark': '$UNSET',
                 'install_date': '$UNSET',
@@ -57,5 +57,89 @@ async def get_meter_history_by_range(start_date: datetime.date, end_date: dateti
         print("Error:", e)
         return []
 
+async def create_meters(meters: list[dict]):
+    """
+    at minimum: meter_mark, apartment_id (as string), install_date, check_date, meter_type, water_usage.
+    history is optional.
+        {
+        "meter_mark": "CW-101",
+        "apartment_id": "665a38a344b7c4f43f5fc9b7",
+        "install_date": "2024-01-01T00:00:00",
+        "check_date": "2025-01-01T00:00:00",
+        "meter_type": "cold",
+        "water_usage": 0.0
+    }
+    """
+    try:
+        db = client.SmartMonitor
+        col = db.meter
+
+        for meter in meters:
+            meter["apartment_id"] = ObjectId(meter["apartment_id"])
+            meter.setdefault("history", [])
+            meter["install_date"] =  datetime.fromisoformat(meter["install_date"])
+            meter["check_date"] = datetime.fromisoformat(meter["check_date"])
+
+        result = await col.insert_many(meters)
+        return {"inserted_ids": [str("_id") for _id in result.inserted_ids]}
+    except Exception as e:
+        return {"error": str(e)}
+
+async def add_history_entries(updates: list[dict]):
+    """
+        {
+        "meter_id": "ObjectIdString",
+        "entries": [
+            {"date": "2024-06-01T10:00:00", "value": 123.45},
+            ...
+        ]
+    }
+    """
+
+    try:
+        db = client.SmartMonitor
+        col = db.meter
+
+        ops = []
+
+        for update in updates:
+            meter_id = ObjectId(update["meter_id"])
+            entries = [
+                {
+                    "date": datetime.fromisoformat(e["date"]),
+                    "value": float(e["value"])
+                } for e in update["entries"]
+            ]
+
+            ops.append(
+                col.update_one(
+                    {"_id": meter_id},
+                    {"$push": {"history": {"$each": entries}}}
+                )
+            )
+
+        results = await asyncio.gather(*ops)
+        return {
+            "modified_counts": [res.modified_count for res in results]
+        }
+
+    except Exception as e:
+        return {"error": str(e)}
+
+
+
 
     # asyncio.run(get_meter_history_by_range(datetime.date(2023, 2, 1), datetime.date(2023,12,31)))
+
+
+
+
+
+
+
+
+
+
+
+
+

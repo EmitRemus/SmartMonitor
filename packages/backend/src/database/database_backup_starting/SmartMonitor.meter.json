@@ -1,0 +1,10000 @@
+[{
+  "_id": {
+    "$oid": "683c9830b52c6643a25c2d42"
+  },
+  "meter_mark": "HOT-9439",
+  "apartment_id": {
+    "$oid": "683c9830b52c6643a25c2d44"
+  },
+  "install_date": {
+    "$date": "2025-06-01T21:13:04.726Z"
+  },
+  "check_date": {
+    "$date": "2025-06-01T21:13:04.726Z"
+  },
+  "meter_type": "hot",
+  "water_usage": 1.26,
+  "history": [
+    {
+      "date": {
+        "$date": "2025-06-01T21:13:04.726Z"
+      },
+      "value": 1.26
+    }
+  ]
+},
+{
+  "_id": {
+    "$oid": "683c9830b52c6643a25c2d43"
+  },
+  "meter_mark": "COLD-2966",
+  "apartment_id": {
+    "$oid": "683c9830b52c6643a25c2d44"
+  },
+  "install_date": {
+    "$date": "2025-06-01T21:13:04.726Z"
+  },
+  "check_date": {
+    "$date": "2025-06-01T21:13:04.726Z"
+  },
+  "meter_type": "cold",
+  "water_usage": 0.81,
+  "history": [
+    {
+      "date": {
+        "$date": "2025-06-01T21:13:04.726Z"
+      },
+      "value": 0.81
+    }
+  ]
+},
+{
+  "_id": {
+    "$oid": "683c9830b52c6643a25c2d45"
+  },
+  "meter_mark": "HOT-7006",
+  "apartment_id": {
+    "$oid": "683c9830b52c6643a25c2d47"
+  },
+  "install_date": {
+    "$date": "2025-06-01T21:13:04.726Z"
+  },
+  "check_date": {
+    "$date": "2025-06-01T21:13:04.726Z"
+  },
+  "meter_type": "hot",
+  "water_usage": 1.65,
+  "history": [
+    {
+      "date": {
+        "$date": "2025-06-01T21:13:04.726Z"
+      },
+      "value": 1.65
+    }
+  ]
+},
+{
+  "_id": {
+    "$oid": "683c9830b52c6643a25c2d46"
+  },
+  "meter_mark": "COLD-8103",
+  "apartment_id": {
+    "$oid": "683c9830b52c6643a25c2d47"
+  },
+  "install_date": {
+    "$date": "2025-06-01T21:13:04.726Z"
+  },
+  "check_date": {
+    "$date": "2025-06-01T21:13:04.726Z"
+  },
+  "meter_type": "cold",
+  "water_usage": 1.65,
+  "history": [
+    {
+      "date": {
+        "$date": "2025-06-01T21:13:04.726Z"
+      },
+      "value": 1.65
+    }
+  ]
+},
+{
+  "_id": {
+    "$oid": "683c9830b52c6643a25c2d48"
+  },
+  "meter_mark": "HOT-2401",
+  "apartment_id": {
+    "$oid": "683c9830b52c6643a25c2d4a"
+  },
+  "install_date": {
+    "$date": "2025-06-01T21:13:04.726Z"
+  },
+  "check_date": {
+    "$date": "2025-06-01T21:13:04.726Z"
+  },
+  "meter_type": "hot",
+  "water_usage": 1.27,
+  "history": [
+    {
+      "date": {
+        "$date": "2025-06-01T21:13:04.726Z"
+      },
+      "value": 1.27
+    }
+  ]
+},
+{
+  "_id": {
+    "$oid": "683c9830b52c6643a25c2d49"
+  },
+  "meter_mark": "COLD-9842",
+  "apartment_id": {
+    "$oid": "683c9830b52c6643a25c2d4a"
+  },
+  "install_date": {
+    "$date": "2025-06-01T21:13:04.726Z"
+  },
+  "check_date": {
+    "$date": "2025-06-01T21:13:04.726Z"
+  },
+  "meter_type": "cold",
+  "water_usage": 1.51,
+  "history": [
+    {
+      "date": {
+        "$date": "2025-06-01T21:13:04.726Z"
+      },
+      "value": 1.51
+    }
+  ]
+},
+{
+  "_id": {
+    "$oid": "683c9830b52c6643a25c2d4b"
+  },
+  "meter_mark": "HOT-3870",
+  "apartment_id": {
+    "$oid": "683c9830b52c6643a25c2d4d"
+  },
+  "install_date": {
+    "$date": "2025-06-01T21:13:04.726Z"
+  },
+  "check_date": {
+    "$date": "2025-06-01T21:13:04.726Z"
+  },
+  "meter_type": "hot",
+  "water_usage": 0.58,
+  "history": [
+    {
+      "date": {
+        "$date": "2025-06-01T21:13:04.726Z"
+      },
+      "value": 0.58
+    }
+  ]
+},
+{
+  "_id": {
+    "$oid": "683c9830b52c6643a25c2d4c"
+  },
+  "meter_mark": "COLD-8959",
+  "apartment_id": {
+    "$oid": "683c9830b52c6643a25c2d4d"
+  },
+  "install_date": {
+    "$date": "2025-06-01T21:13:04.726Z"
+  },
+  "check_date": {
+    "$date": "2025-06-01T21:13:04.726Z"
+  },
+  "meter_type": "cold",
+  "water_usage": 0.93,
+  "history": [
+    {
+      "date": {
+        "$date": "2025-06-01T21:13:04.726Z"
+      },
+      "value": 0.93
+    }
+  ]
+},
+{
+  "_id": {
+    "$oid": "683c9830b52c6643a25c2d4e"
+  },
+  "meter_mark": "HOT-5685",
+  "apartment_id": {
+    "$oid": "683c9830b52c6643a25c2d50"
+  },
+  "install_date": {
+    "$date": "2025-06-01T21:13:04.726Z"
+  },
+  "check_date": {
+    "$date": "2025-06-01T21:13:04.726Z"
+  },
+  "meter_type": "hot",
+  "water_usage": 0.76,
+  "history": [
+    {
+      "date": {
+        "$date": "2025-06-01T21:13:04.726Z"
+      },
+      "value": 0.76
+    }
+  ]
+},
+{
+  "_id": {
+    "$oid": "683c9830b52c6643a25c2d4f"
+  },
+  "meter_mark": "COLD-6073",
+  "apartment_id": {
+    "$oid": "683c9830b52c6643a25c2d50"
+  },
+  "install_date": {
+    "$date": "2025-06-01T21:13:04.726Z"
+  },
+  "check_date": {
+    "$date": "2025-06-01T21:13:04.726Z"
+  },
+  "meter_type": "cold",
+  "water_usage": 0.53,
+  "history": [
+    {
+      "date": {
+        "$date": "2025-06-01T21:13:04.726Z"
+      },
+      "value": 0.53
+    }
+  ]
+},
+{
+  "_id": {
+    "$oid": "683c9830b52c6643a25c2d51"
+  },
+  "meter_mark": "HOT-9562",
+  "apartment_id": {
+    "$oid": "683c9830b52c6643a25c2d53"
+  },
+  "install_date": {
+    "$date": "2025-06-01T21:13:04.726Z"
+  },
+  "check_date": {
+    "$date": "2025-06-01T21:13:04.726Z"
+  },
+  "meter_type": "hot",
+  "water_usage": 1.2,
+  "history": [
+    {
+      "date": {
+        "$date": "2025-06-01T21:13:04.726Z"
+      },
+      "value": 1.2
+    }
+  ]
+},
+{
+  "_id": {
+    "$oid": "683c9830b52c6643a25c2d52"
+  },
+  "meter_mark": "COLD-1552",
+  "apartment_id": {
+    "$oid": "683c9830b52c6643a25c2d53"
+  },
+  "install_date": {
+    "$date": "2025-06-01T21:13:04.726Z"
+  },
+  "check_date": {
+    "$date": "2025-06-01T21:13:04.726Z"
+  },
+  "meter_type": "cold",
+  "water_usage": 1.37,
+  "history": [
+    {
+      "date": {
+        "$date": "2025-06-01T21:13:04.726Z"
+      },
+      "value": 1.37
+    }
+  ]
+},
+{
+  "_id": {
+    "$oid": "683c9830b52c6643a25c2d54"
+  },
+  "meter_mark": "HOT-9105",
+  "apartment_id": {
+    "$oid": "683c9830b52c6643a25c2d56"
+  },
+  "install_date": {
+    "$date": "2025-06-01T21:13:04.726Z"
+  },
+  "check_date": {
+    "$date": "2025-06-01T21:13:04.726Z"
+  },
+  "meter_type": "hot",
+  "water_usage": 1.71,
+  "history": [
+    {
+      "date": {
+        "$date": "2025-06-01T21:13:04.726Z"
+      },
+      "value": 1.71
+    }
+  ]
+},
+{
+  "_id": {
+    "$oid": "683c9830b52c6643a25c2d55"
+  },
+  "meter_mark": "COLD-1542",
+  "apartment_id": {
+    "$oid": "683c9830b52c6643a25c2d56"
+  },
+  "install_date": {
+    "$date": "2025-06-01T21:13:04.726Z"
+  },
+  "check_date": {
+    "$date": "2025-06-01T21:13:04.726Z"
+  },
+  "meter_type": "cold",
+  "water_usage": 1.31,
+  "history": [
+    {
+      "date": {
+        "$date": "2025-06-01T21:13:04.726Z"
+      },
+      "value": 1.31
+    }
+  ]
+},
+{
+  "_id": {
+    "$oid": "683c9830b52c6643a25c2d57"
+  },
+  "meter_mark": "HOT-4988",
+  "apartment_id": {
+    "$oid": "683c9830b52c6643a25c2d59"
+  },
+  "install_date": {
+    "$date": "2025-06-01T21:13:04.726Z"
+  },
+  "check_date": {
+    "$date": "2025-06-01T21:13:04.726Z"
+  },
+  "meter_type": "hot",
+  "water_usage": 1.13,
+  "history": [
+    {
+      "date": {
+        "$date": "2025-06-01T21:13:04.726Z"
+      },
+      "value": 1.13
+    }
+  ]
+},
+{
+  "_id": {
+    "$oid": "683c9830b52c6643a25c2d58"
+  },
+  "meter_mark": "COLD-2102",
+  "apartment_id": {
+    "$oid": "683c9830b52c6643a25c2d59"
+  },
+  "install_date": {
+    "$date": "2025-06-01T21:13:04.726Z"
+  },
+  "check_date": {
+    "$date": "2025-06-01T21:13:04.726Z"
+  },
+  "meter_type": "cold",
+  "water_usage": 1.02,
+  "history": [
+    {
+      "date": {
+        "$date": "2025-06-01T21:13:04.726Z"
+      },
+      "value": 1.02
+    }
+  ]
+},
+{
+  "_id": {
+    "$oid": "683c9830b52c6643a25c2d5a"
+  },
+  "meter_mark": "HOT-6521",
+  "apartment_id": {
+    "$oid": "683c9830b52c6643a25c2d5c"
+  },
+  "install_date": {
+    "$date": "2025-06-01T21:13:04.726Z"
+  },
+  "check_date": {
+    "$date": "2025-06-01T21:13:04.726Z"
+  },
+  "meter_type": "hot",
+  "water_usage": 1.59,
+  "history": [
+    {
+      "date": {
+        "$date": "2025-06-01T21:13:04.726Z"
+      },
+      "value": 1.59
+    }
+  ]
+},
+{
+  "_id": {
+    "$oid": "683c9830b52c6643a25c2d5b"
+  },
+  "meter_mark": "COLD-3377",
+  "apartment_id": {
+    "$oid": "683c9830b52c6643a25c2d5c"
+  },
+  "install_date": {
+    "$date": "2025-06-01T21:13:04.726Z"
+  },
+  "check_date": {
+    "$date": "2025-06-01T21:13:04.726Z"
+  },
+  "meter_type": "cold",
+  "water_usage": 0.59,
+  "history": [
+    {
+      "date": {
+        "$date": "2025-06-01T21:13:04.726Z"
+      },
+      "value": 0.59
+    }
+  ]
+},
+{
+  "_id": {
+    "$oid": "683c9830b52c6643a25c2d5d"
+  },
+  "meter_mark": "HOT-2185",
+  "apartment_id": {
+    "$oid": "683c9830b52c6643a25c2d5f"
+  },
+  "install_date": {
+    "$date": "2025-06-01T21:13:04.726Z"
+  },
+  "check_date": {
+    "$date": "2025-06-01T21:13:04.726Z"
+  },
+  "meter_type": "hot",
+  "water_usage": 1.75,
+  "history": [
+    {
+      "date": {
+        "$date": "2025-06-01T21:13:04.726Z"
+      },
+      "value": 1.75
+    }
+  ]
+},
+{
+  "_id": {
+    "$oid": "683c9830b52c6643a25c2d5e"
+  },
+  "meter_mark": "COLD-9608",
+  "apartment_id": {
+    "$oid": "683c9830b52c6643a25c2d5f"
+  },
+  "install_date": {
+    "$date": "2025-06-01T21:13:04.726Z"
+  },
+  "check_date": {
+    "$date": "2025-06-01T21:13:04.726Z"
+  },
+  "meter_type": "cold",
+  "water_usage": 1.6,
+  "history": [
+    {
+      "date": {
+        "$date": "2025-06-01T21:13:04.726Z"
+      },
+      "value": 1.6
+    }
+  ]
+},
+{
+  "_id": {
+    "$oid": "683c9830b52c6643a25c2d60"
+  },
+  "meter_mark": "HOT-5611",
+  "apartment_id": {
+    "$oid": "683c9830b52c6643a25c2d62"
+  },
+  "install_date": {
+    "$date": "2025-06-01T21:13:04.726Z"
+  },
+  "check_date": {
+    "$date": "2025-06-01T21:13:04.726Z"
+  },
+  "meter_type": "hot",
+  "water_usage": 1.17,
+  "history": [
+    {
+      "date": {
+        "$date": "2025-06-01T21:13:04.726Z"
+      },
+      "value": 1.17
+    }
+  ]
+},
+{
+  "_id": {
+    "$oid": "683c9830b52c6643a25c2d61"
+  },
+  "meter_mark": "COLD-2276",
+  "apartment_id": {
+    "$oid": "683c9830b52c6643a25c2d62"
+  },
+  "install_date": {
+    "$date": "2025-06-01T21:13:04.726Z"
+  },
+  "check_date": {
+    "$date": "2025-06-01T21:13:04.726Z"
+  },
+  "meter_type": "cold",
+  "water_usage": 1.92,
+  "history": [
+    {
+      "date": {
+        "$date": "2025-06-01T21:13:04.726Z"
+      },
+      "value": 1.92
+    }
+  ]
+},
+{
+  "_id": {
+    "$oid": "683c9830b52c6643a25c2d63"
+  },
+  "meter_mark": "HOT-8391",
+  "apartment_id": {
+    "$oid": "683c9830b52c6643a25c2d65"
+  },
+  "install_date": {
+    "$date": "2025-06-01T21:13:04.726Z"
+  },
+  "check_date": {
+    "$date": "2025-06-01T21:13:04.726Z"
+  },
+  "meter_type": "hot",
+  "water_usage": 1.26,
+  "history": [
+    {
+      "date": {
+        "$date": "2025-06-01T21:13:04.726Z"
+      },
+      "value": 1.26
+    }
+  ]
+},
+{
+  "_id": {
+    "$oid": "683c9830b52c6643a25c2d64"
+  },
+  "meter_mark": "COLD-2565",
+  "apartment_id": {
+    "$oid": "683c9830b52c6643a25c2d65"
+  },
+  "install_date": {
+    "$date": "2025-06-01T21:13:04.726Z"
+  },
+  "check_date": {
+    "$date": "2025-06-01T21:13:04.726Z"
+  },
+  "meter_type": "cold",
+  "water_usage": 0.7,
+  "history": [
+    {
+      "date": {
+        "$date": "2025-06-01T21:13:04.726Z"
+      },
+      "value": 0.7
+    }
+  ]
+},
+{
+  "_id": {
+    "$oid": "683c9830b52c6643a25c2d66"
+  },
+  "meter_mark": "HOT-6552",
+  "apartment_id": {
+    "$oid": "683c9830b52c6643a25c2d68"
+  },
+  "install_date": {
+    "$date": "2025-06-01T21:13:04.726Z"
+  },
+  "check_date": {
+    "$date": "2025-06-01T21:13:04.726Z"
+  },
+  "meter_type": "hot",
+  "water_usage": 1.94,
+  "history": [
+    {
+      "date": {
+        "$date": "2025-06-01T21:13:04.726Z"
+      },
+      "value": 1.94
+    }
+  ]
+},
+{
+  "_id": {
+    "$oid": "683c9830b52c6643a25c2d67"
+  },
+  "meter_mark": "COLD-4868",
+  "apartment_id": {
+    "$oid": "683c9830b52c6643a25c2d68"
+  },
+  "install_date": {
+    "$date": "2025-06-01T21:13:04.726Z"
+  },
+  "check_date": {
+    "$date": "2025-06-01T21:13:04.726Z"
+  },
+  "meter_type": "cold",
+  "water_usage": 1.46,
+  "history": [
+    {
+      "date": {
+        "$date": "2025-06-01T21:13:04.726Z"
+      },
+      "value": 1.46
+    }
+  ]
+},
+{
+  "_id": {
+    "$oid": "683c9830b52c6643a25c2d69"
+  },
+  "meter_mark": "HOT-2202",
+  "apartment_id": {
+    "$oid": "683c9830b52c6643a25c2d6b"
+  },
+  "install_date": {
+    "$date": "2025-06-01T21:13:04.726Z"
+  },
+  "check_date": {
+    "$date": "2025-06-01T21:13:04.726Z"
+  },
+  "meter_type": "hot",
+  "water_usage": 1.49,
+  "history": [
+    {
+      "date": {
+        "$date": "2025-06-01T21:13:04.726Z"
+      },
+      "value": 1.49
+    }
+  ]
+},
+{
+  "_id": {
+    "$oid": "683c9830b52c6643a25c2d6a"
+  },
+  "meter_mark": "COLD-2078",
+  "apartment_id": {
+    "$oid": "683c9830b52c6643a25c2d6b"
+  },
+  "install_date": {
+    "$date": "2025-06-01T21:13:04.726Z"
+  },
+  "check_date": {
+    "$date": "2025-06-01T21:13:04.726Z"
+  },
+  "meter_type": "cold",
+  "water_usage": 0.8,
+  "history": [
+    {
+      "date": {
+        "$date": "2025-06-01T21:13:04.726Z"
+      },
+      "value": 0.8
+    }
+  ]
+},
+{
+  "_id": {
+    "$oid": "683c9830b52c6643a25c2d6c"
+  },
+  "meter_mark": "HOT-3345",
+  "apartment_id": {
+    "$oid": "683c9830b52c6643a25c2d6e"
+  },
+  "install_date": {
+    "$date": "2025-06-01T21:13:04.726Z"
+  },
+  "check_date": {
+    "$date": "2025-06-01T21:13:04.726Z"
+  },
+  "meter_type": "hot",
+  "water_usage": 1.06,
+  "history": [
+    {
+      "date": {
+        "$date": "2025-06-01T21:13:04.726Z"
+      },
+      "value": 1.06
+    }
+  ]
+},
+{
+  "_id": {
+    "$oid": "683c9830b52c6643a25c2d6d"
+  },
+  "meter_mark": "COLD-9281",
+  "apartment_id": {
+    "$oid": "683c9830b52c6643a25c2d6e"
+  },
+  "install_date": {
+    "$date": "2025-06-01T21:13:04.726Z"
+  },
+  "check_date": {
+    "$date": "2025-06-01T21:13:04.726Z"
+  },
+  "meter_type": "cold",
+  "water_usage": 1.94,
+  "history": [
+    {
+      "date": {
+        "$date": "2025-06-01T21:13:04.726Z"
+      },
+      "value": 1.94
+    }
+  ]
+},
+{
+  "_id": {
+    "$oid": "683c9830b52c6643a25c2d6f"
+  },
+  "meter_mark": "HOT-8636",
+  "apartment_id": {
+    "$oid": "683c9830b52c6643a25c2d71"
+  },
+  "install_date": {
+    "$date": "2025-06-01T21:13:04.726Z"
+  },
+  "check_date": {
+    "$date": "2025-06-01T21:13:04.726Z"
+  },
+  "meter_type": "hot",
+  "water_usage": 1.38,
+  "history": [
+    {
+      "date": {
+        "$date": "2025-06-01T21:13:04.726Z"
+      },
+      "value": 1.38
+    }
+  ]
+},
+{
+  "_id": {
+    "$oid": "683c9830b52c6643a25c2d70"
+  },
+  "meter_mark": "COLD-8465",
+  "apartment_id": {
+    "$oid": "683c9830b52c6643a25c2d71"
+  },
+  "install_date": {
+    "$date": "2025-06-01T21:13:04.726Z"
+  },
+  "check_date": {
+    "$date": "2025-06-01T21:13:04.726Z"
+  },
+  "meter_type": "cold",
+  "water_usage": 1.44,
+  "history": [
+    {
+      "date": {
+        "$date": "2025-06-01T21:13:04.726Z"
+      },
+      "value": 1.44
+    }
+  ]
+},
+{
+  "_id": {
+    "$oid": "683c9830b52c6643a25c2d72"
+  },
+  "meter_mark": "HOT-4920",
+  "apartment_id": {
+    "$oid": "683c9830b52c6643a25c2d74"
+  },
+  "install_date": {
+    "$date": "2025-06-01T21:13:04.726Z"
+  },
+  "check_date": {
+    "$date": "2025-06-01T21:13:04.726Z"
+  },
+  "meter_type": "hot",
+  "water_usage": 1.82,
+  "history": [
+    {
+      "date": {
+        "$date": "2025-06-01T21:13:04.726Z"
+      },
+      "value": 1.82
+    }
+  ]
+},
+{
+  "_id": {
+    "$oid": "683c9830b52c6643a25c2d73"
+  },
+  "meter_mark": "COLD-9834",
+  "apartment_id": {
+    "$oid": "683c9830b52c6643a25c2d74"
+  },
+  "install_date": {
+    "$date": "2025-06-01T21:13:04.726Z"
+  },
+  "check_date": {
+    "$date": "2025-06-01T21:13:04.726Z"
+  },
+  "meter_type": "cold",
+  "water_usage": 1.57,
+  "history": [
+    {
+      "date": {
+        "$date": "2025-06-01T21:13:04.726Z"
+      },
+      "value": 1.57
+    }
+  ]
+},
+{
+  "_id": {
+    "$oid": "683c9830b52c6643a25c2d75"
+  },
+  "meter_mark": "HOT-1546",
+  "apartment_id": {
+    "$oid": "683c9830b52c6643a25c2d77"
+  },
+  "install_date": {
+    "$date": "2025-06-01T21:13:04.726Z"
+  },
+  "check_date": {
+    "$date": "2025-06-01T21:13:04.726Z"
+  },
+  "meter_type": "hot",
+  "water_usage": 1.73,
+  "history": [
+    {
+      "date": {
+        "$date": "2025-06-01T21:13:04.726Z"
+      },
+      "value": 1.73
+    }
+  ]
+},
+{
+  "_id": {
+    "$oid": "683c9830b52c6643a25c2d76"
+  },
+  "meter_mark": "COLD-5619",
+  "apartment_id": {
+    "$oid": "683c9830b52c6643a25c2d77"
+  },
+  "install_date": {
+    "$date": "2025-06-01T21:13:04.726Z"
+  },
+  "check_date": {
+    "$date": "2025-06-01T21:13:04.726Z"
+  },
+  "meter_type": "cold",
+  "water_usage": 1.84,
+  "history": [
+    {
+      "date": {
+        "$date": "2025-06-01T21:13:04.726Z"
+      },
+      "value": 1.84
+    }
+  ]
+},
+{
+  "_id": {
+    "$oid": "683c9830b52c6643a25c2d78"
+  },
+  "meter_mark": "HOT-9901",
+  "apartment_id": {
+    "$oid": "683c9830b52c6643a25c2d7a"
+  },
+  "install_date": {
+    "$date": "2025-06-01T21:13:04.726Z"
+  },
+  "check_date": {
+    "$date": "2025-06-01T21:13:04.726Z"
+  },
+  "meter_type": "hot",
+  "water_usage": 1.74,
+  "history": [
+    {
+      "date": {
+        "$date": "2025-06-01T21:13:04.726Z"
+      },
+      "value": 1.74
+    }
+  ]
+},
+{
+  "_id": {
+    "$oid": "683c9830b52c6643a25c2d79"
+  },
+  "meter_mark": "COLD-2760",
+  "apartment_id": {
+    "$oid": "683c9830b52c6643a25c2d7a"
+  },
+  "install_date": {
+    "$date": "2025-06-01T21:13:04.726Z"
+  },
+  "check_date": {
+    "$date": "2025-06-01T21:13:04.726Z"
+  },
+  "meter_type": "cold",
+  "water_usage": 1.3,
+  "history": [
+    {
+      "date": {
+        "$date": "2025-06-01T21:13:04.726Z"
+      },
+      "value": 1.3
+    }
+  ]
+},
+{
+  "_id": {
+    "$oid": "683c9830b52c6643a25c2d7b"
+  },
+  "meter_mark": "HOT-7630",
+  "apartment_id": {
+    "$oid": "683c9830b52c6643a25c2d7d"
+  },
+  "install_date": {
+    "$date": "2025-06-01T21:13:04.726Z"
+  },
+  "check_date": {
+    "$date": "2025-06-01T21:13:04.726Z"
+  },
+  "meter_type": "hot",
+  "water_usage": 0.61,
+  "history": [
+    {
+      "date": {
+        "$date": "2025-06-01T21:13:04.726Z"
+      },
+      "value": 0.61
+    }
+  ]
+},
+{
+  "_id": {
+    "$oid": "683c9830b52c6643a25c2d7c"
+  },
+  "meter_mark": "COLD-5716",
+  "apartment_id": {
+    "$oid": "683c9830b52c6643a25c2d7d"
+  },
+  "install_date": {
+    "$date": "2025-06-01T21:13:04.726Z"
+  },
+  "check_date": {
+    "$date": "2025-06-01T21:13:04.726Z"
+  },
+  "meter_type": "cold",
+  "water_usage": 1.05,
+  "history": [
+    {
+      "date": {
+        "$date": "2025-06-01T21:13:04.726Z"
+      },
+      "value": 1.05
+    }
+  ]
+},
+{
+  "_id": {
+    "$oid": "683c9830b52c6643a25c2d7f"
+  },
+  "meter_mark": "HOT-1606",
+  "apartment_id": {
+    "$oid": "683c9830b52c6643a25c2d81"
+  },
+  "install_date": {
+    "$date": "2025-06-01T21:13:04.726Z"
+  },
+  "check_date": {
+    "$date": "2025-06-01T21:13:04.726Z"
+  },
+  "meter_type": "hot",
+  "water_usage": 1.18,
+  "history": [
+    {
+      "date": {
+        "$date": "2025-06-01T21:13:04.726Z"
+      },
+      "value": 1.18
+    }
+  ]
+},
+{
+  "_id": {
+    "$oid": "683c9830b52c6643a25c2d80"
+  },
+  "meter_mark": "COLD-9100",
+  "apartment_id": {
+    "$oid": "683c9830b52c6643a25c2d81"
+  },
+  "install_date": {
+    "$date": "2025-06-01T21:13:04.726Z"
+  },
+  "check_date": {
+    "$date": "2025-06-01T21:13:04.726Z"
+  },
+  "meter_type": "cold",
+  "water_usage": 1.47,
+  "history": [
+    {
+      "date": {
+        "$date": "2025-06-01T21:13:04.726Z"
+      },
+      "value": 1.47
+    }
+  ]
+},
+{
+  "_id": {
+    "$oid": "683c9830b52c6643a25c2d82"
+  },
+  "meter_mark": "HOT-9926",
+  "apartment_id": {
+    "$oid": "683c9830b52c6643a25c2d84"
+  },
+  "install_date": {
+    "$date": "2025-06-01T21:13:04.726Z"
+  },
+  "check_date": {
+    "$date": "2025-06-01T21:13:04.726Z"
+  },
+  "meter_type": "hot",
+  "water_usage": 1.7,
+  "history": [
+    {
+      "date": {
+        "$date": "2025-06-01T21:13:04.726Z"
+      },
+      "value": 1.7
+    }
+  ]
+},
+{
+  "_id": {
+    "$oid": "683c9830b52c6643a25c2d83"
+  },
+  "meter_mark": "COLD-8762",
+  "apartment_id": {
+    "$oid": "683c9830b52c6643a25c2d84"
+  },
+  "install_date": {
+    "$date": "2025-06-01T21:13:04.726Z"
+  },
+  "check_date": {
+    "$date": "2025-06-01T21:13:04.726Z"
+  },
+  "meter_type": "cold",
+  "water_usage": 1.38,
+  "history": [
+    {
+      "date": {
+        "$date": "2025-06-01T21:13:04.726Z"
+      },
+      "value": 1.38
+    }
+  ]
+},
+{
+  "_id": {
+    "$oid": "683c9830b52c6643a25c2d85"
+  },
+  "meter_mark": "HOT-7501",
+  "apartment_id": {
+    "$oid": "683c9830b52c6643a25c2d87"
+  },
+  "install_date": {
+    "$date": "2025-06-01T21:13:04.726Z"
+  },
+  "check_date": {
+    "$date": "2025-06-01T21:13:04.726Z"
+  },
+  "meter_type": "hot",
+  "water_usage": 1.54,
+  "history": [
+    {
+      "date": {
+        "$date": "2025-06-01T21:13:04.726Z"
+      },
+      "value": 1.54
+    }
+  ]
+},
+{
+  "_id": {
+    "$oid": "683c9830b52c6643a25c2d86"
+  },
+  "meter_mark": "COLD-6125",
+  "apartment_id": {
+    "$oid": "683c9830b52c6643a25c2d87"
+  },
+  "install_date": {
+    "$date": "2025-06-01T21:13:04.726Z"
+  },
+  "check_date": {
+    "$date": "2025-06-01T21:13:04.726Z"
+  },
+  "meter_type": "cold",
+  "water_usage": 1.32,
+  "history": [
+    {
+      "date": {
+        "$date": "2025-06-01T21:13:04.726Z"
+      },
+      "value": 1.32
+    }
+  ]
+},
+{
+  "_id": {
+    "$oid": "683c9830b52c6643a25c2d88"
+  },
+  "meter_mark": "HOT-6790",
+  "apartment_id": {
+    "$oid": "683c9830b52c6643a25c2d8a"
+  },
+  "install_date": {
+    "$date": "2025-06-01T21:13:04.726Z"
+  },
+  "check_date": {
+    "$date": "2025-06-01T21:13:04.726Z"
+  },
+  "meter_type": "hot",
+  "water_usage": 1.76,
+  "history": [
+    {
+      "date": {
+        "$date": "2025-06-01T21:13:04.726Z"
+      },
+      "value": 1.76
+    }
+  ]
+},
+{
+  "_id": {
+    "$oid": "683c9830b52c6643a25c2d89"
+  },
+  "meter_mark": "COLD-7842",
+  "apartment_id": {
+    "$oid": "683c9830b52c6643a25c2d8a"
+  },
+  "install_date": {
+    "$date": "2025-06-01T21:13:04.726Z"
+  },
+  "check_date": {
+    "$date": "2025-06-01T21:13:04.726Z"
+  },
+  "meter_type": "cold",
+  "water_usage": 1.98,
+  "history": [
+    {
+      "date": {
+        "$date": "2025-06-01T21:13:04.726Z"
+      },
+      "value": 1.98
+    }
+  ]
+},
+{
+  "_id": {
+    "$oid": "683c9830b52c6643a25c2d8b"
+  },
+  "meter_mark": "HOT-8735",
+  "apartment_id": {
+    "$oid": "683c9830b52c6643a25c2d8d"
+  },
+  "install_date": {
+    "$date": "2025-06-01T21:13:04.726Z"
+  },
+  "check_date": {
+    "$date": "2025-06-01T21:13:04.726Z"
+  },
+  "meter_type": "hot",
+  "water_usage": 0.96,
+  "history": [
+    {
+      "date": {
+        "$date": "2025-06-01T21:13:04.726Z"
+      },
+      "value": 0.96
+    }
+  ]
+},
+{
+  "_id": {
+    "$oid": "683c9830b52c6643a25c2d8c"
+  },
+  "meter_mark": "COLD-9753",
+  "apartment_id": {
+    "$oid": "683c9830b52c6643a25c2d8d"
+  },
+  "install_date": {
+    "$date": "2025-06-01T21:13:04.726Z"
+  },
+  "check_date": {
+    "$date": "2025-06-01T21:13:04.726Z"
+  },
+  "meter_type": "cold",
+  "water_usage": 1.69,
+  "history": [
+    {
+      "date": {
+        "$date": "2025-06-01T21:13:04.726Z"
+      },
+      "value": 1.69
+    }
+  ]
+},
+{
+  "_id": {
+    "$oid": "683c9830b52c6643a25c2d8e"
+  },
+  "meter_mark": "HOT-8069",
+  "apartment_id": {
+    "$oid": "683c9830b52c6643a25c2d90"
+  },
+  "install_date": {
+    "$date": "2025-06-01T21:13:04.726Z"
+  },
+  "check_date": {
+    "$date": "2025-06-01T21:13:04.726Z"
+  },
+  "meter_type": "hot",
+  "water_usage": 1.73,
+  "history": [
+    {
+      "date": {
+        "$date": "2025-06-01T21:13:04.726Z"
+      },
+      "value": 1.73
+    }
+  ]
+},
+{
+  "_id": {
+    "$oid": "683c9830b52c6643a25c2d8f"
+  },
+  "meter_mark": "COLD-3825",
+  "apartment_id": {
+    "$oid": "683c9830b52c6643a25c2d90"
+  },
+  "install_date": {
+    "$date": "2025-06-01T21:13:04.726Z"
+  },
+  "check_date": {
+    "$date": "2025-06-01T21:13:04.726Z"
+  },
+  "meter_type": "cold",
+  "water_usage": 1.1,
+  "history": [
+    {
+      "date": {
+        "$date": "2025-06-01T21:13:04.726Z"
+      },
+      "value": 1.1
+    }
+  ]
+},
+{
+  "_id": {
+    "$oid": "683c9830b52c6643a25c2d91"
+  },
+  "meter_mark": "HOT-8870",
+  "apartment_id": {
+    "$oid": "683c9830b52c6643a25c2d93"
+  },
+  "install_date": {
+    "$date": "2025-06-01T21:13:04.726Z"
+  },
+  "check_date": {
+    "$date": "2025-06-01T21:13:04.726Z"
+  },
+  "meter_type": "hot",
+  "water_usage": 1.15,
+  "history": [
+    {
+      "date": {
+        "$date": "2025-06-01T21:13:04.726Z"
+      },
+      "value": 1.15
+    }
+  ]
+},
+{
+  "_id": {
+    "$oid": "683c9830b52c6643a25c2d92"
+  },
+  "meter_mark": "COLD-7914",
+  "apartment_id": {
+    "$oid": "683c9830b52c6643a25c2d93"
+  },
+  "install_date": {
+    "$date": "2025-06-01T21:13:04.726Z"
+  },
+  "check_date": {
+    "$date": "2025-06-01T21:13:04.726Z"
+  },
+  "meter_type": "cold",
+  "water_usage": 0.57,
+  "history": [
+    {
+      "date": {
+        "$date": "2025-06-01T21:13:04.726Z"
+      },
+      "value": 0.57
+    }
+  ]
+},
+{
+  "_id": {
+    "$oid": "683c9830b52c6643a25c2d94"
+  },
+  "meter_mark": "HOT-7315",
+  "apartment_id": {
+    "$oid": "683c9830b52c6643a25c2d96"
+  },
+  "install_date": {
+    "$date": "2025-06-01T21:13:04.726Z"
+  },
+  "check_date": {
+    "$date": "2025-06-01T21:13:04.726Z"
+  },
+  "meter_type": "hot",
+  "water_usage": 1.67,
+  "history": [
+    {
+      "date": {
+        "$date": "2025-06-01T21:13:04.726Z"
+      },
+      "value": 1.67
+    }
+  ]
+},
+{
+  "_id": {
+    "$oid": "683c9830b52c6643a25c2d95"
+  },
+  "meter_mark": "COLD-8144",
+  "apartment_id": {
+    "$oid": "683c9830b52c6643a25c2d96"
+  },
+  "install_date": {
+    "$date": "2025-06-01T21:13:04.726Z"
+  },
+  "check_date": {
+    "$date": "2025-06-01T21:13:04.726Z"
+  },
+  "meter_type": "cold",
+  "water_usage": 1.04,
+  "history": [
+    {
+      "date": {
+        "$date": "2025-06-01T21:13:04.726Z"
+      },
+      "value": 1.04
+    }
+  ]
+},
+{
+  "_id": {
+    "$oid": "683c9830b52c6643a25c2d97"
+  },
+  "meter_mark": "HOT-6015",
+  "apartment_id": {
+    "$oid": "683c9830b52c6643a25c2d99"
+  },
+  "install_date": {
+    "$date": "2025-06-01T21:13:04.726Z"
+  },
+  "check_date": {
+    "$date": "2025-06-01T21:13:04.726Z"
+  },
+  "meter_type": "hot",
+  "water_usage": 1.12,
+  "history": [
+    {
+      "date": {
+        "$date": "2025-06-01T21:13:04.726Z"
+      },
+      "value": 1.12
+    }
+  ]
+},
+{
+  "_id": {
+    "$oid": "683c9830b52c6643a25c2d98"
+  },
+  "meter_mark": "COLD-4210",
+  "apartment_id": {
+    "$oid": "683c9830b52c6643a25c2d99"
+  },
+  "install_date": {
+    "$date": "2025-06-01T21:13:04.726Z"
+  },
+  "check_date": {
+    "$date": "2025-06-01T21:13:04.726Z"
+  },
+  "meter_type": "cold",
+  "water_usage": 0.53,
+  "history": [
+    {
+      "date": {
+        "$date": "2025-06-01T21:13:04.726Z"
+      },
+      "value": 0.53
+    }
+  ]
+},
+{
+  "_id": {
+    "$oid": "683c9830b52c6643a25c2d9a"
+  },
+  "meter_mark": "HOT-2091",
+  "apartment_id": {
+    "$oid": "683c9830b52c6643a25c2d9c"
+  },
+  "install_date": {
+    "$date": "2025-06-01T21:13:04.726Z"
+  },
+  "check_date": {
+    "$date": "2025-06-01T21:13:04.726Z"
+  },
+  "meter_type": "hot",
+  "water_usage": 1.11,
+  "history": [
+    {
+      "date": {
+        "$date": "2025-06-01T21:13:04.726Z"
+      },
+      "value": 1.11
+    }
+  ]
+},
+{
+  "_id": {
+    "$oid": "683c9830b52c6643a25c2d9b"
+  },
+  "meter_mark": "COLD-8172",
+  "apartment_id": {
+    "$oid": "683c9830b52c6643a25c2d9c"
+  },
+  "install_date": {
+    "$date": "2025-06-01T21:13:04.727Z"
+  },
+  "check_date": {
+    "$date": "2025-06-01T21:13:04.727Z"
+  },
+  "meter_type": "cold",
+  "water_usage": 0.77,
+  "history": [
+    {
+      "date": {
+        "$date": "2025-06-01T21:13:04.726Z"
+      },
+      "value": 0.77
+    }
+  ]
+},
+{
+  "_id": {
+    "$oid": "683c9830b52c6643a25c2d9d"
+  },
+  "meter_mark": "HOT-6334",
+  "apartment_id": {
+    "$oid": "683c9830b52c6643a25c2d9f"
+  },
+  "install_date": {
+    "$date": "2025-06-01T21:13:04.727Z"
+  },
+  "check_date": {
+    "$date": "2025-06-01T21:13:04.727Z"
+  },
+  "meter_type": "hot",
+  "water_usage": 1.64,
+  "history": [
+    {
+      "date": {
+        "$date": "2025-06-01T21:13:04.727Z"
+      },
+      "value": 1.64
+    }
+  ]
+},
+{
+  "_id": {
+    "$oid": "683c9830b52c6643a25c2d9e"
+  },
+  "meter_mark": "COLD-5194",
+  "apartment_id": {
+    "$oid": "683c9830b52c6643a25c2d9f"
+  },
+  "install_date": {
+    "$date": "2025-06-01T21:13:04.727Z"
+  },
+  "check_date": {
+    "$date": "2025-06-01T21:13:04.727Z"
+  },
+  "meter_type": "cold",
+  "water_usage": 0.5,
+  "history": [
+    {
+      "date": {
+        "$date": "2025-06-01T21:13:04.727Z"
+      },
+      "value": 0.5
+    }
+  ]
+},
+{
+  "_id": {
+    "$oid": "683c9830b52c6643a25c2da0"
+  },
+  "meter_mark": "HOT-5743",
+  "apartment_id": {
+    "$oid": "683c9830b52c6643a25c2da2"
+  },
+  "install_date": {
+    "$date": "2025-06-01T21:13:04.727Z"
+  },
+  "check_date": {
+    "$date": "2025-06-01T21:13:04.727Z"
+  },
+  "meter_type": "hot",
+  "water_usage": 1.97,
+  "history": [
+    {
+      "date": {
+        "$date": "2025-06-01T21:13:04.727Z"
+      },
+      "value": 1.97
+    }
+  ]
+},
+{
+  "_id": {
+    "$oid": "683c9830b52c6643a25c2da1"
+  },
+  "meter_mark": "COLD-2910",
+  "apartment_id": {
+    "$oid": "683c9830b52c6643a25c2da2"
+  },
+  "install_date": {
+    "$date": "2025-06-01T21:13:04.727Z"
+  },
+  "check_date": {
+    "$date": "2025-06-01T21:13:04.727Z"
+  },
+  "meter_type": "cold",
+  "water_usage": 1.74,
+  "history": [
+    {
+      "date": {
+        "$date": "2025-06-01T21:13:04.727Z"
+      },
+      "value": 1.74
+    }
+  ]
+},
+{
+  "_id": {
+    "$oid": "683c9830b52c6643a25c2da3"
+  },
+  "meter_mark": "HOT-5061",
+  "apartment_id": {
+    "$oid": "683c9830b52c6643a25c2da5"
+  },
+  "install_date": {
+    "$date": "2025-06-01T21:13:04.727Z"
+  },
+  "check_date": {
+    "$date": "2025-06-01T21:13:04.727Z"
+  },
+  "meter_type": "hot",
+  "water_usage": 1.33,
+  "history": [
+    {
+      "date": {
+        "$date": "2025-06-01T21:13:04.727Z"
+      },
+      "value": 1.33
+    }
+  ]
+},
+{
+  "_id": {
+    "$oid": "683c9830b52c6643a25c2da4"
+  },
+  "meter_mark": "COLD-2429",
+  "apartment_id": {
+    "$oid": "683c9830b52c6643a25c2da5"
+  },
+  "install_date": {
+    "$date": "2025-06-01T21:13:04.727Z"
+  },
+  "check_date": {
+    "$date": "2025-06-01T21:13:04.727Z"
+  },
+  "meter_type": "cold",
+  "water_usage": 0.67,
+  "history": [
+    {
+      "date": {
+        "$date": "2025-06-01T21:13:04.727Z"
+      },
+      "value": 0.67
+    }
+  ]
+},
+{
+  "_id": {
+    "$oid": "683c9830b52c6643a25c2da6"
+  },
+  "meter_mark": "HOT-8021",
+  "apartment_id": {
+    "$oid": "683c9830b52c6643a25c2da8"
+  },
+  "install_date": {
+    "$date": "2025-06-01T21:13:04.727Z"
+  },
+  "check_date": {
+    "$date": "2025-06-01T21:13:04.727Z"
+  },
+  "meter_type": "hot",
+  "water_usage": 1.21,
+  "history": [
+    {
+      "date": {
+        "$date": "2025-06-01T21:13:04.727Z"
+      },
+      "value": 1.21
+    }
+  ]
+},
+{
+  "_id": {
+    "$oid": "683c9830b52c6643a25c2da7"
+  },
+  "meter_mark": "COLD-8031",
+  "apartment_id": {
+    "$oid": "683c9830b52c6643a25c2da8"
+  },
+  "install_date": {
+    "$date": "2025-06-01T21:13:04.727Z"
+  },
+  "check_date": {
+    "$date": "2025-06-01T21:13:04.727Z"
+  },
+  "meter_type": "cold",
+  "water_usage": 0.73,
+  "history": [
+    {
+      "date": {
+        "$date": "2025-06-01T21:13:04.727Z"
+      },
+      "value": 0.73
+    }
+  ]
+},
+{
+  "_id": {
+    "$oid": "683c9830b52c6643a25c2da9"
+  },
+  "meter_mark": "HOT-5659",
+  "apartment_id": {
+    "$oid": "683c9830b52c6643a25c2dab"
+  },
+  "install_date": {
+    "$date": "2025-06-01T21:13:04.727Z"
+  },
+  "check_date": {
+    "$date": "2025-06-01T21:13:04.727Z"
+  },
+  "meter_type": "hot",
+  "water_usage": 0.68,
+  "history": [
+    {
+      "date": {
+        "$date": "2025-06-01T21:13:04.727Z"
+      },
+      "value": 0.68
+    }
+  ]
+},
+{
+  "_id": {
+    "$oid": "683c9830b52c6643a25c2daa"
+  },
+  "meter_mark": "COLD-5845",
+  "apartment_id": {
+    "$oid": "683c9830b52c6643a25c2dab"
+  },
+  "install_date": {
+    "$date": "2025-06-01T21:13:04.727Z"
+  },
+  "check_date": {
+    "$date": "2025-06-01T21:13:04.727Z"
+  },
+  "meter_type": "cold",
+  "water_usage": 0.87,
+  "history": [
+    {
+      "date": {
+        "$date": "2025-06-01T21:13:04.727Z"
+      },
+      "value": 0.87
+    }
+  ]
+},
+{
+  "_id": {
+    "$oid": "683c9830b52c6643a25c2dac"
+  },
+  "meter_mark": "HOT-8494",
+  "apartment_id": {
+    "$oid": "683c9830b52c6643a25c2dae"
+  },
+  "install_date": {
+    "$date": "2025-06-01T21:13:04.727Z"
+  },
+  "check_date": {
+    "$date": "2025-06-01T21:13:04.727Z"
+  },
+  "meter_type": "hot",
+  "water_usage": 0.99,
+  "history": [
+    {
+      "date": {
+        "$date": "2025-06-01T21:13:04.727Z"
+      },
+      "value": 0.99
+    }
+  ]
+},
+{
+  "_id": {
+    "$oid": "683c9830b52c6643a25c2dad"
+  },
+  "meter_mark": "COLD-2732",
+  "apartment_id": {
+    "$oid": "683c9830b52c6643a25c2dae"
+  },
+  "install_date": {
+    "$date": "2025-06-01T21:13:04.727Z"
+  },
+  "check_date": {
+    "$date": "2025-06-01T21:13:04.727Z"
+  },
+  "meter_type": "cold",
+  "water_usage": 1.51,
+  "history": [
+    {
+      "date": {
+        "$date": "2025-06-01T21:13:04.727Z"
+      },
+      "value": 1.51
+    }
+  ]
+},
+{
+  "_id": {
+    "$oid": "683c9830b52c6643a25c2daf"
+  },
+  "meter_mark": "HOT-3409",
+  "apartment_id": {
+    "$oid": "683c9830b52c6643a25c2db1"
+  },
+  "install_date": {
+    "$date": "2025-06-01T21:13:04.727Z"
+  },
+  "check_date": {
+    "$date": "2025-06-01T21:13:04.727Z"
+  },
+  "meter_type": "hot",
+  "water_usage": 0.69,
+  "history": [
+    {
+      "date": {
+        "$date": "2025-06-01T21:13:04.727Z"
+      },
+      "value": 0.69
+    }
+  ]
+},
+{
+  "_id": {
+    "$oid": "683c9830b52c6643a25c2db0"
+  },
+  "meter_mark": "COLD-2762",
+  "apartment_id": {
+    "$oid": "683c9830b52c6643a25c2db1"
+  },
+  "install_date": {
+    "$date": "2025-06-01T21:13:04.727Z"
+  },
+  "check_date": {
+    "$date": "2025-06-01T21:13:04.727Z"
+  },
+  "meter_type": "cold",
+  "water_usage": 1.37,
+  "history": [
+    {
+      "date": {
+        "$date": "2025-06-01T21:13:04.727Z"
+      },
+      "value": 1.37
+    }
+  ]
+},
+{
+  "_id": {
+    "$oid": "683c9830b52c6643a25c2db2"
+  },
+  "meter_mark": "HOT-1162",
+  "apartment_id": {
+    "$oid": "683c9830b52c6643a25c2db4"
+  },
+  "install_date": {
+    "$date": "2025-06-01T21:13:04.727Z"
+  },
+  "check_date": {
+    "$date": "2025-06-01T21:13:04.727Z"
+  },
+  "meter_type": "hot",
+  "water_usage": 1.48,
+  "history": [
+    {
+      "date": {
+        "$date": "2025-06-01T21:13:04.727Z"
+      },
+      "value": 1.48
+    }
+  ]
+},
+{
+  "_id": {
+    "$oid": "683c9830b52c6643a25c2db3"
+  },
+  "meter_mark": "COLD-2497",
+  "apartment_id": {
+    "$oid": "683c9830b52c6643a25c2db4"
+  },
+  "install_date": {
+    "$date": "2025-06-01T21:13:04.727Z"
+  },
+  "check_date": {
+    "$date": "2025-06-01T21:13:04.727Z"
+  },
+  "meter_type": "cold",
+  "water_usage": 1.81,
+  "history": [
+    {
+      "date": {
+        "$date": "2025-06-01T21:13:04.727Z"
+      },
+      "value": 1.81
+    }
+  ]
+},
+{
+  "_id": {
+    "$oid": "683c9830b52c6643a25c2db5"
+  },
+  "meter_mark": "HOT-4951",
+  "apartment_id": {
+    "$oid": "683c9830b52c6643a25c2db7"
+  },
+  "install_date": {
+    "$date": "2025-06-01T21:13:04.727Z"
+  },
+  "check_date": {
+    "$date": "2025-06-01T21:13:04.727Z"
+  },
+  "meter_type": "hot",
+  "water_usage": 1.61,
+  "history": [
+    {
+      "date": {
+        "$date": "2025-06-01T21:13:04.727Z"
+      },
+      "value": 1.61
+    }
+  ]
+},
+{
+  "_id": {
+    "$oid": "683c9830b52c6643a25c2db6"
+  },
+  "meter_mark": "COLD-5596",
+  "apartment_id": {
+    "$oid": "683c9830b52c6643a25c2db7"
+  },
+  "install_date": {
+    "$date": "2025-06-01T21:13:04.727Z"
+  },
+  "check_date": {
+    "$date": "2025-06-01T21:13:04.727Z"
+  },
+  "meter_type": "cold",
+  "water_usage": 1.28,
+  "history": [
+    {
+      "date": {
+        "$date": "2025-06-01T21:13:04.727Z"
+      },
+      "value": 1.28
+    }
+  ]
+},
+{
+  "_id": {
+    "$oid": "683c9830b52c6643a25c2db8"
+  },
+  "meter_mark": "HOT-8590",
+  "apartment_id": {
+    "$oid": "683c9830b52c6643a25c2dba"
+  },
+  "install_date": {
+    "$date": "2025-06-01T21:13:04.727Z"
+  },
+  "check_date": {
+    "$date": "2025-06-01T21:13:04.727Z"
+  },
+  "meter_type": "hot",
+  "water_usage": 0.97,
+  "history": [
+    {
+      "date": {
+        "$date": "2025-06-01T21:13:04.727Z"
+      },
+      "value": 0.97
+    }
+  ]
+},
+{
+  "_id": {
+    "$oid": "683c9830b52c6643a25c2db9"
+  },
+  "meter_mark": "COLD-3223",
+  "apartment_id": {
+    "$oid": "683c9830b52c6643a25c2dba"
+  },
+  "install_date": {
+    "$date": "2025-06-01T21:13:04.727Z"
+  },
+  "check_date": {
+    "$date": "2025-06-01T21:13:04.727Z"
+  },
+  "meter_type": "cold",
+  "water_usage": 1.14,
+  "history": [
+    {
+      "date": {
+        "$date": "2025-06-01T21:13:04.727Z"
+      },
+      "value": 1.14
+    }
+  ]
+},
+{
+  "_id": {
+    "$oid": "683c9830b52c6643a25c2dbc"
+  },
+  "meter_mark": "HOT-5683",
+  "apartment_id": {
+    "$oid": "683c9830b52c6643a25c2dbe"
+  },
+  "install_date": {
+    "$date": "2025-06-01T21:13:04.727Z"
+  },
+  "check_date": {
+    "$date": "2025-06-01T21:13:04.727Z"
+  },
+  "meter_type": "hot",
+  "water_usage": 0.74,
+  "history": [
+    {
+      "date": {
+        "$date": "2025-06-01T21:13:04.727Z"
+      },
+      "value": 0.74
+    }
+  ]
+},
+{
+  "_id": {
+    "$oid": "683c9830b52c6643a25c2dbd"
+  },
+  "meter_mark": "COLD-8579",
+  "apartment_id": {
+    "$oid": "683c9830b52c6643a25c2dbe"
+  },
+  "install_date": {
+    "$date": "2025-06-01T21:13:04.727Z"
+  },
+  "check_date": {
+    "$date": "2025-06-01T21:13:04.727Z"
+  },
+  "meter_type": "cold",
+  "water_usage": 1.83,
+  "history": [
+    {
+      "date": {
+        "$date": "2025-06-01T21:13:04.727Z"
+      },
+      "value": 1.83
+    }
+  ]
+},
+{
+  "_id": {
+    "$oid": "683c9830b52c6643a25c2dbf"
+  },
+  "meter_mark": "HOT-4833",
+  "apartment_id": {
+    "$oid": "683c9830b52c6643a25c2dc1"
+  },
+  "install_date": {
+    "$date": "2025-06-01T21:13:04.727Z"
+  },
+  "check_date": {
+    "$date": "2025-06-01T21:13:04.727Z"
+  },
+  "meter_type": "hot",
+  "water_usage": 1.79,
+  "history": [
+    {
+      "date": {
+        "$date": "2025-06-01T21:13:04.727Z"
+      },
+      "value": 1.79
+    }
+  ]
+},
+{
+  "_id": {
+    "$oid": "683c9830b52c6643a25c2dc0"
+  },
+  "meter_mark": "COLD-5843",
+  "apartment_id": {
+    "$oid": "683c9830b52c6643a25c2dc1"
+  },
+  "install_date": {
+    "$date": "2025-06-01T21:13:04.727Z"
+  },
+  "check_date": {
+    "$date": "2025-06-01T21:13:04.727Z"
+  },
+  "meter_type": "cold",
+  "water_usage": 0.96,
+  "history": [
+    {
+      "date": {
+        "$date": "2025-06-01T21:13:04.727Z"
+      },
+      "value": 0.96
+    }
+  ]
+},
+{
+  "_id": {
+    "$oid": "683c9830b52c6643a25c2dc2"
+  },
+  "meter_mark": "HOT-8910",
+  "apartment_id": {
+    "$oid": "683c9830b52c6643a25c2dc4"
+  },
+  "install_date": {
+    "$date": "2025-06-01T21:13:04.727Z"
+  },
+  "check_date": {
+    "$date": "2025-06-01T21:13:04.727Z"
+  },
+  "meter_type": "hot",
+  "water_usage": 1.11,
+  "history": [
+    {
+      "date": {
+        "$date": "2025-06-01T21:13:04.727Z"
+      },
+      "value": 1.11
+    }
+  ]
+},
+{
+  "_id": {
+    "$oid": "683c9830b52c6643a25c2dc3"
+  },
+  "meter_mark": "COLD-1510",
+  "apartment_id": {
+    "$oid": "683c9830b52c6643a25c2dc4"
+  },
+  "install_date": {
+    "$date": "2025-06-01T21:13:04.727Z"
+  },
+  "check_date": {
+    "$date": "2025-06-01T21:13:04.727Z"
+  },
+  "meter_type": "cold",
+  "water_usage": 0.54,
+  "history": [
+    {
+      "date": {
+        "$date": "2025-06-01T21:13:04.727Z"
+      },
+      "value": 0.54
+    }
+  ]
+},
+{
+  "_id": {
+    "$oid": "683c9830b52c6643a25c2dc5"
+  },
+  "meter_mark": "HOT-3726",
+  "apartment_id": {
+    "$oid": "683c9830b52c6643a25c2dc7"
+  },
+  "install_date": {
+    "$date": "2025-06-01T21:13:04.727Z"
+  },
+  "check_date": {
+    "$date": "2025-06-01T21:13:04.727Z"
+  },
+  "meter_type": "hot",
+  "water_usage": 1.63,
+  "history": [
+    {
+      "date": {
+        "$date": "2025-06-01T21:13:04.727Z"
+      },
+      "value": 1.63
+    }
+  ]
+},
+{
+  "_id": {
+    "$oid": "683c9830b52c6643a25c2dc6"
+  },
+  "meter_mark": "COLD-8906",
+  "apartment_id": {
+    "$oid": "683c9830b52c6643a25c2dc7"
+  },
+  "install_date": {
+    "$date": "2025-06-01T21:13:04.727Z"
+  },
+  "check_date": {
+    "$date": "2025-06-01T21:13:04.727Z"
+  },
+  "meter_type": "cold",
+  "water_usage": 0.8,
+  "history": [
+    {
+      "date": {
+        "$date": "2025-06-01T21:13:04.727Z"
+      },
+      "value": 0.8
+    }
+  ]
+},
+{
+  "_id": {
+    "$oid": "683c9830b52c6643a25c2dc8"
+  },
+  "meter_mark": "HOT-3493",
+  "apartment_id": {
+    "$oid": "683c9830b52c6643a25c2dca"
+  },
+  "install_date": {
+    "$date": "2025-06-01T21:13:04.727Z"
+  },
+  "check_date": {
+    "$date": "2025-06-01T21:13:04.727Z"
+  },
+  "meter_type": "hot",
+  "water_usage": 1.34,
+  "history": [
+    {
+      "date": {
+        "$date": "2025-06-01T21:13:04.727Z"
+      },
+      "value": 1.34
+    }
+  ]
+},
+{
+  "_id": {
+    "$oid": "683c9830b52c6643a25c2dc9"
+  },
+  "meter_mark": "COLD-1062",
+  "apartment_id": {
+    "$oid": "683c9830b52c6643a25c2dca"
+  },
+  "install_date": {
+    "$date": "2025-06-01T21:13:04.727Z"
+  },
+  "check_date": {
+    "$date": "2025-06-01T21:13:04.727Z"
+  },
+  "meter_type": "cold",
+  "water_usage": 1.57,
+  "history": [
+    {
+      "date": {
+        "$date": "2025-06-01T21:13:04.727Z"
+      },
+      "value": 1.57
+    }
+  ]
+},
+{
+  "_id": {
+    "$oid": "683c9830b52c6643a25c2dcb"
+  },
+  "meter_mark": "HOT-5242",
+  "apartment_id": {
+    "$oid": "683c9830b52c6643a25c2dcd"
+  },
+  "install_date": {
+    "$date": "2025-06-01T21:13:04.727Z"
+  },
+  "check_date": {
+    "$date": "2025-06-01T21:13:04.727Z"
+  },
+  "meter_type": "hot",
+  "water_usage": 0.55,
+  "history": [
+    {
+      "date": {
+        "$date": "2025-06-01T21:13:04.727Z"
+      },
+      "value": 0.55
+    }
+  ]
+},
+{
+  "_id": {
+    "$oid": "683c9830b52c6643a25c2dcc"
+  },
+  "meter_mark": "COLD-5994",
+  "apartment_id": {
+    "$oid": "683c9830b52c6643a25c2dcd"
+  },
+  "install_date": {
+    "$date": "2025-06-01T21:13:04.727Z"
+  },
+  "check_date": {
+    "$date": "2025-06-01T21:13:04.727Z"
+  },
+  "meter_type": "cold",
+  "water_usage": 1.29,
+  "history": [
+    {
+      "date": {
+        "$date": "2025-06-01T21:13:04.727Z"
+      },
+      "value": 1.29
+    }
+  ]
+},
+{
+  "_id": {
+    "$oid": "683c9830b52c6643a25c2dce"
+  },
+  "meter_mark": "HOT-2223",
+  "apartment_id": {
+    "$oid": "683c9830b52c6643a25c2dd0"
+  },
+  "install_date": {
+    "$date": "2025-06-01T21:13:04.727Z"
+  },
+  "check_date": {
+    "$date": "2025-06-01T21:13:04.727Z"
+  },
+  "meter_type": "hot",
+  "water_usage": 0.62,
+  "history": [
+    {
+      "date": {
+        "$date": "2025-06-01T21:13:04.727Z"
+      },
+      "value": 0.62
+    }
+  ]
+},
+{
+  "_id": {
+    "$oid": "683c9830b52c6643a25c2dcf"
+  },
+  "meter_mark": "COLD-5935",
+  "apartment_id": {
+    "$oid": "683c9830b52c6643a25c2dd0"
+  },
+  "install_date": {
+    "$date": "2025-06-01T21:13:04.727Z"
+  },
+  "check_date": {
+    "$date": "2025-06-01T21:13:04.727Z"
+  },
+  "meter_type": "cold",
+  "water_usage": 1.6,
+  "history": [
+    {
+      "date": {
+        "$date": "2025-06-01T21:13:04.727Z"
+      },
+      "value": 1.6
+    }
+  ]
+},
+{
+  "_id": {
+    "$oid": "683c9830b52c6643a25c2dd1"
+  },
+  "meter_mark": "HOT-4394",
+  "apartment_id": {
+    "$oid": "683c9830b52c6643a25c2dd3"
+  },
+  "install_date": {
+    "$date": "2025-06-01T21:13:04.727Z"
+  },
+  "check_date": {
+    "$date": "2025-06-01T21:13:04.727Z"
+  },
+  "meter_type": "hot",
+  "water_usage": 1.53,
+  "history": [
+    {
+      "date": {
+        "$date": "2025-06-01T21:13:04.727Z"
+      },
+      "value": 1.53
+    }
+  ]
+},
+{
+  "_id": {
+    "$oid": "683c9830b52c6643a25c2dd2"
+  },
+  "meter_mark": "COLD-1798",
+  "apartment_id": {
+    "$oid": "683c9830b52c6643a25c2dd3"
+  },
+  "install_date": {
+    "$date": "2025-06-01T21:13:04.727Z"
+  },
+  "check_date": {
+    "$date": "2025-06-01T21:13:04.727Z"
+  },
+  "meter_type": "cold",
+  "water_usage": 1.66,
+  "history": [
+    {
+      "date": {
+        "$date": "2025-06-01T21:13:04.727Z"
+      },
+      "value": 1.66
+    }
+  ]
+},
+{
+  "_id": {
+    "$oid": "683c9830b52c6643a25c2dd4"
+  },
+  "meter_mark": "HOT-8848",
+  "apartment_id": {
+    "$oid": "683c9830b52c6643a25c2dd6"
+  },
+  "install_date": {
+    "$date": "2025-06-01T21:13:04.727Z"
+  },
+  "check_date": {
+    "$date": "2025-06-01T21:13:04.727Z"
+  },
+  "meter_type": "hot",
+  "water_usage": 1.48,
+  "history": [
+    {
+      "date": {
+        "$date": "2025-06-01T21:13:04.727Z"
+      },
+      "value": 1.48
+    }
+  ]
+},
+{
+  "_id": {
+    "$oid": "683c9830b52c6643a25c2dd5"
+  },
+  "meter_mark": "COLD-2353",
+  "apartment_id": {
+    "$oid": "683c9830b52c6643a25c2dd6"
+  },
+  "install_date": {
+    "$date": "2025-06-01T21:13:04.727Z"
+  },
+  "check_date": {
+    "$date": "2025-06-01T21:13:04.727Z"
+  },
+  "meter_type": "cold",
+  "water_usage": 0.93,
+  "history": [
+    {
+      "date": {
+        "$date": "2025-06-01T21:13:04.727Z"
+      },
+      "value": 0.93
+    }
+  ]
+},
+{
+  "_id": {
+    "$oid": "683c9830b52c6643a25c2dd7"
+  },
+  "meter_mark": "HOT-9765",
+  "apartment_id": {
+    "$oid": "683c9830b52c6643a25c2dd9"
+  },
+  "install_date": {
+    "$date": "2025-06-01T21:13:04.727Z"
+  },
+  "check_date": {
+    "$date": "2025-06-01T21:13:04.727Z"
+  },
+  "meter_type": "hot",
+  "water_usage": 1.04,
+  "history": [
+    {
+      "date": {
+        "$date": "2025-06-01T21:13:04.727Z"
+      },
+      "value": 1.04
+    }
+  ]
+},
+{
+  "_id": {
+    "$oid": "683c9830b52c6643a25c2dd8"
+  },
+  "meter_mark": "COLD-9916",
+  "apartment_id": {
+    "$oid": "683c9830b52c6643a25c2dd9"
+  },
+  "install_date": {
+    "$date": "2025-06-01T21:13:04.727Z"
+  },
+  "check_date": {
+    "$date": "2025-06-01T21:13:04.727Z"
+  },
+  "meter_type": "cold",
+  "water_usage": 1.67,
+  "history": [
+    {
+      "date": {
+        "$date": "2025-06-01T21:13:04.727Z"
+      },
+      "value": 1.67
+    }
+  ]
+},
+{
+  "_id": {
+    "$oid": "683c9830b52c6643a25c2dda"
+  },
+  "meter_mark": "HOT-4090",
+  "apartment_id": {
+    "$oid": "683c9830b52c6643a25c2ddc"
+  },
+  "install_date": {
+    "$date": "2025-06-01T21:13:04.727Z"
+  },
+  "check_date": {
+    "$date": "2025-06-01T21:13:04.727Z"
+  },
+  "meter_type": "hot",
+  "water_usage": 1.84,
+  "history": [
+    {
+      "date": {
+        "$date": "2025-06-01T21:13:04.727Z"
+      },
+      "value": 1.84
+    }
+  ]
+},
+{
+  "_id": {
+    "$oid": "683c9830b52c6643a25c2ddb"
+  },
+  "meter_mark": "COLD-4371",
+  "apartment_id": {
+    "$oid": "683c9830b52c6643a25c2ddc"
+  },
+  "install_date": {
+    "$date": "2025-06-01T21:13:04.727Z"
+  },
+  "check_date": {
+    "$date": "2025-06-01T21:13:04.727Z"
+  },
+  "meter_type": "cold",
+  "water_usage": 1.49,
+  "history": [
+    {
+      "date": {
+        "$date": "2025-06-01T21:13:04.727Z"
+      },
+      "value": 1.49
+    }
+  ]
+},
+{
+  "_id": {
+    "$oid": "683c9830b52c6643a25c2ddd"
+  },
+  "meter_mark": "HOT-7407",
+  "apartment_id": {
+    "$oid": "683c9830b52c6643a25c2ddf"
+  },
+  "install_date": {
+    "$date": "2025-06-01T21:13:04.727Z"
+  },
+  "check_date": {
+    "$date": "2025-06-01T21:13:04.727Z"
+  },
+  "meter_type": "hot",
+  "water_usage": 1.49,
+  "history": [
+    {
+      "date": {
+        "$date": "2025-06-01T21:13:04.727Z"
+      },
+      "value": 1.49
+    }
+  ]
+},
+{
+  "_id": {
+    "$oid": "683c9830b52c6643a25c2dde"
+  },
+  "meter_mark": "COLD-4169",
+  "apartment_id": {
+    "$oid": "683c9830b52c6643a25c2ddf"
+  },
+  "install_date": {
+    "$date": "2025-06-01T21:13:04.727Z"
+  },
+  "check_date": {
+    "$date": "2025-06-01T21:13:04.727Z"
+  },
+  "meter_type": "cold",
+  "water_usage": 1.01,
+  "history": [
+    {
+      "date": {
+        "$date": "2025-06-01T21:13:04.727Z"
+      },
+      "value": 1.01
+    }
+  ]
+},
+{
+  "_id": {
+    "$oid": "683c9830b52c6643a25c2de0"
+  },
+  "meter_mark": "HOT-8698",
+  "apartment_id": {
+    "$oid": "683c9830b52c6643a25c2de2"
+  },
+  "install_date": {
+    "$date": "2025-06-01T21:13:04.727Z"
+  },
+  "check_date": {
+    "$date": "2025-06-01T21:13:04.727Z"
+  },
+  "meter_type": "hot",
+  "water_usage": 1.05,
+  "history": [
+    {
+      "date": {
+        "$date": "2025-06-01T21:13:04.727Z"
+      },
+      "value": 1.05
+    }
+  ]
+},
+{
+  "_id": {
+    "$oid": "683c9830b52c6643a25c2de1"
+  },
+  "meter_mark": "COLD-8045",
+  "apartment_id": {
+    "$oid": "683c9830b52c6643a25c2de2"
+  },
+  "install_date": {
+    "$date": "2025-06-01T21:13:04.727Z"
+  },
+  "check_date": {
+    "$date": "2025-06-01T21:13:04.727Z"
+  },
+  "meter_type": "cold",
+  "water_usage": 1.5,
+  "history": [
+    {
+      "date": {
+        "$date": "2025-06-01T21:13:04.727Z"
+      },
+      "value": 1.5
+    }
+  ]
+},
+{
+  "_id": {
+    "$oid": "683c9830b52c6643a25c2de3"
+  },
+  "meter_mark": "HOT-7677",
+  "apartment_id": {
+    "$oid": "683c9830b52c6643a25c2de5"
+  },
+  "install_date": {
+    "$date": "2025-06-01T21:13:04.727Z"
+  },
+  "check_date": {
+    "$date": "2025-06-01T21:13:04.727Z"
+  },
+  "meter_type": "hot",
+  "water_usage": 1.06,
+  "history": [
+    {
+      "date": {
+        "$date": "2025-06-01T21:13:04.727Z"
+      },
+      "value": 1.06
+    }
+  ]
+},
+{
+  "_id": {
+    "$oid": "683c9830b52c6643a25c2de4"
+  },
+  "meter_mark": "COLD-7952",
+  "apartment_id": {
+    "$oid": "683c9830b52c6643a25c2de5"
+  },
+  "install_date": {
+    "$date": "2025-06-01T21:13:04.727Z"
+  },
+  "check_date": {
+    "$date": "2025-06-01T21:13:04.727Z"
+  },
+  "meter_type": "cold",
+  "water_usage": 1.25,
+  "history": [
+    {
+      "date": {
+        "$date": "2025-06-01T21:13:04.727Z"
+      },
+      "value": 1.25
+    }
+  ]
+},
+{
+  "_id": {
+    "$oid": "683c9830b52c6643a25c2de6"
+  },
+  "meter_mark": "HOT-4482",
+  "apartment_id": {
+    "$oid": "683c9830b52c6643a25c2de8"
+  },
+  "install_date": {
+    "$date": "2025-06-01T21:13:04.727Z"
+  },
+  "check_date": {
+    "$date": "2025-06-01T21:13:04.727Z"
+  },
+  "meter_type": "hot",
+  "water_usage": 1.58,
+  "history": [
+    {
+      "date": {
+        "$date": "2025-06-01T21:13:04.727Z"
+      },
+      "value": 1.58
+    }
+  ]
+},
+{
+  "_id": {
+    "$oid": "683c9830b52c6643a25c2de7"
+  },
+  "meter_mark": "COLD-8318",
+  "apartment_id": {
+    "$oid": "683c9830b52c6643a25c2de8"
+  },
+  "install_date": {
+    "$date": "2025-06-01T21:13:04.727Z"
+  },
+  "check_date": {
+    "$date": "2025-06-01T21:13:04.727Z"
+  },
+  "meter_type": "cold",
+  "water_usage": 1.13,
+  "history": [
+    {
+      "date": {
+        "$date": "2025-06-01T21:13:04.727Z"
+      },
+      "value": 1.13
+    }
+  ]
+},
+{
+  "_id": {
+    "$oid": "683c9830b52c6643a25c2de9"
+  },
+  "meter_mark": "HOT-1945",
+  "apartment_id": {
+    "$oid": "683c9830b52c6643a25c2deb"
+  },
+  "install_date": {
+    "$date": "2025-06-01T21:13:04.727Z"
+  },
+  "check_date": {
+    "$date": "2025-06-01T21:13:04.727Z"
+  },
+  "meter_type": "hot",
+  "water_usage": 1.67,
+  "history": [
+    {
+      "date": {
+        "$date": "2025-06-01T21:13:04.727Z"
+      },
+      "value": 1.67
+    }
+  ]
+},
+{
+  "_id": {
+    "$oid": "683c9830b52c6643a25c2dea"
+  },
+  "meter_mark": "COLD-2664",
+  "apartment_id": {
+    "$oid": "683c9830b52c6643a25c2deb"
+  },
+  "install_date": {
+    "$date": "2025-06-01T21:13:04.727Z"
+  },
+  "check_date": {
+    "$date": "2025-06-01T21:13:04.727Z"
+  },
+  "meter_type": "cold",
+  "water_usage": 1.49,
+  "history": [
+    {
+      "date": {
+        "$date": "2025-06-01T21:13:04.727Z"
+      },
+      "value": 1.49
+    }
+  ]
+},
+{
+  "_id": {
+    "$oid": "683c9830b52c6643a25c2dec"
+  },
+  "meter_mark": "HOT-9653",
+  "apartment_id": {
+    "$oid": "683c9830b52c6643a25c2dee"
+  },
+  "install_date": {
+    "$date": "2025-06-01T21:13:04.727Z"
+  },
+  "check_date": {
+    "$date": "2025-06-01T21:13:04.727Z"
+  },
+  "meter_type": "hot",
+  "water_usage": 1.82,
+  "history": [
+    {
+      "date": {
+        "$date": "2025-06-01T21:13:04.727Z"
+      },
+      "value": 1.82
+    }
+  ]
+},
+{
+  "_id": {
+    "$oid": "683c9830b52c6643a25c2ded"
+  },
+  "meter_mark": "COLD-7013",
+  "apartment_id": {
+    "$oid": "683c9830b52c6643a25c2dee"
+  },
+  "install_date": {
+    "$date": "2025-06-01T21:13:04.727Z"
+  },
+  "check_date": {
+    "$date": "2025-06-01T21:13:04.727Z"
+  },
+  "meter_type": "cold",
+  "water_usage": 0.72,
+  "history": [
+    {
+      "date": {
+        "$date": "2025-06-01T21:13:04.727Z"
+      },
+      "value": 0.72
+    }
+  ]
+},
+{
+  "_id": {
+    "$oid": "683c9830b52c6643a25c2def"
+  },
+  "meter_mark": "HOT-2405",
+  "apartment_id": {
+    "$oid": "683c9830b52c6643a25c2df1"
+  },
+  "install_date": {
+    "$date": "2025-06-01T21:13:04.727Z"
+  },
+  "check_date": {
+    "$date": "2025-06-01T21:13:04.727Z"
+  },
+  "meter_type": "hot",
+  "water_usage": 0.8,
+  "history": [
+    {
+      "date": {
+        "$date": "2025-06-01T21:13:04.727Z"
+      },
+      "value": 0.8
+    }
+  ]
+},
+{
+  "_id": {
+    "$oid": "683c9830b52c6643a25c2df0"
+  },
+  "meter_mark": "COLD-6882",
+  "apartment_id": {
+    "$oid": "683c9830b52c6643a25c2df1"
+  },
+  "install_date": {
+    "$date": "2025-06-01T21:13:04.727Z"
+  },
+  "check_date": {
+    "$date": "2025-06-01T21:13:04.727Z"
+  },
+  "meter_type": "cold",
+  "water_usage": 0.67,
+  "history": [
+    {
+      "date": {
+        "$date": "2025-06-01T21:13:04.727Z"
+      },
+      "value": 0.67
+    }
+  ]
+},
+{
+  "_id": {
+    "$oid": "683c9830b52c6643a25c2df2"
+  },
+  "meter_mark": "HOT-6111",
+  "apartment_id": {
+    "$oid": "683c9830b52c6643a25c2df4"
+  },
+  "install_date": {
+    "$date": "2025-06-01T21:13:04.727Z"
+  },
+  "check_date": {
+    "$date": "2025-06-01T21:13:04.727Z"
+  },
+  "meter_type": "hot",
+  "water_usage": 1.44,
+  "history": [
+    {
+      "date": {
+        "$date": "2025-06-01T21:13:04.727Z"
+      },
+      "value": 1.44
+    }
+  ]
+},
+{
+  "_id": {
+    "$oid": "683c9830b52c6643a25c2df3"
+  },
+  "meter_mark": "COLD-3223",
+  "apartment_id": {
+    "$oid": "683c9830b52c6643a25c2df4"
+  },
+  "install_date": {
+    "$date": "2025-06-01T21:13:04.727Z"
+  },
+  "check_date": {
+    "$date": "2025-06-01T21:13:04.727Z"
+  },
+  "meter_type": "cold",
+  "water_usage": 0.57,
+  "history": [
+    {
+      "date": {
+        "$date": "2025-06-01T21:13:04.727Z"
+      },
+      "value": 0.57
+    }
+  ]
+},
+{
+  "_id": {
+    "$oid": "683c9830b52c6643a25c2df5"
+  },
+  "meter_mark": "HOT-4049",
+  "apartment_id": {
+    "$oid": "683c9830b52c6643a25c2df7"
+  },
+  "install_date": {
+    "$date": "2025-06-01T21:13:04.727Z"
+  },
+  "check_date": {
+    "$date": "2025-06-01T21:13:04.727Z"
+  },
+  "meter_type": "hot",
+  "water_usage": 1.46,
+  "history": [
+    {
+      "date": {
+        "$date": "2025-06-01T21:13:04.727Z"
+      },
+      "value": 1.46
+    }
+  ]
+},
+{
+  "_id": {
+    "$oid": "683c9830b52c6643a25c2df6"
+  },
+  "meter_mark": "COLD-7986",
+  "apartment_id": {
+    "$oid": "683c9830b52c6643a25c2df7"
+  },
+  "install_date": {
+    "$date": "2025-06-01T21:13:04.727Z"
+  },
+  "check_date": {
+    "$date": "2025-06-01T21:13:04.727Z"
+  },
+  "meter_type": "cold",
+  "water_usage": 1.37,
+  "history": [
+    {
+      "date": {
+        "$date": "2025-06-01T21:13:04.727Z"
+      },
+      "value": 1.37
+    }
+  ]
+},
+{
+  "_id": {
+    "$oid": "683c9830b52c6643a25c2df9"
+  },
+  "meter_mark": "HOT-5492",
+  "apartment_id": {
+    "$oid": "683c9830b52c6643a25c2dfb"
+  },
+  "install_date": {
+    "$date": "2025-06-01T21:13:04.727Z"
+  },
+  "check_date": {
+    "$date": "2025-06-01T21:13:04.727Z"
+  },
+  "meter_type": "hot",
+  "water_usage": 1.64,
+  "history": [
+    {
+      "date": {
+        "$date": "2025-06-01T21:13:04.727Z"
+      },
+      "value": 1.64
+    }
+  ]
+},
+{
+  "_id": {
+    "$oid": "683c9830b52c6643a25c2dfa"
+  },
+  "meter_mark": "COLD-2500",
+  "apartment_id": {
+    "$oid": "683c9830b52c6643a25c2dfb"
+  },
+  "install_date": {
+    "$date": "2025-06-01T21:13:04.727Z"
+  },
+  "check_date": {
+    "$date": "2025-06-01T21:13:04.727Z"
+  },
+  "meter_type": "cold",
+  "water_usage": 1.43,
+  "history": [
+    {
+      "date": {
+        "$date": "2025-06-01T21:13:04.727Z"
+      },
+      "value": 1.43
+    }
+  ]
+},
+{
+  "_id": {
+    "$oid": "683c9830b52c6643a25c2dfc"
+  },
+  "meter_mark": "HOT-4625",
+  "apartment_id": {
+    "$oid": "683c9830b52c6643a25c2dfe"
+  },
+  "install_date": {
+    "$date": "2025-06-01T21:13:04.727Z"
+  },
+  "check_date": {
+    "$date": "2025-06-01T21:13:04.727Z"
+  },
+  "meter_type": "hot",
+  "water_usage": 0.73,
+  "history": [
+    {
+      "date": {
+        "$date": "2025-06-01T21:13:04.727Z"
+      },
+      "value": 0.73
+    }
+  ]
+},
+{
+  "_id": {
+    "$oid": "683c9830b52c6643a25c2dfd"
+  },
+  "meter_mark": "COLD-4344",
+  "apartment_id": {
+    "$oid": "683c9830b52c6643a25c2dfe"
+  },
+  "install_date": {
+    "$date": "2025-06-01T21:13:04.727Z"
+  },
+  "check_date": {
+    "$date": "2025-06-01T21:13:04.727Z"
+  },
+  "meter_type": "cold",
+  "water_usage": 0.82,
+  "history": [
+    {
+      "date": {
+        "$date": "2025-06-01T21:13:04.727Z"
+      },
+      "value": 0.82
+    }
+  ]
+},
+{
+  "_id": {
+    "$oid": "683c9830b52c6643a25c2dff"
+  },
+  "meter_mark": "HOT-3284",
+  "apartment_id": {
+    "$oid": "683c9830b52c6643a25c2e01"
+  },
+  "install_date": {
+    "$date": "2025-06-01T21:13:04.727Z"
+  },
+  "check_date": {
+    "$date": "2025-06-01T21:13:04.727Z"
+  },
+  "meter_type": "hot",
+  "water_usage": 1.19,
+  "history": [
+    {
+      "date": {
+        "$date": "2025-06-01T21:13:04.727Z"
+      },
+      "value": 1.19
+    }
+  ]
+},
+{
+  "_id": {
+    "$oid": "683c9830b52c6643a25c2e00"
+  },
+  "meter_mark": "COLD-3349",
+  "apartment_id": {
+    "$oid": "683c9830b52c6643a25c2e01"
+  },
+  "install_date": {
+    "$date": "2025-06-01T21:13:04.727Z"
+  },
+  "check_date": {
+    "$date": "2025-06-01T21:13:04.727Z"
+  },
+  "meter_type": "cold",
+  "water_usage": 1.61,
+  "history": [
+    {
+      "date": {
+        "$date": "2025-06-01T21:13:04.727Z"
+      },
+      "value": 1.61
+    }
+  ]
+},
+{
+  "_id": {
+    "$oid": "683c9830b52c6643a25c2e02"
+  },
+  "meter_mark": "HOT-4875",
+  "apartment_id": {
+    "$oid": "683c9830b52c6643a25c2e04"
+  },
+  "install_date": {
+    "$date": "2025-06-01T21:13:04.727Z"
+  },
+  "check_date": {
+    "$date": "2025-06-01T21:13:04.727Z"
+  },
+  "meter_type": "hot",
+  "water_usage": 0.99,
+  "history": [
+    {
+      "date": {
+        "$date": "2025-06-01T21:13:04.727Z"
+      },
+      "value": 0.99
+    }
+  ]
+},
+{
+  "_id": {
+    "$oid": "683c9830b52c6643a25c2e03"
+  },
+  "meter_mark": "COLD-5859",
+  "apartment_id": {
+    "$oid": "683c9830b52c6643a25c2e04"
+  },
+  "install_date": {
+    "$date": "2025-06-01T21:13:04.727Z"
+  },
+  "check_date": {
+    "$date": "2025-06-01T21:13:04.727Z"
+  },
+  "meter_type": "cold",
+  "water_usage": 1.16,
+  "history": [
+    {
+      "date": {
+        "$date": "2025-06-01T21:13:04.727Z"
+      },
+      "value": 1.16
+    }
+  ]
+},
+{
+  "_id": {
+    "$oid": "683c9830b52c6643a25c2e05"
+  },
+  "meter_mark": "HOT-9268",
+  "apartment_id": {
+    "$oid": "683c9830b52c6643a25c2e07"
+  },
+  "install_date": {
+    "$date": "2025-06-01T21:13:04.727Z"
+  },
+  "check_date": {
+    "$date": "2025-06-01T21:13:04.727Z"
+  },
+  "meter_type": "hot",
+  "water_usage": 1.34,
+  "history": [
+    {
+      "date": {
+        "$date": "2025-06-01T21:13:04.727Z"
+      },
+      "value": 1.34
+    }
+  ]
+},
+{
+  "_id": {
+    "$oid": "683c9830b52c6643a25c2e06"
+  },
+  "meter_mark": "COLD-7024",
+  "apartment_id": {
+    "$oid": "683c9830b52c6643a25c2e07"
+  },
+  "install_date": {
+    "$date": "2025-06-01T21:13:04.727Z"
+  },
+  "check_date": {
+    "$date": "2025-06-01T21:13:04.727Z"
+  },
+  "meter_type": "cold",
+  "water_usage": 1.82,
+  "history": [
+    {
+      "date": {
+        "$date": "2025-06-01T21:13:04.727Z"
+      },
+      "value": 1.82
+    }
+  ]
+},
+{
+  "_id": {
+    "$oid": "683c9830b52c6643a25c2e08"
+  },
+  "meter_mark": "HOT-8604",
+  "apartment_id": {
+    "$oid": "683c9830b52c6643a25c2e0a"
+  },
+  "install_date": {
+    "$date": "2025-06-01T21:13:04.727Z"
+  },
+  "check_date": {
+    "$date": "2025-06-01T21:13:04.727Z"
+  },
+  "meter_type": "hot",
+  "water_usage": 0.88,
+  "history": [
+    {
+      "date": {
+        "$date": "2025-06-01T21:13:04.727Z"
+      },
+      "value": 0.88
+    }
+  ]
+},
+{
+  "_id": {
+    "$oid": "683c9830b52c6643a25c2e09"
+  },
+  "meter_mark": "COLD-6539",
+  "apartment_id": {
+    "$oid": "683c9830b52c6643a25c2e0a"
+  },
+  "install_date": {
+    "$date": "2025-06-01T21:13:04.727Z"
+  },
+  "check_date": {
+    "$date": "2025-06-01T21:13:04.727Z"
+  },
+  "meter_type": "cold",
+  "water_usage": 1.04,
+  "history": [
+    {
+      "date": {
+        "$date": "2025-06-01T21:13:04.727Z"
+      },
+      "value": 1.04
+    }
+  ]
+},
+{
+  "_id": {
+    "$oid": "683c9830b52c6643a25c2e0b"
+  },
+  "meter_mark": "HOT-6952",
+  "apartment_id": {
+    "$oid": "683c9830b52c6643a25c2e0d"
+  },
+  "install_date": {
+    "$date": "2025-06-01T21:13:04.727Z"
+  },
+  "check_date": {
+    "$date": "2025-06-01T21:13:04.727Z"
+  },
+  "meter_type": "hot",
+  "water_usage": 1.06,
+  "history": [
+    {
+      "date": {
+        "$date": "2025-06-01T21:13:04.727Z"
+      },
+      "value": 1.06
+    }
+  ]
+},
+{
+  "_id": {
+    "$oid": "683c9830b52c6643a25c2e0c"
+  },
+  "meter_mark": "COLD-1844",
+  "apartment_id": {
+    "$oid": "683c9830b52c6643a25c2e0d"
+  },
+  "install_date": {
+    "$date": "2025-06-01T21:13:04.727Z"
+  },
+  "check_date": {
+    "$date": "2025-06-01T21:13:04.727Z"
+  },
+  "meter_type": "cold",
+  "water_usage": 0.99,
+  "history": [
+    {
+      "date": {
+        "$date": "2025-06-01T21:13:04.727Z"
+      },
+      "value": 0.99
+    }
+  ]
+},
+{
+  "_id": {
+    "$oid": "683c9830b52c6643a25c2e0e"
+  },
+  "meter_mark": "HOT-1434",
+  "apartment_id": {
+    "$oid": "683c9830b52c6643a25c2e10"
+  },
+  "install_date": {
+    "$date": "2025-06-01T21:13:04.727Z"
+  },
+  "check_date": {
+    "$date": "2025-06-01T21:13:04.727Z"
+  },
+  "meter_type": "hot",
+  "water_usage": 1.81,
+  "history": [
+    {
+      "date": {
+        "$date": "2025-06-01T21:13:04.727Z"
+      },
+      "value": 1.81
+    }
+  ]
+},
+{
+  "_id": {
+    "$oid": "683c9830b52c6643a25c2e0f"
+  },
+  "meter_mark": "COLD-5937",
+  "apartment_id": {
+    "$oid": "683c9830b52c6643a25c2e10"
+  },
+  "install_date": {
+    "$date": "2025-06-01T21:13:04.727Z"
+  },
+  "check_date": {
+    "$date": "2025-06-01T21:13:04.727Z"
+  },
+  "meter_type": "cold",
+  "water_usage": 0.86,
+  "history": [
+    {
+      "date": {
+        "$date": "2025-06-01T21:13:04.727Z"
+      },
+      "value": 0.86
+    }
+  ]
+},
+{
+  "_id": {
+    "$oid": "683c9830b52c6643a25c2e11"
+  },
+  "meter_mark": "HOT-2656",
+  "apartment_id": {
+    "$oid": "683c9830b52c6643a25c2e13"
+  },
+  "install_date": {
+    "$date": "2025-06-01T21:13:04.727Z"
+  },
+  "check_date": {
+    "$date": "2025-06-01T21:13:04.727Z"
+  },
+  "meter_type": "hot",
+  "water_usage": 1.02,
+  "history": [
+    {
+      "date": {
+        "$date": "2025-06-01T21:13:04.727Z"
+      },
+      "value": 1.02
+    }
+  ]
+},
+{
+  "_id": {
+    "$oid": "683c9830b52c6643a25c2e12"
+  },
+  "meter_mark": "COLD-6217",
+  "apartment_id": {
+    "$oid": "683c9830b52c6643a25c2e13"
+  },
+  "install_date": {
+    "$date": "2025-06-01T21:13:04.727Z"
+  },
+  "check_date": {
+    "$date": "2025-06-01T21:13:04.727Z"
+  },
+  "meter_type": "cold",
+  "water_usage": 1.52,
+  "history": [
+    {
+      "date": {
+        "$date": "2025-06-01T21:13:04.727Z"
+      },
+      "value": 1.52
+    }
+  ]
+},
+{
+  "_id": {
+    "$oid": "683c9830b52c6643a25c2e14"
+  },
+  "meter_mark": "HOT-6481",
+  "apartment_id": {
+    "$oid": "683c9830b52c6643a25c2e16"
+  },
+  "install_date": {
+    "$date": "2025-06-01T21:13:04.727Z"
+  },
+  "check_date": {
+    "$date": "2025-06-01T21:13:04.727Z"
+  },
+  "meter_type": "hot",
+  "water_usage": 1.23,
+  "history": [
+    {
+      "date": {
+        "$date": "2025-06-01T21:13:04.727Z"
+      },
+      "value": 1.23
+    }
+  ]
+},
+{
+  "_id": {
+    "$oid": "683c9830b52c6643a25c2e15"
+  },
+  "meter_mark": "COLD-4388",
+  "apartment_id": {
+    "$oid": "683c9830b52c6643a25c2e16"
+  },
+  "install_date": {
+    "$date": "2025-06-01T21:13:04.727Z"
+  },
+  "check_date": {
+    "$date": "2025-06-01T21:13:04.727Z"
+  },
+  "meter_type": "cold",
+  "water_usage": 1.59,
+  "history": [
+    {
+      "date": {
+        "$date": "2025-06-01T21:13:04.727Z"
+      },
+      "value": 1.59
+    }
+  ]
+},
+{
+  "_id": {
+    "$oid": "683c9830b52c6643a25c2e17"
+  },
+  "meter_mark": "HOT-4337",
+  "apartment_id": {
+    "$oid": "683c9830b52c6643a25c2e19"
+  },
+  "install_date": {
+    "$date": "2025-06-01T21:13:04.727Z"
+  },
+  "check_date": {
+    "$date": "2025-06-01T21:13:04.727Z"
+  },
+  "meter_type": "hot",
+  "water_usage": 0.65,
+  "history": [
+    {
+      "date": {
+        "$date": "2025-06-01T21:13:04.727Z"
+      },
+      "value": 0.65
+    }
+  ]
+},
+{
+  "_id": {
+    "$oid": "683c9830b52c6643a25c2e18"
+  },
+  "meter_mark": "COLD-4082",
+  "apartment_id": {
+    "$oid": "683c9830b52c6643a25c2e19"
+  },
+  "install_date": {
+    "$date": "2025-06-01T21:13:04.727Z"
+  },
+  "check_date": {
+    "$date": "2025-06-01T21:13:04.727Z"
+  },
+  "meter_type": "cold",
+  "water_usage": 1.36,
+  "history": [
+    {
+      "date": {
+        "$date": "2025-06-01T21:13:04.727Z"
+      },
+      "value": 1.36
+    }
+  ]
+},
+{
+  "_id": {
+    "$oid": "683c9830b52c6643a25c2e1a"
+  },
+  "meter_mark": "HOT-8694",
+  "apartment_id": {
+    "$oid": "683c9830b52c6643a25c2e1c"
+  },
+  "install_date": {
+    "$date": "2025-06-01T21:13:04.727Z"
+  },
+  "check_date": {
+    "$date": "2025-06-01T21:13:04.727Z"
+  },
+  "meter_type": "hot",
+  "water_usage": 1.65,
+  "history": [
+    {
+      "date": {
+        "$date": "2025-06-01T21:13:04.727Z"
+      },
+      "value": 1.65
+    }
+  ]
+},
+{
+  "_id": {
+    "$oid": "683c9830b52c6643a25c2e1b"
+  },
+  "meter_mark": "COLD-9706",
+  "apartment_id": {
+    "$oid": "683c9830b52c6643a25c2e1c"
+  },
+  "install_date": {
+    "$date": "2025-06-01T21:13:04.727Z"
+  },
+  "check_date": {
+    "$date": "2025-06-01T21:13:04.727Z"
+  },
+  "meter_type": "cold",
+  "water_usage": 0.73,
+  "history": [
+    {
+      "date": {
+        "$date": "2025-06-01T21:13:04.727Z"
+      },
+      "value": 0.73
+    }
+  ]
+},
+{
+  "_id": {
+    "$oid": "683c9830b52c6643a25c2e1d"
+  },
+  "meter_mark": "HOT-1275",
+  "apartment_id": {
+    "$oid": "683c9830b52c6643a25c2e1f"
+  },
+  "install_date": {
+    "$date": "2025-06-01T21:13:04.727Z"
+  },
+  "check_date": {
+    "$date": "2025-06-01T21:13:04.727Z"
+  },
+  "meter_type": "hot",
+  "water_usage": 0.96,
+  "history": [
+    {
+      "date": {
+        "$date": "2025-06-01T21:13:04.727Z"
+      },
+      "value": 0.96
+    }
+  ]
+},
+{
+  "_id": {
+    "$oid": "683c9830b52c6643a25c2e1e"
+  },
+  "meter_mark": "COLD-6834",
+  "apartment_id": {
+    "$oid": "683c9830b52c6643a25c2e1f"
+  },
+  "install_date": {
+    "$date": "2025-06-01T21:13:04.727Z"
+  },
+  "check_date": {
+    "$date": "2025-06-01T21:13:04.727Z"
+  },
+  "meter_type": "cold",
+  "water_usage": 1.02,
+  "history": [
+    {
+      "date": {
+        "$date": "2025-06-01T21:13:04.727Z"
+      },
+      "value": 1.02
+    }
+  ]
+},
+{
+  "_id": {
+    "$oid": "683c9830b52c6643a25c2e20"
+  },
+  "meter_mark": "HOT-1508",
+  "apartment_id": {
+    "$oid": "683c9830b52c6643a25c2e22"
+  },
+  "install_date": {
+    "$date": "2025-06-01T21:13:04.727Z"
+  },
+  "check_date": {
+    "$date": "2025-06-01T21:13:04.727Z"
+  },
+  "meter_type": "hot",
+  "water_usage": 1.35,
+  "history": [
+    {
+      "date": {
+        "$date": "2025-06-01T21:13:04.727Z"
+      },
+      "value": 1.35
+    }
+  ]
+},
+{
+  "_id": {
+    "$oid": "683c9830b52c6643a25c2e21"
+  },
+  "meter_mark": "COLD-4246",
+  "apartment_id": {
+    "$oid": "683c9830b52c6643a25c2e22"
+  },
+  "install_date": {
+    "$date": "2025-06-01T21:13:04.727Z"
+  },
+  "check_date": {
+    "$date": "2025-06-01T21:13:04.727Z"
+  },
+  "meter_type": "cold",
+  "water_usage": 0.78,
+  "history": [
+    {
+      "date": {
+        "$date": "2025-06-01T21:13:04.727Z"
+      },
+      "value": 0.78
+    }
+  ]
+},
+{
+  "_id": {
+    "$oid": "683c9830b52c6643a25c2e23"
+  },
+  "meter_mark": "HOT-3661",
+  "apartment_id": {
+    "$oid": "683c9830b52c6643a25c2e25"
+  },
+  "install_date": {
+    "$date": "2025-06-01T21:13:04.727Z"
+  },
+  "check_date": {
+    "$date": "2025-06-01T21:13:04.727Z"
+  },
+  "meter_type": "hot",
+  "water_usage": 1.16,
+  "history": [
+    {
+      "date": {
+        "$date": "2025-06-01T21:13:04.727Z"
+      },
+      "value": 1.16
+    }
+  ]
+},
+{
+  "_id": {
+    "$oid": "683c9830b52c6643a25c2e24"
+  },
+  "meter_mark": "COLD-8574",
+  "apartment_id": {
+    "$oid": "683c9830b52c6643a25c2e25"
+  },
+  "install_date": {
+    "$date": "2025-06-01T21:13:04.727Z"
+  },
+  "check_date": {
+    "$date": "2025-06-01T21:13:04.727Z"
+  },
+  "meter_type": "cold",
+  "water_usage": 0.52,
+  "history": [
+    {
+      "date": {
+        "$date": "2025-06-01T21:13:04.727Z"
+      },
+      "value": 0.52
+    }
+  ]
+},
+{
+  "_id": {
+    "$oid": "683c9830b52c6643a25c2e26"
+  },
+  "meter_mark": "HOT-3668",
+  "apartment_id": {
+    "$oid": "683c9830b52c6643a25c2e28"
+  },
+  "install_date": {
+    "$date": "2025-06-01T21:13:04.727Z"
+  },
+  "check_date": {
+    "$date": "2025-06-01T21:13:04.727Z"
+  },
+  "meter_type": "hot",
+  "water_usage": 0.85,
+  "history": [
+    {
+      "date": {
+        "$date": "2025-06-01T21:13:04.727Z"
+      },
+      "value": 0.85
+    }
+  ]
+},
+{
+  "_id": {
+    "$oid": "683c9830b52c6643a25c2e27"
+  },
+  "meter_mark": "COLD-3798",
+  "apartment_id": {
+    "$oid": "683c9830b52c6643a25c2e28"
+  },
+  "install_date": {
+    "$date": "2025-06-01T21:13:04.727Z"
+  },
+  "check_date": {
+    "$date": "2025-06-01T21:13:04.727Z"
+  },
+  "meter_type": "cold",
+  "water_usage": 0.9,
+  "history": [
+    {
+      "date": {
+        "$date": "2025-06-01T21:13:04.727Z"
+      },
+      "value": 0.9
+    }
+  ]
+},
+{
+  "_id": {
+    "$oid": "683c9830b52c6643a25c2e29"
+  },
+  "meter_mark": "HOT-4167",
+  "apartment_id": {
+    "$oid": "683c9830b52c6643a25c2e2b"
+  },
+  "install_date": {
+    "$date": "2025-06-01T21:13:04.727Z"
+  },
+  "check_date": {
+    "$date": "2025-06-01T21:13:04.727Z"
+  },
+  "meter_type": "hot",
+  "water_usage": 0.76,
+  "history": [
+    {
+      "date": {
+        "$date": "2025-06-01T21:13:04.727Z"
+      },
+      "value": 0.76
+    }
+  ]
+},
+{
+  "_id": {
+    "$oid": "683c9830b52c6643a25c2e2a"
+  },
+  "meter_mark": "COLD-9069",
+  "apartment_id": {
+    "$oid": "683c9830b52c6643a25c2e2b"
+  },
+  "install_date": {
+    "$date": "2025-06-01T21:13:04.727Z"
+  },
+  "check_date": {
+    "$date": "2025-06-01T21:13:04.727Z"
+  },
+  "meter_type": "cold",
+  "water_usage": 1.24,
+  "history": [
+    {
+      "date": {
+        "$date": "2025-06-01T21:13:04.727Z"
+      },
+      "value": 1.24
+    }
+  ]
+},
+{
+  "_id": {
+    "$oid": "683c9830b52c6643a25c2e2c"
+  },
+  "meter_mark": "HOT-8743",
+  "apartment_id": {
+    "$oid": "683c9830b52c6643a25c2e2e"
+  },
+  "install_date": {
+    "$date": "2025-06-01T21:13:04.727Z"
+  },
+  "check_date": {
+    "$date": "2025-06-01T21:13:04.727Z"
+  },
+  "meter_type": "hot",
+  "water_usage": 1.72,
+  "history": [
+    {
+      "date": {
+        "$date": "2025-06-01T21:13:04.727Z"
+      },
+      "value": 1.72
+    }
+  ]
+},
+{
+  "_id": {
+    "$oid": "683c9830b52c6643a25c2e2d"
+  },
+  "meter_mark": "COLD-7205",
+  "apartment_id": {
+    "$oid": "683c9830b52c6643a25c2e2e"
+  },
+  "install_date": {
+    "$date": "2025-06-01T21:13:04.727Z"
+  },
+  "check_date": {
+    "$date": "2025-06-01T21:13:04.727Z"
+  },
+  "meter_type": "cold",
+  "water_usage": 1.84,
+  "history": [
+    {
+      "date": {
+        "$date": "2025-06-01T21:13:04.727Z"
+      },
+      "value": 1.84
+    }
+  ]
+},
+{
+  "_id": {
+    "$oid": "683c9830b52c6643a25c2e2f"
+  },
+  "meter_mark": "HOT-6601",
+  "apartment_id": {
+    "$oid": "683c9830b52c6643a25c2e31"
+  },
+  "install_date": {
+    "$date": "2025-06-01T21:13:04.727Z"
+  },
+  "check_date": {
+    "$date": "2025-06-01T21:13:04.727Z"
+  },
+  "meter_type": "hot",
+  "water_usage": 0.87,
+  "history": [
+    {
+      "date": {
+        "$date": "2025-06-01T21:13:04.727Z"
+      },
+      "value": 0.87
+    }
+  ]
+},
+{
+  "_id": {
+    "$oid": "683c9830b52c6643a25c2e30"
+  },
+  "meter_mark": "COLD-6063",
+  "apartment_id": {
+    "$oid": "683c9830b52c6643a25c2e31"
+  },
+  "install_date": {
+    "$date": "2025-06-01T21:13:04.727Z"
+  },
+  "check_date": {
+    "$date": "2025-06-01T21:13:04.727Z"
+  },
+  "meter_type": "cold",
+  "water_usage": 0.88,
+  "history": [
+    {
+      "date": {
+        "$date": "2025-06-01T21:13:04.727Z"
+      },
+      "value": 0.88
+    }
+  ]
+},
+{
+  "_id": {
+    "$oid": "683c9830b52c6643a25c2e32"
+  },
+  "meter_mark": "HOT-8109",
+  "apartment_id": {
+    "$oid": "683c9830b52c6643a25c2e34"
+  },
+  "install_date": {
+    "$date": "2025-06-01T21:13:04.727Z"
+  },
+  "check_date": {
+    "$date": "2025-06-01T21:13:04.727Z"
+  },
+  "meter_type": "hot",
+  "water_usage": 0.97,
+  "history": [
+    {
+      "date": {
+        "$date": "2025-06-01T21:13:04.727Z"
+      },
+      "value": 0.97
+    }
+  ]
+},
+{
+  "_id": {
+    "$oid": "683c9830b52c6643a25c2e33"
+  },
+  "meter_mark": "COLD-6150",
+  "apartment_id": {
+    "$oid": "683c9830b52c6643a25c2e34"
+  },
+  "install_date": {
+    "$date": "2025-06-01T21:13:04.727Z"
+  },
+  "check_date": {
+    "$date": "2025-06-01T21:13:04.727Z"
+  },
+  "meter_type": "cold",
+  "water_usage": 1.18,
+  "history": [
+    {
+      "date": {
+        "$date": "2025-06-01T21:13:04.727Z"
+      },
+      "value": 1.18
+    }
+  ]
+},
+{
+  "_id": {
+    "$oid": "683c9830b52c6643a25c2e36"
+  },
+  "meter_mark": "HOT-5346",
+  "apartment_id": {
+    "$oid": "683c9830b52c6643a25c2e38"
+  },
+  "install_date": {
+    "$date": "2025-06-01T21:13:04.727Z"
+  },
+  "check_date": {
+    "$date": "2025-06-01T21:13:04.727Z"
+  },
+  "meter_type": "hot",
+  "water_usage": 1.28,
+  "history": [
+    {
+      "date": {
+        "$date": "2025-06-01T21:13:04.727Z"
+      },
+      "value": 1.28
+    }
+  ]
+},
+{
+  "_id": {
+    "$oid": "683c9830b52c6643a25c2e37"
+  },
+  "meter_mark": "COLD-9087",
+  "apartment_id": {
+    "$oid": "683c9830b52c6643a25c2e38"
+  },
+  "install_date": {
+    "$date": "2025-06-01T21:13:04.727Z"
+  },
+  "check_date": {
+    "$date": "2025-06-01T21:13:04.727Z"
+  },
+  "meter_type": "cold",
+  "water_usage": 0.83,
+  "history": [
+    {
+      "date": {
+        "$date": "2025-06-01T21:13:04.727Z"
+      },
+      "value": 0.83
+    }
+  ]
+},
+{
+  "_id": {
+    "$oid": "683c9830b52c6643a25c2e39"
+  },
+  "meter_mark": "HOT-7881",
+  "apartment_id": {
+    "$oid": "683c9830b52c6643a25c2e3b"
+  },
+  "install_date": {
+    "$date": "2025-06-01T21:13:04.727Z"
+  },
+  "check_date": {
+    "$date": "2025-06-01T21:13:04.727Z"
+  },
+  "meter_type": "hot",
+  "water_usage": 1,
+  "history": [
+    {
+      "date": {
+        "$date": "2025-06-01T21:13:04.727Z"
+      },
+      "value": 1
+    }
+  ]
+},
+{
+  "_id": {
+    "$oid": "683c9830b52c6643a25c2e3a"
+  },
+  "meter_mark": "COLD-9241",
+  "apartment_id": {
+    "$oid": "683c9830b52c6643a25c2e3b"
+  },
+  "install_date": {
+    "$date": "2025-06-01T21:13:04.727Z"
+  },
+  "check_date": {
+    "$date": "2025-06-01T21:13:04.727Z"
+  },
+  "meter_type": "cold",
+  "water_usage": 1.7,
+  "history": [
+    {
+      "date": {
+        "$date": "2025-06-01T21:13:04.727Z"
+      },
+      "value": 1.7
+    }
+  ]
+},
+{
+  "_id": {
+    "$oid": "683c9830b52c6643a25c2e3c"
+  },
+  "meter_mark": "HOT-2413",
+  "apartment_id": {
+    "$oid": "683c9830b52c6643a25c2e3e"
+  },
+  "install_date": {
+    "$date": "2025-06-01T21:13:04.727Z"
+  },
+  "check_date": {
+    "$date": "2025-06-01T21:13:04.727Z"
+  },
+  "meter_type": "hot",
+  "water_usage": 1.46,
+  "history": [
+    {
+      "date": {
+        "$date": "2025-06-01T21:13:04.727Z"
+      },
+      "value": 1.46
+    }
+  ]
+},
+{
+  "_id": {
+    "$oid": "683c9830b52c6643a25c2e3d"
+  },
+  "meter_mark": "COLD-5081",
+  "apartment_id": {
+    "$oid": "683c9830b52c6643a25c2e3e"
+  },
+  "install_date": {
+    "$date": "2025-06-01T21:13:04.727Z"
+  },
+  "check_date": {
+    "$date": "2025-06-01T21:13:04.727Z"
+  },
+  "meter_type": "cold",
+  "water_usage": 0.53,
+  "history": [
+    {
+      "date": {
+        "$date": "2025-06-01T21:13:04.727Z"
+      },
+      "value": 0.53
+    }
+  ]
+},
+{
+  "_id": {
+    "$oid": "683c9830b52c6643a25c2e3f"
+  },
+  "meter_mark": "HOT-6122",
+  "apartment_id": {
+    "$oid": "683c9830b52c6643a25c2e41"
+  },
+  "install_date": {
+    "$date": "2025-06-01T21:13:04.727Z"
+  },
+  "check_date": {
+    "$date": "2025-06-01T21:13:04.727Z"
+  },
+  "meter_type": "hot",
+  "water_usage": 0.61,
+  "history": [
+    {
+      "date": {
+        "$date": "2025-06-01T21:13:04.727Z"
+      },
+      "value": 0.61
+    }
+  ]
+},
+{
+  "_id": {
+    "$oid": "683c9830b52c6643a25c2e40"
+  },
+  "meter_mark": "COLD-6585",
+  "apartment_id": {
+    "$oid": "683c9830b52c6643a25c2e41"
+  },
+  "install_date": {
+    "$date": "2025-06-01T21:13:04.727Z"
+  },
+  "check_date": {
+    "$date": "2025-06-01T21:13:04.727Z"
+  },
+  "meter_type": "cold",
+  "water_usage": 1.96,
+  "history": [
+    {
+      "date": {
+        "$date": "2025-06-01T21:13:04.727Z"
+      },
+      "value": 1.96
+    }
+  ]
+},
+{
+  "_id": {
+    "$oid": "683c9830b52c6643a25c2e42"
+  },
+  "meter_mark": "HOT-6924",
+  "apartment_id": {
+    "$oid": "683c9830b52c6643a25c2e44"
+  },
+  "install_date": {
+    "$date": "2025-06-01T21:13:04.727Z"
+  },
+  "check_date": {
+    "$date": "2025-06-01T21:13:04.727Z"
+  },
+  "meter_type": "hot",
+  "water_usage": 1.37,
+  "history": [
+    {
+      "date": {
+        "$date": "2025-06-01T21:13:04.727Z"
+      },
+      "value": 1.37
+    }
+  ]
+},
+{
+  "_id": {
+    "$oid": "683c9830b52c6643a25c2e43"
+  },
+  "meter_mark": "COLD-1791",
+  "apartment_id": {
+    "$oid": "683c9830b52c6643a25c2e44"
+  },
+  "install_date": {
+    "$date": "2025-06-01T21:13:04.727Z"
+  },
+  "check_date": {
+    "$date": "2025-06-01T21:13:04.727Z"
+  },
+  "meter_type": "cold",
+  "water_usage": 1.7,
+  "history": [
+    {
+      "date": {
+        "$date": "2025-06-01T21:13:04.727Z"
+      },
+      "value": 1.7
+    }
+  ]
+},
+{
+  "_id": {
+    "$oid": "683c9830b52c6643a25c2e45"
+  },
+  "meter_mark": "HOT-5634",
+  "apartment_id": {
+    "$oid": "683c9830b52c6643a25c2e47"
+  },
+  "install_date": {
+    "$date": "2025-06-01T21:13:04.727Z"
+  },
+  "check_date": {
+    "$date": "2025-06-01T21:13:04.727Z"
+  },
+  "meter_type": "hot",
+  "water_usage": 1.3,
+  "history": [
+    {
+      "date": {
+        "$date": "2025-06-01T21:13:04.727Z"
+      },
+      "value": 1.3
+    }
+  ]
+},
+{
+  "_id": {
+    "$oid": "683c9830b52c6643a25c2e46"
+  },
+  "meter_mark": "COLD-7645",
+  "apartment_id": {
+    "$oid": "683c9830b52c6643a25c2e47"
+  },
+  "install_date": {
+    "$date": "2025-06-01T21:13:04.727Z"
+  },
+  "check_date": {
+    "$date": "2025-06-01T21:13:04.727Z"
+  },
+  "meter_type": "cold",
+  "water_usage": 1.12,
+  "history": [
+    {
+      "date": {
+        "$date": "2025-06-01T21:13:04.727Z"
+      },
+      "value": 1.12
+    }
+  ]
+},
+{
+  "_id": {
+    "$oid": "683c9830b52c6643a25c2e48"
+  },
+  "meter_mark": "HOT-5913",
+  "apartment_id": {
+    "$oid": "683c9830b52c6643a25c2e4a"
+  },
+  "install_date": {
+    "$date": "2025-06-01T21:13:04.727Z"
+  },
+  "check_date": {
+    "$date": "2025-06-01T21:13:04.727Z"
+  },
+  "meter_type": "hot",
+  "water_usage": 1.65,
+  "history": [
+    {
+      "date": {
+        "$date": "2025-06-01T21:13:04.727Z"
+      },
+      "value": 1.65
+    }
+  ]
+},
+{
+  "_id": {
+    "$oid": "683c9830b52c6643a25c2e49"
+  },
+  "meter_mark": "COLD-5337",
+  "apartment_id": {
+    "$oid": "683c9830b52c6643a25c2e4a"
+  },
+  "install_date": {
+    "$date": "2025-06-01T21:13:04.727Z"
+  },
+  "check_date": {
+    "$date": "2025-06-01T21:13:04.727Z"
+  },
+  "meter_type": "cold",
+  "water_usage": 0.52,
+  "history": [
+    {
+      "date": {
+        "$date": "2025-06-01T21:13:04.727Z"
+      },
+      "value": 0.52
+    }
+  ]
+},
+{
+  "_id": {
+    "$oid": "683c9830b52c6643a25c2e4b"
+  },
+  "meter_mark": "HOT-2509",
+  "apartment_id": {
+    "$oid": "683c9830b52c6643a25c2e4d"
+  },
+  "install_date": {
+    "$date": "2025-06-01T21:13:04.727Z"
+  },
+  "check_date": {
+    "$date": "2025-06-01T21:13:04.727Z"
+  },
+  "meter_type": "hot",
+  "water_usage": 0.66,
+  "history": [
+    {
+      "date": {
+        "$date": "2025-06-01T21:13:04.727Z"
+      },
+      "value": 0.66
+    }
+  ]
+},
+{
+  "_id": {
+    "$oid": "683c9830b52c6643a25c2e4c"
+  },
+  "meter_mark": "COLD-9767",
+  "apartment_id": {
+    "$oid": "683c9830b52c6643a25c2e4d"
+  },
+  "install_date": {
+    "$date": "2025-06-01T21:13:04.727Z"
+  },
+  "check_date": {
+    "$date": "2025-06-01T21:13:04.727Z"
+  },
+  "meter_type": "cold",
+  "water_usage": 0.55,
+  "history": [
+    {
+      "date": {
+        "$date": "2025-06-01T21:13:04.727Z"
+      },
+      "value": 0.55
+    }
+  ]
+},
+{
+  "_id": {
+    "$oid": "683c9830b52c6643a25c2e4e"
+  },
+  "meter_mark": "HOT-8866",
+  "apartment_id": {
+    "$oid": "683c9830b52c6643a25c2e50"
+  },
+  "install_date": {
+    "$date": "2025-06-01T21:13:04.727Z"
+  },
+  "check_date": {
+    "$date": "2025-06-01T21:13:04.727Z"
+  },
+  "meter_type": "hot",
+  "water_usage": 1.29,
+  "history": [
+    {
+      "date": {
+        "$date": "2025-06-01T21:13:04.727Z"
+      },
+      "value": 1.29
+    }
+  ]
+},
+{
+  "_id": {
+    "$oid": "683c9830b52c6643a25c2e4f"
+  },
+  "meter_mark": "COLD-3351",
+  "apartment_id": {
+    "$oid": "683c9830b52c6643a25c2e50"
+  },
+  "install_date": {
+    "$date": "2025-06-01T21:13:04.727Z"
+  },
+  "check_date": {
+    "$date": "2025-06-01T21:13:04.727Z"
+  },
+  "meter_type": "cold",
+  "water_usage": 0.63,
+  "history": [
+    {
+      "date": {
+        "$date": "2025-06-01T21:13:04.727Z"
+      },
+      "value": 0.63
+    }
+  ]
+},
+{
+  "_id": {
+    "$oid": "683c9830b52c6643a25c2e51"
+  },
+  "meter_mark": "HOT-5581",
+  "apartment_id": {
+    "$oid": "683c9830b52c6643a25c2e53"
+  },
+  "install_date": {
+    "$date": "2025-06-01T21:13:04.727Z"
+  },
+  "check_date": {
+    "$date": "2025-06-01T21:13:04.727Z"
+  },
+  "meter_type": "hot",
+  "water_usage": 1.66,
+  "history": [
+    {
+      "date": {
+        "$date": "2025-06-01T21:13:04.727Z"
+      },
+      "value": 1.66
+    }
+  ]
+},
+{
+  "_id": {
+    "$oid": "683c9830b52c6643a25c2e52"
+  },
+  "meter_mark": "COLD-1475",
+  "apartment_id": {
+    "$oid": "683c9830b52c6643a25c2e53"
+  },
+  "install_date": {
+    "$date": "2025-06-01T21:13:04.727Z"
+  },
+  "check_date": {
+    "$date": "2025-06-01T21:13:04.727Z"
+  },
+  "meter_type": "cold",
+  "water_usage": 1.07,
+  "history": [
+    {
+      "date": {
+        "$date": "2025-06-01T21:13:04.727Z"
+      },
+      "value": 1.07
+    }
+  ]
+},
+{
+  "_id": {
+    "$oid": "683c9830b52c6643a25c2e54"
+  },
+  "meter_mark": "HOT-6517",
+  "apartment_id": {
+    "$oid": "683c9830b52c6643a25c2e56"
+  },
+  "install_date": {
+    "$date": "2025-06-01T21:13:04.728Z"
+  },
+  "check_date": {
+    "$date": "2025-06-01T21:13:04.728Z"
+  },
+  "meter_type": "hot",
+  "water_usage": 1.03,
+  "history": [
+    {
+      "date": {
+        "$date": "2025-06-01T21:13:04.728Z"
+      },
+      "value": 1.03
+    }
+  ]
+},
+{
+  "_id": {
+    "$oid": "683c9830b52c6643a25c2e55"
+  },
+  "meter_mark": "COLD-6853",
+  "apartment_id": {
+    "$oid": "683c9830b52c6643a25c2e56"
+  },
+  "install_date": {
+    "$date": "2025-06-01T21:13:04.728Z"
+  },
+  "check_date": {
+    "$date": "2025-06-01T21:13:04.728Z"
+  },
+  "meter_type": "cold",
+  "water_usage": 0.69,
+  "history": [
+    {
+      "date": {
+        "$date": "2025-06-01T21:13:04.728Z"
+      },
+      "value": 0.69
+    }
+  ]
+},
+{
+  "_id": {
+    "$oid": "683c9830b52c6643a25c2e57"
+  },
+  "meter_mark": "HOT-4512",
+  "apartment_id": {
+    "$oid": "683c9830b52c6643a25c2e59"
+  },
+  "install_date": {
+    "$date": "2025-06-01T21:13:04.728Z"
+  },
+  "check_date": {
+    "$date": "2025-06-01T21:13:04.728Z"
+  },
+  "meter_type": "hot",
+  "water_usage": 1.29,
+  "history": [
+    {
+      "date": {
+        "$date": "2025-06-01T21:13:04.728Z"
+      },
+      "value": 1.29
+    }
+  ]
+},
+{
+  "_id": {
+    "$oid": "683c9830b52c6643a25c2e58"
+  },
+  "meter_mark": "COLD-5596",
+  "apartment_id": {
+    "$oid": "683c9830b52c6643a25c2e59"
+  },
+  "install_date": {
+    "$date": "2025-06-01T21:13:04.728Z"
+  },
+  "check_date": {
+    "$date": "2025-06-01T21:13:04.728Z"
+  },
+  "meter_type": "cold",
+  "water_usage": 1.01,
+  "history": [
+    {
+      "date": {
+        "$date": "2025-06-01T21:13:04.728Z"
+      },
+      "value": 1.01
+    }
+  ]
+},
+{
+  "_id": {
+    "$oid": "683c9830b52c6643a25c2e5a"
+  },
+  "meter_mark": "HOT-7376",
+  "apartment_id": {
+    "$oid": "683c9830b52c6643a25c2e5c"
+  },
+  "install_date": {
+    "$date": "2025-06-01T21:13:04.728Z"
+  },
+  "check_date": {
+    "$date": "2025-06-01T21:13:04.728Z"
+  },
+  "meter_type": "hot",
+  "water_usage": 1.63,
+  "history": [
+    {
+      "date": {
+        "$date": "2025-06-01T21:13:04.728Z"
+      },
+      "value": 1.63
+    }
+  ]
+},
+{
+  "_id": {
+    "$oid": "683c9830b52c6643a25c2e5b"
+  },
+  "meter_mark": "COLD-9491",
+  "apartment_id": {
+    "$oid": "683c9830b52c6643a25c2e5c"
+  },
+  "install_date": {
+    "$date": "2025-06-01T21:13:04.728Z"
+  },
+  "check_date": {
+    "$date": "2025-06-01T21:13:04.728Z"
+  },
+  "meter_type": "cold",
+  "water_usage": 0.68,
+  "history": [
+    {
+      "date": {
+        "$date": "2025-06-01T21:13:04.728Z"
+      },
+      "value": 0.68
+    }
+  ]
+},
+{
+  "_id": {
+    "$oid": "683c9830b52c6643a25c2e5d"
+  },
+  "meter_mark": "HOT-4472",
+  "apartment_id": {
+    "$oid": "683c9830b52c6643a25c2e5f"
+  },
+  "install_date": {
+    "$date": "2025-06-01T21:13:04.728Z"
+  },
+  "check_date": {
+    "$date": "2025-06-01T21:13:04.728Z"
+  },
+  "meter_type": "hot",
+  "water_usage": 0.69,
+  "history": [
+    {
+      "date": {
+        "$date": "2025-06-01T21:13:04.728Z"
+      },
+      "value": 0.69
+    }
+  ]
+},
+{
+  "_id": {
+    "$oid": "683c9830b52c6643a25c2e5e"
+  },
+  "meter_mark": "COLD-6771",
+  "apartment_id": {
+    "$oid": "683c9830b52c6643a25c2e5f"
+  },
+  "install_date": {
+    "$date": "2025-06-01T21:13:04.728Z"
+  },
+  "check_date": {
+    "$date": "2025-06-01T21:13:04.728Z"
+  },
+  "meter_type": "cold",
+  "water_usage": 1.78,
+  "history": [
+    {
+      "date": {
+        "$date": "2025-06-01T21:13:04.728Z"
+      },
+      "value": 1.78
+    }
+  ]
+},
+{
+  "_id": {
+    "$oid": "683c9830b52c6643a25c2e60"
+  },
+  "meter_mark": "HOT-1836",
+  "apartment_id": {
+    "$oid": "683c9830b52c6643a25c2e62"
+  },
+  "install_date": {
+    "$date": "2025-06-01T21:13:04.728Z"
+  },
+  "check_date": {
+    "$date": "2025-06-01T21:13:04.728Z"
+  },
+  "meter_type": "hot",
+  "water_usage": 1.39,
+  "history": [
+    {
+      "date": {
+        "$date": "2025-06-01T21:13:04.728Z"
+      },
+      "value": 1.39
+    }
+  ]
+},
+{
+  "_id": {
+    "$oid": "683c9830b52c6643a25c2e61"
+  },
+  "meter_mark": "COLD-5640",
+  "apartment_id": {
+    "$oid": "683c9830b52c6643a25c2e62"
+  },
+  "install_date": {
+    "$date": "2025-06-01T21:13:04.728Z"
+  },
+  "check_date": {
+    "$date": "2025-06-01T21:13:04.728Z"
+  },
+  "meter_type": "cold",
+  "water_usage": 1.62,
+  "history": [
+    {
+      "date": {
+        "$date": "2025-06-01T21:13:04.728Z"
+      },
+      "value": 1.62
+    }
+  ]
+},
+{
+  "_id": {
+    "$oid": "683c9830b52c6643a25c2e63"
+  },
+  "meter_mark": "HOT-3004",
+  "apartment_id": {
+    "$oid": "683c9830b52c6643a25c2e65"
+  },
+  "install_date": {
+    "$date": "2025-06-01T21:13:04.728Z"
+  },
+  "check_date": {
+    "$date": "2025-06-01T21:13:04.728Z"
+  },
+  "meter_type": "hot",
+  "water_usage": 1.55,
+  "history": [
+    {
+      "date": {
+        "$date": "2025-06-01T21:13:04.728Z"
+      },
+      "value": 1.55
+    }
+  ]
+},
+{
+  "_id": {
+    "$oid": "683c9830b52c6643a25c2e64"
+  },
+  "meter_mark": "COLD-3539",
+  "apartment_id": {
+    "$oid": "683c9830b52c6643a25c2e65"
+  },
+  "install_date": {
+    "$date": "2025-06-01T21:13:04.728Z"
+  },
+  "check_date": {
+    "$date": "2025-06-01T21:13:04.728Z"
+  },
+  "meter_type": "cold",
+  "water_usage": 1.64,
+  "history": [
+    {
+      "date": {
+        "$date": "2025-06-01T21:13:04.728Z"
+      },
+      "value": 1.64
+    }
+  ]
+},
+{
+  "_id": {
+    "$oid": "683c9830b52c6643a25c2e66"
+  },
+  "meter_mark": "HOT-9261",
+  "apartment_id": {
+    "$oid": "683c9830b52c6643a25c2e68"
+  },
+  "install_date": {
+    "$date": "2025-06-01T21:13:04.728Z"
+  },
+  "check_date": {
+    "$date": "2025-06-01T21:13:04.728Z"
+  },
+  "meter_type": "hot",
+  "water_usage": 1.03,
+  "history": [
+    {
+      "date": {
+        "$date": "2025-06-01T21:13:04.728Z"
+      },
+      "value": 1.03
+    }
+  ]
+},
+{
+  "_id": {
+    "$oid": "683c9830b52c6643a25c2e67"
+  },
+  "meter_mark": "COLD-9272",
+  "apartment_id": {
+    "$oid": "683c9830b52c6643a25c2e68"
+  },
+  "install_date": {
+    "$date": "2025-06-01T21:13:04.728Z"
+  },
+  "check_date": {
+    "$date": "2025-06-01T21:13:04.728Z"
+  },
+  "meter_type": "cold",
+  "water_usage": 1.01,
+  "history": [
+    {
+      "date": {
+        "$date": "2025-06-01T21:13:04.728Z"
+      },
+      "value": 1.01
+    }
+  ]
+},
+{
+  "_id": {
+    "$oid": "683c9830b52c6643a25c2e69"
+  },
+  "meter_mark": "HOT-2989",
+  "apartment_id": {
+    "$oid": "683c9830b52c6643a25c2e6b"
+  },
+  "install_date": {
+    "$date": "2025-06-01T21:13:04.728Z"
+  },
+  "check_date": {
+    "$date": "2025-06-01T21:13:04.728Z"
+  },
+  "meter_type": "hot",
+  "water_usage": 0.66,
+  "history": [
+    {
+      "date": {
+        "$date": "2025-06-01T21:13:04.728Z"
+      },
+      "value": 0.66
+    }
+  ]
+},
+{
+  "_id": {
+    "$oid": "683c9830b52c6643a25c2e6a"
+  },
+  "meter_mark": "COLD-2010",
+  "apartment_id": {
+    "$oid": "683c9830b52c6643a25c2e6b"
+  },
+  "install_date": {
+    "$date": "2025-06-01T21:13:04.728Z"
+  },
+  "check_date": {
+    "$date": "2025-06-01T21:13:04.728Z"
+  },
+  "meter_type": "cold",
+  "water_usage": 1.5,
+  "history": [
+    {
+      "date": {
+        "$date": "2025-06-01T21:13:04.728Z"
+      },
+      "value": 1.5
+    }
+  ]
+},
+{
+  "_id": {
+    "$oid": "683c9830b52c6643a25c2e6c"
+  },
+  "meter_mark": "HOT-4421",
+  "apartment_id": {
+    "$oid": "683c9830b52c6643a25c2e6e"
+  },
+  "install_date": {
+    "$date": "2025-06-01T21:13:04.728Z"
+  },
+  "check_date": {
+    "$date": "2025-06-01T21:13:04.728Z"
+  },
+  "meter_type": "hot",
+  "water_usage": 1.78,
+  "history": [
+    {
+      "date": {
+        "$date": "2025-06-01T21:13:04.728Z"
+      },
+      "value": 1.78
+    }
+  ]
+},
+{
+  "_id": {
+    "$oid": "683c9830b52c6643a25c2e6d"
+  },
+  "meter_mark": "COLD-7959",
+  "apartment_id": {
+    "$oid": "683c9830b52c6643a25c2e6e"
+  },
+  "install_date": {
+    "$date": "2025-06-01T21:13:04.728Z"
+  },
+  "check_date": {
+    "$date": "2025-06-01T21:13:04.728Z"
+  },
+  "meter_type": "cold",
+  "water_usage": 1.33,
+  "history": [
+    {
+      "date": {
+        "$date": "2025-06-01T21:13:04.728Z"
+      },
+      "value": 1.33
+    }
+  ]
+},
+{
+  "_id": {
+    "$oid": "683c9830b52c6643a25c2e6f"
+  },
+  "meter_mark": "HOT-1007",
+  "apartment_id": {
+    "$oid": "683c9830b52c6643a25c2e71"
+  },
+  "install_date": {
+    "$date": "2025-06-01T21:13:04.728Z"
+  },
+  "check_date": {
+    "$date": "2025-06-01T21:13:04.728Z"
+  },
+  "meter_type": "hot",
+  "water_usage": 0.61,
+  "history": [
+    {
+      "date": {
+        "$date": "2025-06-01T21:13:04.728Z"
+      },
+      "value": 0.61
+    }
+  ]
+},
+{
+  "_id": {
+    "$oid": "683c9830b52c6643a25c2e70"
+  },
+  "meter_mark": "COLD-8396",
+  "apartment_id": {
+    "$oid": "683c9830b52c6643a25c2e71"
+  },
+  "install_date": {
+    "$date": "2025-06-01T21:13:04.728Z"
+  },
+  "check_date": {
+    "$date": "2025-06-01T21:13:04.728Z"
+  },
+  "meter_type": "cold",
+  "water_usage": 1.08,
+  "history": [
+    {
+      "date": {
+        "$date": "2025-06-01T21:13:04.728Z"
+      },
+      "value": 1.08
+    }
+  ]
+},
+{
+  "_id": {
+    "$oid": "683c9830b52c6643a25c2e76"
+  },
+  "meter_mark": "HOT-2581",
+  "apartment_id": {
+    "$oid": "683c9830b52c6643a25c2e78"
+  },
+  "install_date": {
+    "$date": "2025-06-01T21:13:04.728Z"
+  },
+  "check_date": {
+    "$date": "2025-06-01T21:13:04.728Z"
+  },
+  "meter_type": "hot",
+  "water_usage": 1.68,
+  "history": [
+    {
+      "date": {
+        "$date": "2025-06-01T21:13:04.728Z"
+      },
+      "value": 1.68
+    }
+  ]
+},
+{
+  "_id": {
+    "$oid": "683c9830b52c6643a25c2e77"
+  },
+  "meter_mark": "COLD-3384",
+  "apartment_id": {
+    "$oid": "683c9830b52c6643a25c2e78"
+  },
+  "install_date": {
+    "$date": "2025-06-01T21:13:04.728Z"
+  },
+  "check_date": {
+    "$date": "2025-06-01T21:13:04.728Z"
+  },
+  "meter_type": "cold",
+  "water_usage": 1.28,
+  "history": [
+    {
+      "date": {
+        "$date": "2025-06-01T21:13:04.728Z"
+      },
+      "value": 1.28
+    }
+  ]
+},
+{
+  "_id": {
+    "$oid": "683c9830b52c6643a25c2e79"
+  },
+  "meter_mark": "HOT-9207",
+  "apartment_id": {
+    "$oid": "683c9830b52c6643a25c2e7b"
+  },
+  "install_date": {
+    "$date": "2025-06-01T21:13:04.728Z"
+  },
+  "check_date": {
+    "$date": "2025-06-01T21:13:04.728Z"
+  },
+  "meter_type": "hot",
+  "water_usage": 1.62,
+  "history": [
+    {
+      "date": {
+        "$date": "2025-06-01T21:13:04.728Z"
+      },
+      "value": 1.62
+    }
+  ]
+},
+{
+  "_id": {
+    "$oid": "683c9830b52c6643a25c2e7a"
+  },
+  "meter_mark": "COLD-7191",
+  "apartment_id": {
+    "$oid": "683c9830b52c6643a25c2e7b"
+  },
+  "install_date": {
+    "$date": "2025-06-01T21:13:04.728Z"
+  },
+  "check_date": {
+    "$date": "2025-06-01T21:13:04.728Z"
+  },
+  "meter_type": "cold",
+  "water_usage": 0.93,
+  "history": [
+    {
+      "date": {
+        "$date": "2025-06-01T21:13:04.728Z"
+      },
+      "value": 0.93
+    }
+  ]
+},
+{
+  "_id": {
+    "$oid": "683c9830b52c6643a25c2e7c"
+  },
+  "meter_mark": "HOT-7813",
+  "apartment_id": {
+    "$oid": "683c9830b52c6643a25c2e7e"
+  },
+  "install_date": {
+    "$date": "2025-06-01T21:13:04.728Z"
+  },
+  "check_date": {
+    "$date": "2025-06-01T21:13:04.728Z"
+  },
+  "meter_type": "hot",
+  "water_usage": 1.94,
+  "history": [
+    {
+      "date": {
+        "$date": "2025-06-01T21:13:04.728Z"
+      },
+      "value": 1.94
+    }
+  ]
+},
+{
+  "_id": {
+    "$oid": "683c9830b52c6643a25c2e7d"
+  },
+  "meter_mark": "COLD-2891",
+  "apartment_id": {
+    "$oid": "683c9830b52c6643a25c2e7e"
+  },
+  "install_date": {
+    "$date": "2025-06-01T21:13:04.728Z"
+  },
+  "check_date": {
+    "$date": "2025-06-01T21:13:04.728Z"
+  },
+  "meter_type": "cold",
+  "water_usage": 1.2,
+  "history": [
+    {
+      "date": {
+        "$date": "2025-06-01T21:13:04.728Z"
+      },
+      "value": 1.2
+    }
+  ]
+},
+{
+  "_id": {
+    "$oid": "683c9830b52c6643a25c2e7f"
+  },
+  "meter_mark": "HOT-5364",
+  "apartment_id": {
+    "$oid": "683c9830b52c6643a25c2e81"
+  },
+  "install_date": {
+    "$date": "2025-06-01T21:13:04.728Z"
+  },
+  "check_date": {
+    "$date": "2025-06-01T21:13:04.728Z"
+  },
+  "meter_type": "hot",
+  "water_usage": 1.86,
+  "history": [
+    {
+      "date": {
+        "$date": "2025-06-01T21:13:04.728Z"
+      },
+      "value": 1.86
+    }
+  ]
+},
+{
+  "_id": {
+    "$oid": "683c9830b52c6643a25c2e80"
+  },
+  "meter_mark": "COLD-1048",
+  "apartment_id": {
+    "$oid": "683c9830b52c6643a25c2e81"
+  },
+  "install_date": {
+    "$date": "2025-06-01T21:13:04.728Z"
+  },
+  "check_date": {
+    "$date": "2025-06-01T21:13:04.728Z"
+  },
+  "meter_type": "cold",
+  "water_usage": 0.51,
+  "history": [
+    {
+      "date": {
+        "$date": "2025-06-01T21:13:04.728Z"
+      },
+      "value": 0.51
+    }
+  ]
+},
+{
+  "_id": {
+    "$oid": "683c9830b52c6643a25c2e82"
+  },
+  "meter_mark": "HOT-1497",
+  "apartment_id": {
+    "$oid": "683c9830b52c6643a25c2e84"
+  },
+  "install_date": {
+    "$date": "2025-06-01T21:13:04.728Z"
+  },
+  "check_date": {
+    "$date": "2025-06-01T21:13:04.728Z"
+  },
+  "meter_type": "hot",
+  "water_usage": 0.78,
+  "history": [
+    {
+      "date": {
+        "$date": "2025-06-01T21:13:04.728Z"
+      },
+      "value": 0.78
+    }
+  ]
+},
+{
+  "_id": {
+    "$oid": "683c9830b52c6643a25c2e83"
+  },
+  "meter_mark": "COLD-4987",
+  "apartment_id": {
+    "$oid": "683c9830b52c6643a25c2e84"
+  },
+  "install_date": {
+    "$date": "2025-06-01T21:13:04.728Z"
+  },
+  "check_date": {
+    "$date": "2025-06-01T21:13:04.728Z"
+  },
+  "meter_type": "cold",
+  "water_usage": 0.96,
+  "history": [
+    {
+      "date": {
+        "$date": "2025-06-01T21:13:04.728Z"
+      },
+      "value": 0.96
+    }
+  ]
+},
+{
+  "_id": {
+    "$oid": "683c9830b52c6643a25c2e85"
+  },
+  "meter_mark": "HOT-4642",
+  "apartment_id": {
+    "$oid": "683c9830b52c6643a25c2e87"
+  },
+  "install_date": {
+    "$date": "2025-06-01T21:13:04.728Z"
+  },
+  "check_date": {
+    "$date": "2025-06-01T21:13:04.728Z"
+  },
+  "meter_type": "hot",
+  "water_usage": 1.3,
+  "history": [
+    {
+      "date": {
+        "$date": "2025-06-01T21:13:04.728Z"
+      },
+      "value": 1.3
+    }
+  ]
+},
+{
+  "_id": {
+    "$oid": "683c9830b52c6643a25c2e86"
+  },
+  "meter_mark": "COLD-7382",
+  "apartment_id": {
+    "$oid": "683c9830b52c6643a25c2e87"
+  },
+  "install_date": {
+    "$date": "2025-06-01T21:13:04.728Z"
+  },
+  "check_date": {
+    "$date": "2025-06-01T21:13:04.728Z"
+  },
+  "meter_type": "cold",
+  "water_usage": 1.11,
+  "history": [
+    {
+      "date": {
+        "$date": "2025-06-01T21:13:04.728Z"
+      },
+      "value": 1.11
+    }
+  ]
+},
+{
+  "_id": {
+    "$oid": "683c9830b52c6643a25c2e88"
+  },
+  "meter_mark": "HOT-2697",
+  "apartment_id": {
+    "$oid": "683c9830b52c6643a25c2e8a"
+  },
+  "install_date": {
+    "$date": "2025-06-01T21:13:04.728Z"
+  },
+  "check_date": {
+    "$date": "2025-06-01T21:13:04.728Z"
+  },
+  "meter_type": "hot",
+  "water_usage": 1.14,
+  "history": [
+    {
+      "date": {
+        "$date": "2025-06-01T21:13:04.728Z"
+      },
+      "value": 1.14
+    }
+  ]
+},
+{
+  "_id": {
+    "$oid": "683c9830b52c6643a25c2e89"
+  },
+  "meter_mark": "COLD-2227",
+  "apartment_id": {
+    "$oid": "683c9830b52c6643a25c2e8a"
+  },
+  "install_date": {
+    "$date": "2025-06-01T21:13:04.728Z"
+  },
+  "check_date": {
+    "$date": "2025-06-01T21:13:04.728Z"
+  },
+  "meter_type": "cold",
+  "water_usage": 1.1,
+  "history": [
+    {
+      "date": {
+        "$date": "2025-06-01T21:13:04.728Z"
+      },
+      "value": 1.1
+    }
+  ]
+},
+{
+  "_id": {
+    "$oid": "683c9830b52c6643a25c2e8b"
+  },
+  "meter_mark": "HOT-8673",
+  "apartment_id": {
+    "$oid": "683c9830b52c6643a25c2e8d"
+  },
+  "install_date": {
+    "$date": "2025-06-01T21:13:04.728Z"
+  },
+  "check_date": {
+    "$date": "2025-06-01T21:13:04.728Z"
+  },
+  "meter_type": "hot",
+  "water_usage": 1.32,
+  "history": [
+    {
+      "date": {
+        "$date": "2025-06-01T21:13:04.728Z"
+      },
+      "value": 1.32
+    }
+  ]
+},
+{
+  "_id": {
+    "$oid": "683c9830b52c6643a25c2e8c"
+  },
+  "meter_mark": "COLD-3120",
+  "apartment_id": {
+    "$oid": "683c9830b52c6643a25c2e8d"
+  },
+  "install_date": {
+    "$date": "2025-06-01T21:13:04.728Z"
+  },
+  "check_date": {
+    "$date": "2025-06-01T21:13:04.728Z"
+  },
+  "meter_type": "cold",
+  "water_usage": 0.6,
+  "history": [
+    {
+      "date": {
+        "$date": "2025-06-01T21:13:04.728Z"
+      },
+      "value": 0.6
+    }
+  ]
+},
+{
+  "_id": {
+    "$oid": "683c9830b52c6643a25c2e8e"
+  },
+  "meter_mark": "HOT-3336",
+  "apartment_id": {
+    "$oid": "683c9830b52c6643a25c2e90"
+  },
+  "install_date": {
+    "$date": "2025-06-01T21:13:04.728Z"
+  },
+  "check_date": {
+    "$date": "2025-06-01T21:13:04.728Z"
+  },
+  "meter_type": "hot",
+  "water_usage": 0.53,
+  "history": [
+    {
+      "date": {
+        "$date": "2025-06-01T21:13:04.728Z"
+      },
+      "value": 0.53
+    }
+  ]
+},
+{
+  "_id": {
+    "$oid": "683c9830b52c6643a25c2e8f"
+  },
+  "meter_mark": "COLD-7450",
+  "apartment_id": {
+    "$oid": "683c9830b52c6643a25c2e90"
+  },
+  "install_date": {
+    "$date": "2025-06-01T21:13:04.728Z"
+  },
+  "check_date": {
+    "$date": "2025-06-01T21:13:04.728Z"
+  },
+  "meter_type": "cold",
+  "water_usage": 1.19,
+  "history": [
+    {
+      "date": {
+        "$date": "2025-06-01T21:13:04.728Z"
+      },
+      "value": 1.19
+    }
+  ]
+},
+{
+  "_id": {
+    "$oid": "683c9830b52c6643a25c2e91"
+  },
+  "meter_mark": "HOT-7232",
+  "apartment_id": {
+    "$oid": "683c9830b52c6643a25c2e93"
+  },
+  "install_date": {
+    "$date": "2025-06-01T21:13:04.728Z"
+  },
+  "check_date": {
+    "$date": "2025-06-01T21:13:04.728Z"
+  },
+  "meter_type": "hot",
+  "water_usage": 0.9,
+  "history": [
+    {
+      "date": {
+        "$date": "2025-06-01T21:13:04.728Z"
+      },
+      "value": 0.9
+    }
+  ]
+},
+{
+  "_id": {
+    "$oid": "683c9830b52c6643a25c2e92"
+  },
+  "meter_mark": "COLD-5468",
+  "apartment_id": {
+    "$oid": "683c9830b52c6643a25c2e93"
+  },
+  "install_date": {
+    "$date": "2025-06-01T21:13:04.728Z"
+  },
+  "check_date": {
+    "$date": "2025-06-01T21:13:04.728Z"
+  },
+  "meter_type": "cold",
+  "water_usage": 1.11,
+  "history": [
+    {
+      "date": {
+        "$date": "2025-06-01T21:13:04.728Z"
+      },
+      "value": 1.11
+    }
+  ]
+},
+{
+  "_id": {
+    "$oid": "683c9830b52c6643a25c2e94"
+  },
+  "meter_mark": "HOT-9773",
+  "apartment_id": {
+    "$oid": "683c9830b52c6643a25c2e96"
+  },
+  "install_date": {
+    "$date": "2025-06-01T21:13:04.728Z"
+  },
+  "check_date": {
+    "$date": "2025-06-01T21:13:04.728Z"
+  },
+  "meter_type": "hot",
+  "water_usage": 1.05,
+  "history": [
+    {
+      "date": {
+        "$date": "2025-06-01T21:13:04.728Z"
+      },
+      "value": 1.05
+    }
+  ]
+},
+{
+  "_id": {
+    "$oid": "683c9830b52c6643a25c2e95"
+  },
+  "meter_mark": "COLD-7853",
+  "apartment_id": {
+    "$oid": "683c9830b52c6643a25c2e96"
+  },
+  "install_date": {
+    "$date": "2025-06-01T21:13:04.728Z"
+  },
+  "check_date": {
+    "$date": "2025-06-01T21:13:04.728Z"
+  },
+  "meter_type": "cold",
+  "water_usage": 1.23,
+  "history": [
+    {
+      "date": {
+        "$date": "2025-06-01T21:13:04.728Z"
+      },
+      "value": 1.23
+    }
+  ]
+},
+{
+  "_id": {
+    "$oid": "683c9830b52c6643a25c2e97"
+  },
+  "meter_mark": "HOT-5556",
+  "apartment_id": {
+    "$oid": "683c9830b52c6643a25c2e99"
+  },
+  "install_date": {
+    "$date": "2025-06-01T21:13:04.728Z"
+  },
+  "check_date": {
+    "$date": "2025-06-01T21:13:04.728Z"
+  },
+  "meter_type": "hot",
+  "water_usage": 1.03,
+  "history": [
+    {
+      "date": {
+        "$date": "2025-06-01T21:13:04.728Z"
+      },
+      "value": 1.03
+    }
+  ]
+},
+{
+  "_id": {
+    "$oid": "683c9830b52c6643a25c2e98"
+  },
+  "meter_mark": "COLD-7595",
+  "apartment_id": {
+    "$oid": "683c9830b52c6643a25c2e99"
+  },
+  "install_date": {
+    "$date": "2025-06-01T21:13:04.728Z"
+  },
+  "check_date": {
+    "$date": "2025-06-01T21:13:04.728Z"
+  },
+  "meter_type": "cold",
+  "water_usage": 1.47,
+  "history": [
+    {
+      "date": {
+        "$date": "2025-06-01T21:13:04.728Z"
+      },
+      "value": 1.47
+    }
+  ]
+},
+{
+  "_id": {
+    "$oid": "683c9830b52c6643a25c2e9a"
+  },
+  "meter_mark": "HOT-5482",
+  "apartment_id": {
+    "$oid": "683c9830b52c6643a25c2e9c"
+  },
+  "install_date": {
+    "$date": "2025-06-01T21:13:04.728Z"
+  },
+  "check_date": {
+    "$date": "2025-06-01T21:13:04.728Z"
+  },
+  "meter_type": "hot",
+  "water_usage": 1.34,
+  "history": [
+    {
+      "date": {
+        "$date": "2025-06-01T21:13:04.728Z"
+      },
+      "value": 1.34
+    }
+  ]
+},
+{
+  "_id": {
+    "$oid": "683c9830b52c6643a25c2e9b"
+  },
+  "meter_mark": "COLD-8158",
+  "apartment_id": {
+    "$oid": "683c9830b52c6643a25c2e9c"
+  },
+  "install_date": {
+    "$date": "2025-06-01T21:13:04.728Z"
+  },
+  "check_date": {
+    "$date": "2025-06-01T21:13:04.728Z"
+  },
+  "meter_type": "cold",
+  "water_usage": 1.72,
+  "history": [
+    {
+      "date": {
+        "$date": "2025-06-01T21:13:04.728Z"
+      },
+      "value": 1.72
+    }
+  ]
+},
+{
+  "_id": {
+    "$oid": "683c9830b52c6643a25c2e9d"
+  },
+  "meter_mark": "HOT-2562",
+  "apartment_id": {
+    "$oid": "683c9830b52c6643a25c2e9f"
+  },
+  "install_date": {
+    "$date": "2025-06-01T21:13:04.728Z"
+  },
+  "check_date": {
+    "$date": "2025-06-01T21:13:04.728Z"
+  },
+  "meter_type": "hot",
+  "water_usage": 1.77,
+  "history": [
+    {
+      "date": {
+        "$date": "2025-06-01T21:13:04.728Z"
+      },
+      "value": 1.77
+    }
+  ]
+},
+{
+  "_id": {
+    "$oid": "683c9830b52c6643a25c2e9e"
+  },
+  "meter_mark": "COLD-9844",
+  "apartment_id": {
+    "$oid": "683c9830b52c6643a25c2e9f"
+  },
+  "install_date": {
+    "$date": "2025-06-01T21:13:04.728Z"
+  },
+  "check_date": {
+    "$date": "2025-06-01T21:13:04.728Z"
+  },
+  "meter_type": "cold",
+  "water_usage": 0.91,
+  "history": [
+    {
+      "date": {
+        "$date": "2025-06-01T21:13:04.728Z"
+      },
+      "value": 0.91
+    }
+  ]
+},
+{
+  "_id": {
+    "$oid": "683c9830b52c6643a25c2ea0"
+  },
+  "meter_mark": "HOT-3115",
+  "apartment_id": {
+    "$oid": "683c9830b52c6643a25c2ea2"
+  },
+  "install_date": {
+    "$date": "2025-06-01T21:13:04.728Z"
+  },
+  "check_date": {
+    "$date": "2025-06-01T21:13:04.728Z"
+  },
+  "meter_type": "hot",
+  "water_usage": 1.74,
+  "history": [
+    {
+      "date": {
+        "$date": "2025-06-01T21:13:04.728Z"
+      },
+      "value": 1.74
+    }
+  ]
+},
+{
+  "_id": {
+    "$oid": "683c9830b52c6643a25c2ea1"
+  },
+  "meter_mark": "COLD-7748",
+  "apartment_id": {
+    "$oid": "683c9830b52c6643a25c2ea2"
+  },
+  "install_date": {
+    "$date": "2025-06-01T21:13:04.728Z"
+  },
+  "check_date": {
+    "$date": "2025-06-01T21:13:04.728Z"
+  },
+  "meter_type": "cold",
+  "water_usage": 0.95,
+  "history": [
+    {
+      "date": {
+        "$date": "2025-06-01T21:13:04.728Z"
+      },
+      "value": 0.95
+    }
+  ]
+},
+{
+  "_id": {
+    "$oid": "683c9830b52c6643a25c2ea3"
+  },
+  "meter_mark": "HOT-3287",
+  "apartment_id": {
+    "$oid": "683c9830b52c6643a25c2ea5"
+  },
+  "install_date": {
+    "$date": "2025-06-01T21:13:04.728Z"
+  },
+  "check_date": {
+    "$date": "2025-06-01T21:13:04.728Z"
+  },
+  "meter_type": "hot",
+  "water_usage": 1.09,
+  "history": [
+    {
+      "date": {
+        "$date": "2025-06-01T21:13:04.728Z"
+      },
+      "value": 1.09
+    }
+  ]
+},
+{
+  "_id": {
+    "$oid": "683c9830b52c6643a25c2ea4"
+  },
+  "meter_mark": "COLD-8713",
+  "apartment_id": {
+    "$oid": "683c9830b52c6643a25c2ea5"
+  },
+  "install_date": {
+    "$date": "2025-06-01T21:13:04.728Z"
+  },
+  "check_date": {
+    "$date": "2025-06-01T21:13:04.728Z"
+  },
+  "meter_type": "cold",
+  "water_usage": 1.78,
+  "history": [
+    {
+      "date": {
+        "$date": "2025-06-01T21:13:04.728Z"
+      },
+      "value": 1.78
+    }
+  ]
+},
+{
+  "_id": {
+    "$oid": "683c9830b52c6643a25c2ea6"
+  },
+  "meter_mark": "HOT-4185",
+  "apartment_id": {
+    "$oid": "683c9830b52c6643a25c2ea8"
+  },
+  "install_date": {
+    "$date": "2025-06-01T21:13:04.728Z"
+  },
+  "check_date": {
+    "$date": "2025-06-01T21:13:04.728Z"
+  },
+  "meter_type": "hot",
+  "water_usage": 1.62,
+  "history": [
+    {
+      "date": {
+        "$date": "2025-06-01T21:13:04.728Z"
+      },
+      "value": 1.62
+    }
+  ]
+},
+{
+  "_id": {
+    "$oid": "683c9830b52c6643a25c2ea7"
+  },
+  "meter_mark": "COLD-5420",
+  "apartment_id": {
+    "$oid": "683c9830b52c6643a25c2ea8"
+  },
+  "install_date": {
+    "$date": "2025-06-01T21:13:04.728Z"
+  },
+  "check_date": {
+    "$date": "2025-06-01T21:13:04.728Z"
+  },
+  "meter_type": "cold",
+  "water_usage": 0.95,
+  "history": [
+    {
+      "date": {
+        "$date": "2025-06-01T21:13:04.728Z"
+      },
+      "value": 0.95
+    }
+  ]
+},
+{
+  "_id": {
+    "$oid": "683c9830b52c6643a25c2ea9"
+  },
+  "meter_mark": "HOT-8678",
+  "apartment_id": {
+    "$oid": "683c9830b52c6643a25c2eab"
+  },
+  "install_date": {
+    "$date": "2025-06-01T21:13:04.728Z"
+  },
+  "check_date": {
+    "$date": "2025-06-01T21:13:04.728Z"
+  },
+  "meter_type": "hot",
+  "water_usage": 0.57,
+  "history": [
+    {
+      "date": {
+        "$date": "2025-06-01T21:13:04.728Z"
+      },
+      "value": 0.57
+    }
+  ]
+},
+{
+  "_id": {
+    "$oid": "683c9830b52c6643a25c2eaa"
+  },
+  "meter_mark": "COLD-9425",
+  "apartment_id": {
+    "$oid": "683c9830b52c6643a25c2eab"
+  },
+  "install_date": {
+    "$date": "2025-06-01T21:13:04.728Z"
+  },
+  "check_date": {
+    "$date": "2025-06-01T21:13:04.728Z"
+  },
+  "meter_type": "cold",
+  "water_usage": 1.93,
+  "history": [
+    {
+      "date": {
+        "$date": "2025-06-01T21:13:04.728Z"
+      },
+      "value": 1.93
+    }
+  ]
+},
+{
+  "_id": {
+    "$oid": "683c9830b52c6643a25c2eac"
+  },
+  "meter_mark": "HOT-1995",
+  "apartment_id": {
+    "$oid": "683c9830b52c6643a25c2eae"
+  },
+  "install_date": {
+    "$date": "2025-06-01T21:13:04.728Z"
+  },
+  "check_date": {
+    "$date": "2025-06-01T21:13:04.728Z"
+  },
+  "meter_type": "hot",
+  "water_usage": 1.01,
+  "history": [
+    {
+      "date": {
+        "$date": "2025-06-01T21:13:04.728Z"
+      },
+      "value": 1.01
+    }
+  ]
+},
+{
+  "_id": {
+    "$oid": "683c9830b52c6643a25c2ead"
+  },
+  "meter_mark": "COLD-7516",
+  "apartment_id": {
+    "$oid": "683c9830b52c6643a25c2eae"
+  },
+  "install_date": {
+    "$date": "2025-06-01T21:13:04.728Z"
+  },
+  "check_date": {
+    "$date": "2025-06-01T21:13:04.728Z"
+  },
+  "meter_type": "cold",
+  "water_usage": 1.49,
+  "history": [
+    {
+      "date": {
+        "$date": "2025-06-01T21:13:04.728Z"
+      },
+      "value": 1.49
+    }
+  ]
+},
+{
+  "_id": {
+    "$oid": "683c9830b52c6643a25c2eaf"
+  },
+  "meter_mark": "HOT-2932",
+  "apartment_id": {
+    "$oid": "683c9830b52c6643a25c2eb1"
+  },
+  "install_date": {
+    "$date": "2025-06-01T21:13:04.728Z"
+  },
+  "check_date": {
+    "$date": "2025-06-01T21:13:04.728Z"
+  },
+  "meter_type": "hot",
+  "water_usage": 1.39,
+  "history": [
+    {
+      "date": {
+        "$date": "2025-06-01T21:13:04.728Z"
+      },
+      "value": 1.39
+    }
+  ]
+},
+{
+  "_id": {
+    "$oid": "683c9830b52c6643a25c2eb0"
+  },
+  "meter_mark": "COLD-9771",
+  "apartment_id": {
+    "$oid": "683c9830b52c6643a25c2eb1"
+  },
+  "install_date": {
+    "$date": "2025-06-01T21:13:04.728Z"
+  },
+  "check_date": {
+    "$date": "2025-06-01T21:13:04.728Z"
+  },
+  "meter_type": "cold",
+  "water_usage": 0.57,
+  "history": [
+    {
+      "date": {
+        "$date": "2025-06-01T21:13:04.728Z"
+      },
+      "value": 0.57
+    }
+  ]
+},
+{
+  "_id": {
+    "$oid": "683c9830b52c6643a25c2eb3"
+  },
+  "meter_mark": "HOT-7673",
+  "apartment_id": {
+    "$oid": "683c9830b52c6643a25c2eb5"
+  },
+  "install_date": {
+    "$date": "2025-06-01T21:13:04.728Z"
+  },
+  "check_date": {
+    "$date": "2025-06-01T21:13:04.728Z"
+  },
+  "meter_type": "hot",
+  "water_usage": 1.6,
+  "history": [
+    {
+      "date": {
+        "$date": "2025-06-01T21:13:04.728Z"
+      },
+      "value": 1.6
+    }
+  ]
+},
+{
+  "_id": {
+    "$oid": "683c9830b52c6643a25c2eb4"
+  },
+  "meter_mark": "COLD-4114",
+  "apartment_id": {
+    "$oid": "683c9830b52c6643a25c2eb5"
+  },
+  "install_date": {
+    "$date": "2025-06-01T21:13:04.728Z"
+  },
+  "check_date": {
+    "$date": "2025-06-01T21:13:04.728Z"
+  },
+  "meter_type": "cold",
+  "water_usage": 1.01,
+  "history": [
+    {
+      "date": {
+        "$date": "2025-06-01T21:13:04.728Z"
+      },
+      "value": 1.01
+    }
+  ]
+},
+{
+  "_id": {
+    "$oid": "683c9830b52c6643a25c2eb6"
+  },
+  "meter_mark": "HOT-5256",
+  "apartment_id": {
+    "$oid": "683c9830b52c6643a25c2eb8"
+  },
+  "install_date": {
+    "$date": "2025-06-01T21:13:04.728Z"
+  },
+  "check_date": {
+    "$date": "2025-06-01T21:13:04.728Z"
+  },
+  "meter_type": "hot",
+  "water_usage": 0.85,
+  "history": [
+    {
+      "date": {
+        "$date": "2025-06-01T21:13:04.728Z"
+      },
+      "value": 0.85
+    }
+  ]
+},
+{
+  "_id": {
+    "$oid": "683c9830b52c6643a25c2eb7"
+  },
+  "meter_mark": "COLD-9844",
+  "apartment_id": {
+    "$oid": "683c9830b52c6643a25c2eb8"
+  },
+  "install_date": {
+    "$date": "2025-06-01T21:13:04.728Z"
+  },
+  "check_date": {
+    "$date": "2025-06-01T21:13:04.728Z"
+  },
+  "meter_type": "cold",
+  "water_usage": 0.51,
+  "history": [
+    {
+      "date": {
+        "$date": "2025-06-01T21:13:04.728Z"
+      },
+      "value": 0.51
+    }
+  ]
+},
+{
+  "_id": {
+    "$oid": "683c9830b52c6643a25c2eb9"
+  },
+  "meter_mark": "HOT-3893",
+  "apartment_id": {
+    "$oid": "683c9830b52c6643a25c2ebb"
+  },
+  "install_date": {
+    "$date": "2025-06-01T21:13:04.728Z"
+  },
+  "check_date": {
+    "$date": "2025-06-01T21:13:04.728Z"
+  },
+  "meter_type": "hot",
+  "water_usage": 0.78,
+  "history": [
+    {
+      "date": {
+        "$date": "2025-06-01T21:13:04.728Z"
+      },
+      "value": 0.78
+    }
+  ]
+},
+{
+  "_id": {
+    "$oid": "683c9830b52c6643a25c2eba"
+  },
+  "meter_mark": "COLD-9050",
+  "apartment_id": {
+    "$oid": "683c9830b52c6643a25c2ebb"
+  },
+  "install_date": {
+    "$date": "2025-06-01T21:13:04.728Z"
+  },
+  "check_date": {
+    "$date": "2025-06-01T21:13:04.728Z"
+  },
+  "meter_type": "cold",
+  "water_usage": 1.79,
+  "history": [
+    {
+      "date": {
+        "$date": "2025-06-01T21:13:04.728Z"
+      },
+      "value": 1.79
+    }
+  ]
+},
+{
+  "_id": {
+    "$oid": "683c9830b52c6643a25c2ebc"
+  },
+  "meter_mark": "HOT-9480",
+  "apartment_id": {
+    "$oid": "683c9830b52c6643a25c2ebe"
+  },
+  "install_date": {
+    "$date": "2025-06-01T21:13:04.728Z"
+  },
+  "check_date": {
+    "$date": "2025-06-01T21:13:04.728Z"
+  },
+  "meter_type": "hot",
+  "water_usage": 1.12,
+  "history": [
+    {
+      "date": {
+        "$date": "2025-06-01T21:13:04.728Z"
+      },
+      "value": 1.12
+    }
+  ]
+},
+{
+  "_id": {
+    "$oid": "683c9830b52c6643a25c2ebd"
+  },
+  "meter_mark": "COLD-4688",
+  "apartment_id": {
+    "$oid": "683c9830b52c6643a25c2ebe"
+  },
+  "install_date": {
+    "$date": "2025-06-01T21:13:04.728Z"
+  },
+  "check_date": {
+    "$date": "2025-06-01T21:13:04.728Z"
+  },
+  "meter_type": "cold",
+  "water_usage": 0.65,
+  "history": [
+    {
+      "date": {
+        "$date": "2025-06-01T21:13:04.728Z"
+      },
+      "value": 0.65
+    }
+  ]
+},
+{
+  "_id": {
+    "$oid": "683c9830b52c6643a25c2ebf"
+  },
+  "meter_mark": "HOT-9047",
+  "apartment_id": {
+    "$oid": "683c9830b52c6643a25c2ec1"
+  },
+  "install_date": {
+    "$date": "2025-06-01T21:13:04.728Z"
+  },
+  "check_date": {
+    "$date": "2025-06-01T21:13:04.728Z"
+  },
+  "meter_type": "hot",
+  "water_usage": 1.99,
+  "history": [
+    {
+      "date": {
+        "$date": "2025-06-01T21:13:04.728Z"
+      },
+      "value": 1.99
+    }
+  ]
+},
+{
+  "_id": {
+    "$oid": "683c9830b52c6643a25c2ec0"
+  },
+  "meter_mark": "COLD-6480",
+  "apartment_id": {
+    "$oid": "683c9830b52c6643a25c2ec1"
+  },
+  "install_date": {
+    "$date": "2025-06-01T21:13:04.728Z"
+  },
+  "check_date": {
+    "$date": "2025-06-01T21:13:04.728Z"
+  },
+  "meter_type": "cold",
+  "water_usage": 0.86,
+  "history": [
+    {
+      "date": {
+        "$date": "2025-06-01T21:13:04.728Z"
+      },
+      "value": 0.86
+    }
+  ]
+},
+{
+  "_id": {
+    "$oid": "683c9830b52c6643a25c2ec2"
+  },
+  "meter_mark": "HOT-6225",
+  "apartment_id": {
+    "$oid": "683c9830b52c6643a25c2ec4"
+  },
+  "install_date": {
+    "$date": "2025-06-01T21:13:04.728Z"
+  },
+  "check_date": {
+    "$date": "2025-06-01T21:13:04.728Z"
+  },
+  "meter_type": "hot",
+  "water_usage": 0.79,
+  "history": [
+    {
+      "date": {
+        "$date": "2025-06-01T21:13:04.728Z"
+      },
+      "value": 0.79
+    }
+  ]
+},
+{
+  "_id": {
+    "$oid": "683c9830b52c6643a25c2ec3"
+  },
+  "meter_mark": "COLD-5767",
+  "apartment_id": {
+    "$oid": "683c9830b52c6643a25c2ec4"
+  },
+  "install_date": {
+    "$date": "2025-06-01T21:13:04.728Z"
+  },
+  "check_date": {
+    "$date": "2025-06-01T21:13:04.728Z"
+  },
+  "meter_type": "cold",
+  "water_usage": 1.42,
+  "history": [
+    {
+      "date": {
+        "$date": "2025-06-01T21:13:04.728Z"
+      },
+      "value": 1.42
+    }
+  ]
+},
+{
+  "_id": {
+    "$oid": "683c9830b52c6643a25c2ec5"
+  },
+  "meter_mark": "HOT-5623",
+  "apartment_id": {
+    "$oid": "683c9830b52c6643a25c2ec7"
+  },
+  "install_date": {
+    "$date": "2025-06-01T21:13:04.728Z"
+  },
+  "check_date": {
+    "$date": "2025-06-01T21:13:04.728Z"
+  },
+  "meter_type": "hot",
+  "water_usage": 1.7,
+  "history": [
+    {
+      "date": {
+        "$date": "2025-06-01T21:13:04.728Z"
+      },
+      "value": 1.7
+    }
+  ]
+},
+{
+  "_id": {
+    "$oid": "683c9830b52c6643a25c2ec6"
+  },
+  "meter_mark": "COLD-2984",
+  "apartment_id": {
+    "$oid": "683c9830b52c6643a25c2ec7"
+  },
+  "install_date": {
+    "$date": "2025-06-01T21:13:04.728Z"
+  },
+  "check_date": {
+    "$date": "2025-06-01T21:13:04.728Z"
+  },
+  "meter_type": "cold",
+  "water_usage": 1.84,
+  "history": [
+    {
+      "date": {
+        "$date": "2025-06-01T21:13:04.728Z"
+      },
+      "value": 1.84
+    }
+  ]
+},
+{
+  "_id": {
+    "$oid": "683c9830b52c6643a25c2ec8"
+  },
+  "meter_mark": "HOT-1444",
+  "apartment_id": {
+    "$oid": "683c9830b52c6643a25c2eca"
+  },
+  "install_date": {
+    "$date": "2025-06-01T21:13:04.728Z"
+  },
+  "check_date": {
+    "$date": "2025-06-01T21:13:04.728Z"
+  },
+  "meter_type": "hot",
+  "water_usage": 0.97,
+  "history": [
+    {
+      "date": {
+        "$date": "2025-06-01T21:13:04.728Z"
+      },
+      "value": 0.97
+    }
+  ]
+},
+{
+  "_id": {
+    "$oid": "683c9830b52c6643a25c2ec9"
+  },
+  "meter_mark": "COLD-8726",
+  "apartment_id": {
+    "$oid": "683c9830b52c6643a25c2eca"
+  },
+  "install_date": {
+    "$date": "2025-06-01T21:13:04.728Z"
+  },
+  "check_date": {
+    "$date": "2025-06-01T21:13:04.728Z"
+  },
+  "meter_type": "cold",
+  "water_usage": 0.72,
+  "history": [
+    {
+      "date": {
+        "$date": "2025-06-01T21:13:04.728Z"
+      },
+      "value": 0.72
+    }
+  ]
+},
+{
+  "_id": {
+    "$oid": "683c9830b52c6643a25c2ecb"
+  },
+  "meter_mark": "HOT-4769",
+  "apartment_id": {
+    "$oid": "683c9830b52c6643a25c2ecd"
+  },
+  "install_date": {
+    "$date": "2025-06-01T21:13:04.728Z"
+  },
+  "check_date": {
+    "$date": "2025-06-01T21:13:04.728Z"
+  },
+  "meter_type": "hot",
+  "water_usage": 1.29,
+  "history": [
+    {
+      "date": {
+        "$date": "2025-06-01T21:13:04.728Z"
+      },
+      "value": 1.29
+    }
+  ]
+},
+{
+  "_id": {
+    "$oid": "683c9830b52c6643a25c2ecc"
+  },
+  "meter_mark": "COLD-5429",
+  "apartment_id": {
+    "$oid": "683c9830b52c6643a25c2ecd"
+  },
+  "install_date": {
+    "$date": "2025-06-01T21:13:04.728Z"
+  },
+  "check_date": {
+    "$date": "2025-06-01T21:13:04.728Z"
+  },
+  "meter_type": "cold",
+  "water_usage": 1.14,
+  "history": [
+    {
+      "date": {
+        "$date": "2025-06-01T21:13:04.728Z"
+      },
+      "value": 1.14
+    }
+  ]
+},
+{
+  "_id": {
+    "$oid": "683c9830b52c6643a25c2ece"
+  },
+  "meter_mark": "HOT-8466",
+  "apartment_id": {
+    "$oid": "683c9830b52c6643a25c2ed0"
+  },
+  "install_date": {
+    "$date": "2025-06-01T21:13:04.728Z"
+  },
+  "check_date": {
+    "$date": "2025-06-01T21:13:04.728Z"
+  },
+  "meter_type": "hot",
+  "water_usage": 0.59,
+  "history": [
+    {
+      "date": {
+        "$date": "2025-06-01T21:13:04.728Z"
+      },
+      "value": 0.59
+    }
+  ]
+},
+{
+  "_id": {
+    "$oid": "683c9830b52c6643a25c2ecf"
+  },
+  "meter_mark": "COLD-7720",
+  "apartment_id": {
+    "$oid": "683c9830b52c6643a25c2ed0"
+  },
+  "install_date": {
+    "$date": "2025-06-01T21:13:04.728Z"
+  },
+  "check_date": {
+    "$date": "2025-06-01T21:13:04.728Z"
+  },
+  "meter_type": "cold",
+  "water_usage": 1.61,
+  "history": [
+    {
+      "date": {
+        "$date": "2025-06-01T21:13:04.728Z"
+      },
+      "value": 1.61
+    }
+  ]
+},
+{
+  "_id": {
+    "$oid": "683c9830b52c6643a25c2ed1"
+  },
+  "meter_mark": "HOT-8130",
+  "apartment_id": {
+    "$oid": "683c9830b52c6643a25c2ed3"
+  },
+  "install_date": {
+    "$date": "2025-06-01T21:13:04.728Z"
+  },
+  "check_date": {
+    "$date": "2025-06-01T21:13:04.728Z"
+  },
+  "meter_type": "hot",
+  "water_usage": 0.79,
+  "history": [
+    {
+      "date": {
+        "$date": "2025-06-01T21:13:04.728Z"
+      },
+      "value": 0.79
+    }
+  ]
+},
+{
+  "_id": {
+    "$oid": "683c9830b52c6643a25c2ed2"
+  },
+  "meter_mark": "COLD-7223",
+  "apartment_id": {
+    "$oid": "683c9830b52c6643a25c2ed3"
+  },
+  "install_date": {
+    "$date": "2025-06-01T21:13:04.728Z"
+  },
+  "check_date": {
+    "$date": "2025-06-01T21:13:04.728Z"
+  },
+  "meter_type": "cold",
+  "water_usage": 1.5,
+  "history": [
+    {
+      "date": {
+        "$date": "2025-06-01T21:13:04.728Z"
+      },
+      "value": 1.5
+    }
+  ]
+},
+{
+  "_id": {
+    "$oid": "683c9830b52c6643a25c2ed4"
+  },
+  "meter_mark": "HOT-5854",
+  "apartment_id": {
+    "$oid": "683c9830b52c6643a25c2ed6"
+  },
+  "install_date": {
+    "$date": "2025-06-01T21:13:04.728Z"
+  },
+  "check_date": {
+    "$date": "2025-06-01T21:13:04.728Z"
+  },
+  "meter_type": "hot",
+  "water_usage": 1.21,
+  "history": [
+    {
+      "date": {
+        "$date": "2025-06-01T21:13:04.728Z"
+      },
+      "value": 1.21
+    }
+  ]
+},
+{
+  "_id": {
+    "$oid": "683c9830b52c6643a25c2ed5"
+  },
+  "meter_mark": "COLD-8620",
+  "apartment_id": {
+    "$oid": "683c9830b52c6643a25c2ed6"
+  },
+  "install_date": {
+    "$date": "2025-06-01T21:13:04.728Z"
+  },
+  "check_date": {
+    "$date": "2025-06-01T21:13:04.728Z"
+  },
+  "meter_type": "cold",
+  "water_usage": 0.88,
+  "history": [
+    {
+      "date": {
+        "$date": "2025-06-01T21:13:04.728Z"
+      },
+      "value": 0.88
+    }
+  ]
+},
+{
+  "_id": {
+    "$oid": "683c9830b52c6643a25c2ed7"
+  },
+  "meter_mark": "HOT-8842",
+  "apartment_id": {
+    "$oid": "683c9830b52c6643a25c2ed9"
+  },
+  "install_date": {
+    "$date": "2025-06-01T21:13:04.728Z"
+  },
+  "check_date": {
+    "$date": "2025-06-01T21:13:04.728Z"
+  },
+  "meter_type": "hot",
+  "water_usage": 0.67,
+  "history": [
+    {
+      "date": {
+        "$date": "2025-06-01T21:13:04.728Z"
+      },
+      "value": 0.67
+    }
+  ]
+},
+{
+  "_id": {
+    "$oid": "683c9830b52c6643a25c2ed8"
+  },
+  "meter_mark": "COLD-2570",
+  "apartment_id": {
+    "$oid": "683c9830b52c6643a25c2ed9"
+  },
+  "install_date": {
+    "$date": "2025-06-01T21:13:04.728Z"
+  },
+  "check_date": {
+    "$date": "2025-06-01T21:13:04.728Z"
+  },
+  "meter_type": "cold",
+  "water_usage": 0.65,
+  "history": [
+    {
+      "date": {
+        "$date": "2025-06-01T21:13:04.728Z"
+      },
+      "value": 0.65
+    }
+  ]
+},
+{
+  "_id": {
+    "$oid": "683c9830b52c6643a25c2eda"
+  },
+  "meter_mark": "HOT-8551",
+  "apartment_id": {
+    "$oid": "683c9830b52c6643a25c2edc"
+  },
+  "install_date": {
+    "$date": "2025-06-01T21:13:04.728Z"
+  },
+  "check_date": {
+    "$date": "2025-06-01T21:13:04.728Z"
+  },
+  "meter_type": "hot",
+  "water_usage": 0.85,
+  "history": [
+    {
+      "date": {
+        "$date": "2025-06-01T21:13:04.728Z"
+      },
+      "value": 0.85
+    }
+  ]
+},
+{
+  "_id": {
+    "$oid": "683c9830b52c6643a25c2edb"
+  },
+  "meter_mark": "COLD-9653",
+  "apartment_id": {
+    "$oid": "683c9830b52c6643a25c2edc"
+  },
+  "install_date": {
+    "$date": "2025-06-01T21:13:04.728Z"
+  },
+  "check_date": {
+    "$date": "2025-06-01T21:13:04.728Z"
+  },
+  "meter_type": "cold",
+  "water_usage": 1.66,
+  "history": [
+    {
+      "date": {
+        "$date": "2025-06-01T21:13:04.728Z"
+      },
+      "value": 1.66
+    }
+  ]
+},
+{
+  "_id": {
+    "$oid": "683c9830b52c6643a25c2edd"
+  },
+  "meter_mark": "HOT-3297",
+  "apartment_id": {
+    "$oid": "683c9830b52c6643a25c2edf"
+  },
+  "install_date": {
+    "$date": "2025-06-01T21:13:04.728Z"
+  },
+  "check_date": {
+    "$date": "2025-06-01T21:13:04.728Z"
+  },
+  "meter_type": "hot",
+  "water_usage": 1.65,
+  "history": [
+    {
+      "date": {
+        "$date": "2025-06-01T21:13:04.728Z"
+      },
+      "value": 1.65
+    }
+  ]
+},
+{
+  "_id": {
+    "$oid": "683c9830b52c6643a25c2ede"
+  },
+  "meter_mark": "COLD-9781",
+  "apartment_id": {
+    "$oid": "683c9830b52c6643a25c2edf"
+  },
+  "install_date": {
+    "$date": "2025-06-01T21:13:04.728Z"
+  },
+  "check_date": {
+    "$date": "2025-06-01T21:13:04.728Z"
+  },
+  "meter_type": "cold",
+  "water_usage": 0.56,
+  "history": [
+    {
+      "date": {
+        "$date": "2025-06-01T21:13:04.728Z"
+      },
+      "value": 0.56
+    }
+  ]
+},
+{
+  "_id": {
+    "$oid": "683c9830b52c6643a25c2ee0"
+  },
+  "meter_mark": "HOT-2729",
+  "apartment_id": {
+    "$oid": "683c9830b52c6643a25c2ee2"
+  },
+  "install_date": {
+    "$date": "2025-06-01T21:13:04.728Z"
+  },
+  "check_date": {
+    "$date": "2025-06-01T21:13:04.728Z"
+  },
+  "meter_type": "hot",
+  "water_usage": 0.62,
+  "history": [
+    {
+      "date": {
+        "$date": "2025-06-01T21:13:04.728Z"
+      },
+      "value": 0.62
+    }
+  ]
+},
+{
+  "_id": {
+    "$oid": "683c9830b52c6643a25c2ee1"
+  },
+  "meter_mark": "COLD-3823",
+  "apartment_id": {
+    "$oid": "683c9830b52c6643a25c2ee2"
+  },
+  "install_date": {
+    "$date": "2025-06-01T21:13:04.728Z"
+  },
+  "check_date": {
+    "$date": "2025-06-01T21:13:04.728Z"
+  },
+  "meter_type": "cold",
+  "water_usage": 0.67,
+  "history": [
+    {
+      "date": {
+        "$date": "2025-06-01T21:13:04.728Z"
+      },
+      "value": 0.67
+    }
+  ]
+},
+{
+  "_id": {
+    "$oid": "683c9830b52c6643a25c2ee3"
+  },
+  "meter_mark": "HOT-3940",
+  "apartment_id": {
+    "$oid": "683c9830b52c6643a25c2ee5"
+  },
+  "install_date": {
+    "$date": "2025-06-01T21:13:04.728Z"
+  },
+  "check_date": {
+    "$date": "2025-06-01T21:13:04.728Z"
+  },
+  "meter_type": "hot",
+  "water_usage": 1.75,
+  "history": [
+    {
+      "date": {
+        "$date": "2025-06-01T21:13:04.728Z"
+      },
+      "value": 1.75
+    }
+  ]
+},
+{
+  "_id": {
+    "$oid": "683c9830b52c6643a25c2ee4"
+  },
+  "meter_mark": "COLD-4612",
+  "apartment_id": {
+    "$oid": "683c9830b52c6643a25c2ee5"
+  },
+  "install_date": {
+    "$date": "2025-06-01T21:13:04.728Z"
+  },
+  "check_date": {
+    "$date": "2025-06-01T21:13:04.728Z"
+  },
+  "meter_type": "cold",
+  "water_usage": 1.84,
+  "history": [
+    {
+      "date": {
+        "$date": "2025-06-01T21:13:04.728Z"
+      },
+      "value": 1.84
+    }
+  ]
+},
+{
+  "_id": {
+    "$oid": "683c9830b52c6643a25c2ee6"
+  },
+  "meter_mark": "HOT-5712",
+  "apartment_id": {
+    "$oid": "683c9830b52c6643a25c2ee8"
+  },
+  "install_date": {
+    "$date": "2025-06-01T21:13:04.728Z"
+  },
+  "check_date": {
+    "$date": "2025-06-01T21:13:04.728Z"
+  },
+  "meter_type": "hot",
+  "water_usage": 1.35,
+  "history": [
+    {
+      "date": {
+        "$date": "2025-06-01T21:13:04.728Z"
+      },
+      "value": 1.35
+    }
+  ]
+},
+{
+  "_id": {
+    "$oid": "683c9830b52c6643a25c2ee7"
+  },
+  "meter_mark": "COLD-7376",
+  "apartment_id": {
+    "$oid": "683c9830b52c6643a25c2ee8"
+  },
+  "install_date": {
+    "$date": "2025-06-01T21:13:04.728Z"
+  },
+  "check_date": {
+    "$date": "2025-06-01T21:13:04.728Z"
+  },
+  "meter_type": "cold",
+  "water_usage": 0.92,
+  "history": [
+    {
+      "date": {
+        "$date": "2025-06-01T21:13:04.728Z"
+      },
+      "value": 0.92
+    }
+  ]
+},
+{
+  "_id": {
+    "$oid": "683c9830b52c6643a25c2ee9"
+  },
+  "meter_mark": "HOT-6317",
+  "apartment_id": {
+    "$oid": "683c9830b52c6643a25c2eeb"
+  },
+  "install_date": {
+    "$date": "2025-06-01T21:13:04.728Z"
+  },
+  "check_date": {
+    "$date": "2025-06-01T21:13:04.728Z"
+  },
+  "meter_type": "hot",
+  "water_usage": 1.77,
+  "history": [
+    {
+      "date": {
+        "$date": "2025-06-01T21:13:04.728Z"
+      },
+      "value": 1.77
+    }
+  ]
+},
+{
+  "_id": {
+    "$oid": "683c9830b52c6643a25c2eea"
+  },
+  "meter_mark": "COLD-3650",
+  "apartment_id": {
+    "$oid": "683c9830b52c6643a25c2eeb"
+  },
+  "install_date": {
+    "$date": "2025-06-01T21:13:04.728Z"
+  },
+  "check_date": {
+    "$date": "2025-06-01T21:13:04.728Z"
+  },
+  "meter_type": "cold",
+  "water_usage": 1.99,
+  "history": [
+    {
+      "date": {
+        "$date": "2025-06-01T21:13:04.728Z"
+      },
+      "value": 1.99
+    }
+  ]
+},
+{
+  "_id": {
+    "$oid": "683c9830b52c6643a25c2eec"
+  },
+  "meter_mark": "HOT-6319",
+  "apartment_id": {
+    "$oid": "683c9830b52c6643a25c2eee"
+  },
+  "install_date": {
+    "$date": "2025-06-01T21:13:04.728Z"
+  },
+  "check_date": {
+    "$date": "2025-06-01T21:13:04.728Z"
+  },
+  "meter_type": "hot",
+  "water_usage": 1.25,
+  "history": [
+    {
+      "date": {
+        "$date": "2025-06-01T21:13:04.728Z"
+      },
+      "value": 1.25
+    }
+  ]
+},
+{
+  "_id": {
+    "$oid": "683c9830b52c6643a25c2eed"
+  },
+  "meter_mark": "COLD-2338",
+  "apartment_id": {
+    "$oid": "683c9830b52c6643a25c2eee"
+  },
+  "install_date": {
+    "$date": "2025-06-01T21:13:04.728Z"
+  },
+  "check_date": {
+    "$date": "2025-06-01T21:13:04.728Z"
+  },
+  "meter_type": "cold",
+  "water_usage": 1.73,
+  "history": [
+    {
+      "date": {
+        "$date": "2025-06-01T21:13:04.728Z"
+      },
+      "value": 1.73
+    }
+  ]
+},
+{
+  "_id": {
+    "$oid": "683c9830b52c6643a25c2ef0"
+  },
+  "meter_mark": "HOT-4323",
+  "apartment_id": {
+    "$oid": "683c9830b52c6643a25c2ef2"
+  },
+  "install_date": {
+    "$date": "2025-06-01T21:13:04.728Z"
+  },
+  "check_date": {
+    "$date": "2025-06-01T21:13:04.728Z"
+  },
+  "meter_type": "hot",
+  "water_usage": 1.52,
+  "history": [
+    {
+      "date": {
+        "$date": "2025-06-01T21:13:04.728Z"
+      },
+      "value": 1.52
+    }
+  ]
+},
+{
+  "_id": {
+    "$oid": "683c9830b52c6643a25c2ef1"
+  },
+  "meter_mark": "COLD-4352",
+  "apartment_id": {
+    "$oid": "683c9830b52c6643a25c2ef2"
+  },
+  "install_date": {
+    "$date": "2025-06-01T21:13:04.728Z"
+  },
+  "check_date": {
+    "$date": "2025-06-01T21:13:04.728Z"
+  },
+  "meter_type": "cold",
+  "water_usage": 1.51,
+  "history": [
+    {
+      "date": {
+        "$date": "2025-06-01T21:13:04.728Z"
+      },
+      "value": 1.51
+    }
+  ]
+},
+{
+  "_id": {
+    "$oid": "683c9830b52c6643a25c2ef3"
+  },
+  "meter_mark": "HOT-5737",
+  "apartment_id": {
+    "$oid": "683c9830b52c6643a25c2ef5"
+  },
+  "install_date": {
+    "$date": "2025-06-01T21:13:04.728Z"
+  },
+  "check_date": {
+    "$date": "2025-06-01T21:13:04.728Z"
+  },
+  "meter_type": "hot",
+  "water_usage": 0.81,
+  "history": [
+    {
+      "date": {
+        "$date": "2025-06-01T21:13:04.728Z"
+      },
+      "value": 0.81
+    }
+  ]
+},
+{
+  "_id": {
+    "$oid": "683c9830b52c6643a25c2ef4"
+  },
+  "meter_mark": "COLD-2819",
+  "apartment_id": {
+    "$oid": "683c9830b52c6643a25c2ef5"
+  },
+  "install_date": {
+    "$date": "2025-06-01T21:13:04.728Z"
+  },
+  "check_date": {
+    "$date": "2025-06-01T21:13:04.728Z"
+  },
+  "meter_type": "cold",
+  "water_usage": 1.09,
+  "history": [
+    {
+      "date": {
+        "$date": "2025-06-01T21:13:04.728Z"
+      },
+      "value": 1.09
+    }
+  ]
+},
+{
+  "_id": {
+    "$oid": "683c9830b52c6643a25c2ef6"
+  },
+  "meter_mark": "HOT-2830",
+  "apartment_id": {
+    "$oid": "683c9830b52c6643a25c2ef8"
+  },
+  "install_date": {
+    "$date": "2025-06-01T21:13:04.728Z"
+  },
+  "check_date": {
+    "$date": "2025-06-01T21:13:04.728Z"
+  },
+  "meter_type": "hot",
+  "water_usage": 0.51,
+  "history": [
+    {
+      "date": {
+        "$date": "2025-06-01T21:13:04.728Z"
+      },
+      "value": 0.51
+    }
+  ]
+},
+{
+  "_id": {
+    "$oid": "683c9830b52c6643a25c2ef7"
+  },
+  "meter_mark": "COLD-5279",
+  "apartment_id": {
+    "$oid": "683c9830b52c6643a25c2ef8"
+  },
+  "install_date": {
+    "$date": "2025-06-01T21:13:04.728Z"
+  },
+  "check_date": {
+    "$date": "2025-06-01T21:13:04.728Z"
+  },
+  "meter_type": "cold",
+  "water_usage": 1.48,
+  "history": [
+    {
+      "date": {
+        "$date": "2025-06-01T21:13:04.728Z"
+      },
+      "value": 1.48
+    }
+  ]
+},
+{
+  "_id": {
+    "$oid": "683c9830b52c6643a25c2ef9"
+  },
+  "meter_mark": "HOT-8740",
+  "apartment_id": {
+    "$oid": "683c9830b52c6643a25c2efb"
+  },
+  "install_date": {
+    "$date": "2025-06-01T21:13:04.728Z"
+  },
+  "check_date": {
+    "$date": "2025-06-01T21:13:04.728Z"
+  },
+  "meter_type": "hot",
+  "water_usage": 1.23,
+  "history": [
+    {
+      "date": {
+        "$date": "2025-06-01T21:13:04.728Z"
+      },
+      "value": 1.23
+    }
+  ]
+},
+{
+  "_id": {
+    "$oid": "683c9830b52c6643a25c2efa"
+  },
+  "meter_mark": "COLD-1330",
+  "apartment_id": {
+    "$oid": "683c9830b52c6643a25c2efb"
+  },
+  "install_date": {
+    "$date": "2025-06-01T21:13:04.728Z"
+  },
+  "check_date": {
+    "$date": "2025-06-01T21:13:04.728Z"
+  },
+  "meter_type": "cold",
+  "water_usage": 1.43,
+  "history": [
+    {
+      "date": {
+        "$date": "2025-06-01T21:13:04.728Z"
+      },
+      "value": 1.43
+    }
+  ]
+},
+{
+  "_id": {
+    "$oid": "683c9830b52c6643a25c2efc"
+  },
+  "meter_mark": "HOT-5525",
+  "apartment_id": {
+    "$oid": "683c9830b52c6643a25c2efe"
+  },
+  "install_date": {
+    "$date": "2025-06-01T21:13:04.728Z"
+  },
+  "check_date": {
+    "$date": "2025-06-01T21:13:04.728Z"
+  },
+  "meter_type": "hot",
+  "water_usage": 1.76,
+  "history": [
+    {
+      "date": {
+        "$date": "2025-06-01T21:13:04.728Z"
+      },
+      "value": 1.76
+    }
+  ]
+},
+{
+  "_id": {
+    "$oid": "683c9830b52c6643a25c2efd"
+  },
+  "meter_mark": "COLD-9038",
+  "apartment_id": {
+    "$oid": "683c9830b52c6643a25c2efe"
+  },
+  "install_date": {
+    "$date": "2025-06-01T21:13:04.728Z"
+  },
+  "check_date": {
+    "$date": "2025-06-01T21:13:04.728Z"
+  },
+  "meter_type": "cold",
+  "water_usage": 1.86,
+  "history": [
+    {
+      "date": {
+        "$date": "2025-06-01T21:13:04.728Z"
+      },
+      "value": 1.86
+    }
+  ]
+},
+{
+  "_id": {
+    "$oid": "683c9830b52c6643a25c2eff"
+  },
+  "meter_mark": "HOT-9710",
+  "apartment_id": {
+    "$oid": "683c9830b52c6643a25c2f01"
+  },
+  "install_date": {
+    "$date": "2025-06-01T21:13:04.728Z"
+  },
+  "check_date": {
+    "$date": "2025-06-01T21:13:04.728Z"
+  },
+  "meter_type": "hot",
+  "water_usage": 1.5,
+  "history": [
+    {
+      "date": {
+        "$date": "2025-06-01T21:13:04.728Z"
+      },
+      "value": 1.5
+    }
+  ]
+},
+{
+  "_id": {
+    "$oid": "683c9830b52c6643a25c2f00"
+  },
+  "meter_mark": "COLD-8623",
+  "apartment_id": {
+    "$oid": "683c9830b52c6643a25c2f01"
+  },
+  "install_date": {
+    "$date": "2025-06-01T21:13:04.728Z"
+  },
+  "check_date": {
+    "$date": "2025-06-01T21:13:04.728Z"
+  },
+  "meter_type": "cold",
+  "water_usage": 1.33,
+  "history": [
+    {
+      "date": {
+        "$date": "2025-06-01T21:13:04.728Z"
+      },
+      "value": 1.33
+    }
+  ]
+},
+{
+  "_id": {
+    "$oid": "683c9830b52c6643a25c2f02"
+  },
+  "meter_mark": "HOT-2688",
+  "apartment_id": {
+    "$oid": "683c9830b52c6643a25c2f04"
+  },
+  "install_date": {
+    "$date": "2025-06-01T21:13:04.728Z"
+  },
+  "check_date": {
+    "$date": "2025-06-01T21:13:04.728Z"
+  },
+  "meter_type": "hot",
+  "water_usage": 1.68,
+  "history": [
+    {
+      "date": {
+        "$date": "2025-06-01T21:13:04.728Z"
+      },
+      "value": 1.68
+    }
+  ]
+},
+{
+  "_id": {
+    "$oid": "683c9830b52c6643a25c2f03"
+  },
+  "meter_mark": "COLD-9872",
+  "apartment_id": {
+    "$oid": "683c9830b52c6643a25c2f04"
+  },
+  "install_date": {
+    "$date": "2025-06-01T21:13:04.728Z"
+  },
+  "check_date": {
+    "$date": "2025-06-01T21:13:04.728Z"
+  },
+  "meter_type": "cold",
+  "water_usage": 1.3,
+  "history": [
+    {
+      "date": {
+        "$date": "2025-06-01T21:13:04.728Z"
+      },
+      "value": 1.3
+    }
+  ]
+},
+{
+  "_id": {
+    "$oid": "683c9830b52c6643a25c2f05"
+  },
+  "meter_mark": "HOT-7961",
+  "apartment_id": {
+    "$oid": "683c9830b52c6643a25c2f07"
+  },
+  "install_date": {
+    "$date": "2025-06-01T21:13:04.728Z"
+  },
+  "check_date": {
+    "$date": "2025-06-01T21:13:04.728Z"
+  },
+  "meter_type": "hot",
+  "water_usage": 1.34,
+  "history": [
+    {
+      "date": {
+        "$date": "2025-06-01T21:13:04.728Z"
+      },
+      "value": 1.34
+    }
+  ]
+},
+{
+  "_id": {
+    "$oid": "683c9830b52c6643a25c2f06"
+  },
+  "meter_mark": "COLD-8098",
+  "apartment_id": {
+    "$oid": "683c9830b52c6643a25c2f07"
+  },
+  "install_date": {
+    "$date": "2025-06-01T21:13:04.728Z"
+  },
+  "check_date": {
+    "$date": "2025-06-01T21:13:04.728Z"
+  },
+  "meter_type": "cold",
+  "water_usage": 1.55,
+  "history": [
+    {
+      "date": {
+        "$date": "2025-06-01T21:13:04.728Z"
+      },
+      "value": 1.55
+    }
+  ]
+},
+{
+  "_id": {
+    "$oid": "683c9830b52c6643a25c2f08"
+  },
+  "meter_mark": "HOT-8251",
+  "apartment_id": {
+    "$oid": "683c9830b52c6643a25c2f0a"
+  },
+  "install_date": {
+    "$date": "2025-06-01T21:13:04.728Z"
+  },
+  "check_date": {
+    "$date": "2025-06-01T21:13:04.728Z"
+  },
+  "meter_type": "hot",
+  "water_usage": 1.18,
+  "history": [
+    {
+      "date": {
+        "$date": "2025-06-01T21:13:04.728Z"
+      },
+      "value": 1.18
+    }
+  ]
+},
+{
+  "_id": {
+    "$oid": "683c9830b52c6643a25c2f09"
+  },
+  "meter_mark": "COLD-7966",
+  "apartment_id": {
+    "$oid": "683c9830b52c6643a25c2f0a"
+  },
+  "install_date": {
+    "$date": "2025-06-01T21:13:04.728Z"
+  },
+  "check_date": {
+    "$date": "2025-06-01T21:13:04.728Z"
+  },
+  "meter_type": "cold",
+  "water_usage": 1.39,
+  "history": [
+    {
+      "date": {
+        "$date": "2025-06-01T21:13:04.728Z"
+      },
+      "value": 1.39
+    }
+  ]
+},
+{
+  "_id": {
+    "$oid": "683c9830b52c6643a25c2f0b"
+  },
+  "meter_mark": "HOT-6504",
+  "apartment_id": {
+    "$oid": "683c9830b52c6643a25c2f0d"
+  },
+  "install_date": {
+    "$date": "2025-06-01T21:13:04.728Z"
+  },
+  "check_date": {
+    "$date": "2025-06-01T21:13:04.728Z"
+  },
+  "meter_type": "hot",
+  "water_usage": 1.06,
+  "history": [
+    {
+      "date": {
+        "$date": "2025-06-01T21:13:04.728Z"
+      },
+      "value": 1.06
+    }
+  ]
+},
+{
+  "_id": {
+    "$oid": "683c9830b52c6643a25c2f0c"
+  },
+  "meter_mark": "COLD-5762",
+  "apartment_id": {
+    "$oid": "683c9830b52c6643a25c2f0d"
+  },
+  "install_date": {
+    "$date": "2025-06-01T21:13:04.728Z"
+  },
+  "check_date": {
+    "$date": "2025-06-01T21:13:04.728Z"
+  },
+  "meter_type": "cold",
+  "water_usage": 1.69,
+  "history": [
+    {
+      "date": {
+        "$date": "2025-06-01T21:13:04.728Z"
+      },
+      "value": 1.69
+    }
+  ]
+},
+{
+  "_id": {
+    "$oid": "683c9830b52c6643a25c2f0e"
+  },
+  "meter_mark": "HOT-9869",
+  "apartment_id": {
+    "$oid": "683c9830b52c6643a25c2f10"
+  },
+  "install_date": {
+    "$date": "2025-06-01T21:13:04.728Z"
+  },
+  "check_date": {
+    "$date": "2025-06-01T21:13:04.728Z"
+  },
+  "meter_type": "hot",
+  "water_usage": 1.62,
+  "history": [
+    {
+      "date": {
+        "$date": "2025-06-01T21:13:04.728Z"
+      },
+      "value": 1.62
+    }
+  ]
+},
+{
+  "_id": {
+    "$oid": "683c9830b52c6643a25c2f0f"
+  },
+  "meter_mark": "COLD-1025",
+  "apartment_id": {
+    "$oid": "683c9830b52c6643a25c2f10"
+  },
+  "install_date": {
+    "$date": "2025-06-01T21:13:04.728Z"
+  },
+  "check_date": {
+    "$date": "2025-06-01T21:13:04.728Z"
+  },
+  "meter_type": "cold",
+  "water_usage": 1.85,
+  "history": [
+    {
+      "date": {
+        "$date": "2025-06-01T21:13:04.728Z"
+      },
+      "value": 1.85
+    }
+  ]
+},
+{
+  "_id": {
+    "$oid": "683c9830b52c6643a25c2f11"
+  },
+  "meter_mark": "HOT-7681",
+  "apartment_id": {
+    "$oid": "683c9830b52c6643a25c2f13"
+  },
+  "install_date": {
+    "$date": "2025-06-01T21:13:04.728Z"
+  },
+  "check_date": {
+    "$date": "2025-06-01T21:13:04.728Z"
+  },
+  "meter_type": "hot",
+  "water_usage": 1.56,
+  "history": [
+    {
+      "date": {
+        "$date": "2025-06-01T21:13:04.728Z"
+      },
+      "value": 1.56
+    }
+  ]
+},
+{
+  "_id": {
+    "$oid": "683c9830b52c6643a25c2f12"
+  },
+  "meter_mark": "COLD-2680",
+  "apartment_id": {
+    "$oid": "683c9830b52c6643a25c2f13"
+  },
+  "install_date": {
+    "$date": "2025-06-01T21:13:04.728Z"
+  },
+  "check_date": {
+    "$date": "2025-06-01T21:13:04.728Z"
+  },
+  "meter_type": "cold",
+  "water_usage": 0.92,
+  "history": [
+    {
+      "date": {
+        "$date": "2025-06-01T21:13:04.728Z"
+      },
+      "value": 0.92
+    }
+  ]
+},
+{
+  "_id": {
+    "$oid": "683c9830b52c6643a25c2f14"
+  },
+  "meter_mark": "HOT-8073",
+  "apartment_id": {
+    "$oid": "683c9830b52c6643a25c2f16"
+  },
+  "install_date": {
+    "$date": "2025-06-01T21:13:04.728Z"
+  },
+  "check_date": {
+    "$date": "2025-06-01T21:13:04.728Z"
+  },
+  "meter_type": "hot",
+  "water_usage": 1.35,
+  "history": [
+    {
+      "date": {
+        "$date": "2025-06-01T21:13:04.728Z"
+      },
+      "value": 1.35
+    }
+  ]
+},
+{
+  "_id": {
+    "$oid": "683c9830b52c6643a25c2f15"
+  },
+  "meter_mark": "COLD-1750",
+  "apartment_id": {
+    "$oid": "683c9830b52c6643a25c2f16"
+  },
+  "install_date": {
+    "$date": "2025-06-01T21:13:04.728Z"
+  },
+  "check_date": {
+    "$date": "2025-06-01T21:13:04.728Z"
+  },
+  "meter_type": "cold",
+  "water_usage": 1.71,
+  "history": [
+    {
+      "date": {
+        "$date": "2025-06-01T21:13:04.728Z"
+      },
+      "value": 1.71
+    }
+  ]
+},
+{
+  "_id": {
+    "$oid": "683c9830b52c6643a25c2f17"
+  },
+  "meter_mark": "HOT-9336",
+  "apartment_id": {
+    "$oid": "683c9830b52c6643a25c2f19"
+  },
+  "install_date": {
+    "$date": "2025-06-01T21:13:04.728Z"
+  },
+  "check_date": {
+    "$date": "2025-06-01T21:13:04.728Z"
+  },
+  "meter_type": "hot",
+  "water_usage": 0.92,
+  "history": [
+    {
+      "date": {
+        "$date": "2025-06-01T21:13:04.728Z"
+      },
+      "value": 0.92
+    }
+  ]
+},
+{
+  "_id": {
+    "$oid": "683c9830b52c6643a25c2f18"
+  },
+  "meter_mark": "COLD-7724",
+  "apartment_id": {
+    "$oid": "683c9830b52c6643a25c2f19"
+  },
+  "install_date": {
+    "$date": "2025-06-01T21:13:04.728Z"
+  },
+  "check_date": {
+    "$date": "2025-06-01T21:13:04.728Z"
+  },
+  "meter_type": "cold",
+  "water_usage": 1.15,
+  "history": [
+    {
+      "date": {
+        "$date": "2025-06-01T21:13:04.728Z"
+      },
+      "value": 1.15
+    }
+  ]
+},
+{
+  "_id": {
+    "$oid": "683c9830b52c6643a25c2f1a"
+  },
+  "meter_mark": "HOT-1094",
+  "apartment_id": {
+    "$oid": "683c9830b52c6643a25c2f1c"
+  },
+  "install_date": {
+    "$date": "2025-06-01T21:13:04.728Z"
+  },
+  "check_date": {
+    "$date": "2025-06-01T21:13:04.728Z"
+  },
+  "meter_type": "hot",
+  "water_usage": 1.85,
+  "history": [
+    {
+      "date": {
+        "$date": "2025-06-01T21:13:04.728Z"
+      },
+      "value": 1.85
+    }
+  ]
+},
+{
+  "_id": {
+    "$oid": "683c9830b52c6643a25c2f1b"
+  },
+  "meter_mark": "COLD-7678",
+  "apartment_id": {
+    "$oid": "683c9830b52c6643a25c2f1c"
+  },
+  "install_date": {
+    "$date": "2025-06-01T21:13:04.728Z"
+  },
+  "check_date": {
+    "$date": "2025-06-01T21:13:04.728Z"
+  },
+  "meter_type": "cold",
+  "water_usage": 1.41,
+  "history": [
+    {
+      "date": {
+        "$date": "2025-06-01T21:13:04.728Z"
+      },
+      "value": 1.41
+    }
+  ]
+},
+{
+  "_id": {
+    "$oid": "683c9830b52c6643a25c2f1d"
+  },
+  "meter_mark": "HOT-7868",
+  "apartment_id": {
+    "$oid": "683c9830b52c6643a25c2f1f"
+  },
+  "install_date": {
+    "$date": "2025-06-01T21:13:04.728Z"
+  },
+  "check_date": {
+    "$date": "2025-06-01T21:13:04.728Z"
+  },
+  "meter_type": "hot",
+  "water_usage": 1.48,
+  "history": [
+    {
+      "date": {
+        "$date": "2025-06-01T21:13:04.728Z"
+      },
+      "value": 1.48
+    }
+  ]
+},
+{
+  "_id": {
+    "$oid": "683c9830b52c6643a25c2f1e"
+  },
+  "meter_mark": "COLD-4399",
+  "apartment_id": {
+    "$oid": "683c9830b52c6643a25c2f1f"
+  },
+  "install_date": {
+    "$date": "2025-06-01T21:13:04.728Z"
+  },
+  "check_date": {
+    "$date": "2025-06-01T21:13:04.728Z"
+  },
+  "meter_type": "cold",
+  "water_usage": 0.73,
+  "history": [
+    {
+      "date": {
+        "$date": "2025-06-01T21:13:04.728Z"
+      },
+      "value": 0.73
+    }
+  ]
+},
+{
+  "_id": {
+    "$oid": "683c9830b52c6643a25c2f20"
+  },
+  "meter_mark": "HOT-2363",
+  "apartment_id": {
+    "$oid": "683c9830b52c6643a25c2f22"
+  },
+  "install_date": {
+    "$date": "2025-06-01T21:13:04.728Z"
+  },
+  "check_date": {
+    "$date": "2025-06-01T21:13:04.728Z"
+  },
+  "meter_type": "hot",
+  "water_usage": 1.34,
+  "history": [
+    {
+      "date": {
+        "$date": "2025-06-01T21:13:04.728Z"
+      },
+      "value": 1.34
+    }
+  ]
+},
+{
+  "_id": {
+    "$oid": "683c9830b52c6643a25c2f21"
+  },
+  "meter_mark": "COLD-9184",
+  "apartment_id": {
+    "$oid": "683c9830b52c6643a25c2f22"
+  },
+  "install_date": {
+    "$date": "2025-06-01T21:13:04.728Z"
+  },
+  "check_date": {
+    "$date": "2025-06-01T21:13:04.728Z"
+  },
+  "meter_type": "cold",
+  "water_usage": 1.97,
+  "history": [
+    {
+      "date": {
+        "$date": "2025-06-01T21:13:04.728Z"
+      },
+      "value": 1.97
+    }
+  ]
+},
+{
+  "_id": {
+    "$oid": "683c9830b52c6643a25c2f23"
+  },
+  "meter_mark": "HOT-1375",
+  "apartment_id": {
+    "$oid": "683c9830b52c6643a25c2f25"
+  },
+  "install_date": {
+    "$date": "2025-06-01T21:13:04.728Z"
+  },
+  "check_date": {
+    "$date": "2025-06-01T21:13:04.728Z"
+  },
+  "meter_type": "hot",
+  "water_usage": 1.78,
+  "history": [
+    {
+      "date": {
+        "$date": "2025-06-01T21:13:04.728Z"
+      },
+      "value": 1.78
+    }
+  ]
+},
+{
+  "_id": {
+    "$oid": "683c9830b52c6643a25c2f24"
+  },
+  "meter_mark": "COLD-8986",
+  "apartment_id": {
+    "$oid": "683c9830b52c6643a25c2f25"
+  },
+  "install_date": {
+    "$date": "2025-06-01T21:13:04.728Z"
+  },
+  "check_date": {
+    "$date": "2025-06-01T21:13:04.728Z"
+  },
+  "meter_type": "cold",
+  "water_usage": 1.59,
+  "history": [
+    {
+      "date": {
+        "$date": "2025-06-01T21:13:04.728Z"
+      },
+      "value": 1.59
+    }
+  ]
+},
+{
+  "_id": {
+    "$oid": "683c9830b52c6643a25c2f26"
+  },
+  "meter_mark": "HOT-6116",
+  "apartment_id": {
+    "$oid": "683c9830b52c6643a25c2f28"
+  },
+  "install_date": {
+    "$date": "2025-06-01T21:13:04.728Z"
+  },
+  "check_date": {
+    "$date": "2025-06-01T21:13:04.728Z"
+  },
+  "meter_type": "hot",
+  "water_usage": 1.22,
+  "history": [
+    {
+      "date": {
+        "$date": "2025-06-01T21:13:04.728Z"
+      },
+      "value": 1.22
+    }
+  ]
+},
+{
+  "_id": {
+    "$oid": "683c9830b52c6643a25c2f27"
+  },
+  "meter_mark": "COLD-9721",
+  "apartment_id": {
+    "$oid": "683c9830b52c6643a25c2f28"
+  },
+  "install_date": {
+    "$date": "2025-06-01T21:13:04.728Z"
+  },
+  "check_date": {
+    "$date": "2025-06-01T21:13:04.728Z"
+  },
+  "meter_type": "cold",
+  "water_usage": 1.96,
+  "history": [
+    {
+      "date": {
+        "$date": "2025-06-01T21:13:04.728Z"
+      },
+      "value": 1.96
+    }
+  ]
+},
+{
+  "_id": {
+    "$oid": "683c9830b52c6643a25c2f29"
+  },
+  "meter_mark": "HOT-6120",
+  "apartment_id": {
+    "$oid": "683c9830b52c6643a25c2f2b"
+  },
+  "install_date": {
+    "$date": "2025-06-01T21:13:04.728Z"
+  },
+  "check_date": {
+    "$date": "2025-06-01T21:13:04.728Z"
+  },
+  "meter_type": "hot",
+  "water_usage": 1.37,
+  "history": [
+    {
+      "date": {
+        "$date": "2025-06-01T21:13:04.728Z"
+      },
+      "value": 1.37
+    }
+  ]
+},
+{
+  "_id": {
+    "$oid": "683c9830b52c6643a25c2f2a"
+  },
+  "meter_mark": "COLD-2890",
+  "apartment_id": {
+    "$oid": "683c9830b52c6643a25c2f2b"
+  },
+  "install_date": {
+    "$date": "2025-06-01T21:13:04.728Z"
+  },
+  "check_date": {
+    "$date": "2025-06-01T21:13:04.728Z"
+  },
+  "meter_type": "cold",
+  "water_usage": 0.76,
+  "history": [
+    {
+      "date": {
+        "$date": "2025-06-01T21:13:04.728Z"
+      },
+      "value": 0.76
+    }
+  ]
+},
+{
+  "_id": {
+    "$oid": "683c9830b52c6643a25c2f2d"
+  },
+  "meter_mark": "HOT-9637",
+  "apartment_id": {
+    "$oid": "683c9830b52c6643a25c2f2f"
+  },
+  "install_date": {
+    "$date": "2025-06-01T21:13:04.728Z"
+  },
+  "check_date": {
+    "$date": "2025-06-01T21:13:04.728Z"
+  },
+  "meter_type": "hot",
+  "water_usage": 0.87,
+  "history": [
+    {
+      "date": {
+        "$date": "2025-06-01T21:13:04.728Z"
+      },
+      "value": 0.87
+    }
+  ]
+},
+{
+  "_id": {
+    "$oid": "683c9830b52c6643a25c2f2e"
+  },
+  "meter_mark": "COLD-3021",
+  "apartment_id": {
+    "$oid": "683c9830b52c6643a25c2f2f"
+  },
+  "install_date": {
+    "$date": "2025-06-01T21:13:04.728Z"
+  },
+  "check_date": {
+    "$date": "2025-06-01T21:13:04.728Z"
+  },
+  "meter_type": "cold",
+  "water_usage": 1.5,
+  "history": [
+    {
+      "date": {
+        "$date": "2025-06-01T21:13:04.728Z"
+      },
+      "value": 1.5
+    }
+  ]
+},
+{
+  "_id": {
+    "$oid": "683c9830b52c6643a25c2f30"
+  },
+  "meter_mark": "HOT-7458",
+  "apartment_id": {
+    "$oid": "683c9830b52c6643a25c2f32"
+  },
+  "install_date": {
+    "$date": "2025-06-01T21:13:04.728Z"
+  },
+  "check_date": {
+    "$date": "2025-06-01T21:13:04.728Z"
+  },
+  "meter_type": "hot",
+  "water_usage": 1.03,
+  "history": [
+    {
+      "date": {
+        "$date": "2025-06-01T21:13:04.728Z"
+      },
+      "value": 1.03
+    }
+  ]
+},
+{
+  "_id": {
+    "$oid": "683c9830b52c6643a25c2f31"
+  },
+  "meter_mark": "COLD-9741",
+  "apartment_id": {
+    "$oid": "683c9830b52c6643a25c2f32"
+  },
+  "install_date": {
+    "$date": "2025-06-01T21:13:04.728Z"
+  },
+  "check_date": {
+    "$date": "2025-06-01T21:13:04.728Z"
+  },
+  "meter_type": "cold",
+  "water_usage": 0.75,
+  "history": [
+    {
+      "date": {
+        "$date": "2025-06-01T21:13:04.728Z"
+      },
+      "value": 0.75
+    }
+  ]
+},
+{
+  "_id": {
+    "$oid": "683c9830b52c6643a25c2f33"
+  },
+  "meter_mark": "HOT-6268",
+  "apartment_id": {
+    "$oid": "683c9830b52c6643a25c2f35"
+  },
+  "install_date": {
+    "$date": "2025-06-01T21:13:04.728Z"
+  },
+  "check_date": {
+    "$date": "2025-06-01T21:13:04.728Z"
+  },
+  "meter_type": "hot",
+  "water_usage": 1.37,
+  "history": [
+    {
+      "date": {
+        "$date": "2025-06-01T21:13:04.728Z"
+      },
+      "value": 1.37
+    }
+  ]
+},
+{
+  "_id": {
+    "$oid": "683c9830b52c6643a25c2f34"
+  },
+  "meter_mark": "COLD-8956",
+  "apartment_id": {
+    "$oid": "683c9830b52c6643a25c2f35"
+  },
+  "install_date": {
+    "$date": "2025-06-01T21:13:04.728Z"
+  },
+  "check_date": {
+    "$date": "2025-06-01T21:13:04.728Z"
+  },
+  "meter_type": "cold",
+  "water_usage": 1.87,
+  "history": [
+    {
+      "date": {
+        "$date": "2025-06-01T21:13:04.728Z"
+      },
+      "value": 1.87
+    }
+  ]
+},
+{
+  "_id": {
+    "$oid": "683c9830b52c6643a25c2f36"
+  },
+  "meter_mark": "HOT-3191",
+  "apartment_id": {
+    "$oid": "683c9830b52c6643a25c2f38"
+  },
+  "install_date": {
+    "$date": "2025-06-01T21:13:04.729Z"
+  },
+  "check_date": {
+    "$date": "2025-06-01T21:13:04.729Z"
+  },
+  "meter_type": "hot",
+  "water_usage": 1,
+  "history": [
+    {
+      "date": {
+        "$date": "2025-06-01T21:13:04.729Z"
+      },
+      "value": 1
+    }
+  ]
+},
+{
+  "_id": {
+    "$oid": "683c9830b52c6643a25c2f37"
+  },
+  "meter_mark": "COLD-7965",
+  "apartment_id": {
+    "$oid": "683c9830b52c6643a25c2f38"
+  },
+  "install_date": {
+    "$date": "2025-06-01T21:13:04.729Z"
+  },
+  "check_date": {
+    "$date": "2025-06-01T21:13:04.729Z"
+  },
+  "meter_type": "cold",
+  "water_usage": 1.48,
+  "history": [
+    {
+      "date": {
+        "$date": "2025-06-01T21:13:04.729Z"
+      },
+      "value": 1.48
+    }
+  ]
+},
+{
+  "_id": {
+    "$oid": "683c9830b52c6643a25c2f39"
+  },
+  "meter_mark": "HOT-8703",
+  "apartment_id": {
+    "$oid": "683c9830b52c6643a25c2f3b"
+  },
+  "install_date": {
+    "$date": "2025-06-01T21:13:04.729Z"
+  },
+  "check_date": {
+    "$date": "2025-06-01T21:13:04.729Z"
+  },
+  "meter_type": "hot",
+  "water_usage": 1.12,
+  "history": [
+    {
+      "date": {
+        "$date": "2025-06-01T21:13:04.729Z"
+      },
+      "value": 1.12
+    }
+  ]
+},
+{
+  "_id": {
+    "$oid": "683c9830b52c6643a25c2f3a"
+  },
+  "meter_mark": "COLD-5113",
+  "apartment_id": {
+    "$oid": "683c9830b52c6643a25c2f3b"
+  },
+  "install_date": {
+    "$date": "2025-06-01T21:13:04.729Z"
+  },
+  "check_date": {
+    "$date": "2025-06-01T21:13:04.729Z"
+  },
+  "meter_type": "cold",
+  "water_usage": 0.59,
+  "history": [
+    {
+      "date": {
+        "$date": "2025-06-01T21:13:04.729Z"
+      },
+      "value": 0.59
+    }
+  ]
+},
+{
+  "_id": {
+    "$oid": "683c9830b52c6643a25c2f3c"
+  },
+  "meter_mark": "HOT-7175",
+  "apartment_id": {
+    "$oid": "683c9830b52c6643a25c2f3e"
+  },
+  "install_date": {
+    "$date": "2025-06-01T21:13:04.729Z"
+  },
+  "check_date": {
+    "$date": "2025-06-01T21:13:04.729Z"
+  },
+  "meter_type": "hot",
+  "water_usage": 1.28,
+  "history": [
+    {
+      "date": {
+        "$date": "2025-06-01T21:13:04.729Z"
+      },
+      "value": 1.28
+    }
+  ]
+},
+{
+  "_id": {
+    "$oid": "683c9830b52c6643a25c2f3d"
+  },
+  "meter_mark": "COLD-2825",
+  "apartment_id": {
+    "$oid": "683c9830b52c6643a25c2f3e"
+  },
+  "install_date": {
+    "$date": "2025-06-01T21:13:04.729Z"
+  },
+  "check_date": {
+    "$date": "2025-06-01T21:13:04.729Z"
+  },
+  "meter_type": "cold",
+  "water_usage": 1.33,
+  "history": [
+    {
+      "date": {
+        "$date": "2025-06-01T21:13:04.729Z"
+      },
+      "value": 1.33
+    }
+  ]
+},
+{
+  "_id": {
+    "$oid": "683c9830b52c6643a25c2f3f"
+  },
+  "meter_mark": "HOT-2457",
+  "apartment_id": {
+    "$oid": "683c9830b52c6643a25c2f41"
+  },
+  "install_date": {
+    "$date": "2025-06-01T21:13:04.729Z"
+  },
+  "check_date": {
+    "$date": "2025-06-01T21:13:04.729Z"
+  },
+  "meter_type": "hot",
+  "water_usage": 0.86,
+  "history": [
+    {
+      "date": {
+        "$date": "2025-06-01T21:13:04.729Z"
+      },
+      "value": 0.86
+    }
+  ]
+},
+{
+  "_id": {
+    "$oid": "683c9830b52c6643a25c2f40"
+  },
+  "meter_mark": "COLD-2295",
+  "apartment_id": {
+    "$oid": "683c9830b52c6643a25c2f41"
+  },
+  "install_date": {
+    "$date": "2025-06-01T21:13:04.729Z"
+  },
+  "check_date": {
+    "$date": "2025-06-01T21:13:04.729Z"
+  },
+  "meter_type": "cold",
+  "water_usage": 1.59,
+  "history": [
+    {
+      "date": {
+        "$date": "2025-06-01T21:13:04.729Z"
+      },
+      "value": 1.59
+    }
+  ]
+},
+{
+  "_id": {
+    "$oid": "683c9830b52c6643a25c2f42"
+  },
+  "meter_mark": "HOT-2750",
+  "apartment_id": {
+    "$oid": "683c9830b52c6643a25c2f44"
+  },
+  "install_date": {
+    "$date": "2025-06-01T21:13:04.729Z"
+  },
+  "check_date": {
+    "$date": "2025-06-01T21:13:04.729Z"
+  },
+  "meter_type": "hot",
+  "water_usage": 1.7,
+  "history": [
+    {
+      "date": {
+        "$date": "2025-06-01T21:13:04.729Z"
+      },
+      "value": 1.7
+    }
+  ]
+},
+{
+  "_id": {
+    "$oid": "683c9830b52c6643a25c2f43"
+  },
+  "meter_mark": "COLD-8415",
+  "apartment_id": {
+    "$oid": "683c9830b52c6643a25c2f44"
+  },
+  "install_date": {
+    "$date": "2025-06-01T21:13:04.729Z"
+  },
+  "check_date": {
+    "$date": "2025-06-01T21:13:04.729Z"
+  },
+  "meter_type": "cold",
+  "water_usage": 1.6,
+  "history": [
+    {
+      "date": {
+        "$date": "2025-06-01T21:13:04.729Z"
+      },
+      "value": 1.6
+    }
+  ]
+},
+{
+  "_id": {
+    "$oid": "683c9830b52c6643a25c2f45"
+  },
+  "meter_mark": "HOT-6898",
+  "apartment_id": {
+    "$oid": "683c9830b52c6643a25c2f47"
+  },
+  "install_date": {
+    "$date": "2025-06-01T21:13:04.729Z"
+  },
+  "check_date": {
+    "$date": "2025-06-01T21:13:04.729Z"
+  },
+  "meter_type": "hot",
+  "water_usage": 0.54,
+  "history": [
+    {
+      "date": {
+        "$date": "2025-06-01T21:13:04.729Z"
+      },
+      "value": 0.54
+    }
+  ]
+},
+{
+  "_id": {
+    "$oid": "683c9830b52c6643a25c2f46"
+  },
+  "meter_mark": "COLD-1027",
+  "apartment_id": {
+    "$oid": "683c9830b52c6643a25c2f47"
+  },
+  "install_date": {
+    "$date": "2025-06-01T21:13:04.729Z"
+  },
+  "check_date": {
+    "$date": "2025-06-01T21:13:04.729Z"
+  },
+  "meter_type": "cold",
+  "water_usage": 1.48,
+  "history": [
+    {
+      "date": {
+        "$date": "2025-06-01T21:13:04.729Z"
+      },
+      "value": 1.48
+    }
+  ]
+},
+{
+  "_id": {
+    "$oid": "683c9830b52c6643a25c2f48"
+  },
+  "meter_mark": "HOT-8016",
+  "apartment_id": {
+    "$oid": "683c9830b52c6643a25c2f4a"
+  },
+  "install_date": {
+    "$date": "2025-06-01T21:13:04.729Z"
+  },
+  "check_date": {
+    "$date": "2025-06-01T21:13:04.729Z"
+  },
+  "meter_type": "hot",
+  "water_usage": 1.61,
+  "history": [
+    {
+      "date": {
+        "$date": "2025-06-01T21:13:04.729Z"
+      },
+      "value": 1.61
+    }
+  ]
+},
+{
+  "_id": {
+    "$oid": "683c9830b52c6643a25c2f49"
+  },
+  "meter_mark": "COLD-3073",
+  "apartment_id": {
+    "$oid": "683c9830b52c6643a25c2f4a"
+  },
+  "install_date": {
+    "$date": "2025-06-01T21:13:04.729Z"
+  },
+  "check_date": {
+    "$date": "2025-06-01T21:13:04.729Z"
+  },
+  "meter_type": "cold",
+  "water_usage": 1.84,
+  "history": [
+    {
+      "date": {
+        "$date": "2025-06-01T21:13:04.729Z"
+      },
+      "value": 1.84
+    }
+  ]
+},
+{
+  "_id": {
+    "$oid": "683c9830b52c6643a25c2f4b"
+  },
+  "meter_mark": "HOT-6709",
+  "apartment_id": {
+    "$oid": "683c9830b52c6643a25c2f4d"
+  },
+  "install_date": {
+    "$date": "2025-06-01T21:13:04.729Z"
+  },
+  "check_date": {
+    "$date": "2025-06-01T21:13:04.729Z"
+  },
+  "meter_type": "hot",
+  "water_usage": 0.72,
+  "history": [
+    {
+      "date": {
+        "$date": "2025-06-01T21:13:04.729Z"
+      },
+      "value": 0.72
+    }
+  ]
+},
+{
+  "_id": {
+    "$oid": "683c9830b52c6643a25c2f4c"
+  },
+  "meter_mark": "COLD-4273",
+  "apartment_id": {
+    "$oid": "683c9830b52c6643a25c2f4d"
+  },
+  "install_date": {
+    "$date": "2025-06-01T21:13:04.729Z"
+  },
+  "check_date": {
+    "$date": "2025-06-01T21:13:04.729Z"
+  },
+  "meter_type": "cold",
+  "water_usage": 1.44,
+  "history": [
+    {
+      "date": {
+        "$date": "2025-06-01T21:13:04.729Z"
+      },
+      "value": 1.44
+    }
+  ]
+},
+{
+  "_id": {
+    "$oid": "683c9830b52c6643a25c2f4e"
+  },
+  "meter_mark": "HOT-6505",
+  "apartment_id": {
+    "$oid": "683c9830b52c6643a25c2f50"
+  },
+  "install_date": {
+    "$date": "2025-06-01T21:13:04.729Z"
+  },
+  "check_date": {
+    "$date": "2025-06-01T21:13:04.729Z"
+  },
+  "meter_type": "hot",
+  "water_usage": 0.69,
+  "history": [
+    {
+      "date": {
+        "$date": "2025-06-01T21:13:04.729Z"
+      },
+      "value": 0.69
+    }
+  ]
+},
+{
+  "_id": {
+    "$oid": "683c9830b52c6643a25c2f4f"
+  },
+  "meter_mark": "COLD-4344",
+  "apartment_id": {
+    "$oid": "683c9830b52c6643a25c2f50"
+  },
+  "install_date": {
+    "$date": "2025-06-01T21:13:04.729Z"
+  },
+  "check_date": {
+    "$date": "2025-06-01T21:13:04.729Z"
+  },
+  "meter_type": "cold",
+  "water_usage": 1.71,
+  "history": [
+    {
+      "date": {
+        "$date": "2025-06-01T21:13:04.729Z"
+      },
+      "value": 1.71
+    }
+  ]
+},
+{
+  "_id": {
+    "$oid": "683c9830b52c6643a25c2f51"
+  },
+  "meter_mark": "HOT-6266",
+  "apartment_id": {
+    "$oid": "683c9830b52c6643a25c2f53"
+  },
+  "install_date": {
+    "$date": "2025-06-01T21:13:04.729Z"
+  },
+  "check_date": {
+    "$date": "2025-06-01T21:13:04.729Z"
+  },
+  "meter_type": "hot",
+  "water_usage": 0.98,
+  "history": [
+    {
+      "date": {
+        "$date": "2025-06-01T21:13:04.729Z"
+      },
+      "value": 0.98
+    }
+  ]
+},
+{
+  "_id": {
+    "$oid": "683c9830b52c6643a25c2f52"
+  },
+  "meter_mark": "COLD-7639",
+  "apartment_id": {
+    "$oid": "683c9830b52c6643a25c2f53"
+  },
+  "install_date": {
+    "$date": "2025-06-01T21:13:04.729Z"
+  },
+  "check_date": {
+    "$date": "2025-06-01T21:13:04.729Z"
+  },
+  "meter_type": "cold",
+  "water_usage": 1.09,
+  "history": [
+    {
+      "date": {
+        "$date": "2025-06-01T21:13:04.729Z"
+      },
+      "value": 1.09
+    }
+  ]
+},
+{
+  "_id": {
+    "$oid": "683c9830b52c6643a25c2f54"
+  },
+  "meter_mark": "HOT-6213",
+  "apartment_id": {
+    "$oid": "683c9830b52c6643a25c2f56"
+  },
+  "install_date": {
+    "$date": "2025-06-01T21:13:04.729Z"
+  },
+  "check_date": {
+    "$date": "2025-06-01T21:13:04.729Z"
+  },
+  "meter_type": "hot",
+  "water_usage": 0.99,
+  "history": [
+    {
+      "date": {
+        "$date": "2025-06-01T21:13:04.729Z"
+      },
+      "value": 0.99
+    }
+  ]
+},
+{
+  "_id": {
+    "$oid": "683c9830b52c6643a25c2f55"
+  },
+  "meter_mark": "COLD-1987",
+  "apartment_id": {
+    "$oid": "683c9830b52c6643a25c2f56"
+  },
+  "install_date": {
+    "$date": "2025-06-01T21:13:04.729Z"
+  },
+  "check_date": {
+    "$date": "2025-06-01T21:13:04.729Z"
+  },
+  "meter_type": "cold",
+  "water_usage": 1.87,
+  "history": [
+    {
+      "date": {
+        "$date": "2025-06-01T21:13:04.729Z"
+      },
+      "value": 1.87
+    }
+  ]
+},
+{
+  "_id": {
+    "$oid": "683c9830b52c6643a25c2f57"
+  },
+  "meter_mark": "HOT-8881",
+  "apartment_id": {
+    "$oid": "683c9830b52c6643a25c2f59"
+  },
+  "install_date": {
+    "$date": "2025-06-01T21:13:04.729Z"
+  },
+  "check_date": {
+    "$date": "2025-06-01T21:13:04.729Z"
+  },
+  "meter_type": "hot",
+  "water_usage": 1.76,
+  "history": [
+    {
+      "date": {
+        "$date": "2025-06-01T21:13:04.729Z"
+      },
+      "value": 1.76
+    }
+  ]
+},
+{
+  "_id": {
+    "$oid": "683c9830b52c6643a25c2f58"
+  },
+  "meter_mark": "COLD-4992",
+  "apartment_id": {
+    "$oid": "683c9830b52c6643a25c2f59"
+  },
+  "install_date": {
+    "$date": "2025-06-01T21:13:04.729Z"
+  },
+  "check_date": {
+    "$date": "2025-06-01T21:13:04.729Z"
+  },
+  "meter_type": "cold",
+  "water_usage": 1.13,
+  "history": [
+    {
+      "date": {
+        "$date": "2025-06-01T21:13:04.729Z"
+      },
+      "value": 1.13
+    }
+  ]
+},
+{
+  "_id": {
+    "$oid": "683c9830b52c6643a25c2f5a"
+  },
+  "meter_mark": "HOT-2702",
+  "apartment_id": {
+    "$oid": "683c9830b52c6643a25c2f5c"
+  },
+  "install_date": {
+    "$date": "2025-06-01T21:13:04.729Z"
+  },
+  "check_date": {
+    "$date": "2025-06-01T21:13:04.729Z"
+  },
+  "meter_type": "hot",
+  "water_usage": 1.94,
+  "history": [
+    {
+      "date": {
+        "$date": "2025-06-01T21:13:04.729Z"
+      },
+      "value": 1.94
+    }
+  ]
+},
+{
+  "_id": {
+    "$oid": "683c9830b52c6643a25c2f5b"
+  },
+  "meter_mark": "COLD-8635",
+  "apartment_id": {
+    "$oid": "683c9830b52c6643a25c2f5c"
+  },
+  "install_date": {
+    "$date": "2025-06-01T21:13:04.729Z"
+  },
+  "check_date": {
+    "$date": "2025-06-01T21:13:04.729Z"
+  },
+  "meter_type": "cold",
+  "water_usage": 1.42,
+  "history": [
+    {
+      "date": {
+        "$date": "2025-06-01T21:13:04.729Z"
+      },
+      "value": 1.42
+    }
+  ]
+},
+{
+  "_id": {
+    "$oid": "683c9830b52c6643a25c2f5d"
+  },
+  "meter_mark": "HOT-5100",
+  "apartment_id": {
+    "$oid": "683c9830b52c6643a25c2f5f"
+  },
+  "install_date": {
+    "$date": "2025-06-01T21:13:04.729Z"
+  },
+  "check_date": {
+    "$date": "2025-06-01T21:13:04.729Z"
+  },
+  "meter_type": "hot",
+  "water_usage": 0.68,
+  "history": [
+    {
+      "date": {
+        "$date": "2025-06-01T21:13:04.729Z"
+      },
+      "value": 0.68
+    }
+  ]
+},
+{
+  "_id": {
+    "$oid": "683c9830b52c6643a25c2f5e"
+  },
+  "meter_mark": "COLD-9357",
+  "apartment_id": {
+    "$oid": "683c9830b52c6643a25c2f5f"
+  },
+  "install_date": {
+    "$date": "2025-06-01T21:13:04.729Z"
+  },
+  "check_date": {
+    "$date": "2025-06-01T21:13:04.729Z"
+  },
+  "meter_type": "cold",
+  "water_usage": 0.87,
+  "history": [
+    {
+      "date": {
+        "$date": "2025-06-01T21:13:04.729Z"
+      },
+      "value": 0.87
+    }
+  ]
+},
+{
+  "_id": {
+    "$oid": "683c9830b52c6643a25c2f60"
+  },
+  "meter_mark": "HOT-7943",
+  "apartment_id": {
+    "$oid": "683c9830b52c6643a25c2f62"
+  },
+  "install_date": {
+    "$date": "2025-06-01T21:13:04.729Z"
+  },
+  "check_date": {
+    "$date": "2025-06-01T21:13:04.729Z"
+  },
+  "meter_type": "hot",
+  "water_usage": 0.6,
+  "history": [
+    {
+      "date": {
+        "$date": "2025-06-01T21:13:04.729Z"
+      },
+      "value": 0.6
+    }
+  ]
+},
+{
+  "_id": {
+    "$oid": "683c9830b52c6643a25c2f61"
+  },
+  "meter_mark": "COLD-7049",
+  "apartment_id": {
+    "$oid": "683c9830b52c6643a25c2f62"
+  },
+  "install_date": {
+    "$date": "2025-06-01T21:13:04.729Z"
+  },
+  "check_date": {
+    "$date": "2025-06-01T21:13:04.729Z"
+  },
+  "meter_type": "cold",
+  "water_usage": 1.81,
+  "history": [
+    {
+      "date": {
+        "$date": "2025-06-01T21:13:04.729Z"
+      },
+      "value": 1.81
+    }
+  ]
+},
+{
+  "_id": {
+    "$oid": "683c9830b52c6643a25c2f63"
+  },
+  "meter_mark": "HOT-5218",
+  "apartment_id": {
+    "$oid": "683c9830b52c6643a25c2f65"
+  },
+  "install_date": {
+    "$date": "2025-06-01T21:13:04.729Z"
+  },
+  "check_date": {
+    "$date": "2025-06-01T21:13:04.729Z"
+  },
+  "meter_type": "hot",
+  "water_usage": 1.13,
+  "history": [
+    {
+      "date": {
+        "$date": "2025-06-01T21:13:04.729Z"
+      },
+      "value": 1.13
+    }
+  ]
+},
+{
+  "_id": {
+    "$oid": "683c9830b52c6643a25c2f64"
+  },
+  "meter_mark": "COLD-3416",
+  "apartment_id": {
+    "$oid": "683c9830b52c6643a25c2f65"
+  },
+  "install_date": {
+    "$date": "2025-06-01T21:13:04.729Z"
+  },
+  "check_date": {
+    "$date": "2025-06-01T21:13:04.729Z"
+  },
+  "meter_type": "cold",
+  "water_usage": 1.35,
+  "history": [
+    {
+      "date": {
+        "$date": "2025-06-01T21:13:04.729Z"
+      },
+      "value": 1.35
+    }
+  ]
+},
+{
+  "_id": {
+    "$oid": "683c9830b52c6643a25c2f66"
+  },
+  "meter_mark": "HOT-7633",
+  "apartment_id": {
+    "$oid": "683c9830b52c6643a25c2f68"
+  },
+  "install_date": {
+    "$date": "2025-06-01T21:13:04.729Z"
+  },
+  "check_date": {
+    "$date": "2025-06-01T21:13:04.729Z"
+  },
+  "meter_type": "hot",
+  "water_usage": 1.73,
+  "history": [
+    {
+      "date": {
+        "$date": "2025-06-01T21:13:04.729Z"
+      },
+      "value": 1.73
+    }
+  ]
+},
+{
+  "_id": {
+    "$oid": "683c9830b52c6643a25c2f67"
+  },
+  "meter_mark": "COLD-1108",
+  "apartment_id": {
+    "$oid": "683c9830b52c6643a25c2f68"
+  },
+  "install_date": {
+    "$date": "2025-06-01T21:13:04.729Z"
+  },
+  "check_date": {
+    "$date": "2025-06-01T21:13:04.729Z"
+  },
+  "meter_type": "cold",
+  "water_usage": 0.63,
+  "history": [
+    {
+      "date": {
+        "$date": "2025-06-01T21:13:04.729Z"
+      },
+      "value": 0.63
+    }
+  ]
+},
+{
+  "_id": {
+    "$oid": "683c9830b52c6643a25c2f6a"
+  },
+  "meter_mark": "HOT-6145",
+  "apartment_id": {
+    "$oid": "683c9830b52c6643a25c2f6c"
+  },
+  "install_date": {
+    "$date": "2025-06-01T21:13:04.729Z"
+  },
+  "check_date": {
+    "$date": "2025-06-01T21:13:04.729Z"
+  },
+  "meter_type": "hot",
+  "water_usage": 1.16,
+  "history": [
+    {
+      "date": {
+        "$date": "2025-06-01T21:13:04.729Z"
+      },
+      "value": 1.16
+    }
+  ]
+},
+{
+  "_id": {
+    "$oid": "683c9830b52c6643a25c2f6b"
+  },
+  "meter_mark": "COLD-7363",
+  "apartment_id": {
+    "$oid": "683c9830b52c6643a25c2f6c"
+  },
+  "install_date": {
+    "$date": "2025-06-01T21:13:04.729Z"
+  },
+  "check_date": {
+    "$date": "2025-06-01T21:13:04.729Z"
+  },
+  "meter_type": "cold",
+  "water_usage": 1.43,
+  "history": [
+    {
+      "date": {
+        "$date": "2025-06-01T21:13:04.729Z"
+      },
+      "value": 1.43
+    }
+  ]
+},
+{
+  "_id": {
+    "$oid": "683c9830b52c6643a25c2f6d"
+  },
+  "meter_mark": "HOT-9467",
+  "apartment_id": {
+    "$oid": "683c9830b52c6643a25c2f6f"
+  },
+  "install_date": {
+    "$date": "2025-06-01T21:13:04.729Z"
+  },
+  "check_date": {
+    "$date": "2025-06-01T21:13:04.729Z"
+  },
+  "meter_type": "hot",
+  "water_usage": 0.84,
+  "history": [
+    {
+      "date": {
+        "$date": "2025-06-01T21:13:04.729Z"
+      },
+      "value": 0.84
+    }
+  ]
+},
+{
+  "_id": {
+    "$oid": "683c9830b52c6643a25c2f6e"
+  },
+  "meter_mark": "COLD-5991",
+  "apartment_id": {
+    "$oid": "683c9830b52c6643a25c2f6f"
+  },
+  "install_date": {
+    "$date": "2025-06-01T21:13:04.729Z"
+  },
+  "check_date": {
+    "$date": "2025-06-01T21:13:04.729Z"
+  },
+  "meter_type": "cold",
+  "water_usage": 0.96,
+  "history": [
+    {
+      "date": {
+        "$date": "2025-06-01T21:13:04.729Z"
+      },
+      "value": 0.96
+    }
+  ]
+},
+{
+  "_id": {
+    "$oid": "683c9830b52c6643a25c2f70"
+  },
+  "meter_mark": "HOT-7969",
+  "apartment_id": {
+    "$oid": "683c9830b52c6643a25c2f72"
+  },
+  "install_date": {
+    "$date": "2025-06-01T21:13:04.729Z"
+  },
+  "check_date": {
+    "$date": "2025-06-01T21:13:04.729Z"
+  },
+  "meter_type": "hot",
+  "water_usage": 1.18,
+  "history": [
+    {
+      "date": {
+        "$date": "2025-06-01T21:13:04.729Z"
+      },
+      "value": 1.18
+    }
+  ]
+},
+{
+  "_id": {
+    "$oid": "683c9830b52c6643a25c2f71"
+  },
+  "meter_mark": "COLD-7075",
+  "apartment_id": {
+    "$oid": "683c9830b52c6643a25c2f72"
+  },
+  "install_date": {
+    "$date": "2025-06-01T21:13:04.729Z"
+  },
+  "check_date": {
+    "$date": "2025-06-01T21:13:04.729Z"
+  },
+  "meter_type": "cold",
+  "water_usage": 0.8,
+  "history": [
+    {
+      "date": {
+        "$date": "2025-06-01T21:13:04.729Z"
+      },
+      "value": 0.8
+    }
+  ]
+},
+{
+  "_id": {
+    "$oid": "683c9830b52c6643a25c2f73"
+  },
+  "meter_mark": "HOT-8803",
+  "apartment_id": {
+    "$oid": "683c9830b52c6643a25c2f75"
+  },
+  "install_date": {
+    "$date": "2025-06-01T21:13:04.729Z"
+  },
+  "check_date": {
+    "$date": "2025-06-01T21:13:04.729Z"
+  },
+  "meter_type": "hot",
+  "water_usage": 1.55,
+  "history": [
+    {
+      "date": {
+        "$date": "2025-06-01T21:13:04.729Z"
+      },
+      "value": 1.55
+    }
+  ]
+},
+{
+  "_id": {
+    "$oid": "683c9830b52c6643a25c2f74"
+  },
+  "meter_mark": "COLD-6194",
+  "apartment_id": {
+    "$oid": "683c9830b52c6643a25c2f75"
+  },
+  "install_date": {
+    "$date": "2025-06-01T21:13:04.729Z"
+  },
+  "check_date": {
+    "$date": "2025-06-01T21:13:04.729Z"
+  },
+  "meter_type": "cold",
+  "water_usage": 0.86,
+  "history": [
+    {
+      "date": {
+        "$date": "2025-06-01T21:13:04.729Z"
+      },
+      "value": 0.86
+    }
+  ]
+},
+{
+  "_id": {
+    "$oid": "683c9830b52c6643a25c2f76"
+  },
+  "meter_mark": "HOT-3157",
+  "apartment_id": {
+    "$oid": "683c9830b52c6643a25c2f78"
+  },
+  "install_date": {
+    "$date": "2025-06-01T21:13:04.729Z"
+  },
+  "check_date": {
+    "$date": "2025-06-01T21:13:04.729Z"
+  },
+  "meter_type": "hot",
+  "water_usage": 1.59,
+  "history": [
+    {
+      "date": {
+        "$date": "2025-06-01T21:13:04.729Z"
+      },
+      "value": 1.59
+    }
+  ]
+},
+{
+  "_id": {
+    "$oid": "683c9830b52c6643a25c2f77"
+  },
+  "meter_mark": "COLD-3877",
+  "apartment_id": {
+    "$oid": "683c9830b52c6643a25c2f78"
+  },
+  "install_date": {
+    "$date": "2025-06-01T21:13:04.729Z"
+  },
+  "check_date": {
+    "$date": "2025-06-01T21:13:04.729Z"
+  },
+  "meter_type": "cold",
+  "water_usage": 1.46,
+  "history": [
+    {
+      "date": {
+        "$date": "2025-06-01T21:13:04.729Z"
+      },
+      "value": 1.46
+    }
+  ]
+},
+{
+  "_id": {
+    "$oid": "683c9830b52c6643a25c2f79"
+  },
+  "meter_mark": "HOT-3468",
+  "apartment_id": {
+    "$oid": "683c9830b52c6643a25c2f7b"
+  },
+  "install_date": {
+    "$date": "2025-06-01T21:13:04.729Z"
+  },
+  "check_date": {
+    "$date": "2025-06-01T21:13:04.729Z"
+  },
+  "meter_type": "hot",
+  "water_usage": 1.47,
+  "history": [
+    {
+      "date": {
+        "$date": "2025-06-01T21:13:04.729Z"
+      },
+      "value": 1.47
+    }
+  ]
+},
+{
+  "_id": {
+    "$oid": "683c9830b52c6643a25c2f7a"
+  },
+  "meter_mark": "COLD-5444",
+  "apartment_id": {
+    "$oid": "683c9830b52c6643a25c2f7b"
+  },
+  "install_date": {
+    "$date": "2025-06-01T21:13:04.729Z"
+  },
+  "check_date": {
+    "$date": "2025-06-01T21:13:04.729Z"
+  },
+  "meter_type": "cold",
+  "water_usage": 0.59,
+  "history": [
+    {
+      "date": {
+        "$date": "2025-06-01T21:13:04.729Z"
+      },
+      "value": 0.59
+    }
+  ]
+},
+{
+  "_id": {
+    "$oid": "683c9830b52c6643a25c2f7c"
+  },
+  "meter_mark": "HOT-9219",
+  "apartment_id": {
+    "$oid": "683c9830b52c6643a25c2f7e"
+  },
+  "install_date": {
+    "$date": "2025-06-01T21:13:04.729Z"
+  },
+  "check_date": {
+    "$date": "2025-06-01T21:13:04.729Z"
+  },
+  "meter_type": "hot",
+  "water_usage": 1.77,
+  "history": [
+    {
+      "date": {
+        "$date": "2025-06-01T21:13:04.729Z"
+      },
+      "value": 1.77
+    }
+  ]
+},
+{
+  "_id": {
+    "$oid": "683c9830b52c6643a25c2f7d"
+  },
+  "meter_mark": "COLD-8117",
+  "apartment_id": {
+    "$oid": "683c9830b52c6643a25c2f7e"
+  },
+  "install_date": {
+    "$date": "2025-06-01T21:13:04.729Z"
+  },
+  "check_date": {
+    "$date": "2025-06-01T21:13:04.729Z"
+  },
+  "meter_type": "cold",
+  "water_usage": 1.18,
+  "history": [
+    {
+      "date": {
+        "$date": "2025-06-01T21:13:04.729Z"
+      },
+      "value": 1.18
+    }
+  ]
+},
+{
+  "_id": {
+    "$oid": "683c9830b52c6643a25c2f7f"
+  },
+  "meter_mark": "HOT-5822",
+  "apartment_id": {
+    "$oid": "683c9830b52c6643a25c2f81"
+  },
+  "install_date": {
+    "$date": "2025-06-01T21:13:04.729Z"
+  },
+  "check_date": {
+    "$date": "2025-06-01T21:13:04.729Z"
+  },
+  "meter_type": "hot",
+  "water_usage": 0.6,
+  "history": [
+    {
+      "date": {
+        "$date": "2025-06-01T21:13:04.729Z"
+      },
+      "value": 0.6
+    }
+  ]
+},
+{
+  "_id": {
+    "$oid": "683c9830b52c6643a25c2f80"
+  },
+  "meter_mark": "COLD-9717",
+  "apartment_id": {
+    "$oid": "683c9830b52c6643a25c2f81"
+  },
+  "install_date": {
+    "$date": "2025-06-01T21:13:04.729Z"
+  },
+  "check_date": {
+    "$date": "2025-06-01T21:13:04.729Z"
+  },
+  "meter_type": "cold",
+  "water_usage": 1.67,
+  "history": [
+    {
+      "date": {
+        "$date": "2025-06-01T21:13:04.729Z"
+      },
+      "value": 1.67
+    }
+  ]
+},
+{
+  "_id": {
+    "$oid": "683c9830b52c6643a25c2f82"
+  },
+  "meter_mark": "HOT-7232",
+  "apartment_id": {
+    "$oid": "683c9830b52c6643a25c2f84"
+  },
+  "install_date": {
+    "$date": "2025-06-01T21:13:04.729Z"
+  },
+  "check_date": {
+    "$date": "2025-06-01T21:13:04.729Z"
+  },
+  "meter_type": "hot",
+  "water_usage": 1.78,
+  "history": [
+    {
+      "date": {
+        "$date": "2025-06-01T21:13:04.729Z"
+      },
+      "value": 1.78
+    }
+  ]
+},
+{
+  "_id": {
+    "$oid": "683c9830b52c6643a25c2f83"
+  },
+  "meter_mark": "COLD-1850",
+  "apartment_id": {
+    "$oid": "683c9830b52c6643a25c2f84"
+  },
+  "install_date": {
+    "$date": "2025-06-01T21:13:04.729Z"
+  },
+  "check_date": {
+    "$date": "2025-06-01T21:13:04.729Z"
+  },
+  "meter_type": "cold",
+  "water_usage": 1.76,
+  "history": [
+    {
+      "date": {
+        "$date": "2025-06-01T21:13:04.729Z"
+      },
+      "value": 1.76
+    }
+  ]
+},
+{
+  "_id": {
+    "$oid": "683c9830b52c6643a25c2f85"
+  },
+  "meter_mark": "HOT-3245",
+  "apartment_id": {
+    "$oid": "683c9830b52c6643a25c2f87"
+  },
+  "install_date": {
+    "$date": "2025-06-01T21:13:04.729Z"
+  },
+  "check_date": {
+    "$date": "2025-06-01T21:13:04.729Z"
+  },
+  "meter_type": "hot",
+  "water_usage": 0.78,
+  "history": [
+    {
+      "date": {
+        "$date": "2025-06-01T21:13:04.729Z"
+      },
+      "value": 0.78
+    }
+  ]
+},
+{
+  "_id": {
+    "$oid": "683c9830b52c6643a25c2f86"
+  },
+  "meter_mark": "COLD-4335",
+  "apartment_id": {
+    "$oid": "683c9830b52c6643a25c2f87"
+  },
+  "install_date": {
+    "$date": "2025-06-01T21:13:04.729Z"
+  },
+  "check_date": {
+    "$date": "2025-06-01T21:13:04.729Z"
+  },
+  "meter_type": "cold",
+  "water_usage": 1.04,
+  "history": [
+    {
+      "date": {
+        "$date": "2025-06-01T21:13:04.729Z"
+      },
+      "value": 1.04
+    }
+  ]
+},
+{
+  "_id": {
+    "$oid": "683c9830b52c6643a25c2f88"
+  },
+  "meter_mark": "HOT-6006",
+  "apartment_id": {
+    "$oid": "683c9830b52c6643a25c2f8a"
+  },
+  "install_date": {
+    "$date": "2025-06-01T21:13:04.729Z"
+  },
+  "check_date": {
+    "$date": "2025-06-01T21:13:04.729Z"
+  },
+  "meter_type": "hot",
+  "water_usage": 1.58,
+  "history": [
+    {
+      "date": {
+        "$date": "2025-06-01T21:13:04.729Z"
+      },
+      "value": 1.58
+    }
+  ]
+},
+{
+  "_id": {
+    "$oid": "683c9830b52c6643a25c2f89"
+  },
+  "meter_mark": "COLD-9570",
+  "apartment_id": {
+    "$oid": "683c9830b52c6643a25c2f8a"
+  },
+  "install_date": {
+    "$date": "2025-06-01T21:13:04.729Z"
+  },
+  "check_date": {
+    "$date": "2025-06-01T21:13:04.729Z"
+  },
+  "meter_type": "cold",
+  "water_usage": 1.58,
+  "history": [
+    {
+      "date": {
+        "$date": "2025-06-01T21:13:04.729Z"
+      },
+      "value": 1.58
+    }
+  ]
+},
+{
+  "_id": {
+    "$oid": "683c9830b52c6643a25c2f8b"
+  },
+  "meter_mark": "HOT-4559",
+  "apartment_id": {
+    "$oid": "683c9830b52c6643a25c2f8d"
+  },
+  "install_date": {
+    "$date": "2025-06-01T21:13:04.729Z"
+  },
+  "check_date": {
+    "$date": "2025-06-01T21:13:04.729Z"
+  },
+  "meter_type": "hot",
+  "water_usage": 1.32,
+  "history": [
+    {
+      "date": {
+        "$date": "2025-06-01T21:13:04.729Z"
+      },
+      "value": 1.32
+    }
+  ]
+},
+{
+  "_id": {
+    "$oid": "683c9830b52c6643a25c2f8c"
+  },
+  "meter_mark": "COLD-5344",
+  "apartment_id": {
+    "$oid": "683c9830b52c6643a25c2f8d"
+  },
+  "install_date": {
+    "$date": "2025-06-01T21:13:04.729Z"
+  },
+  "check_date": {
+    "$date": "2025-06-01T21:13:04.729Z"
+  },
+  "meter_type": "cold",
+  "water_usage": 0.62,
+  "history": [
+    {
+      "date": {
+        "$date": "2025-06-01T21:13:04.729Z"
+      },
+      "value": 0.62
+    }
+  ]
+},
+{
+  "_id": {
+    "$oid": "683c9830b52c6643a25c2f8e"
+  },
+  "meter_mark": "HOT-8206",
+  "apartment_id": {
+    "$oid": "683c9830b52c6643a25c2f90"
+  },
+  "install_date": {
+    "$date": "2025-06-01T21:13:04.729Z"
+  },
+  "check_date": {
+    "$date": "2025-06-01T21:13:04.729Z"
+  },
+  "meter_type": "hot",
+  "water_usage": 1.28,
+  "history": [
+    {
+      "date": {
+        "$date": "2025-06-01T21:13:04.729Z"
+      },
+      "value": 1.28
+    }
+  ]
+},
+{
+  "_id": {
+    "$oid": "683c9830b52c6643a25c2f8f"
+  },
+  "meter_mark": "COLD-5455",
+  "apartment_id": {
+    "$oid": "683c9830b52c6643a25c2f90"
+  },
+  "install_date": {
+    "$date": "2025-06-01T21:13:04.729Z"
+  },
+  "check_date": {
+    "$date": "2025-06-01T21:13:04.729Z"
+  },
+  "meter_type": "cold",
+  "water_usage": 0.61,
+  "history": [
+    {
+      "date": {
+        "$date": "2025-06-01T21:13:04.729Z"
+      },
+      "value": 0.61
+    }
+  ]
+},
+{
+  "_id": {
+    "$oid": "683c9830b52c6643a25c2f91"
+  },
+  "meter_mark": "HOT-3113",
+  "apartment_id": {
+    "$oid": "683c9830b52c6643a25c2f93"
+  },
+  "install_date": {
+    "$date": "2025-06-01T21:13:04.729Z"
+  },
+  "check_date": {
+    "$date": "2025-06-01T21:13:04.729Z"
+  },
+  "meter_type": "hot",
+  "water_usage": 1.92,
+  "history": [
+    {
+      "date": {
+        "$date": "2025-06-01T21:13:04.729Z"
+      },
+      "value": 1.92
+    }
+  ]
+},
+{
+  "_id": {
+    "$oid": "683c9830b52c6643a25c2f92"
+  },
+  "meter_mark": "COLD-1128",
+  "apartment_id": {
+    "$oid": "683c9830b52c6643a25c2f93"
+  },
+  "install_date": {
+    "$date": "2025-06-01T21:13:04.729Z"
+  },
+  "check_date": {
+    "$date": "2025-06-01T21:13:04.729Z"
+  },
+  "meter_type": "cold",
+  "water_usage": 0.66,
+  "history": [
+    {
+      "date": {
+        "$date": "2025-06-01T21:13:04.729Z"
+      },
+      "value": 0.66
+    }
+  ]
+},
+{
+  "_id": {
+    "$oid": "683c9830b52c6643a25c2f94"
+  },
+  "meter_mark": "HOT-7941",
+  "apartment_id": {
+    "$oid": "683c9830b52c6643a25c2f96"
+  },
+  "install_date": {
+    "$date": "2025-06-01T21:13:04.729Z"
+  },
+  "check_date": {
+    "$date": "2025-06-01T21:13:04.729Z"
+  },
+  "meter_type": "hot",
+  "water_usage": 1.1,
+  "history": [
+    {
+      "date": {
+        "$date": "2025-06-01T21:13:04.729Z"
+      },
+      "value": 1.1
+    }
+  ]
+},
+{
+  "_id": {
+    "$oid": "683c9830b52c6643a25c2f95"
+  },
+  "meter_mark": "COLD-5882",
+  "apartment_id": {
+    "$oid": "683c9830b52c6643a25c2f96"
+  },
+  "install_date": {
+    "$date": "2025-06-01T21:13:04.729Z"
+  },
+  "check_date": {
+    "$date": "2025-06-01T21:13:04.729Z"
+  },
+  "meter_type": "cold",
+  "water_usage": 1.85,
+  "history": [
+    {
+      "date": {
+        "$date": "2025-06-01T21:13:04.729Z"
+      },
+      "value": 1.85
+    }
+  ]
+},
+{
+  "_id": {
+    "$oid": "683c9830b52c6643a25c2f97"
+  },
+  "meter_mark": "HOT-8905",
+  "apartment_id": {
+    "$oid": "683c9830b52c6643a25c2f99"
+  },
+  "install_date": {
+    "$date": "2025-06-01T21:13:04.729Z"
+  },
+  "check_date": {
+    "$date": "2025-06-01T21:13:04.729Z"
+  },
+  "meter_type": "hot",
+  "water_usage": 1.4,
+  "history": [
+    {
+      "date": {
+        "$date": "2025-06-01T21:13:04.729Z"
+      },
+      "value": 1.4
+    }
+  ]
+},
+{
+  "_id": {
+    "$oid": "683c9830b52c6643a25c2f98"
+  },
+  "meter_mark": "COLD-6237",
+  "apartment_id": {
+    "$oid": "683c9830b52c6643a25c2f99"
+  },
+  "install_date": {
+    "$date": "2025-06-01T21:13:04.729Z"
+  },
+  "check_date": {
+    "$date": "2025-06-01T21:13:04.729Z"
+  },
+  "meter_type": "cold",
+  "water_usage": 1.34,
+  "history": [
+    {
+      "date": {
+        "$date": "2025-06-01T21:13:04.729Z"
+      },
+      "value": 1.34
+    }
+  ]
+},
+{
+  "_id": {
+    "$oid": "683c9830b52c6643a25c2f9a"
+  },
+  "meter_mark": "HOT-5641",
+  "apartment_id": {
+    "$oid": "683c9830b52c6643a25c2f9c"
+  },
+  "install_date": {
+    "$date": "2025-06-01T21:13:04.729Z"
+  },
+  "check_date": {
+    "$date": "2025-06-01T21:13:04.729Z"
+  },
+  "meter_type": "hot",
+  "water_usage": 1.24,
+  "history": [
+    {
+      "date": {
+        "$date": "2025-06-01T21:13:04.729Z"
+      },
+      "value": 1.24
+    }
+  ]
+},
+{
+  "_id": {
+    "$oid": "683c9830b52c6643a25c2f9b"
+  },
+  "meter_mark": "COLD-5613",
+  "apartment_id": {
+    "$oid": "683c9830b52c6643a25c2f9c"
+  },
+  "install_date": {
+    "$date": "2025-06-01T21:13:04.729Z"
+  },
+  "check_date": {
+    "$date": "2025-06-01T21:13:04.729Z"
+  },
+  "meter_type": "cold",
+  "water_usage": 1.66,
+  "history": [
+    {
+      "date": {
+        "$date": "2025-06-01T21:13:04.729Z"
+      },
+      "value": 1.66
+    }
+  ]
+},
+{
+  "_id": {
+    "$oid": "683c9830b52c6643a25c2f9d"
+  },
+  "meter_mark": "HOT-8815",
+  "apartment_id": {
+    "$oid": "683c9830b52c6643a25c2f9f"
+  },
+  "install_date": {
+    "$date": "2025-06-01T21:13:04.729Z"
+  },
+  "check_date": {
+    "$date": "2025-06-01T21:13:04.729Z"
+  },
+  "meter_type": "hot",
+  "water_usage": 1.6,
+  "history": [
+    {
+      "date": {
+        "$date": "2025-06-01T21:13:04.729Z"
+      },
+      "value": 1.6
+    }
+  ]
+},
+{
+  "_id": {
+    "$oid": "683c9830b52c6643a25c2f9e"
+  },
+  "meter_mark": "COLD-1709",
+  "apartment_id": {
+    "$oid": "683c9830b52c6643a25c2f9f"
+  },
+  "install_date": {
+    "$date": "2025-06-01T21:13:04.729Z"
+  },
+  "check_date": {
+    "$date": "2025-06-01T21:13:04.729Z"
+  },
+  "meter_type": "cold",
+  "water_usage": 1.99,
+  "history": [
+    {
+      "date": {
+        "$date": "2025-06-01T21:13:04.729Z"
+      },
+      "value": 1.99
+    }
+  ]
+},
+{
+  "_id": {
+    "$oid": "683c9830b52c6643a25c2fa0"
+  },
+  "meter_mark": "HOT-7286",
+  "apartment_id": {
+    "$oid": "683c9830b52c6643a25c2fa2"
+  },
+  "install_date": {
+    "$date": "2025-06-01T21:13:04.729Z"
+  },
+  "check_date": {
+    "$date": "2025-06-01T21:13:04.729Z"
+  },
+  "meter_type": "hot",
+  "water_usage": 1.11,
+  "history": [
+    {
+      "date": {
+        "$date": "2025-06-01T21:13:04.729Z"
+      },
+      "value": 1.11
+    }
+  ]
+},
+{
+  "_id": {
+    "$oid": "683c9830b52c6643a25c2fa1"
+  },
+  "meter_mark": "COLD-2980",
+  "apartment_id": {
+    "$oid": "683c9830b52c6643a25c2fa2"
+  },
+  "install_date": {
+    "$date": "2025-06-01T21:13:04.729Z"
+  },
+  "check_date": {
+    "$date": "2025-06-01T21:13:04.729Z"
+  },
+  "meter_type": "cold",
+  "water_usage": 1.85,
+  "history": [
+    {
+      "date": {
+        "$date": "2025-06-01T21:13:04.729Z"
+      },
+      "value": 1.85
+    }
+  ]
+},
+{
+  "_id": {
+    "$oid": "683c9830b52c6643a25c2fa3"
+  },
+  "meter_mark": "HOT-7472",
+  "apartment_id": {
+    "$oid": "683c9830b52c6643a25c2fa5"
+  },
+  "install_date": {
+    "$date": "2025-06-01T21:13:04.729Z"
+  },
+  "check_date": {
+    "$date": "2025-06-01T21:13:04.729Z"
+  },
+  "meter_type": "hot",
+  "water_usage": 1.76,
+  "history": [
+    {
+      "date": {
+        "$date": "2025-06-01T21:13:04.729Z"
+      },
+      "value": 1.76
+    }
+  ]
+},
+{
+  "_id": {
+    "$oid": "683c9830b52c6643a25c2fa4"
+  },
+  "meter_mark": "COLD-8764",
+  "apartment_id": {
+    "$oid": "683c9830b52c6643a25c2fa5"
+  },
+  "install_date": {
+    "$date": "2025-06-01T21:13:04.729Z"
+  },
+  "check_date": {
+    "$date": "2025-06-01T21:13:04.729Z"
+  },
+  "meter_type": "cold",
+  "water_usage": 1.09,
+  "history": [
+    {
+      "date": {
+        "$date": "2025-06-01T21:13:04.729Z"
+      },
+      "value": 1.09
+    }
+  ]
+}]

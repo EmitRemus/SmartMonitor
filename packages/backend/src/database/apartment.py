@@ -1,6 +1,40 @@
 from src.database.database import client
 import asyncio
 from bson import ObjectId
+from datetime import datetime
+
+
+async def create_apartments(apartments: list[dict]):
+    try:
+        await client.admin.command('ping')
+        db = client.SmartMonitor
+        col = db.apartment
+
+        for apt in apartments:
+            apt["building_id"] = ObjectId(apt["building_id"])
+            if "meters_id" in apt:
+                apt["meters_id"] = [ObjectId(mid) for mid in apt["meters_id"]]
+
+            if "update_time" in apt:
+                apt["update_time"] = datetime.fromisoformat(apt["update_time"])
+
+            numeric_fields = [
+                "apartment_floor", "apartment_number",
+                "total_hw_usage", "total_cw_usage",
+                "hw_momentary_usage", "cw_momentary_usage",
+                "hw_water_temp", "cw_water_temp"
+            ]
+
+            for field in numeric_fields:
+                if field in apt:
+                    apt[field] = float(apt[field])
+
+        result = await col.insert_many(apartments)
+        return {"inserted_ids": [str(_id) for _id in result.inserted_ids]}
+
+    except Exception as e:
+        return {"error": str(e)}
+
 
 async def get_apartments():
     try:

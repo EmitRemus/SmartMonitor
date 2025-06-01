@@ -1,6 +1,25 @@
 from src.database.database import client
 from bson import ObjectId
+from datetime import datetime
 
+async def create_pipes(pipes: list[dict]):
+    """
+    Each pipe must have:
+        - build_year (int)
+    """
+    try:
+        db = client.SmartMonitor
+        col = db.pipe
+
+        for pipe in pipes:
+            if not isinstance(pipe.get("build_year"), int):
+                raise ValueError("Each pipe must include an integer 'build_year' field.")
+
+        result = await col.insert_many(pipes)
+        return {"inserted_ids": [str(_id) for _id in result.inserted_ids]}
+
+    except Exception as e:
+        return {"error": str(e)}
 
 async def get_pipes():
     try:

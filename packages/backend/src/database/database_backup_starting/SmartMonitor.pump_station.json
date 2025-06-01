@@ -1,0 +1,72 @@
+[{
+  "_id": {
+    "$oid": "683c9830b52c6643a25c2d40"
+  },
+  "build_year": 1995,
+  "pipes_ids": [
+    {
+      "$oid": "683c9830b52c6643a25c2d3e"
+    },
+    {
+      "$oid": "683c9830b52c6643a25c2d3f"
+    }
+  ],
+  "last_maintnance": {
+    "$date": "2025-06-01T21:13:04.726Z"
+  },
+  "total_hw_usage": 465,
+  "total_cw_usage": 840,
+  "hw_momentary_usage": 465,
+  "cw_momentary_usage": 840,
+  "hw_water_temp": 53.99,
+  "cw_water_temp": 16.88,
+  "pressure": 2.42,
+  "history": [
+    {
+      "date": {
+        "$date": "2025-06-01T21:13:04.726Z"
+      },
+      "value hot": 0.93,
+      "value cold": 1.68
+    }
+  ],
+  "update_time": {
+    "$date": "2025-06-01T21:13:04.726Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "683c9830b52c6643a25c2e74"
+  },
+  "build_year": 2017,
+  "pipes_ids": [
+    {
+      "$oid": "683c9830b52c6643a25c2e72"
+    },
+    {
+      "$oid": "683c9830b52c6643a25c2e73"
+    }
+  ],
+  "last_maintnance": {
+    "$date": "2025-06-01T21:13:04.728Z"
+  },
+  "total_hw_usage": 985,
+  "total_cw_usage": 460,
+  "hw_momentary_usage": 985,
+  "cw_momentary_usage": 460,
+  "hw_water_temp": 58.66,
+  "cw_water_temp": 11.45,
+  "pressure": 2.3,
+  "history": [
+    {
+      "date": {
+        "$date": "2025-06-01T21:13:04.728Z"
+      },
+      "value hot": 1.97,
+      "value cold": 0.92
+    }
+  ],
+  "update_time": {
+    "$date": "2025-06-01T21:13:04.728Z"
+  }
+}]

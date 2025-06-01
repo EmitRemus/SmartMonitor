@@ -1,5 +1,5 @@
 from database import client
-
+from datetime import datetime
 
 async def aggregate_cold_water_by_date():
     try:
@@ -18,8 +18,8 @@ async def aggregate_cold_water_by_date():
 
         pump_data = {}
         async for doc in pump_cursor:
-            date_iso = doc["_id"].isoformat()
-            pump_data[date_iso] = doc["expected_total"]
+            timestamp = int(doc["_id"].timestamp() * 1000)
+            pump_data[timestamp] = doc["expected_total"]
 
         meter_cursor = db.meter.aggregate([
             {"$match": {"type": "cold"}},
@@ -34,21 +34,55 @@ async def aggregate_cold_water_by_date():
 
         meter_data = {}
         async for doc in meter_cursor:
-            date_iso = doc["_id"].isoformat()
-            meter_data[date_iso] = doc["apartment_total"]
+            timestamp = int(doc["_id"].timestamp() * 1000)
+            meter_data[timestamp] = doc["apartment_total"]
 
-        all_dates = set(pump_data.keys()) | set(meter_data.keys())
-        result = []
+        all_timestamps = set(pump_data.keys()) | set(meter_data.keys())
+        pump_series = []
+        meter_series = []
 
-        for date_str in sorted(all_dates):
-            result.append({
-                "date": date_str,
-                "Cold Water Total Expected": round(pump_data.get(date_str, 0), 2),
-                "Cold Water Total per Apartment": round(meter_data.get(date_str, 0), 2)
-            })
+        for timestamp_ms in sorted(all_timestamps):
+            iso_time = datetime.utcfromtimestamp(timestamp_ms/1000).isoformat() + 'Z'
+            pump_series.append([iso_time, pump_data.get(timestamp_ms, 0)])
+            meter_series.append([iso_time, meter_data.get(timestamp_ms, 0)])
 
-        return result
+        return [
+            {
+                "name": "Cold Water Total Expected",
+                "data": pump_series
+            },
+            {
+                "name": "Cold Water Total per Apartment",
+                "data": meter_series
+            }
+        ]
 
     except Exception as e:
         print("Aggregation error:", e)
         return []
+
+async def export_apart_behaviour_profiles():
+    try:
+        await client.admin.command('ping')
+        db = client.SmartMonitor
+        col_behaviour = db.apart_behaviour
+
+        usage_profiles = []
+        h_factors = []
+
+        async for doc in col_behaviour.find({}, {"usage_profile_id": 1, "h_factor": 1, "_id": 0}):
+            usage_profiles.append(doc.get("usage_profile_id"))
+            h_factors.append(doc.get("h_factor"))
+
+        return {
+            "usage_profile_id": usage_profiles,
+            "h_factor": h_factors
+        }
+
+    except Exception as e:
+        print("Export error:", e)
+        return {
+            "usage_profile_id": [],
+            "h_factor": []
+        }
+
