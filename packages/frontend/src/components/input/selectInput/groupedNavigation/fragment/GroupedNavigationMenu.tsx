@@ -1,5 +1,5 @@
 import { Menubar } from 'radix-ui';
-import { twJoin } from 'tailwind-merge';
+import { twJoin, twMerge } from 'tailwind-merge';
 
 import { GroupedNavigationLinkSubgroup } from '@/components/input/selectInput/groupedNavigation/fragment/GroupNavigationLinkSubgroup';
 import type { GroupedNavigationTypes } from '@/components/input/selectInput/groupedNavigation/type/groupedNavigation.types';
@@ -7,17 +7,21 @@ import type { GroupedNavigationTypes } from '@/components/input/selectInput/grou
 interface GroupedNavigationMenuProp {
   name: string;
   group: GroupedNavigationTypes.NavigationGroup;
+  className?: string;
+  classNameSubGroup?: string;
 }
 
 export const GroupedNavigationMenu = ({
   name,
   group,
+  className,
+  classNameSubGroup,
 }: GroupedNavigationMenuProp) => {
   return (
     <Menubar.Menu>
       <Menubar.Trigger
         className={twJoin(
-          'px-4 py-1 w-full h-ful',
+          'px-4 py-1 w-full h-full',
           "data-[state='open']:bg-palette-blue-sapphire data-[state='open']:text-white",
         )}
       >
@@ -28,9 +32,15 @@ export const GroupedNavigationMenu = ({
           align="start"
           sideOffset={5}
           alignOffset={-3}
-          className="w-50 shadow-lg border-2 border-palette-blue-ice bg-white"
+          className={twMerge(
+            'w-50 shadow-lg border-2 border-palette-blue-ice bg-white',
+            className,
+          )}
         >
-          <GroupedNavigationLinkSubgroup group={group} />
+          <GroupedNavigationLinkSubgroup
+            group={group}
+            classNameSubGroup={classNameSubGroup}
+          />
         </Menubar.Content>
       </Menubar.Portal>
     </Menubar.Menu>

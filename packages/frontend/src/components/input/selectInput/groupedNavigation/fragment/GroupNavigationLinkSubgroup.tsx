@@ -7,16 +7,23 @@ interface GroupedNavigationLinkSubgroupProp {
     GroupedNavigationTypes.name,
     GroupedNavigationTypes.link | GroupedNavigationTypes.NavigationSubGroup
   >;
+  classNameSubGroup?: string;
 }
 
 export const GroupedNavigationLinkSubgroup = ({
   group,
+  classNameSubGroup,
 }: GroupedNavigationLinkSubgroupProp) => {
   return Object.entries(group).map(([name, groupValue]) =>
     typeof groupValue === 'string' ? (
       <GroupedNavigationItem key={name} name={name} link={groupValue} />
     ) : (
-      <GroupedNavigationSubgroup key={name} name={name} subGroup={groupValue} />
+      <GroupedNavigationSubgroup
+        key={name}
+        name={name}
+        subGroup={groupValue}
+        className={classNameSubGroup}
+      />
     ),
   );
 };
