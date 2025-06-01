@@ -7,7 +7,7 @@ import AllPipes from '@/pages/pipe/all/AllPipes';
 import AllPumpStations from '@/pages/pumpStation/all/AllPumpStations';
 
 const SidesPaddingLayout = lazy(
-  () => import('@/layout/sidesPaddingLayout/sidesPaddingLayout'),
+  () => import('@/layout/sidesPaddingLayout/SidesPaddingLayout'),
 );
 
 const Home = lazy(() => import('@/pages/home/Home'));
