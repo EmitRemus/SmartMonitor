@@ -1,3 +1,3 @@
 # SmartMonitor
 
-Smart monitor project /w Finvoid, Forelyl
+Smart monitor project /w Finivoid, Forelyl
