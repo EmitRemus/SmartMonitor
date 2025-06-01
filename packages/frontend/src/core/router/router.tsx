@@ -2,7 +2,7 @@ import { lazy } from 'react';
 import { createBrowserRouter } from 'react-router';
 
 import { SidebarLayout } from '@/layout/sidebarLayout/sidebarLayout';
-import AllBuildings from '@/pages/building/all/allBuildings.js';
+import AllBuildings from '@/pages/building/all/allBuildings';
 import AllPipes from '@/pages/pipe/all/allPipes';
 import AllPumpStations from '@/pages/pumpStation/all/allPumpStations';
 
@@ -13,6 +13,7 @@ const SidesPaddingLayout = lazy(
 const Home = lazy(() => import('@/pages/home/home'));
 const Settings = lazy(() => import('@/pages/settings/settings'));
 const AllApartments = lazy(() => import('@/pages/apartment/all/allApartments'));
+const TestPage = lazy(() => import('@/pages/test/TestPage'));
 
 export const router = createBrowserRouter([
   {
@@ -20,6 +21,7 @@ export const router = createBrowserRouter([
     element: <SidebarLayout />,
     children: [
       { index: true, element: <Home /> },
+      { path: 'test', element: <TestPage /> },
       { path: 'settings', element: <Settings /> },
       {
         element: <SidesPaddingLayout />,

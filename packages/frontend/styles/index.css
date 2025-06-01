@@ -3,6 +3,7 @@
 
 @theme {
   --color-palette-blue-sapphire: #0088FF;
+  --color-palette-blue-ice: #70D9FF;
 
   --color-palette-gray-storm: #CACACA;
 
@@ -34,4 +35,5 @@
 
 * {
   --default-font-family: 'Raleway' !important;
+  outline: 0;
 }
