@@ -27,7 +27,7 @@ export const GroupedNavigationSubgroup = ({
         <Menubar.SubContent
           alignOffset={-1}
           sideOffset={8}
-          className="shadow-lg border-2 border-palette-blue-ice"
+          className="shadow-lg border-2 border-palette-blue-ice bg-white w-40"
         >
           {Object.entries(subGroup).map(([name, link]) => (
             <GroupedNavigationItem key={name} name={name} link={link} />
