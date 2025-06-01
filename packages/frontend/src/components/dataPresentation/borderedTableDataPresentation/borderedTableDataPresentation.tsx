@@ -5,7 +5,7 @@ import { twMerge } from 'tailwind-merge';
 
 import { TableDataPresentation } from '@/components/dataPresentation/tableDataPresentation/tableDataPresentation';
 import type { TableDataPresentationData } from '@/components/dataPresentation/tableDataPresentation/types/tableDataPresentationData';
-import { BorderedBox } from '@/components/layout/borderedBox';
+import { BorderedBox } from '@/components/layout/BorderedBox';
 
 interface BorderedTableDataPresentationProps {
   data: TableDataPresentationData;

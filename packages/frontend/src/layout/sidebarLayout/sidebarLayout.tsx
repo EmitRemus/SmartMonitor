@@ -15,14 +15,14 @@ export const SidebarLayout = () => {
       <Outlet />
 
       <button
-        className="cursor-pointer fixed top-7 left-6"
+        className="cursor-pointer fixed top-7 left-6 z-1000"
         onClick={() => setIsOpened((value) => !value)}
       >
         <MenuIcon className="stroke-1 w-15 h-15" />
       </button>
       <Box
         className={twMerge(
-          'z-[1400] position absolute top-0 left-0 w-full h-full',
+          'z-1400 position absolute top-0 left-0 w-full h-full',
           !isOpened && 'pointer-events-none',
         )}
       >
