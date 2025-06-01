@@ -105,7 +105,7 @@ const SidebarMap: SidebarMapType = Object.freeze([
       to: '/statistics/global-graph',
     },
     {
-      label: 'Charts [no]',
+      label: 'Charts',
       to: '/statistics/charts',
     },
   ],

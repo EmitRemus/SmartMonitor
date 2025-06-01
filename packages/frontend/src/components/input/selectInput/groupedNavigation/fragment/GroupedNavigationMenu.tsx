@@ -33,7 +33,7 @@ export const GroupedNavigationMenu = ({
           sideOffset={5}
           alignOffset={-3}
           className={twMerge(
-            'w-50 shadow-lg border-2 border-palette-blue-ice bg-white',
+            'shadow-lg border-2 border-palette-blue-ice bg-white',
             className,
           )}
         >

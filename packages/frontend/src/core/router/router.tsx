@@ -2,18 +2,37 @@ import { lazy } from 'react';
 import { createBrowserRouter } from 'react-router';
 
 import { SidebarLayout } from '@/layout/sidebarLayout/SidebarLayout';
-import AllBuildings from '@/pages/building/all/AllBuildings';
-import AllPipes from '@/pages/pipe/all/AllPipes';
-import AllPumpStations from '@/pages/pumpStation/all/AllPumpStations';
 
 const SidesPaddingLayout = lazy(
-  () => import('@/layout/sidesPaddingLayout/sidesPaddingLayout'),
+  () => import('@/layout/sidesPaddingLayout/SidesPaddingLayout'),
+);
+
+const AllApartments = lazy(() => import('@/pages/apartment/all/AllApartments'));
+const AllBuildings = lazy(() => import('@/pages/building/all/AllBuildings'));
+const AllPipes = lazy(() => import('@/pages/pipe/all/AllPipes'));
+const AllPumpStations = lazy(
+  () => import('@/pages/pumpStation/all/AllPumpStations'),
 );
 
 const Home = lazy(() => import('@/pages/home/Home'));
 const Settings = lazy(() => import('@/pages/settings/Settings'));
-const AllApartments = lazy(() => import('@/pages/apartment/all/AllApartments'));
 const TestPage = lazy(() => import('@/pages/test/TestPage'));
+
+const ChartSelectorLayout = lazy(
+  () => import('@/layout/chartSelectorLayout/ChartSelectorLayout'),
+);
+const NoChartSelected = lazy(
+  () => import('@/pages/charts/noSelected/NoChartSelected'),
+);
+const FraudRiskChart = lazy(
+  () => import('@/pages/charts/analytics/fraudRisk/FraudRiskChart'),
+);
+const WaterColdChart = lazy(
+  () => import('@/pages/charts/timeSeries/waterCold/WaterColdChart'),
+);
+const WaterHotChart = lazy(
+  () => import('@/pages/charts/timeSeries/waterHot/WaterHotChart'),
+);
 
 export const router = createBrowserRouter([
   {
@@ -41,6 +60,43 @@ export const router = createBrowserRouter([
           {
             path: 'pipe',
             children: [{ path: 'all', element: <AllPipes /> }],
+          },
+        ],
+      },
+      {
+        path: 'statistics',
+        children: [
+          {
+            path: 'charts',
+            element: <ChartSelectorLayout />,
+            children: [
+              {
+                index: true,
+                element: <NoChartSelected />,
+              },
+              {
+                path: 'time-series',
+                children: [
+                  {
+                    path: 'water-hot',
+                    element: <WaterHotChart />,
+                  },
+                  {
+                    path: 'water-cold',
+                    element: <WaterColdChart />,
+                  },
+                ],
+              },
+              {
+                path: 'analytics',
+                children: [
+                  {
+                    path: 'fraud-risk',
+                    element: <FraudRiskChart />,
+                  },
+                ],
+              },
+            ],
           },
         ],
       },

@@ -31,7 +31,7 @@ export const GroupedNavigationSubGroup = ({
           alignOffset={-1}
           sideOffset={8}
           className={twMerge(
-            'shadow-lg border-2 border-palette-blue-ice bg-white w-40',
+            'shadow-lg border-2 border-palette-blue-ice bg-white',
             className,
           )}
         >

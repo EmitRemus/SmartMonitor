@@ -1,6 +1,8 @@
-import { Text } from '@radix-ui/themes';
+import { Flex } from '@radix-ui/themes';
 
 import { twMerge } from 'tailwind-merge';
+
+import { TableDataPresentationHeaderText } from '@/components/dataPresentation/tableDataPresentation/fragments/header/TableDataPresentationHeaderText';
 
 interface TableDataPresentationHeaderProps {
   names: string[];
@@ -14,15 +16,16 @@ export const TableDataPresentationHeader = ({
       {names.map((name, index) => {
         return (
           <th className="text-left font-medium" key={`header-${index}`}>
-            <Text
+            <Flex
+              align="end"
               className={twMerge(
-                'border-b-2 px-2 w-full block',
+                'border-b-2 px-2 block h-10',
+                'line-clamp-2',
                 index != 0 && 'border-l-2',
               )}
             >
-              {name.slice(0, 1).toLocaleUpperCase()}
-              {name.slice(1)}
-            </Text>
+              <TableDataPresentationHeaderText text={name} />
+            </Flex>
           </th>
         );
       })}
