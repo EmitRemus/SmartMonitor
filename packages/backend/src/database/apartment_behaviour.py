@@ -1,10 +1,9 @@
-from database import client
-
+from src.database.database import client
 
 
 async def create_apartment_behaviours(behaviours: list[dict]):
     try:
-        await client.admin.command('ping')
+        await client.admin.command("ping")
         db = client.SmartMonitor
         col = db.apartment_behaviours
 
@@ -19,9 +18,10 @@ async def create_apartment_behaviours(behaviours: list[dict]):
     except Exception as e:
         return {"error": str(e)}
 
+
 async def get_apart_behaviours():
     try:
-        await client.admin.command('ping')
+        await client.admin.command("ping")
         db = client.SmartMonitor
         col = db.apart_behaviour
         docs = []
@@ -32,4 +32,3 @@ async def get_apart_behaviours():
     except Exception as e:
         print(e)
         return []
-

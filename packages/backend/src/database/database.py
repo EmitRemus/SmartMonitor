@@ -1,4 +1,5 @@
 import asyncio
+
 # import pprint
 import os
 
@@ -16,15 +17,15 @@ load_dotenv()
 # Access the URI
 uri = os.getenv("MONGODB_URI")
 
-client = AsyncMongoClient(uri, server_api=ServerApi('1'))
+client = AsyncMongoClient(uri, server_api=ServerApi("1"))
 db = client.SmartMonitor
 
-meter: AsyncCollection = db["meter"]
+meter = db["meter"]
 
 
 async def insert_documents(collection_name: str, documents: List[Dict]) -> Dict:
     try:
-        await client.admin.command('ping')
+        await client.admin.command("ping")
         collection = db[collection_name]
 
         if not documents:
@@ -33,7 +34,7 @@ async def insert_documents(collection_name: str, documents: List[Dict]) -> Dict:
         result = await collection.insert_many(documents)
         return {
             "inserted_count": len(result.inserted_ids),
-            "inserted_ids": [str(doc_id) for doc_id in result.inserted_ids]
+            "inserted_ids": [str(doc_id) for doc_id in result.inserted_ids],
         }
 
     except Exception as e:
@@ -71,9 +72,13 @@ async def update_water_metrics(collection_name: str, updates: list[dict]):
             update_fields = {}
 
             for field in [
-                "pressure", "total_hw_usage", "total_cw_usage",
-                "hw_momentary_usage", "cw_momentary_usage",
-                "hw_water_temp", "cw_water_temp"
+                "pressure",
+                "total_hw_usage",
+                "total_cw_usage",
+                "hw_momentary_usage",
+                "cw_momentary_usage",
+                "hw_water_temp",
+                "cw_water_temp",
             ]:
                 if field in update:
                     update_fields[field] = float(update[field])
@@ -82,17 +87,12 @@ async def update_water_metrics(collection_name: str, updates: list[dict]):
                 update_fields["update_time"] = datetime.fromisoformat(update["update_time"])
 
             if update_fields:
-                ops.append(
-                    col.update_one(
-                        {"_id": doc_id},
-                        {"$set": update_fields}
-                    )
-                )
+                ops.append(col.update_one({"_id": doc_id}, {"$set": update_fields}))
 
         results = await asyncio.gather(*ops)
         return {
             "modified_counts": [res.modified_count for res in results],
-            "matched_counts": [res.matched_count for res in results]
+            "matched_counts": [res.matched_count for res in results],
         }
 
     except Exception as e:

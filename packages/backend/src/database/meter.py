@@ -1,14 +1,14 @@
-import datetime
-import time
 import asyncio
-from database import client, meter
+import datetime
+
+from src.database.database import client, meter
 from bson import ObjectId
 from fastapi import HTTPException, status
-from datetime import datetime
+
 
 async def get_meters():
     try:
-        await client.admin.command('ping')
+        await client.admin.command("ping")
         db = client.SmartMonitor
         col = db.meter
         docs = []
@@ -42,20 +42,27 @@ async def get_meter_history_by_range(start_date: datetime.date, end_date: dateti
     }
 
     try:
-        result = await (await meter.aggregate([{
-            '$addFields': {
-                'meter_mark': '$UNSET',
-                'install_date': '$UNSET',
-                'check_date': '$UNSET',
-                'water_usage': '$UNSET',
-                'history': history_filtering
-            }
-        }])).to_list(length=None)
+        result = await (
+            await meter.aggregate(
+                [
+                    {
+                        "$addFields": {
+                            "meter_mark": "$UNSET",
+                            "install_date": "$UNSET",
+                            "check_date": "$UNSET",
+                            "water_usage": "$UNSET",
+                            "history": history_filtering,
+                        }
+                    }
+                ]
+            )
+        ).to_list(length=None)
         print(result)
         return result
     except Exception as e:
         print("Error:", e)
         return []
+
 
 async def create_meters(meters: list[dict]):
     """
@@ -74,16 +81,17 @@ async def create_meters(meters: list[dict]):
         db = client.SmartMonitor
         col = db.meter
 
-        for meter in meters:
-            meter["apartment_id"] = ObjectId(meter["apartment_id"])
-            meter.setdefault("history", [])
-            meter["install_date"] =  datetime.fromisoformat(meter["install_date"])
-            meter["check_date"] = datetime.fromisoformat(meter["check_date"])
+        for meter_entry in meters:
+            meter_entry["apartment_id"] = ObjectId(meter_entry["apartment_id"])
+            meter_entry.setdefault("history", [])
+            meter_entry["install_date"] = datetime.fromisoformat(meter_entry["install_date"])
+            meter_entry["check_date"] = datetime.fromisoformat(meter_entry["check_date"])
 
         result = await col.insert_many(meters)
         return {"inserted_ids": [str("_id") for _id in result.inserted_ids]}
     except Exception as e:
         return {"error": str(e)}
+
 
 async def add_history_entries(updates: list[dict]):
     """
@@ -105,23 +113,13 @@ async def add_history_entries(updates: list[dict]):
         for update in updates:
             meter_id = ObjectId(update["meter_id"])
             entries = [
-                {
-                    "date": datetime.fromisoformat(e["date"]),
-                    "value": float(e["value"])
-                } for e in update["entries"]
+                {"date": datetime.fromisoformat(e["date"]), "value": float(e["value"])} for e in update["entries"]
             ]
 
-            ops.append(
-                col.update_one(
-                    {"_id": meter_id},
-                    {"$push": {"history": {"$each": entries}}}
-                )
-            )
+            ops.append(col.update_one({"_id": meter_id}, {"$push": {"history": {"$each": entries}}}))
 
         results = await asyncio.gather(*ops)
-        return {
-            "modified_counts": [res.modified_count for res in results]
-        }
+        return {"modified_counts": [res.modified_count for res in results]}
 
     except Exception as e:
         return {"error": str(e)}
@@ -137,15 +135,5 @@ async def get_all_meter_ids():
         meter_ids.append(str(doc["_id"]))
 
     return meter_ids
-
-
-
-
-
-
-
-
-
-
 
     # asyncio.run(get_meter_history_by_range(datetime.date(2023, 2, 1), datetime.date(2023,12,31)))

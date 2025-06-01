@@ -2,9 +2,11 @@ from src.database.database import client
 import math
 from datetime import datetime
 import random
-from apartment import get_apartments
-from apartment_building import get_apartment_buildings
+from src.database.apartment import get_apartments
+from src.database.apartment_building import get_apartment_buildings
 from bson import ObjectId
+
+
 def sample_from_list(full_list: list, percent: float, shuffle: bool = True) -> list:
 
     if not (0 < percent <= 100):
@@ -17,19 +19,17 @@ def sample_from_list(full_list: list, percent: float, shuffle: bool = True) -> l
     else:
         return full_list[:count]
 
+
 def generate_meter_history_entry(meter_ids: list) -> dict:
 
     now = datetime.now()
     result = {}
 
     for meter_id in meter_ids:
-        result[meter_id] = {
-            "id": meter_id,
-            "date": now,
-            "value": round(random.uniform(0.1, 2.0), 4)
-        }
+        result[meter_id] = {"id": meter_id, "date": now, "value": round(random.uniform(0.1, 2.0), 4)}
 
     return result
+
 
 def mutate_meter_values(original: dict, ids_to_mutate: list) -> dict:
     for meter_id in ids_to_mutate:
@@ -37,6 +37,7 @@ def mutate_meter_values(original: dict, ids_to_mutate: list) -> dict:
             reduction_factor = random.uniform(0.85, 0.90)  # 85%–90% of original
             original[meter_id]["value"] = round(original[meter_id]["value"] * reduction_factor, 4)
     return original
+
 
 async def aggregate_building_momentary_usage(generated_meter_values: dict):
     db = client.SmartMonitor
@@ -54,7 +55,9 @@ async def aggregate_building_momentary_usage(generated_meter_values: dict):
             building_meter_map.setdefault(building_id, []).extend(meter_ids)
 
     all_meter_ids = list({mid for mids in building_meter_map.values() for mid in mids})
-    async for meter in db["meter"].find({"_id": {"$in": [ObjectId(mid) for mid in all_meter_ids]}}, {"_id": 1, "meter_type": 1}):
+    async for meter in db["meter"].find(
+        {"_id": {"$in": [ObjectId(mid) for mid in all_meter_ids]}}, {"_id": 1, "meter_type": 1}
+    ):
         meter_type_cache[str(meter["_id"])] = meter.get("meter_type", "unknown")
 
     result = {}
@@ -75,17 +78,17 @@ async def aggregate_building_momentary_usage(generated_meter_values: dict):
             "id": building_id,
             "date": now,
             "hw_momentary_usage": round(hot, 4),
-            "cw_momentary_usage": round(cold, 4)
+            "cw_momentary_usage": round(cold, 4),
         }
 
     return result
+
 
 async def aggregate_all_pump_station_momentary_usage(building_usage: dict):
     buildings = await get_apartment_buildings()
 
     building_to_station = {
-        b["_id"]: str(b["pump_station_id"])
-        for b in buildings if "_id" in b and "pump_station_id" in b
+        b["_id"]: str(b["pump_station_id"]) for b in buildings if "_id" in b and "pump_station_id" in b
     }
 
     result = {}
@@ -100,11 +103,10 @@ async def aggregate_all_pump_station_momentary_usage(building_usage: dict):
                 "id": pump_station_id,
                 "date": usage.get("date"),
                 "hw_momentary_usage": 0.0,
-                "cw_momentary_usage": 0.0
+                "cw_momentary_usage": 0.0,
             }
 
         result[pump_station_id]["hw_momentary_usage"] += usage.get("hw_momentary_usage", 0.0)
         result[pump_station_id]["cw_momentary_usage"] += usage.get("cw_momentary_usage", 0.0)
 
     return result
-

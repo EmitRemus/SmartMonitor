@@ -1,4 +1,3 @@
-import os
 import json
 from pathlib import Path
 from bson import json_util
@@ -16,6 +15,7 @@ COLLECTION_MAP = {
     "SmartMonitor.pipe.json": "pipe",
     "SmartMonitor.pump_station.json": "pump_station",
 }
+
 
 async def restore_all_from_backup():
     await clear_all_collections()
@@ -44,6 +44,7 @@ async def restore_all_from_backup():
             results[collection_name] = f"error: {str(e)}"
 
     return results
+
 
 async def run_reset():
     res = await restore_all_from_backup()

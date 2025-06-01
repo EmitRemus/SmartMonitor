@@ -1,12 +1,12 @@
-from src.database.database import client
-import asyncio
-from bson import ObjectId
 from datetime import datetime
+
+from src.database.database import client
+from bson import ObjectId
 
 
 async def create_apartments(apartments: list[dict]):
     try:
-        await client.admin.command('ping')
+        await client.admin.command("ping")
         db = client.SmartMonitor
         col = db.apartment
 
@@ -19,10 +19,14 @@ async def create_apartments(apartments: list[dict]):
                 apt["update_time"] = datetime.fromisoformat(apt["update_time"])
 
             numeric_fields = [
-                "apartment_floor", "apartment_number",
-                "total_hw_usage", "total_cw_usage",
-                "hw_momentary_usage", "cw_momentary_usage",
-                "hw_water_temp", "cw_water_temp"
+                "apartment_floor",
+                "apartment_number",
+                "total_hw_usage",
+                "total_cw_usage",
+                "hw_momentary_usage",
+                "cw_momentary_usage",
+                "hw_water_temp",
+                "cw_water_temp",
             ]
 
             for field in numeric_fields:
@@ -38,7 +42,7 @@ async def create_apartments(apartments: list[dict]):
 
 async def get_apartments():
     try:
-        await client.admin.command('ping')
+        await client.admin.command("ping")
         db = client.SmartMonitor
         col_apartment = db.apartment
 
@@ -53,8 +57,9 @@ async def get_apartments():
         print(e)
         return []
 
-async def get_apartment_list(last_id = None, limit: int = 20):
-    await client.admin.command('ping')
+
+async def get_apartment_list(last_id=None, limit: int = 20):
+    await client.admin.command("ping")
     db = client.SmartMonitor
     col = db.apartment
 
@@ -65,33 +70,36 @@ async def get_apartment_list(last_id = None, limit: int = 20):
         except Exception:
             return {"error": "invalid last_id"}
 
-    cursor = col.find(query).sort("_id",1).limit(limit)
+    cursor = col.find(query).sort("_id", 1).limit(limit)
 
     data = []
     data_id = []
 
     async for doc in cursor:
         data_id.append(str(doc["_id"]))
-        data.append([
-            str(doc.get("_id")),
-            doc.get("total_cw_usage", None),
-            doc.get("total_hw_usage", None),
-            doc.get("update_time", None),
-        ])
+        data.append(
+            [
+                str(doc.get("_id")),
+                doc.get("total_cw_usage", None),
+                doc.get("total_hw_usage", None),
+                doc.get("update_time", None),
+            ]
+        )
 
     last_object_id = ObjectId(data_id[-1]) if data_id else None
     remaining_docs = await col.count_documents({"_id": {"$gt": last_object_id}}) if last_object_id else 0
     is_finished = remaining_docs == 0
 
     response = {
-        "columnName": ['apartment_id', 'cold_water', 'hot_water', 'last_updated'],
+        "columnName": ["apartment_id", "cold_water", "hot_water", "last_updated"],
         "data": data,
         "dataId": data_id,
         "lastId": data_id[-1] if data_id else None,
-        "isFinished": is_finished
+        "isFinished": is_finished,
     }
     print(response)
     return response
+
 
 # if __name__ == '__main__':
 #
