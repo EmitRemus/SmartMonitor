@@ -3,8 +3,8 @@ import { TableVirtuoso } from 'react-virtuoso';
 import { twMerge } from 'tailwind-merge';
 
 import { TableDataPresentationFooter } from '@/components/dataPresentation/tableDataPresentation/fragments/TableDataPresentationFooter';
-import { TableDataPresentationHeader } from '@/components/dataPresentation/tableDataPresentation/fragments/TableDataPresentationHeader';
 import { TableDataPresentationRow } from '@/components/dataPresentation/tableDataPresentation/fragments/TableDataPresentationRow';
+import { TableDataPresentationHeader } from '@/components/dataPresentation/tableDataPresentation/fragments/header/TableDataPresentationHeader';
 import type { TableDataPresentationData } from '@/components/dataPresentation/tableDataPresentation/types/tableDataPresentationData';
 
 interface TableDataPresentationProps {
@@ -43,7 +43,7 @@ export const TableDataPresentation = ({
     <TableVirtuoso
       className={twMerge(
         'h-full w-full',
-        '[&>div>table]:w-full', // set table on whole width
+        '[&>div>table]:w-full', // set table to whole width
         className,
       )}
       customScrollParent={customScroll ?? undefined}

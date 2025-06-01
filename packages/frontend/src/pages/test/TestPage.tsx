@@ -9,11 +9,13 @@ const TestPage = () => {
       display="flex"
       align="center"
       justify="center"
-      className="w-lvw h-lvh"
+      className="w-lvw h-lvh bg-palette-gray-neutral"
     >
-      <Section>
+      <Section className="w-[90%] h-90">
         <GroupedNavigation
-          className="fixed top-0 left-0 z-10 w-full"
+          className="w-100"
+          classNameGroup="w-50"
+          classNameSubGroup="w-50"
           navigationGroups={{
             pizza: {
               mozzarella: '/test',
