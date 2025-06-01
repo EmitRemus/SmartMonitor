@@ -1,4 +1,4 @@
-from database import client
+from src.database.database import client
 from bson import ObjectId
 
 
@@ -17,7 +17,7 @@ async def get_pipes():
         return []
 
 
-async def get_apartment_list(last_id=None, limit: int = 20):
+async def get_pipe_list(last_id=None, limit: int = 20):
     await client.admin.command('ping')
     db = client.SmartMonitor
     col = db.pipe
