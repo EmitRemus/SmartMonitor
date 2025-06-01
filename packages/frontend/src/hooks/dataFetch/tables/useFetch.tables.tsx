@@ -5,12 +5,12 @@ import {
   useInfiniteQuery,
 } from '@tanstack/react-query';
 
-import { useCallback, useRef } from 'react';
+import { useRef, useState } from 'react';
 
 import {
   TabledInputSchema,
   type TabledInputType,
-} from '@/hooks/dataFetch/types/tabledInput.js';
+} from '@/hooks/dataFetch/tables/types/tabledInput';
 
 async function fetcher(
   pageParam: string | null,
@@ -38,6 +38,8 @@ export function usePaginatedTableQuery(
   onEndReached: () => void;
   isDataFinished: boolean;
 } {
+  // Note: useInfiniteQuery periodically false fires is stable manner
+  // and returns the same amount of data as previous fire
   const { data, fetchNextPage, hasNextPage, isFetchingNextPage } =
     useInfiniteQuery<
       TabledInputType | null,
@@ -54,22 +56,30 @@ export function usePaginatedTableQuery(
       initialPageParam: null,
     });
 
-  // somewhy there is duplication of batches (no new data fetched yet hook is fired)
-  // so to prevent this check number of batches
-  const amountOfBatches = useRef<number>(0);
+  // used to go over cache
+  const [_boolFlipper, setBoolFlipper] = useState<boolean>(false);
+  const lastPageIndex = useRef<number>(0);
+
+  // ---
 
   const pages = data?.pages ?? null;
+  let lastPage: TabledInputType | null = null;
 
-  let lastPage = null;
-  if (pages !== null && pages.length > amountOfBatches.current) {
-    amountOfBatches.current = pages.length;
-    lastPage = pages[pages.length - 1];
+  if (pages !== null && pages.length > lastPageIndex.current) {
+    lastPage = pages[lastPageIndex.current];
+    lastPageIndex.current += 1;
   }
 
-  const onEndReached = useCallback(() => {
+  const lastPagesIndex = pages == null ? -1 : pages.length - 1;
+
+  const onEndReached = () => {
     if (isFetchingNextPage || !hasNextPage) return;
-    fetchNextPage(); // fire and forget
-  }, [isFetchingNextPage, hasNextPage, fetchNextPage]);
+    if (lastPageIndex.current + 1 > lastPagesIndex) {
+      fetchNextPage(); // fire and forget
+    } else {
+      setBoolFlipper((value) => !value);
+    }
+  };
 
   return {
     data: lastPage,

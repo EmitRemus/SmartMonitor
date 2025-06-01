@@ -9,20 +9,13 @@
       "@config/*": ["config/*"],
       "@test/*": ["test/*"]
     },
-    "moduleResolution": "nodenext",
-    "module": "NodeNext"
+    "target": "ESNext",
+    "module": "ESNext",
+    "moduleResolution": "node",
+    "jsx": "react-jsx",
+    "noEmit": true
   },
-  "include": [
-    "./src/**/*.ts",
-    "./src/**/*.tsx",
-    "./src/**/*.js",
-    "./src/**/*.jsx",
-    "tailwind.config.mts",
-
-    "./mock/**/*.ts",
-
-    "./config/**/*.ts"
-  ],
+  "include": ["src", "tailwind.config.mts", "mock", "config"],
   "references": [
     { "path": "./tsconfig.app.json" },
     { "path": "./tsconfig.node.json" }

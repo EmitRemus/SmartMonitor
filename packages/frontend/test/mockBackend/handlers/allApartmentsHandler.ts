@@ -6,9 +6,10 @@ import {
   http,
 } from 'msw';
 
-export const handlers = [
-  http.get(/.*\/api\/apartment\/all$/, resolveGetAllApartments),
-];
+export const allApartmentsHandler = http.get(
+  /.*\/api\/apartment\/all$/,
+  resolveGetAllApartments,
+);
 
 // --------------------------------------
 

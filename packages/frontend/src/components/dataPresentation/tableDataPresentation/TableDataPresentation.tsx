@@ -2,9 +2,9 @@ import { useEffect, useState } from 'react';
 import { TableVirtuoso } from 'react-virtuoso';
 import { twMerge } from 'tailwind-merge';
 
-import { TableDataPresentationFooter } from '@/components/dataPresentation/tableDataPresentation/fragments/tableDataPresentationFooter';
-import { TableDataPresentationHeader } from '@/components/dataPresentation/tableDataPresentation/fragments/tableDataPresentationHeader';
-import { TableDataPresentationRow } from '@/components/dataPresentation/tableDataPresentation/fragments/tableDataPresentationRow';
+import { TableDataPresentationFooter } from '@/components/dataPresentation/tableDataPresentation/fragments/TableDataPresentationFooter';
+import { TableDataPresentationHeader } from '@/components/dataPresentation/tableDataPresentation/fragments/TableDataPresentationHeader';
+import { TableDataPresentationRow } from '@/components/dataPresentation/tableDataPresentation/fragments/TableDataPresentationRow';
 import type { TableDataPresentationData } from '@/components/dataPresentation/tableDataPresentation/types/tableDataPresentationData';
 
 interface TableDataPresentationProps {

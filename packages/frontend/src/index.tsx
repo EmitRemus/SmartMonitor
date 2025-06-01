@@ -7,7 +7,7 @@ import { StrictMode } from 'react';
 import { createRoot } from 'react-dom/client';
 import { RouterProvider } from 'react-router';
 
-import { AppWrapper } from '@/core/appWrapper/appWrapper';
+import { AppWrapper } from '@/core/appWrapper/AppWrapper';
 import { router } from '@/core/router/router';
 
 const _App = (

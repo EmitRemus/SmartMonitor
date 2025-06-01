@@ -1,4 +1,4 @@
-import { TableDataPresentationCell } from '@/components/dataPresentation/tableDataPresentation/fragments/tableDataPresentationCell';
+import { TableDataPresentationCell } from '@/components/dataPresentation/tableDataPresentation/fragments/TableDataPresentationCell';
 import type { TableDataPresentationItem } from '@/components/dataPresentation/tableDataPresentation/types/tableDataPresentationItem';
 
 interface TableDataPresentationRowProps {
