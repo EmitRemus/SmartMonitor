@@ -1,7 +1,7 @@
 from src.database.database import client
 from bson import ObjectId
 from datetime import datetime
-
+import asyncio
 
 async def create_apartment_buildings(buildings: list[dict]):
     try:
@@ -96,3 +96,45 @@ async def get_apartment_building_list(last_id = None, limit: int = 20):
     }
     print(response)
     return response
+
+async def update_apartment_buildings(result: dict):
+    """
+    {
+        "building_id_str": {
+            "id": "building_id_str",
+            "date": datetime_object,
+            "hw_momentary_usage": float,
+            "cw_momentary_usage": float
+        },
+        ...
+    }
+    """
+    db = client.SmartMonitor
+    col = db.apartment_building
+
+    operations = []
+
+    for building_id_str, data in result.items():
+        building_id = ObjectId(building_id_str)
+
+        update_op = col.update_one(
+            {"_id": building_id},
+            {
+                "$set": {
+                    "update_time": data["date"],
+                    "hw_momentary_usage": data["hw_momentary_usage"],
+                    "cw_momentary_usage": data["cw_momentary_usage"]
+                },
+                "$inc": {
+                    "total_hw_usage": data["hw_momentary_usage"],
+                    "total_cw_usage": data["cw_momentary_usage"]
+                }
+            }
+        )
+
+        operations.append(update_op)
+
+    results = await asyncio.gather(*operations)
+    return {
+        "updated": sum(res.modified_count for res in results)
+    }

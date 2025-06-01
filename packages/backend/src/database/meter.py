@@ -127,19 +127,25 @@ async def add_history_entries(updates: list[dict]):
         return {"error": str(e)}
 
 
+async def get_all_meter_ids():
+    await client.admin.command("ping")
+    db = client.SmartMonitor
+    col = db.meter
+
+    meter_ids = []
+    async for doc in col.find({}, {"_id": 1}):
+        meter_ids.append(str(doc["_id"]))
+
+    return meter_ids
+
+
+
+
+
+
+
+
+
 
 
     # asyncio.run(get_meter_history_by_range(datetime.date(2023, 2, 1), datetime.date(2023,12,31)))
-
-
-
-
-
-
-
-
-
-
-
-
-

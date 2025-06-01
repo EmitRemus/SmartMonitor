@@ -223,3 +223,52 @@ async def get_pump_station_list(last_id = None, limit: int = 20):
     }
     print(response)
     return response
+
+async def update_pipe_stations(result: dict):
+    """
+    {
+        "station_id_str": {
+            "id": "station_id_str",
+            "date": datetime_object,
+            "hw_momentary_usage": float,
+            "cw_momentary_usage": float
+        },
+        ...
+    }
+    """
+    db = client.SmartMonitor
+    col = db.pipe_station
+
+    operations = []
+
+    for station_id_str, data in result.items():
+        station_id = ObjectId(station_id_str)
+
+        update_op = col.update_one(
+            {"_id": station_id},
+            {
+                "$set": {
+                    "update_time": data["date"],
+                    "hw_momentary_usage": data["hw_momentary_usage"],
+                    "cw_momentary_usage": data["cw_momentary_usage"]
+                },
+                "$inc": {
+                    "total_hw_usage": data["hw_momentary_usage"],
+                    "total_cw_usage": data["cw_momentary_usage"]
+                },
+                "$push": {
+                    "history": {
+                        "date": data["date"],
+                        "value hot": data["hw_momentary_usage"],
+                        "value cold": data["cw_momentary_usage"]
+                    }
+                }
+            }
+        )
+
+        operations.append(update_op)
+
+    results = await asyncio.gather(*operations)
+    return {
+        "updated": sum(res.modified_count for res in results)
+    }
