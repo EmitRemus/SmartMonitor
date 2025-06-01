@@ -1,4 +1,4 @@
-from database import client
+from src.database.database import client
 import asyncio
 from bson import ObjectId
 
@@ -42,6 +42,7 @@ async def get_apartment_list(last_id = None, limit: int = 20):
             str(doc.get("_id")),
             doc.get("total_cw_usage", None),
             doc.get("total_hw_usage", None),
+            doc.get("update_time", None),
         ])
 
     last_object_id = ObjectId(data_id[-1]) if data_id else None
@@ -49,7 +50,7 @@ async def get_apartment_list(last_id = None, limit: int = 20):
     is_finished = remaining_docs == 0
 
     response = {
-        "columnName": ['apartment_id', 'cold_water', 'hot_water'],
+        "columnName": ['apartment_id', 'cold_water', 'hot_water', 'last_updated'],
         "data": data,
         "dataId": data_id,
         "lastId": data_id[-1] if data_id else None,

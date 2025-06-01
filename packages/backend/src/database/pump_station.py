@@ -1,4 +1,4 @@
-from database import client
+from src.database.database import client
 from bson import ObjectId
 
 async def get_pump_stations():
@@ -15,7 +15,7 @@ async def get_pump_stations():
         print(e)
         return []
 
-async def get_apartment_list(last_id = None, limit: int = 20):
+async def get_pump_station_list(last_id = None, limit: int = 20):
     await client.admin.command('ping')
     db = client.SmartMonitor
     col = db.pump_station
@@ -39,6 +39,7 @@ async def get_apartment_list(last_id = None, limit: int = 20):
             doc.get("total_cw_usage", None),
             doc.get("total_hw_usage", None),
             doc.get("pressure", None),
+            doc.get("update_time", None)
         ])
 
     last_object_id = ObjectId(data_id[-1]) if data_id else None
@@ -46,7 +47,7 @@ async def get_apartment_list(last_id = None, limit: int = 20):
     is_finished = remaining_docs == 0
 
     response = {
-        "columnName": ['station_id', 'cold_water', 'hot_water', 'pressure'],
+        "columnName": ['station_id', 'cold_water', 'hot_water', 'pressure', 'last_updated'],
         "data": data,
         "dataId": data_id,
         "lastId": data_id[-1] if data_id else None,
