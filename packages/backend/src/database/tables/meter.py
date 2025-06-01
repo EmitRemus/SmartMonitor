@@ -84,8 +84,8 @@ async def create_meters(meters: list[dict]):
         for meter_entry in meters:
             meter_entry["apartment_id"] = ObjectId(meter_entry["apartment_id"])
             meter_entry.setdefault("history", [])
-            meter_entry["install_date"] = datetime.fromisoformat(meter_entry["install_date"])
-            meter_entry["check_date"] = datetime.fromisoformat(meter_entry["check_date"])
+            meter_entry["install_date"] = datetime.datetime.fromisoformat(meter_entry["install_date"])
+            meter_entry["check_date"] = datetime.datetime.fromisoformat(meter_entry["check_date"])
 
         result = await col.insert_many(meters)
         return {"inserted_ids": [str("_id") for _id in result.inserted_ids]}
@@ -113,7 +113,8 @@ async def add_history_entries(updates: list[dict]):
         for update in updates:
             meter_id = ObjectId(update["meter_id"])
             entries = [
-                {"date": datetime.fromisoformat(e["date"]), "value": float(e["value"])} for e in update["entries"]
+                {"date": datetime.datetime.fromisoformat(e["date"]), "value": float(e["value"])}
+                for e in update["entries"]
             ]
 
             ops.append(col.update_one({"_id": meter_id}, {"$push": {"history": {"$each": entries}}}))

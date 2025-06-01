@@ -1,13 +1,11 @@
 import asyncio
-
-# import pprint
 import os
+from typing import List, Dict
+from datetime import datetime
 
 from pymongo import AsyncMongoClient
 from pymongo.server_api import ServerApi
 from dotenv import load_dotenv
-from typing import List, Dict
-from datetime import datetime
 from bson import ObjectId
 
 
@@ -60,8 +58,8 @@ async def update_water_metrics(collection_name: str, updates: list[dict]):
     """
     try:
         await client.admin.command("ping")
-        db = client.SmartMonitor
-        col = getattr(db, collection_name)
+        db_SmartMonitor = client.SmartMonitor
+        col = getattr(db_SmartMonitor, collection_name)
 
         ops = []
 

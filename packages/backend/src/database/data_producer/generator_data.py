@@ -1,9 +1,10 @@
-from src.database.database import client
 import math
 from datetime import datetime
 import random
-from src.database.apartment import get_apartments
-from src.database.apartment_building import get_apartment_buildings
+
+from src.database.database import client
+from src.database.tables.apartment import get_apartments
+from src.database.specific_queries.apartment_building import get_apartment_buildings
 from bson import ObjectId
 
 

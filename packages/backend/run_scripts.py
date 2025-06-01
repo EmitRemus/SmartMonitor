@@ -3,7 +3,7 @@ import subprocess
 import logging
 
 from dotenv import dotenv_values
-from src.database.producer import cycler
+from src.database.data_producer.producer import cycler
 
 logger = logging.getLogger("run_scripts")
 

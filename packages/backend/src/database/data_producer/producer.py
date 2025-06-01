@@ -1,10 +1,10 @@
 import asyncio
 
-from src.database.meter import get_all_meter_ids, add_history_entries
-from src.database.apartment_building import update_apartment_buildings
-from src.database.pump_station import update_pipe_stations
+from src.database.tables.meter import get_all_meter_ids, add_history_entries
+from src.database.specific_queries.apartment_building import update_apartment_buildings
+from src.database.tables.pump_station import update_pipe_stations
 
-from src.database.generator_data import (
+from src.database.data_producer.generator_data import (
     sample_from_list,
     generate_meter_history_entry,
     mutate_meter_values,

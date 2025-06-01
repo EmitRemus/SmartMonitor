@@ -2,7 +2,7 @@ import json
 from pathlib import Path
 from bson import json_util
 from src.database.database import client
-from src.database.generator_documents import clear_all_collections  # adjust if needed
+from src.database.generate_data.generator_documents import clear_all_collections  # adjust if needed
 
 
 BACKUP_DIR = Path(__file__).parent / "database_backup_starting"
