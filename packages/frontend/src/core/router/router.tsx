@@ -34,6 +34,8 @@ const WaterHotChart = lazy(
   () => import('@/pages/charts/timeSeries/waterHot/WaterHotChart'),
 );
 
+const GlobalGraph = lazy(() => import('@/pages/globalGraph/GlobalGraph'));
+
 export const router = createBrowserRouter([
   {
     path: '/',
@@ -98,6 +100,7 @@ export const router = createBrowserRouter([
               },
             ],
           },
+          { path: 'global-graph', element: <GlobalGraph /> },
         ],
       },
     ],

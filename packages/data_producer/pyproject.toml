@@ -1,16 +1,7 @@
 [project]
 name = "src"
 version = "0.1.0"
-description = ""
 requires-python = ">=3.13"
-dependencies = [
-    "fastapi[standard] (>=0.115.12,<0.116.0)",
-    "granian (>=2.3.1,<3.0.0)",
-    "granian[reload] (>=2.3.1,<3.0.0)",
-    "python-dotenv (>=1.1.0,<2.0.0)",
-    "pymongo (>=4.13.0,<5.0.0)",
-    "paho-mqtt (>=2.1.0,<3.0.0)"
-]
 
 [project.scripts]
 prod = "run_scripts:production"
@@ -20,3 +11,8 @@ producer = "run_scripts:run_producer"
 [build-system]
 requires = ["poetry-core>=2.0.0,<3.0.0"]
 build-backend = "poetry.core.masonry.api"
+
+[tool.poetry.dependencies]
+python-dotenv = "^1.1.0"
+paho-mqtt = "^2.1.0"
+pymongo = "^4.13.0"

@@ -1,19 +1,14 @@
 import asyncio
-import os
 from typing import List, Dict
 from datetime import datetime
 
 from pymongo import AsyncMongoClient
 from pymongo.server_api import ServerApi
-from dotenv import load_dotenv
 from bson import ObjectId
+from src.config.environment import ENVIRONMENT
 
 
-load_dotenv()
-
-# Access the URI
-uri = os.getenv("MONGODB_URI")
-
+uri = ENVIRONMENT.MONGODB_URI
 client = AsyncMongoClient(uri, server_api=ServerApi("1"))
 db = client.SmartMonitor
 
