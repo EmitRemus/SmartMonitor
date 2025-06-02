@@ -37,7 +37,7 @@ async def aggregate_cold_water_by_date():
         meter_series = []
 
         for timestamp_ms in sorted(all_timestamps):
-            iso_time = datetime.utcfromtimestamp(timestamp_ms / 1000).isoformat()[:-3] + "Z"
+            iso_time = datetime.utcfromtimestamp(timestamp_ms / 1000).isoformat() + "Z"
             pump_series.append([iso_time, pump_data.get(timestamp_ms, 0)])
             meter_series.append([iso_time, meter_data.get(timestamp_ms, 0)])
 
@@ -87,7 +87,7 @@ async def aggregate_hot_water_by_date():
         meter_series = []
 
         for timestamp_ms in sorted(all_timestamps):
-            iso_time = datetime.utcfromtimestamp(timestamp_ms / 1000).isoformat()[:-3] + "Z"
+            iso_time = datetime.utcfromtimestamp(timestamp_ms / 1000).isoformat() + "Z"
             pump_series.append([iso_time, pump_data.get(timestamp_ms, 0)])
             meter_series.append([iso_time, meter_data.get(timestamp_ms, 0)])
 

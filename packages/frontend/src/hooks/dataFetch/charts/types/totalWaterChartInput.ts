@@ -15,14 +15,17 @@ export const TotalWaterChartInput = z.array(
             });
             return z.NEVER;
           }
-          if (date.toISOString() !== val) {
-            ctx.issues.push({
-              code: 'invalid_format',
-              input: val,
-              format: 'date',
-            });
-            return z.NEVER;
-          }
+
+          // if (date.toISOString() !== val) {
+          //   console.log(date.toISOString());
+          //   console.log(val);
+          //   ctx.issues.push({
+          //     code: 'invalid_format',
+          //     input: val,
+          //     format: 'date',
+          //   });
+          //   return z.NEVER;
+          // }
           return date;
         }),
         z.number(),
