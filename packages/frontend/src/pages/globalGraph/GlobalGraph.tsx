@@ -1,8 +1,11 @@
 import { Box, Flex } from '@radix-ui/themes';
+import { Text } from '@radix-ui/themes';
 
+import { Loader2Icon } from 'lucide-react';
 import { useState } from 'react';
 import Tree from 'react-d3-tree';
 
+import { useFetchFraudGraph } from '@/hooks/dataFetch/graph/useFetch.fraudGraph';
 import useWindowDimensions from '@/hooks/system/useWindowDimensions/useWindowDimensions';
 import { fakeGlobalGraphData } from '@/pages/globalGraph/fake_data';
 import { GlobalGraphInfoBar } from '@/pages/globalGraph/fragments/GlobalGraphInfoBar';
@@ -15,9 +18,25 @@ const GlobalGraph = () => {
   const [selectedNodeData, setSelectedNodeData] =
     useState<SelectedNodeData | null>(null);
 
-  return (
-    <Flex direction="row" className="w-lvw h-lvh">
-      <Box className="w-full h-full bg-slate-100">
+  const data = useFetchFraudGraph();
+
+  let Graph = (
+    <Flex className="w-full h-full" align="center" justify="center">
+      <Loader2Icon className="animate-spin w-10 h-10 text-palette-blue-sapphire" />
+    </Flex>
+  );
+
+  if (data !== null) {
+    if (!data[0].isSuccess || data[0].data === null) {
+      Graph = (
+        <Flex className="w-full h-full" align="center" justify="center">
+          <Text className="text-lg">
+            Failed to get correct data from server
+          </Text>
+        </Flex>
+      );
+    } else {
+      Graph = (
         <Tree
           data={fakeGlobalGraphData}
           translate={{ x: width * 0.1, y: height / 2 }}
@@ -34,7 +53,13 @@ const GlobalGraph = () => {
             setIsInfoBarShown(true);
           }}
         />
-      </Box>
+      );
+    }
+  }
+
+  return (
+    <Flex direction="row" className="w-lvw h-lvh">
+      <Box className="w-full h-full bg-slate-100">{Graph}</Box>
       <GlobalGraphInfoBar
         selectedData={selectedNodeData}
         isInfoBarShown={isInfoBarShown}
@@ -45,3 +70,28 @@ const GlobalGraph = () => {
 };
 
 export default GlobalGraph;
+
+/*
+
+const WaterColdChart = () => {
+  const data = useFetchChartTotalColdWater();
+
+
+
+  return (
+    <>
+      <Flex
+        align="center"
+        direction="column"
+        className="pt-5 h-120 w-full gap-1 pb-3 px-10"
+      >
+        <Text className="text-2xl font-medium">Cold water consumption</Text>
+        {Chart}
+      </Flex>
+    </>
+  );
+};
+
+export default WaterColdChart;
+
+*/

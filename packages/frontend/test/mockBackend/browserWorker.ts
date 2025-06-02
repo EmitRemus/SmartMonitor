@@ -5,6 +5,7 @@ import { allPumpStationsHandler } from '@test/mockBackend/handlers/allPumpStatio
 import { fraudHeatmapHandler } from '@test/mockBackend/handlers/charts/fraudHeatmapHandler';
 import { totalColdWaterHandler } from '@test/mockBackend/handlers/charts/totalColdWaterHandler';
 import { totalHotWaterHandler } from '@test/mockBackend/handlers/charts/totalHotWaterHandler';
+import { fraudGraphHandler } from '@test/mockBackend/handlers/graph/graphHandler';
 
 import { setupWorker } from 'msw/browser';
 
@@ -18,4 +19,6 @@ export const worker = setupWorker(
   totalColdWaterHandler,
   totalHotWaterHandler,
   fraudHeatmapHandler,
+
+  fraudGraphHandler,
 );
