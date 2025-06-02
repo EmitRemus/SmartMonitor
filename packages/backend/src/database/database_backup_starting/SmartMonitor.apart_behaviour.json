@@ -1,0 +1,1800 @@
+[{
+  "_id": {
+    "$oid": "683c9833b52c6643a25c2fa6"
+  },
+  "usage_profile_id": "683c9830b52c6643a25c2d44",
+  "h_factor": 1,
+  "loneliness_factor": 1,
+  "payment_probability": 1
+},
+{
+  "_id": {
+    "$oid": "683c9833b52c6643a25c2fa7"
+  },
+  "usage_profile_id": "683c9830b52c6643a25c2d47",
+  "h_factor": 1,
+  "loneliness_factor": 1,
+  "payment_probability": 1
+},
+{
+  "_id": {
+    "$oid": "683c9833b52c6643a25c2fa8"
+  },
+  "usage_profile_id": "683c9830b52c6643a25c2d4a",
+  "h_factor": 1,
+  "loneliness_factor": 1,
+  "payment_probability": 1
+},
+{
+  "_id": {
+    "$oid": "683c9833b52c6643a25c2fa9"
+  },
+  "usage_profile_id": "683c9830b52c6643a25c2d4d",
+  "h_factor": 1,
+  "loneliness_factor": 1,
+  "payment_probability": 1
+},
+{
+  "_id": {
+    "$oid": "683c9833b52c6643a25c2faa"
+  },
+  "usage_profile_id": "683c9830b52c6643a25c2d50",
+  "h_factor": 1,
+  "loneliness_factor": 1,
+  "payment_probability": 1
+},
+{
+  "_id": {
+    "$oid": "683c9833b52c6643a25c2fab"
+  },
+  "usage_profile_id": "683c9830b52c6643a25c2d53",
+  "h_factor": 1,
+  "loneliness_factor": 1,
+  "payment_probability": 1
+},
+{
+  "_id": {
+    "$oid": "683c9833b52c6643a25c2fac"
+  },
+  "usage_profile_id": "683c9830b52c6643a25c2d56",
+  "h_factor": 1,
+  "loneliness_factor": 1,
+  "payment_probability": 1
+},
+{
+  "_id": {
+    "$oid": "683c9833b52c6643a25c2fad"
+  },
+  "usage_profile_id": "683c9830b52c6643a25c2d59",
+  "h_factor": 1,
+  "loneliness_factor": 1,
+  "payment_probability": 1
+},
+{
+  "_id": {
+    "$oid": "683c9833b52c6643a25c2fae"
+  },
+  "usage_profile_id": "683c9830b52c6643a25c2d5c",
+  "h_factor": 1,
+  "loneliness_factor": 1,
+  "payment_probability": 1
+},
+{
+  "_id": {
+    "$oid": "683c9833b52c6643a25c2faf"
+  },
+  "usage_profile_id": "683c9830b52c6643a25c2d5f",
+  "h_factor": 1,
+  "loneliness_factor": 1,
+  "payment_probability": 1
+},
+{
+  "_id": {
+    "$oid": "683c9833b52c6643a25c2fb0"
+  },
+  "usage_profile_id": "683c9830b52c6643a25c2d62",
+  "h_factor": 1,
+  "loneliness_factor": 1,
+  "payment_probability": 1
+},
+{
+  "_id": {
+    "$oid": "683c9833b52c6643a25c2fb1"
+  },
+  "usage_profile_id": "683c9830b52c6643a25c2d65",
+  "h_factor": 1,
+  "loneliness_factor": 1,
+  "payment_probability": 1
+},
+{
+  "_id": {
+    "$oid": "683c9833b52c6643a25c2fb2"
+  },
+  "usage_profile_id": "683c9830b52c6643a25c2d68",
+  "h_factor": 1,
+  "loneliness_factor": 1,
+  "payment_probability": 1
+},
+{
+  "_id": {
+    "$oid": "683c9833b52c6643a25c2fb3"
+  },
+  "usage_profile_id": "683c9830b52c6643a25c2d6b",
+  "h_factor": 1,
+  "loneliness_factor": 1,
+  "payment_probability": 1
+},
+{
+  "_id": {
+    "$oid": "683c9833b52c6643a25c2fb4"
+  },
+  "usage_profile_id": "683c9830b52c6643a25c2d6e",
+  "h_factor": 1,
+  "loneliness_factor": 1,
+  "payment_probability": 1
+},
+{
+  "_id": {
+    "$oid": "683c9833b52c6643a25c2fb5"
+  },
+  "usage_profile_id": "683c9830b52c6643a25c2d71",
+  "h_factor": 1,
+  "loneliness_factor": 1,
+  "payment_probability": 1
+},
+{
+  "_id": {
+    "$oid": "683c9833b52c6643a25c2fb6"
+  },
+  "usage_profile_id": "683c9830b52c6643a25c2d74",
+  "h_factor": 1,
+  "loneliness_factor": 1,
+  "payment_probability": 1
+},
+{
+  "_id": {
+    "$oid": "683c9833b52c6643a25c2fb7"
+  },
+  "usage_profile_id": "683c9830b52c6643a25c2d77",
+  "h_factor": 1,
+  "loneliness_factor": 1,
+  "payment_probability": 1
+},
+{
+  "_id": {
+    "$oid": "683c9833b52c6643a25c2fb8"
+  },
+  "usage_profile_id": "683c9830b52c6643a25c2d7a",
+  "h_factor": 1,
+  "loneliness_factor": 1,
+  "payment_probability": 1
+},
+{
+  "_id": {
+    "$oid": "683c9833b52c6643a25c2fb9"
+  },
+  "usage_profile_id": "683c9830b52c6643a25c2d7d",
+  "h_factor": 1,
+  "loneliness_factor": 1,
+  "payment_probability": 1
+},
+{
+  "_id": {
+    "$oid": "683c9833b52c6643a25c2fba"
+  },
+  "usage_profile_id": "683c9830b52c6643a25c2d81",
+  "h_factor": 1,
+  "loneliness_factor": 1,
+  "payment_probability": 1
+},
+{
+  "_id": {
+    "$oid": "683c9833b52c6643a25c2fbb"
+  },
+  "usage_profile_id": "683c9830b52c6643a25c2d84",
+  "h_factor": 1,
+  "loneliness_factor": 1,
+  "payment_probability": 1
+},
+{
+  "_id": {
+    "$oid": "683c9833b52c6643a25c2fbc"
+  },
+  "usage_profile_id": "683c9830b52c6643a25c2d87",
+  "h_factor": 1,
+  "loneliness_factor": 1,
+  "payment_probability": 1
+},
+{
+  "_id": {
+    "$oid": "683c9833b52c6643a25c2fbd"
+  },
+  "usage_profile_id": "683c9830b52c6643a25c2d8a",
+  "h_factor": 1,
+  "loneliness_factor": 1,
+  "payment_probability": 1
+},
+{
+  "_id": {
+    "$oid": "683c9833b52c6643a25c2fbe"
+  },
+  "usage_profile_id": "683c9830b52c6643a25c2d8d",
+  "h_factor": 1,
+  "loneliness_factor": 1,
+  "payment_probability": 1
+},
+{
+  "_id": {
+    "$oid": "683c9833b52c6643a25c2fbf"
+  },
+  "usage_profile_id": "683c9830b52c6643a25c2d90",
+  "h_factor": 1,
+  "loneliness_factor": 1,
+  "payment_probability": 1
+},
+{
+  "_id": {
+    "$oid": "683c9833b52c6643a25c2fc0"
+  },
+  "usage_profile_id": "683c9830b52c6643a25c2d93",
+  "h_factor": 1,
+  "loneliness_factor": 1,
+  "payment_probability": 1
+},
+{
+  "_id": {
+    "$oid": "683c9833b52c6643a25c2fc1"
+  },
+  "usage_profile_id": "683c9830b52c6643a25c2d96",
+  "h_factor": 1,
+  "loneliness_factor": 1,
+  "payment_probability": 1
+},
+{
+  "_id": {
+    "$oid": "683c9833b52c6643a25c2fc2"
+  },
+  "usage_profile_id": "683c9830b52c6643a25c2d99",
+  "h_factor": 1,
+  "loneliness_factor": 1,
+  "payment_probability": 1
+},
+{
+  "_id": {
+    "$oid": "683c9833b52c6643a25c2fc3"
+  },
+  "usage_profile_id": "683c9830b52c6643a25c2d9c",
+  "h_factor": 1,
+  "loneliness_factor": 1,
+  "payment_probability": 1
+},
+{
+  "_id": {
+    "$oid": "683c9833b52c6643a25c2fc4"
+  },
+  "usage_profile_id": "683c9830b52c6643a25c2d9f",
+  "h_factor": 1,
+  "loneliness_factor": 1,
+  "payment_probability": 1
+},
+{
+  "_id": {
+    "$oid": "683c9833b52c6643a25c2fc5"
+  },
+  "usage_profile_id": "683c9830b52c6643a25c2da2",
+  "h_factor": 1,
+  "loneliness_factor": 1,
+  "payment_probability": 1
+},
+{
+  "_id": {
+    "$oid": "683c9833b52c6643a25c2fc6"
+  },
+  "usage_profile_id": "683c9830b52c6643a25c2da5",
+  "h_factor": 1,
+  "loneliness_factor": 1,
+  "payment_probability": 1
+},
+{
+  "_id": {
+    "$oid": "683c9833b52c6643a25c2fc7"
+  },
+  "usage_profile_id": "683c9830b52c6643a25c2da8",
+  "h_factor": 1,
+  "loneliness_factor": 1,
+  "payment_probability": 1
+},
+{
+  "_id": {
+    "$oid": "683c9833b52c6643a25c2fc8"
+  },
+  "usage_profile_id": "683c9830b52c6643a25c2dab",
+  "h_factor": 1,
+  "loneliness_factor": 1,
+  "payment_probability": 1
+},
+{
+  "_id": {
+    "$oid": "683c9833b52c6643a25c2fc9"
+  },
+  "usage_profile_id": "683c9830b52c6643a25c2dae",
+  "h_factor": 1,
+  "loneliness_factor": 1,
+  "payment_probability": 1
+},
+{
+  "_id": {
+    "$oid": "683c9833b52c6643a25c2fca"
+  },
+  "usage_profile_id": "683c9830b52c6643a25c2db1",
+  "h_factor": 1,
+  "loneliness_factor": 1,
+  "payment_probability": 1
+},
+{
+  "_id": {
+    "$oid": "683c9833b52c6643a25c2fcb"
+  },
+  "usage_profile_id": "683c9830b52c6643a25c2db4",
+  "h_factor": 1,
+  "loneliness_factor": 1,
+  "payment_probability": 1
+},
+{
+  "_id": {
+    "$oid": "683c9833b52c6643a25c2fcc"
+  },
+  "usage_profile_id": "683c9830b52c6643a25c2db7",
+  "h_factor": 1,
+  "loneliness_factor": 1,
+  "payment_probability": 1
+},
+{
+  "_id": {
+    "$oid": "683c9833b52c6643a25c2fcd"
+  },
+  "usage_profile_id": "683c9830b52c6643a25c2dba",
+  "h_factor": 1,
+  "loneliness_factor": 1,
+  "payment_probability": 1
+},
+{
+  "_id": {
+    "$oid": "683c9833b52c6643a25c2fce"
+  },
+  "usage_profile_id": "683c9830b52c6643a25c2dbe",
+  "h_factor": 1,
+  "loneliness_factor": 1,
+  "payment_probability": 1
+},
+{
+  "_id": {
+    "$oid": "683c9833b52c6643a25c2fcf"
+  },
+  "usage_profile_id": "683c9830b52c6643a25c2dc1",
+  "h_factor": 1,
+  "loneliness_factor": 1,
+  "payment_probability": 1
+},
+{
+  "_id": {
+    "$oid": "683c9833b52c6643a25c2fd0"
+  },
+  "usage_profile_id": "683c9830b52c6643a25c2dc4",
+  "h_factor": 1,
+  "loneliness_factor": 1,
+  "payment_probability": 1
+},
+{
+  "_id": {
+    "$oid": "683c9833b52c6643a25c2fd1"
+  },
+  "usage_profile_id": "683c9830b52c6643a25c2dc7",
+  "h_factor": 1,
+  "loneliness_factor": 1,
+  "payment_probability": 1
+},
+{
+  "_id": {
+    "$oid": "683c9833b52c6643a25c2fd2"
+  },
+  "usage_profile_id": "683c9830b52c6643a25c2dca",
+  "h_factor": 1,
+  "loneliness_factor": 1,
+  "payment_probability": 1
+},
+{
+  "_id": {
+    "$oid": "683c9833b52c6643a25c2fd3"
+  },
+  "usage_profile_id": "683c9830b52c6643a25c2dcd",
+  "h_factor": 1,
+  "loneliness_factor": 1,
+  "payment_probability": 1
+},
+{
+  "_id": {
+    "$oid": "683c9833b52c6643a25c2fd4"
+  },
+  "usage_profile_id": "683c9830b52c6643a25c2dd0",
+  "h_factor": 1,
+  "loneliness_factor": 1,
+  "payment_probability": 1
+},
+{
+  "_id": {
+    "$oid": "683c9833b52c6643a25c2fd5"
+  },
+  "usage_profile_id": "683c9830b52c6643a25c2dd3",
+  "h_factor": 1,
+  "loneliness_factor": 1,
+  "payment_probability": 1
+},
+{
+  "_id": {
+    "$oid": "683c9833b52c6643a25c2fd6"
+  },
+  "usage_profile_id": "683c9830b52c6643a25c2dd6",
+  "h_factor": 1,
+  "loneliness_factor": 1,
+  "payment_probability": 1
+},
+{
+  "_id": {
+    "$oid": "683c9833b52c6643a25c2fd7"
+  },
+  "usage_profile_id": "683c9830b52c6643a25c2dd9",
+  "h_factor": 1,
+  "loneliness_factor": 1,
+  "payment_probability": 1
+},
+{
+  "_id": {
+    "$oid": "683c9833b52c6643a25c2fd8"
+  },
+  "usage_profile_id": "683c9830b52c6643a25c2ddc",
+  "h_factor": 1,
+  "loneliness_factor": 1,
+  "payment_probability": 1
+},
+{
+  "_id": {
+    "$oid": "683c9833b52c6643a25c2fd9"
+  },
+  "usage_profile_id": "683c9830b52c6643a25c2ddf",
+  "h_factor": 1,
+  "loneliness_factor": 1,
+  "payment_probability": 1
+},
+{
+  "_id": {
+    "$oid": "683c9833b52c6643a25c2fda"
+  },
+  "usage_profile_id": "683c9830b52c6643a25c2de2",
+  "h_factor": 1,
+  "loneliness_factor": 1,
+  "payment_probability": 1
+},
+{
+  "_id": {
+    "$oid": "683c9833b52c6643a25c2fdb"
+  },
+  "usage_profile_id": "683c9830b52c6643a25c2de5",
+  "h_factor": 1,
+  "loneliness_factor": 1,
+  "payment_probability": 1
+},
+{
+  "_id": {
+    "$oid": "683c9833b52c6643a25c2fdc"
+  },
+  "usage_profile_id": "683c9830b52c6643a25c2de8",
+  "h_factor": 1,
+  "loneliness_factor": 1,
+  "payment_probability": 1
+},
+{
+  "_id": {
+    "$oid": "683c9833b52c6643a25c2fdd"
+  },
+  "usage_profile_id": "683c9830b52c6643a25c2deb",
+  "h_factor": 1,
+  "loneliness_factor": 1,
+  "payment_probability": 1
+},
+{
+  "_id": {
+    "$oid": "683c9833b52c6643a25c2fde"
+  },
+  "usage_profile_id": "683c9830b52c6643a25c2dee",
+  "h_factor": 1,
+  "loneliness_factor": 1,
+  "payment_probability": 1
+},
+{
+  "_id": {
+    "$oid": "683c9833b52c6643a25c2fdf"
+  },
+  "usage_profile_id": "683c9830b52c6643a25c2df1",
+  "h_factor": 1,
+  "loneliness_factor": 1,
+  "payment_probability": 1
+},
+{
+  "_id": {
+    "$oid": "683c9833b52c6643a25c2fe0"
+  },
+  "usage_profile_id": "683c9830b52c6643a25c2df4",
+  "h_factor": 1,
+  "loneliness_factor": 1,
+  "payment_probability": 1
+},
+{
+  "_id": {
+    "$oid": "683c9833b52c6643a25c2fe1"
+  },
+  "usage_profile_id": "683c9830b52c6643a25c2df7",
+  "h_factor": 1,
+  "loneliness_factor": 1,
+  "payment_probability": 1
+},
+{
+  "_id": {
+    "$oid": "683c9833b52c6643a25c2fe2"
+  },
+  "usage_profile_id": "683c9830b52c6643a25c2dfb",
+  "h_factor": 1,
+  "loneliness_factor": 1,
+  "payment_probability": 1
+},
+{
+  "_id": {
+    "$oid": "683c9833b52c6643a25c2fe3"
+  },
+  "usage_profile_id": "683c9830b52c6643a25c2dfe",
+  "h_factor": 1,
+  "loneliness_factor": 1,
+  "payment_probability": 1
+},
+{
+  "_id": {
+    "$oid": "683c9833b52c6643a25c2fe4"
+  },
+  "usage_profile_id": "683c9830b52c6643a25c2e01",
+  "h_factor": 1,
+  "loneliness_factor": 1,
+  "payment_probability": 1
+},
+{
+  "_id": {
+    "$oid": "683c9833b52c6643a25c2fe5"
+  },
+  "usage_profile_id": "683c9830b52c6643a25c2e04",
+  "h_factor": 1,
+  "loneliness_factor": 1,
+  "payment_probability": 1
+},
+{
+  "_id": {
+    "$oid": "683c9833b52c6643a25c2fe6"
+  },
+  "usage_profile_id": "683c9830b52c6643a25c2e07",
+  "h_factor": 1,
+  "loneliness_factor": 1,
+  "payment_probability": 1
+},
+{
+  "_id": {
+    "$oid": "683c9833b52c6643a25c2fe7"
+  },
+  "usage_profile_id": "683c9830b52c6643a25c2e0a",
+  "h_factor": 1,
+  "loneliness_factor": 1,
+  "payment_probability": 1
+},
+{
+  "_id": {
+    "$oid": "683c9833b52c6643a25c2fe8"
+  },
+  "usage_profile_id": "683c9830b52c6643a25c2e0d",
+  "h_factor": 1,
+  "loneliness_factor": 1,
+  "payment_probability": 1
+},
+{
+  "_id": {
+    "$oid": "683c9833b52c6643a25c2fe9"
+  },
+  "usage_profile_id": "683c9830b52c6643a25c2e10",
+  "h_factor": 1,
+  "loneliness_factor": 1,
+  "payment_probability": 1
+},
+{
+  "_id": {
+    "$oid": "683c9833b52c6643a25c2fea"
+  },
+  "usage_profile_id": "683c9830b52c6643a25c2e13",
+  "h_factor": 1,
+  "loneliness_factor": 1,
+  "payment_probability": 1
+},
+{
+  "_id": {
+    "$oid": "683c9833b52c6643a25c2feb"
+  },
+  "usage_profile_id": "683c9830b52c6643a25c2e16",
+  "h_factor": 1,
+  "loneliness_factor": 1,
+  "payment_probability": 1
+},
+{
+  "_id": {
+    "$oid": "683c9833b52c6643a25c2fec"
+  },
+  "usage_profile_id": "683c9830b52c6643a25c2e19",
+  "h_factor": 1,
+  "loneliness_factor": 1,
+  "payment_probability": 1
+},
+{
+  "_id": {
+    "$oid": "683c9833b52c6643a25c2fed"
+  },
+  "usage_profile_id": "683c9830b52c6643a25c2e1c",
+  "h_factor": 1,
+  "loneliness_factor": 1,
+  "payment_probability": 1
+},
+{
+  "_id": {
+    "$oid": "683c9833b52c6643a25c2fee"
+  },
+  "usage_profile_id": "683c9830b52c6643a25c2e1f",
+  "h_factor": 1,
+  "loneliness_factor": 1,
+  "payment_probability": 1
+},
+{
+  "_id": {
+    "$oid": "683c9833b52c6643a25c2fef"
+  },
+  "usage_profile_id": "683c9830b52c6643a25c2e22",
+  "h_factor": 1,
+  "loneliness_factor": 1,
+  "payment_probability": 1
+},
+{
+  "_id": {
+    "$oid": "683c9833b52c6643a25c2ff0"
+  },
+  "usage_profile_id": "683c9830b52c6643a25c2e25",
+  "h_factor": 1,
+  "loneliness_factor": 1,
+  "payment_probability": 1
+},
+{
+  "_id": {
+    "$oid": "683c9833b52c6643a25c2ff1"
+  },
+  "usage_profile_id": "683c9830b52c6643a25c2e28",
+  "h_factor": 1,
+  "loneliness_factor": 1,
+  "payment_probability": 1
+},
+{
+  "_id": {
+    "$oid": "683c9833b52c6643a25c2ff2"
+  },
+  "usage_profile_id": "683c9830b52c6643a25c2e2b",
+  "h_factor": 1,
+  "loneliness_factor": 1,
+  "payment_probability": 1
+},
+{
+  "_id": {
+    "$oid": "683c9833b52c6643a25c2ff3"
+  },
+  "usage_profile_id": "683c9830b52c6643a25c2e2e",
+  "h_factor": 1,
+  "loneliness_factor": 1,
+  "payment_probability": 1
+},
+{
+  "_id": {
+    "$oid": "683c9833b52c6643a25c2ff4"
+  },
+  "usage_profile_id": "683c9830b52c6643a25c2e31",
+  "h_factor": 1,
+  "loneliness_factor": 1,
+  "payment_probability": 1
+},
+{
+  "_id": {
+    "$oid": "683c9833b52c6643a25c2ff5"
+  },
+  "usage_profile_id": "683c9830b52c6643a25c2e34",
+  "h_factor": 1,
+  "loneliness_factor": 1,
+  "payment_probability": 1
+},
+{
+  "_id": {
+    "$oid": "683c9833b52c6643a25c2ff6"
+  },
+  "usage_profile_id": "683c9830b52c6643a25c2e38",
+  "h_factor": 1,
+  "loneliness_factor": 1,
+  "payment_probability": 1
+},
+{
+  "_id": {
+    "$oid": "683c9833b52c6643a25c2ff7"
+  },
+  "usage_profile_id": "683c9830b52c6643a25c2e3b",
+  "h_factor": 1,
+  "loneliness_factor": 1,
+  "payment_probability": 1
+},
+{
+  "_id": {
+    "$oid": "683c9833b52c6643a25c2ff8"
+  },
+  "usage_profile_id": "683c9830b52c6643a25c2e3e",
+  "h_factor": 1,
+  "loneliness_factor": 1,
+  "payment_probability": 1
+},
+{
+  "_id": {
+    "$oid": "683c9833b52c6643a25c2ff9"
+  },
+  "usage_profile_id": "683c9830b52c6643a25c2e41",
+  "h_factor": 1,
+  "loneliness_factor": 1,
+  "payment_probability": 1
+},
+{
+  "_id": {
+    "$oid": "683c9833b52c6643a25c2ffa"
+  },
+  "usage_profile_id": "683c9830b52c6643a25c2e44",
+  "h_factor": 1,
+  "loneliness_factor": 1,
+  "payment_probability": 1
+},
+{
+  "_id": {
+    "$oid": "683c9833b52c6643a25c2ffb"
+  },
+  "usage_profile_id": "683c9830b52c6643a25c2e47",
+  "h_factor": 1,
+  "loneliness_factor": 1,
+  "payment_probability": 1
+},
+{
+  "_id": {
+    "$oid": "683c9833b52c6643a25c2ffc"
+  },
+  "usage_profile_id": "683c9830b52c6643a25c2e4a",
+  "h_factor": 1,
+  "loneliness_factor": 1,
+  "payment_probability": 1
+},
+{
+  "_id": {
+    "$oid": "683c9833b52c6643a25c2ffd"
+  },
+  "usage_profile_id": "683c9830b52c6643a25c2e4d",
+  "h_factor": 1,
+  "loneliness_factor": 1,
+  "payment_probability": 1
+},
+{
+  "_id": {
+    "$oid": "683c9833b52c6643a25c2ffe"
+  },
+  "usage_profile_id": "683c9830b52c6643a25c2e50",
+  "h_factor": 1,
+  "loneliness_factor": 1,
+  "payment_probability": 1
+},
+{
+  "_id": {
+    "$oid": "683c9833b52c6643a25c2fff"
+  },
+  "usage_profile_id": "683c9830b52c6643a25c2e53",
+  "h_factor": 1,
+  "loneliness_factor": 1,
+  "payment_probability": 1
+},
+{
+  "_id": {
+    "$oid": "683c9833b52c6643a25c3000"
+  },
+  "usage_profile_id": "683c9830b52c6643a25c2e56",
+  "h_factor": 1,
+  "loneliness_factor": 1,
+  "payment_probability": 1
+},
+{
+  "_id": {
+    "$oid": "683c9833b52c6643a25c3001"
+  },
+  "usage_profile_id": "683c9830b52c6643a25c2e59",
+  "h_factor": 1,
+  "loneliness_factor": 1,
+  "payment_probability": 1
+},
+{
+  "_id": {
+    "$oid": "683c9833b52c6643a25c3002"
+  },
+  "usage_profile_id": "683c9830b52c6643a25c2e5c",
+  "h_factor": 1,
+  "loneliness_factor": 1,
+  "payment_probability": 1
+},
+{
+  "_id": {
+    "$oid": "683c9833b52c6643a25c3003"
+  },
+  "usage_profile_id": "683c9830b52c6643a25c2e5f",
+  "h_factor": 1,
+  "loneliness_factor": 1,
+  "payment_probability": 1
+},
+{
+  "_id": {
+    "$oid": "683c9833b52c6643a25c3004"
+  },
+  "usage_profile_id": "683c9830b52c6643a25c2e62",
+  "h_factor": 1,
+  "loneliness_factor": 1,
+  "payment_probability": 1
+},
+{
+  "_id": {
+    "$oid": "683c9833b52c6643a25c3005"
+  },
+  "usage_profile_id": "683c9830b52c6643a25c2e65",
+  "h_factor": 1,
+  "loneliness_factor": 1,
+  "payment_probability": 1
+},
+{
+  "_id": {
+    "$oid": "683c9833b52c6643a25c3006"
+  },
+  "usage_profile_id": "683c9830b52c6643a25c2e68",
+  "h_factor": 1,
+  "loneliness_factor": 1,
+  "payment_probability": 1
+},
+{
+  "_id": {
+    "$oid": "683c9833b52c6643a25c3007"
+  },
+  "usage_profile_id": "683c9830b52c6643a25c2e6b",
+  "h_factor": 1,
+  "loneliness_factor": 1,
+  "payment_probability": 1
+},
+{
+  "_id": {
+    "$oid": "683c9833b52c6643a25c3008"
+  },
+  "usage_profile_id": "683c9830b52c6643a25c2e6e",
+  "h_factor": 1,
+  "loneliness_factor": 1,
+  "payment_probability": 1
+},
+{
+  "_id": {
+    "$oid": "683c9833b52c6643a25c3009"
+  },
+  "usage_profile_id": "683c9830b52c6643a25c2e71",
+  "h_factor": 1,
+  "loneliness_factor": 1,
+  "payment_probability": 1
+},
+{
+  "_id": {
+    "$oid": "683c9833b52c6643a25c300a"
+  },
+  "usage_profile_id": "683c9830b52c6643a25c2e78",
+  "h_factor": 1,
+  "loneliness_factor": 1,
+  "payment_probability": 1
+},
+{
+  "_id": {
+    "$oid": "683c9833b52c6643a25c300b"
+  },
+  "usage_profile_id": "683c9830b52c6643a25c2e7b",
+  "h_factor": 1,
+  "loneliness_factor": 1,
+  "payment_probability": 1
+},
+{
+  "_id": {
+    "$oid": "683c9833b52c6643a25c300c"
+  },
+  "usage_profile_id": "683c9830b52c6643a25c2e7e",
+  "h_factor": 1,
+  "loneliness_factor": 1,
+  "payment_probability": 1
+},
+{
+  "_id": {
+    "$oid": "683c9833b52c6643a25c300d"
+  },
+  "usage_profile_id": "683c9830b52c6643a25c2e81",
+  "h_factor": 1,
+  "loneliness_factor": 1,
+  "payment_probability": 1
+},
+{
+  "_id": {
+    "$oid": "683c9833b52c6643a25c300e"
+  },
+  "usage_profile_id": "683c9830b52c6643a25c2e84",
+  "h_factor": 1,
+  "loneliness_factor": 1,
+  "payment_probability": 1
+},
+{
+  "_id": {
+    "$oid": "683c9833b52c6643a25c300f"
+  },
+  "usage_profile_id": "683c9830b52c6643a25c2e87",
+  "h_factor": 1,
+  "loneliness_factor": 1,
+  "payment_probability": 1
+},
+{
+  "_id": {
+    "$oid": "683c9833b52c6643a25c3010"
+  },
+  "usage_profile_id": "683c9830b52c6643a25c2e8a",
+  "h_factor": 1,
+  "loneliness_factor": 1,
+  "payment_probability": 1
+},
+{
+  "_id": {
+    "$oid": "683c9833b52c6643a25c3011"
+  },
+  "usage_profile_id": "683c9830b52c6643a25c2e8d",
+  "h_factor": 1,
+  "loneliness_factor": 1,
+  "payment_probability": 1
+},
+{
+  "_id": {
+    "$oid": "683c9833b52c6643a25c3012"
+  },
+  "usage_profile_id": "683c9830b52c6643a25c2e90",
+  "h_factor": 1,
+  "loneliness_factor": 1,
+  "payment_probability": 1
+},
+{
+  "_id": {
+    "$oid": "683c9833b52c6643a25c3013"
+  },
+  "usage_profile_id": "683c9830b52c6643a25c2e93",
+  "h_factor": 1,
+  "loneliness_factor": 1,
+  "payment_probability": 1
+},
+{
+  "_id": {
+    "$oid": "683c9833b52c6643a25c3014"
+  },
+  "usage_profile_id": "683c9830b52c6643a25c2e96",
+  "h_factor": 1,
+  "loneliness_factor": 1,
+  "payment_probability": 1
+},
+{
+  "_id": {
+    "$oid": "683c9833b52c6643a25c3015"
+  },
+  "usage_profile_id": "683c9830b52c6643a25c2e99",
+  "h_factor": 1,
+  "loneliness_factor": 1,
+  "payment_probability": 1
+},
+{
+  "_id": {
+    "$oid": "683c9833b52c6643a25c3016"
+  },
+  "usage_profile_id": "683c9830b52c6643a25c2e9c",
+  "h_factor": 1,
+  "loneliness_factor": 1,
+  "payment_probability": 1
+},
+{
+  "_id": {
+    "$oid": "683c9833b52c6643a25c3017"
+  },
+  "usage_profile_id": "683c9830b52c6643a25c2e9f",
+  "h_factor": 1,
+  "loneliness_factor": 1,
+  "payment_probability": 1
+},
+{
+  "_id": {
+    "$oid": "683c9833b52c6643a25c3018"
+  },
+  "usage_profile_id": "683c9830b52c6643a25c2ea2",
+  "h_factor": 1,
+  "loneliness_factor": 1,
+  "payment_probability": 1
+},
+{
+  "_id": {
+    "$oid": "683c9833b52c6643a25c3019"
+  },
+  "usage_profile_id": "683c9830b52c6643a25c2ea5",
+  "h_factor": 1,
+  "loneliness_factor": 1,
+  "payment_probability": 1
+},
+{
+  "_id": {
+    "$oid": "683c9833b52c6643a25c301a"
+  },
+  "usage_profile_id": "683c9830b52c6643a25c2ea8",
+  "h_factor": 1,
+  "loneliness_factor": 1,
+  "payment_probability": 1
+},
+{
+  "_id": {
+    "$oid": "683c9833b52c6643a25c301b"
+  },
+  "usage_profile_id": "683c9830b52c6643a25c2eab",
+  "h_factor": 1,
+  "loneliness_factor": 1,
+  "payment_probability": 1
+},
+{
+  "_id": {
+    "$oid": "683c9833b52c6643a25c301c"
+  },
+  "usage_profile_id": "683c9830b52c6643a25c2eae",
+  "h_factor": 1,
+  "loneliness_factor": 1,
+  "payment_probability": 1
+},
+{
+  "_id": {
+    "$oid": "683c9833b52c6643a25c301d"
+  },
+  "usage_profile_id": "683c9830b52c6643a25c2eb1",
+  "h_factor": 1,
+  "loneliness_factor": 1,
+  "payment_probability": 1
+},
+{
+  "_id": {
+    "$oid": "683c9833b52c6643a25c301e"
+  },
+  "usage_profile_id": "683c9830b52c6643a25c2eb5",
+  "h_factor": 1,
+  "loneliness_factor": 1,
+  "payment_probability": 1
+},
+{
+  "_id": {
+    "$oid": "683c9833b52c6643a25c301f"
+  },
+  "usage_profile_id": "683c9830b52c6643a25c2eb8",
+  "h_factor": 1,
+  "loneliness_factor": 1,
+  "payment_probability": 1
+},
+{
+  "_id": {
+    "$oid": "683c9833b52c6643a25c3020"
+  },
+  "usage_profile_id": "683c9830b52c6643a25c2ebb",
+  "h_factor": 1,
+  "loneliness_factor": 1,
+  "payment_probability": 1
+},
+{
+  "_id": {
+    "$oid": "683c9833b52c6643a25c3021"
+  },
+  "usage_profile_id": "683c9830b52c6643a25c2ebe",
+  "h_factor": 1,
+  "loneliness_factor": 1,
+  "payment_probability": 1
+},
+{
+  "_id": {
+    "$oid": "683c9833b52c6643a25c3022"
+  },
+  "usage_profile_id": "683c9830b52c6643a25c2ec1",
+  "h_factor": 1,
+  "loneliness_factor": 1,
+  "payment_probability": 1
+},
+{
+  "_id": {
+    "$oid": "683c9833b52c6643a25c3023"
+  },
+  "usage_profile_id": "683c9830b52c6643a25c2ec4",
+  "h_factor": 1,
+  "loneliness_factor": 1,
+  "payment_probability": 1
+},
+{
+  "_id": {
+    "$oid": "683c9833b52c6643a25c3024"
+  },
+  "usage_profile_id": "683c9830b52c6643a25c2ec7",
+  "h_factor": 1,
+  "loneliness_factor": 1,
+  "payment_probability": 1
+},
+{
+  "_id": {
+    "$oid": "683c9833b52c6643a25c3025"
+  },
+  "usage_profile_id": "683c9830b52c6643a25c2eca",
+  "h_factor": 1,
+  "loneliness_factor": 1,
+  "payment_probability": 1
+},
+{
+  "_id": {
+    "$oid": "683c9833b52c6643a25c3026"
+  },
+  "usage_profile_id": "683c9830b52c6643a25c2ecd",
+  "h_factor": 1,
+  "loneliness_factor": 1,
+  "payment_probability": 1
+},
+{
+  "_id": {
+    "$oid": "683c9833b52c6643a25c3027"
+  },
+  "usage_profile_id": "683c9830b52c6643a25c2ed0",
+  "h_factor": 1,
+  "loneliness_factor": 1,
+  "payment_probability": 1
+},
+{
+  "_id": {
+    "$oid": "683c9833b52c6643a25c3028"
+  },
+  "usage_profile_id": "683c9830b52c6643a25c2ed3",
+  "h_factor": 1,
+  "loneliness_factor": 1,
+  "payment_probability": 1
+},
+{
+  "_id": {
+    "$oid": "683c9833b52c6643a25c3029"
+  },
+  "usage_profile_id": "683c9830b52c6643a25c2ed6",
+  "h_factor": 1,
+  "loneliness_factor": 1,
+  "payment_probability": 1
+},
+{
+  "_id": {
+    "$oid": "683c9833b52c6643a25c302a"
+  },
+  "usage_profile_id": "683c9830b52c6643a25c2ed9",
+  "h_factor": 1,
+  "loneliness_factor": 1,
+  "payment_probability": 1
+},
+{
+  "_id": {
+    "$oid": "683c9833b52c6643a25c302b"
+  },
+  "usage_profile_id": "683c9830b52c6643a25c2edc",
+  "h_factor": 1,
+  "loneliness_factor": 1,
+  "payment_probability": 1
+},
+{
+  "_id": {
+    "$oid": "683c9833b52c6643a25c302c"
+  },
+  "usage_profile_id": "683c9830b52c6643a25c2edf",
+  "h_factor": 1,
+  "loneliness_factor": 1,
+  "payment_probability": 1
+},
+{
+  "_id": {
+    "$oid": "683c9833b52c6643a25c302d"
+  },
+  "usage_profile_id": "683c9830b52c6643a25c2ee2",
+  "h_factor": 1,
+  "loneliness_factor": 1,
+  "payment_probability": 1
+},
+{
+  "_id": {
+    "$oid": "683c9833b52c6643a25c302e"
+  },
+  "usage_profile_id": "683c9830b52c6643a25c2ee5",
+  "h_factor": 1,
+  "loneliness_factor": 1,
+  "payment_probability": 1
+},
+{
+  "_id": {
+    "$oid": "683c9833b52c6643a25c302f"
+  },
+  "usage_profile_id": "683c9830b52c6643a25c2ee8",
+  "h_factor": 1,
+  "loneliness_factor": 1,
+  "payment_probability": 1
+},
+{
+  "_id": {
+    "$oid": "683c9833b52c6643a25c3030"
+  },
+  "usage_profile_id": "683c9830b52c6643a25c2eeb",
+  "h_factor": 1,
+  "loneliness_factor": 1,
+  "payment_probability": 1
+},
+{
+  "_id": {
+    "$oid": "683c9833b52c6643a25c3031"
+  },
+  "usage_profile_id": "683c9830b52c6643a25c2eee",
+  "h_factor": 1,
+  "loneliness_factor": 1,
+  "payment_probability": 1
+},
+{
+  "_id": {
+    "$oid": "683c9833b52c6643a25c3032"
+  },
+  "usage_profile_id": "683c9830b52c6643a25c2ef2",
+  "h_factor": 1,
+  "loneliness_factor": 1,
+  "payment_probability": 1
+},
+{
+  "_id": {
+    "$oid": "683c9833b52c6643a25c3033"
+  },
+  "usage_profile_id": "683c9830b52c6643a25c2ef5",
+  "h_factor": 1,
+  "loneliness_factor": 1,
+  "payment_probability": 1
+},
+{
+  "_id": {
+    "$oid": "683c9833b52c6643a25c3034"
+  },
+  "usage_profile_id": "683c9830b52c6643a25c2ef8",
+  "h_factor": 1,
+  "loneliness_factor": 1,
+  "payment_probability": 1
+},
+{
+  "_id": {
+    "$oid": "683c9833b52c6643a25c3035"
+  },
+  "usage_profile_id": "683c9830b52c6643a25c2efb",
+  "h_factor": 1,
+  "loneliness_factor": 1,
+  "payment_probability": 1
+},
+{
+  "_id": {
+    "$oid": "683c9833b52c6643a25c3036"
+  },
+  "usage_profile_id": "683c9830b52c6643a25c2efe",
+  "h_factor": 1,
+  "loneliness_factor": 1,
+  "payment_probability": 1
+},
+{
+  "_id": {
+    "$oid": "683c9833b52c6643a25c3037"
+  },
+  "usage_profile_id": "683c9830b52c6643a25c2f01",
+  "h_factor": 1,
+  "loneliness_factor": 1,
+  "payment_probability": 1
+},
+{
+  "_id": {
+    "$oid": "683c9833b52c6643a25c3038"
+  },
+  "usage_profile_id": "683c9830b52c6643a25c2f04",
+  "h_factor": 1,
+  "loneliness_factor": 1,
+  "payment_probability": 1
+},
+{
+  "_id": {
+    "$oid": "683c9833b52c6643a25c3039"
+  },
+  "usage_profile_id": "683c9830b52c6643a25c2f07",
+  "h_factor": 1,
+  "loneliness_factor": 1,
+  "payment_probability": 1
+},
+{
+  "_id": {
+    "$oid": "683c9833b52c6643a25c303a"
+  },
+  "usage_profile_id": "683c9830b52c6643a25c2f0a",
+  "h_factor": 1,
+  "loneliness_factor": 1,
+  "payment_probability": 1
+},
+{
+  "_id": {
+    "$oid": "683c9833b52c6643a25c303b"
+  },
+  "usage_profile_id": "683c9830b52c6643a25c2f0d",
+  "h_factor": 1,
+  "loneliness_factor": 1,
+  "payment_probability": 1
+},
+{
+  "_id": {
+    "$oid": "683c9833b52c6643a25c303c"
+  },
+  "usage_profile_id": "683c9830b52c6643a25c2f10",
+  "h_factor": 1,
+  "loneliness_factor": 1,
+  "payment_probability": 1
+},
+{
+  "_id": {
+    "$oid": "683c9833b52c6643a25c303d"
+  },
+  "usage_profile_id": "683c9830b52c6643a25c2f13",
+  "h_factor": 1,
+  "loneliness_factor": 1,
+  "payment_probability": 1
+},
+{
+  "_id": {
+    "$oid": "683c9833b52c6643a25c303e"
+  },
+  "usage_profile_id": "683c9830b52c6643a25c2f16",
+  "h_factor": 1,
+  "loneliness_factor": 1,
+  "payment_probability": 1
+},
+{
+  "_id": {
+    "$oid": "683c9833b52c6643a25c303f"
+  },
+  "usage_profile_id": "683c9830b52c6643a25c2f19",
+  "h_factor": 1,
+  "loneliness_factor": 1,
+  "payment_probability": 1
+},
+{
+  "_id": {
+    "$oid": "683c9833b52c6643a25c3040"
+  },
+  "usage_profile_id": "683c9830b52c6643a25c2f1c",
+  "h_factor": 1,
+  "loneliness_factor": 1,
+  "payment_probability": 1
+},
+{
+  "_id": {
+    "$oid": "683c9833b52c6643a25c3041"
+  },
+  "usage_profile_id": "683c9830b52c6643a25c2f1f",
+  "h_factor": 1,
+  "loneliness_factor": 1,
+  "payment_probability": 1
+},
+{
+  "_id": {
+    "$oid": "683c9833b52c6643a25c3042"
+  },
+  "usage_profile_id": "683c9830b52c6643a25c2f22",
+  "h_factor": 1,
+  "loneliness_factor": 1,
+  "payment_probability": 1
+},
+{
+  "_id": {
+    "$oid": "683c9833b52c6643a25c3043"
+  },
+  "usage_profile_id": "683c9830b52c6643a25c2f25",
+  "h_factor": 1,
+  "loneliness_factor": 1,
+  "payment_probability": 1
+},
+{
+  "_id": {
+    "$oid": "683c9833b52c6643a25c3044"
+  },
+  "usage_profile_id": "683c9830b52c6643a25c2f28",
+  "h_factor": 1,
+  "loneliness_factor": 1,
+  "payment_probability": 1
+},
+{
+  "_id": {
+    "$oid": "683c9833b52c6643a25c3045"
+  },
+  "usage_profile_id": "683c9830b52c6643a25c2f2b",
+  "h_factor": 1,
+  "loneliness_factor": 1,
+  "payment_probability": 1
+},
+{
+  "_id": {
+    "$oid": "683c9833b52c6643a25c3046"
+  },
+  "usage_profile_id": "683c9830b52c6643a25c2f2f",
+  "h_factor": 1,
+  "loneliness_factor": 1,
+  "payment_probability": 1
+},
+{
+  "_id": {
+    "$oid": "683c9833b52c6643a25c3047"
+  },
+  "usage_profile_id": "683c9830b52c6643a25c2f32",
+  "h_factor": 1,
+  "loneliness_factor": 1,
+  "payment_probability": 1
+},
+{
+  "_id": {
+    "$oid": "683c9833b52c6643a25c3048"
+  },
+  "usage_profile_id": "683c9830b52c6643a25c2f35",
+  "h_factor": 1,
+  "loneliness_factor": 1,
+  "payment_probability": 1
+},
+{
+  "_id": {
+    "$oid": "683c9833b52c6643a25c3049"
+  },
+  "usage_profile_id": "683c9830b52c6643a25c2f38",
+  "h_factor": 1,
+  "loneliness_factor": 1,
+  "payment_probability": 1
+},
+{
+  "_id": {
+    "$oid": "683c9833b52c6643a25c304a"
+  },
+  "usage_profile_id": "683c9830b52c6643a25c2f3b",
+  "h_factor": 1,
+  "loneliness_factor": 1,
+  "payment_probability": 1
+},
+{
+  "_id": {
+    "$oid": "683c9833b52c6643a25c304b"
+  },
+  "usage_profile_id": "683c9830b52c6643a25c2f3e",
+  "h_factor": 1,
+  "loneliness_factor": 1,
+  "payment_probability": 1
+},
+{
+  "_id": {
+    "$oid": "683c9833b52c6643a25c304c"
+  },
+  "usage_profile_id": "683c9830b52c6643a25c2f41",
+  "h_factor": 1,
+  "loneliness_factor": 1,
+  "payment_probability": 1
+},
+{
+  "_id": {
+    "$oid": "683c9833b52c6643a25c304d"
+  },
+  "usage_profile_id": "683c9830b52c6643a25c2f44",
+  "h_factor": 1,
+  "loneliness_factor": 1,
+  "payment_probability": 1
+},
+{
+  "_id": {
+    "$oid": "683c9833b52c6643a25c304e"
+  },
+  "usage_profile_id": "683c9830b52c6643a25c2f47",
+  "h_factor": 1,
+  "loneliness_factor": 1,
+  "payment_probability": 1
+},
+{
+  "_id": {
+    "$oid": "683c9833b52c6643a25c304f"
+  },
+  "usage_profile_id": "683c9830b52c6643a25c2f4a",
+  "h_factor": 1,
+  "loneliness_factor": 1,
+  "payment_probability": 1
+},
+{
+  "_id": {
+    "$oid": "683c9833b52c6643a25c3050"
+  },
+  "usage_profile_id": "683c9830b52c6643a25c2f4d",
+  "h_factor": 1,
+  "loneliness_factor": 1,
+  "payment_probability": 1
+},
+{
+  "_id": {
+    "$oid": "683c9833b52c6643a25c3051"
+  },
+  "usage_profile_id": "683c9830b52c6643a25c2f50",
+  "h_factor": 1,
+  "loneliness_factor": 1,
+  "payment_probability": 1
+},
+{
+  "_id": {
+    "$oid": "683c9833b52c6643a25c3052"
+  },
+  "usage_profile_id": "683c9830b52c6643a25c2f53",
+  "h_factor": 1,
+  "loneliness_factor": 1,
+  "payment_probability": 1
+},
+{
+  "_id": {
+    "$oid": "683c9833b52c6643a25c3053"
+  },
+  "usage_profile_id": "683c9830b52c6643a25c2f56",
+  "h_factor": 1,
+  "loneliness_factor": 1,
+  "payment_probability": 1
+},
+{
+  "_id": {
+    "$oid": "683c9833b52c6643a25c3054"
+  },
+  "usage_profile_id": "683c9830b52c6643a25c2f59",
+  "h_factor": 1,
+  "loneliness_factor": 1,
+  "payment_probability": 1
+},
+{
+  "_id": {
+    "$oid": "683c9833b52c6643a25c3055"
+  },
+  "usage_profile_id": "683c9830b52c6643a25c2f5c",
+  "h_factor": 1,
+  "loneliness_factor": 1,
+  "payment_probability": 1
+},
+{
+  "_id": {
+    "$oid": "683c9833b52c6643a25c3056"
+  },
+  "usage_profile_id": "683c9830b52c6643a25c2f5f",
+  "h_factor": 1,
+  "loneliness_factor": 1,
+  "payment_probability": 1
+},
+{
+  "_id": {
+    "$oid": "683c9833b52c6643a25c3057"
+  },
+  "usage_profile_id": "683c9830b52c6643a25c2f62",
+  "h_factor": 1,
+  "loneliness_factor": 1,
+  "payment_probability": 1
+},
+{
+  "_id": {
+    "$oid": "683c9833b52c6643a25c3058"
+  },
+  "usage_profile_id": "683c9830b52c6643a25c2f65",
+  "h_factor": 1,
+  "loneliness_factor": 1,
+  "payment_probability": 1
+},
+{
+  "_id": {
+    "$oid": "683c9833b52c6643a25c3059"
+  },
+  "usage_profile_id": "683c9830b52c6643a25c2f68",
+  "h_factor": 1,
+  "loneliness_factor": 1,
+  "payment_probability": 1
+},
+{
+  "_id": {
+    "$oid": "683c9833b52c6643a25c305a"
+  },
+  "usage_profile_id": "683c9830b52c6643a25c2f6c",
+  "h_factor": 1,
+  "loneliness_factor": 1,
+  "payment_probability": 1
+},
+{
+  "_id": {
+    "$oid": "683c9833b52c6643a25c305b"
+  },
+  "usage_profile_id": "683c9830b52c6643a25c2f6f",
+  "h_factor": 1,
+  "loneliness_factor": 1,
+  "payment_probability": 1
+},
+{
+  "_id": {
+    "$oid": "683c9833b52c6643a25c305c"
+  },
+  "usage_profile_id": "683c9830b52c6643a25c2f72",
+  "h_factor": 1,
+  "loneliness_factor": 1,
+  "payment_probability": 1
+},
+{
+  "_id": {
+    "$oid": "683c9833b52c6643a25c305d"
+  },
+  "usage_profile_id": "683c9830b52c6643a25c2f75",
+  "h_factor": 1,
+  "loneliness_factor": 1,
+  "payment_probability": 1
+},
+{
+  "_id": {
+    "$oid": "683c9833b52c6643a25c305e"
+  },
+  "usage_profile_id": "683c9830b52c6643a25c2f78",
+  "h_factor": 1,
+  "loneliness_factor": 1,
+  "payment_probability": 1
+},
+{
+  "_id": {
+    "$oid": "683c9833b52c6643a25c305f"
+  },
+  "usage_profile_id": "683c9830b52c6643a25c2f7b",
+  "h_factor": 1,
+  "loneliness_factor": 1,
+  "payment_probability": 1
+},
+{
+  "_id": {
+    "$oid": "683c9833b52c6643a25c3060"
+  },
+  "usage_profile_id": "683c9830b52c6643a25c2f7e",
+  "h_factor": 1,
+  "loneliness_factor": 1,
+  "payment_probability": 1
+},
+{
+  "_id": {
+    "$oid": "683c9833b52c6643a25c3061"
+  },
+  "usage_profile_id": "683c9830b52c6643a25c2f81",
+  "h_factor": 1,
+  "loneliness_factor": 1,
+  "payment_probability": 1
+},
+{
+  "_id": {
+    "$oid": "683c9833b52c6643a25c3062"
+  },
+  "usage_profile_id": "683c9830b52c6643a25c2f84",
+  "h_factor": 1,
+  "loneliness_factor": 1,
+  "payment_probability": 1
+},
+{
+  "_id": {
+    "$oid": "683c9833b52c6643a25c3063"
+  },
+  "usage_profile_id": "683c9830b52c6643a25c2f87",
+  "h_factor": 1,
+  "loneliness_factor": 1,
+  "payment_probability": 1
+},
+{
+  "_id": {
+    "$oid": "683c9833b52c6643a25c3064"
+  },
+  "usage_profile_id": "683c9830b52c6643a25c2f8a",
+  "h_factor": 1,
+  "loneliness_factor": 1,
+  "payment_probability": 1
+},
+{
+  "_id": {
+    "$oid": "683c9833b52c6643a25c3065"
+  },
+  "usage_profile_id": "683c9830b52c6643a25c2f8d",
+  "h_factor": 1,
+  "loneliness_factor": 1,
+  "payment_probability": 1
+},
+{
+  "_id": {
+    "$oid": "683c9833b52c6643a25c3066"
+  },
+  "usage_profile_id": "683c9830b52c6643a25c2f90",
+  "h_factor": 1,
+  "loneliness_factor": 1,
+  "payment_probability": 1
+},
+{
+  "_id": {
+    "$oid": "683c9833b52c6643a25c3067"
+  },
+  "usage_profile_id": "683c9830b52c6643a25c2f93",
+  "h_factor": 1,
+  "loneliness_factor": 1,
+  "payment_probability": 1
+},
+{
+  "_id": {
+    "$oid": "683c9833b52c6643a25c3068"
+  },
+  "usage_profile_id": "683c9830b52c6643a25c2f96",
+  "h_factor": 1,
+  "loneliness_factor": 1,
+  "payment_probability": 1
+},
+{
+  "_id": {
+    "$oid": "683c9833b52c6643a25c3069"
+  },
+  "usage_profile_id": "683c9830b52c6643a25c2f99",
+  "h_factor": 1,
+  "loneliness_factor": 1,
+  "payment_probability": 1
+},
+{
+  "_id": {
+    "$oid": "683c9833b52c6643a25c306a"
+  },
+  "usage_profile_id": "683c9830b52c6643a25c2f9c",
+  "h_factor": 1,
+  "loneliness_factor": 1,
+  "payment_probability": 1
+},
+{
+  "_id": {
+    "$oid": "683c9833b52c6643a25c306b"
+  },
+  "usage_profile_id": "683c9830b52c6643a25c2f9f",
+  "h_factor": 1,
+  "loneliness_factor": 1,
+  "payment_probability": 1
+},
+{
+  "_id": {
+    "$oid": "683c9833b52c6643a25c306c"
+  },
+  "usage_profile_id": "683c9830b52c6643a25c2fa2",
+  "h_factor": 1,
+  "loneliness_factor": 1,
+  "payment_probability": 1
+},
+{
+  "_id": {
+    "$oid": "683c9833b52c6643a25c306d"
+  },
+  "usage_profile_id": "683c9830b52c6643a25c2fa5",
+  "h_factor": 1,
+  "loneliness_factor": 1,
+  "payment_probability": 1
+}]

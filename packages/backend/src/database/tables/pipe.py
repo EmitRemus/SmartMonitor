@@ -1,11 +1,32 @@
 from src.database.database import client
 from bson import ObjectId
 
-async def get_pump_stations():
+
+async def create_pipes(pipes: list[dict]):
+    """
+    Each pipe must have:
+        - build_year (int)
+    """
     try:
-        await client.admin.command('ping')
         db = client.SmartMonitor
-        col = db.pump_station
+        col = db.pipe
+
+        for pipe in pipes:
+            if not isinstance(pipe.get("build_year"), int):
+                raise ValueError("Each pipe must include an integer 'build_year' field.")
+
+        result = await col.insert_many(pipes)
+        return {"inserted_ids": [str(_id) for _id in result.inserted_ids]}
+
+    except Exception as e:
+        return {"error": str(e)}
+
+
+async def get_pipes():
+    try:
+        await client.admin.command("ping")
+        db = client.SmartMonitor
+        col = db.pipe
         docs = []
         async for doc in col.find({}):
             doc["_id"] = str(doc["_id"])
@@ -15,10 +36,11 @@ async def get_pump_stations():
         print(e)
         return []
 
-async def get_pump_station_list(last_id = None, limit: int = 20):
-    await client.admin.command('ping')
+
+async def get_pipe_list(last_id=None, limit: int = 20):
+    await client.admin.command("ping")
     db = client.SmartMonitor
-    col = db.pump_station
+    col = db.pipe
 
     query = {}
     if last_id:
@@ -27,31 +49,25 @@ async def get_pump_station_list(last_id = None, limit: int = 20):
         except Exception:
             return {"error": "invalid last_id"}
 
-    cursor = col.find(query).sort("_id",1).limit(limit)
+    cursor = col.find(query).sort("_id", 1).limit(limit)
 
     data = []
     data_id = []
 
     async for doc in cursor:
         data_id.append(str(doc["_id"]))
-        data.append([
-            str(doc.get("_id")),
-            doc.get("total_cw_usage", None),
-            doc.get("total_hw_usage", None),
-            doc.get("pressure", None),
-            doc.get("update_time", None)
-        ])
+        data.append([str(doc.get("_id")), doc.get("build_year", None)])
 
     last_object_id = ObjectId(data_id[-1]) if data_id else None
     remaining_docs = await col.count_documents({"_id": {"$gt": last_object_id}}) if last_object_id else 0
     is_finished = remaining_docs == 0
 
     response = {
-        "columnName": ['station_id', 'cold_water', 'hot_water', 'pressure', 'last_updated'],
+        "columnName": ["pipe_id", "build_year"],
         "data": data,
         "dataId": data_id,
         "lastId": data_id[-1] if data_id else None,
-        "isFinished": is_finished
+        "isFinished": is_finished,
     }
     print(response)
     return response

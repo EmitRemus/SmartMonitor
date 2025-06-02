@@ -1,0 +1,5400 @@
+[{
+  "_id": {
+    "$oid": "683c9830b52c6643a25c2d44"
+  },
+  "building_id": {
+    "$oid": "683c9830b52c6643a25c2d41"
+  },
+  "apartment_floor": 9,
+  "apartment_number": 95,
+  "total_hw_usage": 1.26,
+  "total_cw_usage": 0.81,
+  "hw_momentary_usage": 1.26,
+  "cw_momentary_usage": 0.81,
+  "hw_water_temp": 56.46,
+  "cw_water_temp": 12.39,
+  "meters_id": [
+    {
+      "$oid": "683c9830b52c6643a25c2d42"
+    },
+    {
+      "$oid": "683c9830b52c6643a25c2d43"
+    }
+  ],
+  "update_time": {
+    "$date": "2025-06-01T21:13:04.726Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "683c9830b52c6643a25c2d47"
+  },
+  "building_id": {
+    "$oid": "683c9830b52c6643a25c2d41"
+  },
+  "apartment_floor": 7,
+  "apartment_number": 95,
+  "total_hw_usage": 1.65,
+  "total_cw_usage": 1.65,
+  "hw_momentary_usage": 1.65,
+  "cw_momentary_usage": 1.65,
+  "hw_water_temp": 50.78,
+  "cw_water_temp": 12.64,
+  "meters_id": [
+    {
+      "$oid": "683c9830b52c6643a25c2d45"
+    },
+    {
+      "$oid": "683c9830b52c6643a25c2d46"
+    }
+  ],
+  "update_time": {
+    "$date": "2025-06-01T21:13:04.726Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "683c9830b52c6643a25c2d4a"
+  },
+  "building_id": {
+    "$oid": "683c9830b52c6643a25c2d41"
+  },
+  "apartment_floor": 1,
+  "apartment_number": 6,
+  "total_hw_usage": 1.27,
+  "total_cw_usage": 1.51,
+  "hw_momentary_usage": 1.27,
+  "cw_momentary_usage": 1.51,
+  "hw_water_temp": 59.56,
+  "cw_water_temp": 11.37,
+  "meters_id": [
+    {
+      "$oid": "683c9830b52c6643a25c2d48"
+    },
+    {
+      "$oid": "683c9830b52c6643a25c2d49"
+    }
+  ],
+  "update_time": {
+    "$date": "2025-06-01T21:13:04.726Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "683c9830b52c6643a25c2d4d"
+  },
+  "building_id": {
+    "$oid": "683c9830b52c6643a25c2d41"
+  },
+  "apartment_floor": 6,
+  "apartment_number": 98,
+  "total_hw_usage": 0.58,
+  "total_cw_usage": 0.93,
+  "hw_momentary_usage": 0.58,
+  "cw_momentary_usage": 0.93,
+  "hw_water_temp": 55.65,
+  "cw_water_temp": 11.95,
+  "meters_id": [
+    {
+      "$oid": "683c9830b52c6643a25c2d4b"
+    },
+    {
+      "$oid": "683c9830b52c6643a25c2d4c"
+    }
+  ],
+  "update_time": {
+    "$date": "2025-06-01T21:13:04.726Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "683c9830b52c6643a25c2d50"
+  },
+  "building_id": {
+    "$oid": "683c9830b52c6643a25c2d41"
+  },
+  "apartment_floor": 7,
+  "apartment_number": 74,
+  "total_hw_usage": 0.76,
+  "total_cw_usage": 0.53,
+  "hw_momentary_usage": 0.76,
+  "cw_momentary_usage": 0.53,
+  "hw_water_temp": 58.54,
+  "cw_water_temp": 18.15,
+  "meters_id": [
+    {
+      "$oid": "683c9830b52c6643a25c2d4e"
+    },
+    {
+      "$oid": "683c9830b52c6643a25c2d4f"
+    }
+  ],
+  "update_time": {
+    "$date": "2025-06-01T21:13:04.726Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "683c9830b52c6643a25c2d53"
+  },
+  "building_id": {
+    "$oid": "683c9830b52c6643a25c2d41"
+  },
+  "apartment_floor": 4,
+  "apartment_number": 95,
+  "total_hw_usage": 1.2,
+  "total_cw_usage": 1.37,
+  "hw_momentary_usage": 1.2,
+  "cw_momentary_usage": 1.37,
+  "hw_water_temp": 51.72,
+  "cw_water_temp": 11.63,
+  "meters_id": [
+    {
+      "$oid": "683c9830b52c6643a25c2d51"
+    },
+    {
+      "$oid": "683c9830b52c6643a25c2d52"
+    }
+  ],
+  "update_time": {
+    "$date": "2025-06-01T21:13:04.726Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "683c9830b52c6643a25c2d56"
+  },
+  "building_id": {
+    "$oid": "683c9830b52c6643a25c2d41"
+  },
+  "apartment_floor": 4,
+  "apartment_number": 27,
+  "total_hw_usage": 1.71,
+  "total_cw_usage": 1.31,
+  "hw_momentary_usage": 1.71,
+  "cw_momentary_usage": 1.31,
+  "hw_water_temp": 55.37,
+  "cw_water_temp": 13.52,
+  "meters_id": [
+    {
+      "$oid": "683c9830b52c6643a25c2d54"
+    },
+    {
+      "$oid": "683c9830b52c6643a25c2d55"
+    }
+  ],
+  "update_time": {
+    "$date": "2025-06-01T21:13:04.726Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "683c9830b52c6643a25c2d59"
+  },
+  "building_id": {
+    "$oid": "683c9830b52c6643a25c2d41"
+  },
+  "apartment_floor": 6,
+  "apartment_number": 61,
+  "total_hw_usage": 1.13,
+  "total_cw_usage": 1.02,
+  "hw_momentary_usage": 1.13,
+  "cw_momentary_usage": 1.02,
+  "hw_water_temp": 50.6,
+  "cw_water_temp": 11.59,
+  "meters_id": [
+    {
+      "$oid": "683c9830b52c6643a25c2d57"
+    },
+    {
+      "$oid": "683c9830b52c6643a25c2d58"
+    }
+  ],
+  "update_time": {
+    "$date": "2025-06-01T21:13:04.726Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "683c9830b52c6643a25c2d5c"
+  },
+  "building_id": {
+    "$oid": "683c9830b52c6643a25c2d41"
+  },
+  "apartment_floor": 3,
+  "apartment_number": 4,
+  "total_hw_usage": 1.59,
+  "total_cw_usage": 0.59,
+  "hw_momentary_usage": 1.59,
+  "cw_momentary_usage": 0.59,
+  "hw_water_temp": 53.39,
+  "cw_water_temp": 13.47,
+  "meters_id": [
+    {
+      "$oid": "683c9830b52c6643a25c2d5a"
+    },
+    {
+      "$oid": "683c9830b52c6643a25c2d5b"
+    }
+  ],
+  "update_time": {
+    "$date": "2025-06-01T21:13:04.726Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "683c9830b52c6643a25c2d5f"
+  },
+  "building_id": {
+    "$oid": "683c9830b52c6643a25c2d41"
+  },
+  "apartment_floor": 8,
+  "apartment_number": 20,
+  "total_hw_usage": 1.75,
+  "total_cw_usage": 1.6,
+  "hw_momentary_usage": 1.75,
+  "cw_momentary_usage": 1.6,
+  "hw_water_temp": 57.73,
+  "cw_water_temp": 18.11,
+  "meters_id": [
+    {
+      "$oid": "683c9830b52c6643a25c2d5d"
+    },
+    {
+      "$oid": "683c9830b52c6643a25c2d5e"
+    }
+  ],
+  "update_time": {
+    "$date": "2025-06-01T21:13:04.726Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "683c9830b52c6643a25c2d62"
+  },
+  "building_id": {
+    "$oid": "683c9830b52c6643a25c2d41"
+  },
+  "apartment_floor": 10,
+  "apartment_number": 26,
+  "total_hw_usage": 1.17,
+  "total_cw_usage": 1.92,
+  "hw_momentary_usage": 1.17,
+  "cw_momentary_usage": 1.92,
+  "hw_water_temp": 55.34,
+  "cw_water_temp": 11.22,
+  "meters_id": [
+    {
+      "$oid": "683c9830b52c6643a25c2d60"
+    },
+    {
+      "$oid": "683c9830b52c6643a25c2d61"
+    }
+  ],
+  "update_time": {
+    "$date": "2025-06-01T21:13:04.726Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "683c9830b52c6643a25c2d65"
+  },
+  "building_id": {
+    "$oid": "683c9830b52c6643a25c2d41"
+  },
+  "apartment_floor": 2,
+  "apartment_number": 71,
+  "total_hw_usage": 1.26,
+  "total_cw_usage": 0.7,
+  "hw_momentary_usage": 1.26,
+  "cw_momentary_usage": 0.7,
+  "hw_water_temp": 57.28,
+  "cw_water_temp": 15.71,
+  "meters_id": [
+    {
+      "$oid": "683c9830b52c6643a25c2d63"
+    },
+    {
+      "$oid": "683c9830b52c6643a25c2d64"
+    }
+  ],
+  "update_time": {
+    "$date": "2025-06-01T21:13:04.726Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "683c9830b52c6643a25c2d68"
+  },
+  "building_id": {
+    "$oid": "683c9830b52c6643a25c2d41"
+  },
+  "apartment_floor": 9,
+  "apartment_number": 5,
+  "total_hw_usage": 1.94,
+  "total_cw_usage": 1.46,
+  "hw_momentary_usage": 1.94,
+  "cw_momentary_usage": 1.46,
+  "hw_water_temp": 56.52,
+  "cw_water_temp": 10.36,
+  "meters_id": [
+    {
+      "$oid": "683c9830b52c6643a25c2d66"
+    },
+    {
+      "$oid": "683c9830b52c6643a25c2d67"
+    }
+  ],
+  "update_time": {
+    "$date": "2025-06-01T21:13:04.726Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "683c9830b52c6643a25c2d6b"
+  },
+  "building_id": {
+    "$oid": "683c9830b52c6643a25c2d41"
+  },
+  "apartment_floor": 7,
+  "apartment_number": 100,
+  "total_hw_usage": 1.49,
+  "total_cw_usage": 0.8,
+  "hw_momentary_usage": 1.49,
+  "cw_momentary_usage": 0.8,
+  "hw_water_temp": 51.01,
+  "cw_water_temp": 17.62,
+  "meters_id": [
+    {
+      "$oid": "683c9830b52c6643a25c2d69"
+    },
+    {
+      "$oid": "683c9830b52c6643a25c2d6a"
+    }
+  ],
+  "update_time": {
+    "$date": "2025-06-01T21:13:04.726Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "683c9830b52c6643a25c2d6e"
+  },
+  "building_id": {
+    "$oid": "683c9830b52c6643a25c2d41"
+  },
+  "apartment_floor": 5,
+  "apartment_number": 74,
+  "total_hw_usage": 1.06,
+  "total_cw_usage": 1.94,
+  "hw_momentary_usage": 1.06,
+  "cw_momentary_usage": 1.94,
+  "hw_water_temp": 50.99,
+  "cw_water_temp": 19.12,
+  "meters_id": [
+    {
+      "$oid": "683c9830b52c6643a25c2d6c"
+    },
+    {
+      "$oid": "683c9830b52c6643a25c2d6d"
+    }
+  ],
+  "update_time": {
+    "$date": "2025-06-01T21:13:04.726Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "683c9830b52c6643a25c2d71"
+  },
+  "building_id": {
+    "$oid": "683c9830b52c6643a25c2d41"
+  },
+  "apartment_floor": 3,
+  "apartment_number": 36,
+  "total_hw_usage": 1.38,
+  "total_cw_usage": 1.44,
+  "hw_momentary_usage": 1.38,
+  "cw_momentary_usage": 1.44,
+  "hw_water_temp": 56.43,
+  "cw_water_temp": 17.32,
+  "meters_id": [
+    {
+      "$oid": "683c9830b52c6643a25c2d6f"
+    },
+    {
+      "$oid": "683c9830b52c6643a25c2d70"
+    }
+  ],
+  "update_time": {
+    "$date": "2025-06-01T21:13:04.726Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "683c9830b52c6643a25c2d74"
+  },
+  "building_id": {
+    "$oid": "683c9830b52c6643a25c2d41"
+  },
+  "apartment_floor": 1,
+  "apartment_number": 63,
+  "total_hw_usage": 1.82,
+  "total_cw_usage": 1.57,
+  "hw_momentary_usage": 1.82,
+  "cw_momentary_usage": 1.57,
+  "hw_water_temp": 59.97,
+  "cw_water_temp": 16.73,
+  "meters_id": [
+    {
+      "$oid": "683c9830b52c6643a25c2d72"
+    },
+    {
+      "$oid": "683c9830b52c6643a25c2d73"
+    }
+  ],
+  "update_time": {
+    "$date": "2025-06-01T21:13:04.726Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "683c9830b52c6643a25c2d77"
+  },
+  "building_id": {
+    "$oid": "683c9830b52c6643a25c2d41"
+  },
+  "apartment_floor": 10,
+  "apartment_number": 63,
+  "total_hw_usage": 1.73,
+  "total_cw_usage": 1.84,
+  "hw_momentary_usage": 1.73,
+  "cw_momentary_usage": 1.84,
+  "hw_water_temp": 52.27,
+  "cw_water_temp": 11.78,
+  "meters_id": [
+    {
+      "$oid": "683c9830b52c6643a25c2d75"
+    },
+    {
+      "$oid": "683c9830b52c6643a25c2d76"
+    }
+  ],
+  "update_time": {
+    "$date": "2025-06-01T21:13:04.726Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "683c9830b52c6643a25c2d7a"
+  },
+  "building_id": {
+    "$oid": "683c9830b52c6643a25c2d41"
+  },
+  "apartment_floor": 4,
+  "apartment_number": 92,
+  "total_hw_usage": 1.74,
+  "total_cw_usage": 1.3,
+  "hw_momentary_usage": 1.74,
+  "cw_momentary_usage": 1.3,
+  "hw_water_temp": 53.65,
+  "cw_water_temp": 10.77,
+  "meters_id": [
+    {
+      "$oid": "683c9830b52c6643a25c2d78"
+    },
+    {
+      "$oid": "683c9830b52c6643a25c2d79"
+    }
+  ],
+  "update_time": {
+    "$date": "2025-06-01T21:13:04.726Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "683c9830b52c6643a25c2d7d"
+  },
+  "building_id": {
+    "$oid": "683c9830b52c6643a25c2d41"
+  },
+  "apartment_floor": 9,
+  "apartment_number": 69,
+  "total_hw_usage": 0.61,
+  "total_cw_usage": 1.05,
+  "hw_momentary_usage": 0.61,
+  "cw_momentary_usage": 1.05,
+  "hw_water_temp": 54.75,
+  "cw_water_temp": 19.64,
+  "meters_id": [
+    {
+      "$oid": "683c9830b52c6643a25c2d7b"
+    },
+    {
+      "$oid": "683c9830b52c6643a25c2d7c"
+    }
+  ],
+  "update_time": {
+    "$date": "2025-06-01T21:13:04.726Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "683c9830b52c6643a25c2d81"
+  },
+  "building_id": {
+    "$oid": "683c9830b52c6643a25c2d7e"
+  },
+  "apartment_floor": 9,
+  "apartment_number": 74,
+  "total_hw_usage": 1.18,
+  "total_cw_usage": 1.47,
+  "hw_momentary_usage": 1.18,
+  "cw_momentary_usage": 1.47,
+  "hw_water_temp": 56.45,
+  "cw_water_temp": 14.17,
+  "meters_id": [
+    {
+      "$oid": "683c9830b52c6643a25c2d7f"
+    },
+    {
+      "$oid": "683c9830b52c6643a25c2d80"
+    }
+  ],
+  "update_time": {
+    "$date": "2025-06-01T21:13:04.726Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "683c9830b52c6643a25c2d84"
+  },
+  "building_id": {
+    "$oid": "683c9830b52c6643a25c2d7e"
+  },
+  "apartment_floor": 2,
+  "apartment_number": 95,
+  "total_hw_usage": 1.7,
+  "total_cw_usage": 1.38,
+  "hw_momentary_usage": 1.7,
+  "cw_momentary_usage": 1.38,
+  "hw_water_temp": 52.16,
+  "cw_water_temp": 17.97,
+  "meters_id": [
+    {
+      "$oid": "683c9830b52c6643a25c2d82"
+    },
+    {
+      "$oid": "683c9830b52c6643a25c2d83"
+    }
+  ],
+  "update_time": {
+    "$date": "2025-06-01T21:13:04.726Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "683c9830b52c6643a25c2d87"
+  },
+  "building_id": {
+    "$oid": "683c9830b52c6643a25c2d7e"
+  },
+  "apartment_floor": 9,
+  "apartment_number": 4,
+  "total_hw_usage": 1.54,
+  "total_cw_usage": 1.32,
+  "hw_momentary_usage": 1.54,
+  "cw_momentary_usage": 1.32,
+  "hw_water_temp": 59.54,
+  "cw_water_temp": 14.89,
+  "meters_id": [
+    {
+      "$oid": "683c9830b52c6643a25c2d85"
+    },
+    {
+      "$oid": "683c9830b52c6643a25c2d86"
+    }
+  ],
+  "update_time": {
+    "$date": "2025-06-01T21:13:04.726Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "683c9830b52c6643a25c2d8a"
+  },
+  "building_id": {
+    "$oid": "683c9830b52c6643a25c2d7e"
+  },
+  "apartment_floor": 10,
+  "apartment_number": 38,
+  "total_hw_usage": 1.76,
+  "total_cw_usage": 1.98,
+  "hw_momentary_usage": 1.76,
+  "cw_momentary_usage": 1.98,
+  "hw_water_temp": 51.03,
+  "cw_water_temp": 17.74,
+  "meters_id": [
+    {
+      "$oid": "683c9830b52c6643a25c2d88"
+    },
+    {
+      "$oid": "683c9830b52c6643a25c2d89"
+    }
+  ],
+  "update_time": {
+    "$date": "2025-06-01T21:13:04.726Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "683c9830b52c6643a25c2d8d"
+  },
+  "building_id": {
+    "$oid": "683c9830b52c6643a25c2d7e"
+  },
+  "apartment_floor": 9,
+  "apartment_number": 63,
+  "total_hw_usage": 0.96,
+  "total_cw_usage": 1.69,
+  "hw_momentary_usage": 0.96,
+  "cw_momentary_usage": 1.69,
+  "hw_water_temp": 54.93,
+  "cw_water_temp": 19.32,
+  "meters_id": [
+    {
+      "$oid": "683c9830b52c6643a25c2d8b"
+    },
+    {
+      "$oid": "683c9830b52c6643a25c2d8c"
+    }
+  ],
+  "update_time": {
+    "$date": "2025-06-01T21:13:04.726Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "683c9830b52c6643a25c2d90"
+  },
+  "building_id": {
+    "$oid": "683c9830b52c6643a25c2d7e"
+  },
+  "apartment_floor": 1,
+  "apartment_number": 57,
+  "total_hw_usage": 1.73,
+  "total_cw_usage": 1.1,
+  "hw_momentary_usage": 1.73,
+  "cw_momentary_usage": 1.1,
+  "hw_water_temp": 51.08,
+  "cw_water_temp": 16.89,
+  "meters_id": [
+    {
+      "$oid": "683c9830b52c6643a25c2d8e"
+    },
+    {
+      "$oid": "683c9830b52c6643a25c2d8f"
+    }
+  ],
+  "update_time": {
+    "$date": "2025-06-01T21:13:04.726Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "683c9830b52c6643a25c2d93"
+  },
+  "building_id": {
+    "$oid": "683c9830b52c6643a25c2d7e"
+  },
+  "apartment_floor": 10,
+  "apartment_number": 74,
+  "total_hw_usage": 1.15,
+  "total_cw_usage": 0.57,
+  "hw_momentary_usage": 1.15,
+  "cw_momentary_usage": 0.57,
+  "hw_water_temp": 56.67,
+  "cw_water_temp": 16.01,
+  "meters_id": [
+    {
+      "$oid": "683c9830b52c6643a25c2d91"
+    },
+    {
+      "$oid": "683c9830b52c6643a25c2d92"
+    }
+  ],
+  "update_time": {
+    "$date": "2025-06-01T21:13:04.726Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "683c9830b52c6643a25c2d96"
+  },
+  "building_id": {
+    "$oid": "683c9830b52c6643a25c2d7e"
+  },
+  "apartment_floor": 1,
+  "apartment_number": 89,
+  "total_hw_usage": 1.67,
+  "total_cw_usage": 1.04,
+  "hw_momentary_usage": 1.67,
+  "cw_momentary_usage": 1.04,
+  "hw_water_temp": 56.35,
+  "cw_water_temp": 12.71,
+  "meters_id": [
+    {
+      "$oid": "683c9830b52c6643a25c2d94"
+    },
+    {
+      "$oid": "683c9830b52c6643a25c2d95"
+    }
+  ],
+  "update_time": {
+    "$date": "2025-06-01T21:13:04.726Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "683c9830b52c6643a25c2d99"
+  },
+  "building_id": {
+    "$oid": "683c9830b52c6643a25c2d7e"
+  },
+  "apartment_floor": 6,
+  "apartment_number": 78,
+  "total_hw_usage": 1.12,
+  "total_cw_usage": 0.53,
+  "hw_momentary_usage": 1.12,
+  "cw_momentary_usage": 0.53,
+  "hw_water_temp": 51.49,
+  "cw_water_temp": 12.17,
+  "meters_id": [
+    {
+      "$oid": "683c9830b52c6643a25c2d97"
+    },
+    {
+      "$oid": "683c9830b52c6643a25c2d98"
+    }
+  ],
+  "update_time": {
+    "$date": "2025-06-01T21:13:04.726Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "683c9830b52c6643a25c2d9c"
+  },
+  "building_id": {
+    "$oid": "683c9830b52c6643a25c2d7e"
+  },
+  "apartment_floor": 6,
+  "apartment_number": 70,
+  "total_hw_usage": 1.11,
+  "total_cw_usage": 0.77,
+  "hw_momentary_usage": 1.11,
+  "cw_momentary_usage": 0.77,
+  "hw_water_temp": 52.31,
+  "cw_water_temp": 13.95,
+  "meters_id": [
+    {
+      "$oid": "683c9830b52c6643a25c2d9a"
+    },
+    {
+      "$oid": "683c9830b52c6643a25c2d9b"
+    }
+  ],
+  "update_time": {
+    "$date": "2025-06-01T21:13:04.727Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "683c9830b52c6643a25c2d9f"
+  },
+  "building_id": {
+    "$oid": "683c9830b52c6643a25c2d7e"
+  },
+  "apartment_floor": 8,
+  "apartment_number": 17,
+  "total_hw_usage": 1.64,
+  "total_cw_usage": 0.5,
+  "hw_momentary_usage": 1.64,
+  "cw_momentary_usage": 0.5,
+  "hw_water_temp": 56.11,
+  "cw_water_temp": 13.64,
+  "meters_id": [
+    {
+      "$oid": "683c9830b52c6643a25c2d9d"
+    },
+    {
+      "$oid": "683c9830b52c6643a25c2d9e"
+    }
+  ],
+  "update_time": {
+    "$date": "2025-06-01T21:13:04.727Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "683c9830b52c6643a25c2da2"
+  },
+  "building_id": {
+    "$oid": "683c9830b52c6643a25c2d7e"
+  },
+  "apartment_floor": 4,
+  "apartment_number": 82,
+  "total_hw_usage": 1.97,
+  "total_cw_usage": 1.74,
+  "hw_momentary_usage": 1.97,
+  "cw_momentary_usage": 1.74,
+  "hw_water_temp": 55.07,
+  "cw_water_temp": 19.06,
+  "meters_id": [
+    {
+      "$oid": "683c9830b52c6643a25c2da0"
+    },
+    {
+      "$oid": "683c9830b52c6643a25c2da1"
+    }
+  ],
+  "update_time": {
+    "$date": "2025-06-01T21:13:04.727Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "683c9830b52c6643a25c2da5"
+  },
+  "building_id": {
+    "$oid": "683c9830b52c6643a25c2d7e"
+  },
+  "apartment_floor": 4,
+  "apartment_number": 12,
+  "total_hw_usage": 1.33,
+  "total_cw_usage": 0.67,
+  "hw_momentary_usage": 1.33,
+  "cw_momentary_usage": 0.67,
+  "hw_water_temp": 56.68,
+  "cw_water_temp": 16.5,
+  "meters_id": [
+    {
+      "$oid": "683c9830b52c6643a25c2da3"
+    },
+    {
+      "$oid": "683c9830b52c6643a25c2da4"
+    }
+  ],
+  "update_time": {
+    "$date": "2025-06-01T21:13:04.727Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "683c9830b52c6643a25c2da8"
+  },
+  "building_id": {
+    "$oid": "683c9830b52c6643a25c2d7e"
+  },
+  "apartment_floor": 2,
+  "apartment_number": 33,
+  "total_hw_usage": 1.21,
+  "total_cw_usage": 0.73,
+  "hw_momentary_usage": 1.21,
+  "cw_momentary_usage": 0.73,
+  "hw_water_temp": 50.44,
+  "cw_water_temp": 11.62,
+  "meters_id": [
+    {
+      "$oid": "683c9830b52c6643a25c2da6"
+    },
+    {
+      "$oid": "683c9830b52c6643a25c2da7"
+    }
+  ],
+  "update_time": {
+    "$date": "2025-06-01T21:13:04.727Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "683c9830b52c6643a25c2dab"
+  },
+  "building_id": {
+    "$oid": "683c9830b52c6643a25c2d7e"
+  },
+  "apartment_floor": 8,
+  "apartment_number": 29,
+  "total_hw_usage": 0.68,
+  "total_cw_usage": 0.87,
+  "hw_momentary_usage": 0.68,
+  "cw_momentary_usage": 0.87,
+  "hw_water_temp": 59.91,
+  "cw_water_temp": 17.14,
+  "meters_id": [
+    {
+      "$oid": "683c9830b52c6643a25c2da9"
+    },
+    {
+      "$oid": "683c9830b52c6643a25c2daa"
+    }
+  ],
+  "update_time": {
+    "$date": "2025-06-01T21:13:04.727Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "683c9830b52c6643a25c2dae"
+  },
+  "building_id": {
+    "$oid": "683c9830b52c6643a25c2d7e"
+  },
+  "apartment_floor": 9,
+  "apartment_number": 3,
+  "total_hw_usage": 0.99,
+  "total_cw_usage": 1.51,
+  "hw_momentary_usage": 0.99,
+  "cw_momentary_usage": 1.51,
+  "hw_water_temp": 50.34,
+  "cw_water_temp": 18.84,
+  "meters_id": [
+    {
+      "$oid": "683c9830b52c6643a25c2dac"
+    },
+    {
+      "$oid": "683c9830b52c6643a25c2dad"
+    }
+  ],
+  "update_time": {
+    "$date": "2025-06-01T21:13:04.727Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "683c9830b52c6643a25c2db1"
+  },
+  "building_id": {
+    "$oid": "683c9830b52c6643a25c2d7e"
+  },
+  "apartment_floor": 7,
+  "apartment_number": 70,
+  "total_hw_usage": 0.69,
+  "total_cw_usage": 1.37,
+  "hw_momentary_usage": 0.69,
+  "cw_momentary_usage": 1.37,
+  "hw_water_temp": 59.49,
+  "cw_water_temp": 18.21,
+  "meters_id": [
+    {
+      "$oid": "683c9830b52c6643a25c2daf"
+    },
+    {
+      "$oid": "683c9830b52c6643a25c2db0"
+    }
+  ],
+  "update_time": {
+    "$date": "2025-06-01T21:13:04.727Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "683c9830b52c6643a25c2db4"
+  },
+  "building_id": {
+    "$oid": "683c9830b52c6643a25c2d7e"
+  },
+  "apartment_floor": 8,
+  "apartment_number": 53,
+  "total_hw_usage": 1.48,
+  "total_cw_usage": 1.81,
+  "hw_momentary_usage": 1.48,
+  "cw_momentary_usage": 1.81,
+  "hw_water_temp": 55.07,
+  "cw_water_temp": 18.68,
+  "meters_id": [
+    {
+      "$oid": "683c9830b52c6643a25c2db2"
+    },
+    {
+      "$oid": "683c9830b52c6643a25c2db3"
+    }
+  ],
+  "update_time": {
+    "$date": "2025-06-01T21:13:04.727Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "683c9830b52c6643a25c2db7"
+  },
+  "building_id": {
+    "$oid": "683c9830b52c6643a25c2d7e"
+  },
+  "apartment_floor": 5,
+  "apartment_number": 53,
+  "total_hw_usage": 1.61,
+  "total_cw_usage": 1.28,
+  "hw_momentary_usage": 1.61,
+  "cw_momentary_usage": 1.28,
+  "hw_water_temp": 55.81,
+  "cw_water_temp": 18.45,
+  "meters_id": [
+    {
+      "$oid": "683c9830b52c6643a25c2db5"
+    },
+    {
+      "$oid": "683c9830b52c6643a25c2db6"
+    }
+  ],
+  "update_time": {
+    "$date": "2025-06-01T21:13:04.727Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "683c9830b52c6643a25c2dba"
+  },
+  "building_id": {
+    "$oid": "683c9830b52c6643a25c2d7e"
+  },
+  "apartment_floor": 1,
+  "apartment_number": 20,
+  "total_hw_usage": 0.97,
+  "total_cw_usage": 1.14,
+  "hw_momentary_usage": 0.97,
+  "cw_momentary_usage": 1.14,
+  "hw_water_temp": 57.38,
+  "cw_water_temp": 18.83,
+  "meters_id": [
+    {
+      "$oid": "683c9830b52c6643a25c2db8"
+    },
+    {
+      "$oid": "683c9830b52c6643a25c2db9"
+    }
+  ],
+  "update_time": {
+    "$date": "2025-06-01T21:13:04.727Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "683c9830b52c6643a25c2dbe"
+  },
+  "building_id": {
+    "$oid": "683c9830b52c6643a25c2dbb"
+  },
+  "apartment_floor": 2,
+  "apartment_number": 76,
+  "total_hw_usage": 0.74,
+  "total_cw_usage": 1.83,
+  "hw_momentary_usage": 0.74,
+  "cw_momentary_usage": 1.83,
+  "hw_water_temp": 57.52,
+  "cw_water_temp": 12.4,
+  "meters_id": [
+    {
+      "$oid": "683c9830b52c6643a25c2dbc"
+    },
+    {
+      "$oid": "683c9830b52c6643a25c2dbd"
+    }
+  ],
+  "update_time": {
+    "$date": "2025-06-01T21:13:04.727Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "683c9830b52c6643a25c2dc1"
+  },
+  "building_id": {
+    "$oid": "683c9830b52c6643a25c2dbb"
+  },
+  "apartment_floor": 4,
+  "apartment_number": 5,
+  "total_hw_usage": 1.79,
+  "total_cw_usage": 0.96,
+  "hw_momentary_usage": 1.79,
+  "cw_momentary_usage": 0.96,
+  "hw_water_temp": 58.64,
+  "cw_water_temp": 14.12,
+  "meters_id": [
+    {
+      "$oid": "683c9830b52c6643a25c2dbf"
+    },
+    {
+      "$oid": "683c9830b52c6643a25c2dc0"
+    }
+  ],
+  "update_time": {
+    "$date": "2025-06-01T21:13:04.727Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "683c9830b52c6643a25c2dc4"
+  },
+  "building_id": {
+    "$oid": "683c9830b52c6643a25c2dbb"
+  },
+  "apartment_floor": 3,
+  "apartment_number": 29,
+  "total_hw_usage": 1.11,
+  "total_cw_usage": 0.54,
+  "hw_momentary_usage": 1.11,
+  "cw_momentary_usage": 0.54,
+  "hw_water_temp": 52.41,
+  "cw_water_temp": 14.83,
+  "meters_id": [
+    {
+      "$oid": "683c9830b52c6643a25c2dc2"
+    },
+    {
+      "$oid": "683c9830b52c6643a25c2dc3"
+    }
+  ],
+  "update_time": {
+    "$date": "2025-06-01T21:13:04.727Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "683c9830b52c6643a25c2dc7"
+  },
+  "building_id": {
+    "$oid": "683c9830b52c6643a25c2dbb"
+  },
+  "apartment_floor": 10,
+  "apartment_number": 5,
+  "total_hw_usage": 1.63,
+  "total_cw_usage": 0.8,
+  "hw_momentary_usage": 1.63,
+  "cw_momentary_usage": 0.8,
+  "hw_water_temp": 53.13,
+  "cw_water_temp": 13.06,
+  "meters_id": [
+    {
+      "$oid": "683c9830b52c6643a25c2dc5"
+    },
+    {
+      "$oid": "683c9830b52c6643a25c2dc6"
+    }
+  ],
+  "update_time": {
+    "$date": "2025-06-01T21:13:04.727Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "683c9830b52c6643a25c2dca"
+  },
+  "building_id": {
+    "$oid": "683c9830b52c6643a25c2dbb"
+  },
+  "apartment_floor": 5,
+  "apartment_number": 21,
+  "total_hw_usage": 1.34,
+  "total_cw_usage": 1.57,
+  "hw_momentary_usage": 1.34,
+  "cw_momentary_usage": 1.57,
+  "hw_water_temp": 54.49,
+  "cw_water_temp": 13.78,
+  "meters_id": [
+    {
+      "$oid": "683c9830b52c6643a25c2dc8"
+    },
+    {
+      "$oid": "683c9830b52c6643a25c2dc9"
+    }
+  ],
+  "update_time": {
+    "$date": "2025-06-01T21:13:04.727Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "683c9830b52c6643a25c2dcd"
+  },
+  "building_id": {
+    "$oid": "683c9830b52c6643a25c2dbb"
+  },
+  "apartment_floor": 1,
+  "apartment_number": 16,
+  "total_hw_usage": 0.55,
+  "total_cw_usage": 1.29,
+  "hw_momentary_usage": 0.55,
+  "cw_momentary_usage": 1.29,
+  "hw_water_temp": 57.39,
+  "cw_water_temp": 13.29,
+  "meters_id": [
+    {
+      "$oid": "683c9830b52c6643a25c2dcb"
+    },
+    {
+      "$oid": "683c9830b52c6643a25c2dcc"
+    }
+  ],
+  "update_time": {
+    "$date": "2025-06-01T21:13:04.727Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "683c9830b52c6643a25c2dd0"
+  },
+  "building_id": {
+    "$oid": "683c9830b52c6643a25c2dbb"
+  },
+  "apartment_floor": 10,
+  "apartment_number": 15,
+  "total_hw_usage": 0.62,
+  "total_cw_usage": 1.6,
+  "hw_momentary_usage": 0.62,
+  "cw_momentary_usage": 1.6,
+  "hw_water_temp": 53.03,
+  "cw_water_temp": 19.09,
+  "meters_id": [
+    {
+      "$oid": "683c9830b52c6643a25c2dce"
+    },
+    {
+      "$oid": "683c9830b52c6643a25c2dcf"
+    }
+  ],
+  "update_time": {
+    "$date": "2025-06-01T21:13:04.727Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "683c9830b52c6643a25c2dd3"
+  },
+  "building_id": {
+    "$oid": "683c9830b52c6643a25c2dbb"
+  },
+  "apartment_floor": 8,
+  "apartment_number": 62,
+  "total_hw_usage": 1.53,
+  "total_cw_usage": 1.66,
+  "hw_momentary_usage": 1.53,
+  "cw_momentary_usage": 1.66,
+  "hw_water_temp": 56.74,
+  "cw_water_temp": 14.68,
+  "meters_id": [
+    {
+      "$oid": "683c9830b52c6643a25c2dd1"
+    },
+    {
+      "$oid": "683c9830b52c6643a25c2dd2"
+    }
+  ],
+  "update_time": {
+    "$date": "2025-06-01T21:13:04.727Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "683c9830b52c6643a25c2dd6"
+  },
+  "building_id": {
+    "$oid": "683c9830b52c6643a25c2dbb"
+  },
+  "apartment_floor": 8,
+  "apartment_number": 2,
+  "total_hw_usage": 1.48,
+  "total_cw_usage": 0.93,
+  "hw_momentary_usage": 1.48,
+  "cw_momentary_usage": 0.93,
+  "hw_water_temp": 53.21,
+  "cw_water_temp": 19.67,
+  "meters_id": [
+    {
+      "$oid": "683c9830b52c6643a25c2dd4"
+    },
+    {
+      "$oid": "683c9830b52c6643a25c2dd5"
+    }
+  ],
+  "update_time": {
+    "$date": "2025-06-01T21:13:04.727Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "683c9830b52c6643a25c2dd9"
+  },
+  "building_id": {
+    "$oid": "683c9830b52c6643a25c2dbb"
+  },
+  "apartment_floor": 1,
+  "apartment_number": 87,
+  "total_hw_usage": 1.04,
+  "total_cw_usage": 1.67,
+  "hw_momentary_usage": 1.04,
+  "cw_momentary_usage": 1.67,
+  "hw_water_temp": 56.29,
+  "cw_water_temp": 10.38,
+  "meters_id": [
+    {
+      "$oid": "683c9830b52c6643a25c2dd7"
+    },
+    {
+      "$oid": "683c9830b52c6643a25c2dd8"
+    }
+  ],
+  "update_time": {
+    "$date": "2025-06-01T21:13:04.727Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "683c9830b52c6643a25c2ddc"
+  },
+  "building_id": {
+    "$oid": "683c9830b52c6643a25c2dbb"
+  },
+  "apartment_floor": 5,
+  "apartment_number": 84,
+  "total_hw_usage": 1.84,
+  "total_cw_usage": 1.49,
+  "hw_momentary_usage": 1.84,
+  "cw_momentary_usage": 1.49,
+  "hw_water_temp": 53.22,
+  "cw_water_temp": 15.76,
+  "meters_id": [
+    {
+      "$oid": "683c9830b52c6643a25c2dda"
+    },
+    {
+      "$oid": "683c9830b52c6643a25c2ddb"
+    }
+  ],
+  "update_time": {
+    "$date": "2025-06-01T21:13:04.727Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "683c9830b52c6643a25c2ddf"
+  },
+  "building_id": {
+    "$oid": "683c9830b52c6643a25c2dbb"
+  },
+  "apartment_floor": 10,
+  "apartment_number": 59,
+  "total_hw_usage": 1.49,
+  "total_cw_usage": 1.01,
+  "hw_momentary_usage": 1.49,
+  "cw_momentary_usage": 1.01,
+  "hw_water_temp": 53.28,
+  "cw_water_temp": 19.53,
+  "meters_id": [
+    {
+      "$oid": "683c9830b52c6643a25c2ddd"
+    },
+    {
+      "$oid": "683c9830b52c6643a25c2dde"
+    }
+  ],
+  "update_time": {
+    "$date": "2025-06-01T21:13:04.727Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "683c9830b52c6643a25c2de2"
+  },
+  "building_id": {
+    "$oid": "683c9830b52c6643a25c2dbb"
+  },
+  "apartment_floor": 9,
+  "apartment_number": 76,
+  "total_hw_usage": 1.05,
+  "total_cw_usage": 1.5,
+  "hw_momentary_usage": 1.05,
+  "cw_momentary_usage": 1.5,
+  "hw_water_temp": 55.36,
+  "cw_water_temp": 15.62,
+  "meters_id": [
+    {
+      "$oid": "683c9830b52c6643a25c2de0"
+    },
+    {
+      "$oid": "683c9830b52c6643a25c2de1"
+    }
+  ],
+  "update_time": {
+    "$date": "2025-06-01T21:13:04.727Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "683c9830b52c6643a25c2de5"
+  },
+  "building_id": {
+    "$oid": "683c9830b52c6643a25c2dbb"
+  },
+  "apartment_floor": 6,
+  "apartment_number": 59,
+  "total_hw_usage": 1.06,
+  "total_cw_usage": 1.25,
+  "hw_momentary_usage": 1.06,
+  "cw_momentary_usage": 1.25,
+  "hw_water_temp": 59.7,
+  "cw_water_temp": 18.11,
+  "meters_id": [
+    {
+      "$oid": "683c9830b52c6643a25c2de3"
+    },
+    {
+      "$oid": "683c9830b52c6643a25c2de4"
+    }
+  ],
+  "update_time": {
+    "$date": "2025-06-01T21:13:04.727Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "683c9830b52c6643a25c2de8"
+  },
+  "building_id": {
+    "$oid": "683c9830b52c6643a25c2dbb"
+  },
+  "apartment_floor": 3,
+  "apartment_number": 6,
+  "total_hw_usage": 1.58,
+  "total_cw_usage": 1.13,
+  "hw_momentary_usage": 1.58,
+  "cw_momentary_usage": 1.13,
+  "hw_water_temp": 56.16,
+  "cw_water_temp": 16.59,
+  "meters_id": [
+    {
+      "$oid": "683c9830b52c6643a25c2de6"
+    },
+    {
+      "$oid": "683c9830b52c6643a25c2de7"
+    }
+  ],
+  "update_time": {
+    "$date": "2025-06-01T21:13:04.727Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "683c9830b52c6643a25c2deb"
+  },
+  "building_id": {
+    "$oid": "683c9830b52c6643a25c2dbb"
+  },
+  "apartment_floor": 10,
+  "apartment_number": 31,
+  "total_hw_usage": 1.67,
+  "total_cw_usage": 1.49,
+  "hw_momentary_usage": 1.67,
+  "cw_momentary_usage": 1.49,
+  "hw_water_temp": 50.65,
+  "cw_water_temp": 17.59,
+  "meters_id": [
+    {
+      "$oid": "683c9830b52c6643a25c2de9"
+    },
+    {
+      "$oid": "683c9830b52c6643a25c2dea"
+    }
+  ],
+  "update_time": {
+    "$date": "2025-06-01T21:13:04.727Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "683c9830b52c6643a25c2dee"
+  },
+  "building_id": {
+    "$oid": "683c9830b52c6643a25c2dbb"
+  },
+  "apartment_floor": 10,
+  "apartment_number": 67,
+  "total_hw_usage": 1.82,
+  "total_cw_usage": 0.72,
+  "hw_momentary_usage": 1.82,
+  "cw_momentary_usage": 0.72,
+  "hw_water_temp": 58.32,
+  "cw_water_temp": 18.53,
+  "meters_id": [
+    {
+      "$oid": "683c9830b52c6643a25c2dec"
+    },
+    {
+      "$oid": "683c9830b52c6643a25c2ded"
+    }
+  ],
+  "update_time": {
+    "$date": "2025-06-01T21:13:04.727Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "683c9830b52c6643a25c2df1"
+  },
+  "building_id": {
+    "$oid": "683c9830b52c6643a25c2dbb"
+  },
+  "apartment_floor": 10,
+  "apartment_number": 40,
+  "total_hw_usage": 0.8,
+  "total_cw_usage": 0.67,
+  "hw_momentary_usage": 0.8,
+  "cw_momentary_usage": 0.67,
+  "hw_water_temp": 55.33,
+  "cw_water_temp": 18.29,
+  "meters_id": [
+    {
+      "$oid": "683c9830b52c6643a25c2def"
+    },
+    {
+      "$oid": "683c9830b52c6643a25c2df0"
+    }
+  ],
+  "update_time": {
+    "$date": "2025-06-01T21:13:04.727Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "683c9830b52c6643a25c2df4"
+  },
+  "building_id": {
+    "$oid": "683c9830b52c6643a25c2dbb"
+  },
+  "apartment_floor": 7,
+  "apartment_number": 84,
+  "total_hw_usage": 1.44,
+  "total_cw_usage": 0.57,
+  "hw_momentary_usage": 1.44,
+  "cw_momentary_usage": 0.57,
+  "hw_water_temp": 50.62,
+  "cw_water_temp": 10.1,
+  "meters_id": [
+    {
+      "$oid": "683c9830b52c6643a25c2df2"
+    },
+    {
+      "$oid": "683c9830b52c6643a25c2df3"
+    }
+  ],
+  "update_time": {
+    "$date": "2025-06-01T21:13:04.727Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "683c9830b52c6643a25c2df7"
+  },
+  "building_id": {
+    "$oid": "683c9830b52c6643a25c2dbb"
+  },
+  "apartment_floor": 6,
+  "apartment_number": 33,
+  "total_hw_usage": 1.46,
+  "total_cw_usage": 1.37,
+  "hw_momentary_usage": 1.46,
+  "cw_momentary_usage": 1.37,
+  "hw_water_temp": 58.53,
+  "cw_water_temp": 13.42,
+  "meters_id": [
+    {
+      "$oid": "683c9830b52c6643a25c2df5"
+    },
+    {
+      "$oid": "683c9830b52c6643a25c2df6"
+    }
+  ],
+  "update_time": {
+    "$date": "2025-06-01T21:13:04.727Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "683c9830b52c6643a25c2dfb"
+  },
+  "building_id": {
+    "$oid": "683c9830b52c6643a25c2df8"
+  },
+  "apartment_floor": 1,
+  "apartment_number": 86,
+  "total_hw_usage": 1.64,
+  "total_cw_usage": 1.43,
+  "hw_momentary_usage": 1.64,
+  "cw_momentary_usage": 1.43,
+  "hw_water_temp": 57.31,
+  "cw_water_temp": 15.31,
+  "meters_id": [
+    {
+      "$oid": "683c9830b52c6643a25c2df9"
+    },
+    {
+      "$oid": "683c9830b52c6643a25c2dfa"
+    }
+  ],
+  "update_time": {
+    "$date": "2025-06-01T21:13:04.727Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "683c9830b52c6643a25c2dfe"
+  },
+  "building_id": {
+    "$oid": "683c9830b52c6643a25c2df8"
+  },
+  "apartment_floor": 10,
+  "apartment_number": 34,
+  "total_hw_usage": 0.73,
+  "total_cw_usage": 0.82,
+  "hw_momentary_usage": 0.73,
+  "cw_momentary_usage": 0.82,
+  "hw_water_temp": 52.23,
+  "cw_water_temp": 12.72,
+  "meters_id": [
+    {
+      "$oid": "683c9830b52c6643a25c2dfc"
+    },
+    {
+      "$oid": "683c9830b52c6643a25c2dfd"
+    }
+  ],
+  "update_time": {
+    "$date": "2025-06-01T21:13:04.727Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "683c9830b52c6643a25c2e01"
+  },
+  "building_id": {
+    "$oid": "683c9830b52c6643a25c2df8"
+  },
+  "apartment_floor": 4,
+  "apartment_number": 93,
+  "total_hw_usage": 1.19,
+  "total_cw_usage": 1.61,
+  "hw_momentary_usage": 1.19,
+  "cw_momentary_usage": 1.61,
+  "hw_water_temp": 52.89,
+  "cw_water_temp": 16.26,
+  "meters_id": [
+    {
+      "$oid": "683c9830b52c6643a25c2dff"
+    },
+    {
+      "$oid": "683c9830b52c6643a25c2e00"
+    }
+  ],
+  "update_time": {
+    "$date": "2025-06-01T21:13:04.727Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "683c9830b52c6643a25c2e04"
+  },
+  "building_id": {
+    "$oid": "683c9830b52c6643a25c2df8"
+  },
+  "apartment_floor": 10,
+  "apartment_number": 8,
+  "total_hw_usage": 0.99,
+  "total_cw_usage": 1.16,
+  "hw_momentary_usage": 0.99,
+  "cw_momentary_usage": 1.16,
+  "hw_water_temp": 53.63,
+  "cw_water_temp": 12.44,
+  "meters_id": [
+    {
+      "$oid": "683c9830b52c6643a25c2e02"
+    },
+    {
+      "$oid": "683c9830b52c6643a25c2e03"
+    }
+  ],
+  "update_time": {
+    "$date": "2025-06-01T21:13:04.727Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "683c9830b52c6643a25c2e07"
+  },
+  "building_id": {
+    "$oid": "683c9830b52c6643a25c2df8"
+  },
+  "apartment_floor": 4,
+  "apartment_number": 32,
+  "total_hw_usage": 1.34,
+  "total_cw_usage": 1.82,
+  "hw_momentary_usage": 1.34,
+  "cw_momentary_usage": 1.82,
+  "hw_water_temp": 55.67,
+  "cw_water_temp": 11.89,
+  "meters_id": [
+    {
+      "$oid": "683c9830b52c6643a25c2e05"
+    },
+    {
+      "$oid": "683c9830b52c6643a25c2e06"
+    }
+  ],
+  "update_time": {
+    "$date": "2025-06-01T21:13:04.727Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "683c9830b52c6643a25c2e0a"
+  },
+  "building_id": {
+    "$oid": "683c9830b52c6643a25c2df8"
+  },
+  "apartment_floor": 10,
+  "apartment_number": 28,
+  "total_hw_usage": 0.88,
+  "total_cw_usage": 1.04,
+  "hw_momentary_usage": 0.88,
+  "cw_momentary_usage": 1.04,
+  "hw_water_temp": 55.5,
+  "cw_water_temp": 14.34,
+  "meters_id": [
+    {
+      "$oid": "683c9830b52c6643a25c2e08"
+    },
+    {
+      "$oid": "683c9830b52c6643a25c2e09"
+    }
+  ],
+  "update_time": {
+    "$date": "2025-06-01T21:13:04.727Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "683c9830b52c6643a25c2e0d"
+  },
+  "building_id": {
+    "$oid": "683c9830b52c6643a25c2df8"
+  },
+  "apartment_floor": 2,
+  "apartment_number": 28,
+  "total_hw_usage": 1.06,
+  "total_cw_usage": 0.99,
+  "hw_momentary_usage": 1.06,
+  "cw_momentary_usage": 0.99,
+  "hw_water_temp": 56.79,
+  "cw_water_temp": 12.6,
+  "meters_id": [
+    {
+      "$oid": "683c9830b52c6643a25c2e0b"
+    },
+    {
+      "$oid": "683c9830b52c6643a25c2e0c"
+    }
+  ],
+  "update_time": {
+    "$date": "2025-06-01T21:13:04.727Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "683c9830b52c6643a25c2e10"
+  },
+  "building_id": {
+    "$oid": "683c9830b52c6643a25c2df8"
+  },
+  "apartment_floor": 8,
+  "apartment_number": 2,
+  "total_hw_usage": 1.81,
+  "total_cw_usage": 0.86,
+  "hw_momentary_usage": 1.81,
+  "cw_momentary_usage": 0.86,
+  "hw_water_temp": 53.68,
+  "cw_water_temp": 14.18,
+  "meters_id": [
+    {
+      "$oid": "683c9830b52c6643a25c2e0e"
+    },
+    {
+      "$oid": "683c9830b52c6643a25c2e0f"
+    }
+  ],
+  "update_time": {
+    "$date": "2025-06-01T21:13:04.727Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "683c9830b52c6643a25c2e13"
+  },
+  "building_id": {
+    "$oid": "683c9830b52c6643a25c2df8"
+  },
+  "apartment_floor": 5,
+  "apartment_number": 77,
+  "total_hw_usage": 1.02,
+  "total_cw_usage": 1.52,
+  "hw_momentary_usage": 1.02,
+  "cw_momentary_usage": 1.52,
+  "hw_water_temp": 52.25,
+  "cw_water_temp": 19.66,
+  "meters_id": [
+    {
+      "$oid": "683c9830b52c6643a25c2e11"
+    },
+    {
+      "$oid": "683c9830b52c6643a25c2e12"
+    }
+  ],
+  "update_time": {
+    "$date": "2025-06-01T21:13:04.727Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "683c9830b52c6643a25c2e16"
+  },
+  "building_id": {
+    "$oid": "683c9830b52c6643a25c2df8"
+  },
+  "apartment_floor": 3,
+  "apartment_number": 70,
+  "total_hw_usage": 1.23,
+  "total_cw_usage": 1.59,
+  "hw_momentary_usage": 1.23,
+  "cw_momentary_usage": 1.59,
+  "hw_water_temp": 56.37,
+  "cw_water_temp": 14.48,
+  "meters_id": [
+    {
+      "$oid": "683c9830b52c6643a25c2e14"
+    },
+    {
+      "$oid": "683c9830b52c6643a25c2e15"
+    }
+  ],
+  "update_time": {
+    "$date": "2025-06-01T21:13:04.727Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "683c9830b52c6643a25c2e19"
+  },
+  "building_id": {
+    "$oid": "683c9830b52c6643a25c2df8"
+  },
+  "apartment_floor": 4,
+  "apartment_number": 48,
+  "total_hw_usage": 0.65,
+  "total_cw_usage": 1.36,
+  "hw_momentary_usage": 0.65,
+  "cw_momentary_usage": 1.36,
+  "hw_water_temp": 55.51,
+  "cw_water_temp": 16.16,
+  "meters_id": [
+    {
+      "$oid": "683c9830b52c6643a25c2e17"
+    },
+    {
+      "$oid": "683c9830b52c6643a25c2e18"
+    }
+  ],
+  "update_time": {
+    "$date": "2025-06-01T21:13:04.727Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "683c9830b52c6643a25c2e1c"
+  },
+  "building_id": {
+    "$oid": "683c9830b52c6643a25c2df8"
+  },
+  "apartment_floor": 4,
+  "apartment_number": 19,
+  "total_hw_usage": 1.65,
+  "total_cw_usage": 0.73,
+  "hw_momentary_usage": 1.65,
+  "cw_momentary_usage": 0.73,
+  "hw_water_temp": 55.49,
+  "cw_water_temp": 11.3,
+  "meters_id": [
+    {
+      "$oid": "683c9830b52c6643a25c2e1a"
+    },
+    {
+      "$oid": "683c9830b52c6643a25c2e1b"
+    }
+  ],
+  "update_time": {
+    "$date": "2025-06-01T21:13:04.727Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "683c9830b52c6643a25c2e1f"
+  },
+  "building_id": {
+    "$oid": "683c9830b52c6643a25c2df8"
+  },
+  "apartment_floor": 2,
+  "apartment_number": 53,
+  "total_hw_usage": 0.96,
+  "total_cw_usage": 1.02,
+  "hw_momentary_usage": 0.96,
+  "cw_momentary_usage": 1.02,
+  "hw_water_temp": 51.23,
+  "cw_water_temp": 16.97,
+  "meters_id": [
+    {
+      "$oid": "683c9830b52c6643a25c2e1d"
+    },
+    {
+      "$oid": "683c9830b52c6643a25c2e1e"
+    }
+  ],
+  "update_time": {
+    "$date": "2025-06-01T21:13:04.727Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "683c9830b52c6643a25c2e22"
+  },
+  "building_id": {
+    "$oid": "683c9830b52c6643a25c2df8"
+  },
+  "apartment_floor": 6,
+  "apartment_number": 39,
+  "total_hw_usage": 1.35,
+  "total_cw_usage": 0.78,
+  "hw_momentary_usage": 1.35,
+  "cw_momentary_usage": 0.78,
+  "hw_water_temp": 54.5,
+  "cw_water_temp": 11.57,
+  "meters_id": [
+    {
+      "$oid": "683c9830b52c6643a25c2e20"
+    },
+    {
+      "$oid": "683c9830b52c6643a25c2e21"
+    }
+  ],
+  "update_time": {
+    "$date": "2025-06-01T21:13:04.727Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "683c9830b52c6643a25c2e25"
+  },
+  "building_id": {
+    "$oid": "683c9830b52c6643a25c2df8"
+  },
+  "apartment_floor": 5,
+  "apartment_number": 44,
+  "total_hw_usage": 1.16,
+  "total_cw_usage": 0.52,
+  "hw_momentary_usage": 1.16,
+  "cw_momentary_usage": 0.52,
+  "hw_water_temp": 54.38,
+  "cw_water_temp": 16.1,
+  "meters_id": [
+    {
+      "$oid": "683c9830b52c6643a25c2e23"
+    },
+    {
+      "$oid": "683c9830b52c6643a25c2e24"
+    }
+  ],
+  "update_time": {
+    "$date": "2025-06-01T21:13:04.727Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "683c9830b52c6643a25c2e28"
+  },
+  "building_id": {
+    "$oid": "683c9830b52c6643a25c2df8"
+  },
+  "apartment_floor": 1,
+  "apartment_number": 39,
+  "total_hw_usage": 0.85,
+  "total_cw_usage": 0.9,
+  "hw_momentary_usage": 0.85,
+  "cw_momentary_usage": 0.9,
+  "hw_water_temp": 52.62,
+  "cw_water_temp": 16.54,
+  "meters_id": [
+    {
+      "$oid": "683c9830b52c6643a25c2e26"
+    },
+    {
+      "$oid": "683c9830b52c6643a25c2e27"
+    }
+  ],
+  "update_time": {
+    "$date": "2025-06-01T21:13:04.727Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "683c9830b52c6643a25c2e2b"
+  },
+  "building_id": {
+    "$oid": "683c9830b52c6643a25c2df8"
+  },
+  "apartment_floor": 8,
+  "apartment_number": 76,
+  "total_hw_usage": 0.76,
+  "total_cw_usage": 1.24,
+  "hw_momentary_usage": 0.76,
+  "cw_momentary_usage": 1.24,
+  "hw_water_temp": 57.37,
+  "cw_water_temp": 10.15,
+  "meters_id": [
+    {
+      "$oid": "683c9830b52c6643a25c2e29"
+    },
+    {
+      "$oid": "683c9830b52c6643a25c2e2a"
+    }
+  ],
+  "update_time": {
+    "$date": "2025-06-01T21:13:04.727Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "683c9830b52c6643a25c2e2e"
+  },
+  "building_id": {
+    "$oid": "683c9830b52c6643a25c2df8"
+  },
+  "apartment_floor": 5,
+  "apartment_number": 28,
+  "total_hw_usage": 1.72,
+  "total_cw_usage": 1.84,
+  "hw_momentary_usage": 1.72,
+  "cw_momentary_usage": 1.84,
+  "hw_water_temp": 52.9,
+  "cw_water_temp": 14.69,
+  "meters_id": [
+    {
+      "$oid": "683c9830b52c6643a25c2e2c"
+    },
+    {
+      "$oid": "683c9830b52c6643a25c2e2d"
+    }
+  ],
+  "update_time": {
+    "$date": "2025-06-01T21:13:04.727Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "683c9830b52c6643a25c2e31"
+  },
+  "building_id": {
+    "$oid": "683c9830b52c6643a25c2df8"
+  },
+  "apartment_floor": 5,
+  "apartment_number": 62,
+  "total_hw_usage": 0.87,
+  "total_cw_usage": 0.88,
+  "hw_momentary_usage": 0.87,
+  "cw_momentary_usage": 0.88,
+  "hw_water_temp": 54.83,
+  "cw_water_temp": 15.25,
+  "meters_id": [
+    {
+      "$oid": "683c9830b52c6643a25c2e2f"
+    },
+    {
+      "$oid": "683c9830b52c6643a25c2e30"
+    }
+  ],
+  "update_time": {
+    "$date": "2025-06-01T21:13:04.727Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "683c9830b52c6643a25c2e34"
+  },
+  "building_id": {
+    "$oid": "683c9830b52c6643a25c2df8"
+  },
+  "apartment_floor": 6,
+  "apartment_number": 4,
+  "total_hw_usage": 0.97,
+  "total_cw_usage": 1.18,
+  "hw_momentary_usage": 0.97,
+  "cw_momentary_usage": 1.18,
+  "hw_water_temp": 56.3,
+  "cw_water_temp": 11.54,
+  "meters_id": [
+    {
+      "$oid": "683c9830b52c6643a25c2e32"
+    },
+    {
+      "$oid": "683c9830b52c6643a25c2e33"
+    }
+  ],
+  "update_time": {
+    "$date": "2025-06-01T21:13:04.727Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "683c9830b52c6643a25c2e38"
+  },
+  "building_id": {
+    "$oid": "683c9830b52c6643a25c2e35"
+  },
+  "apartment_floor": 2,
+  "apartment_number": 70,
+  "total_hw_usage": 1.28,
+  "total_cw_usage": 0.83,
+  "hw_momentary_usage": 1.28,
+  "cw_momentary_usage": 0.83,
+  "hw_water_temp": 56.88,
+  "cw_water_temp": 15.33,
+  "meters_id": [
+    {
+      "$oid": "683c9830b52c6643a25c2e36"
+    },
+    {
+      "$oid": "683c9830b52c6643a25c2e37"
+    }
+  ],
+  "update_time": {
+    "$date": "2025-06-01T21:13:04.727Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "683c9830b52c6643a25c2e3b"
+  },
+  "building_id": {
+    "$oid": "683c9830b52c6643a25c2e35"
+  },
+  "apartment_floor": 2,
+  "apartment_number": 79,
+  "total_hw_usage": 1,
+  "total_cw_usage": 1.7,
+  "hw_momentary_usage": 1,
+  "cw_momentary_usage": 1.7,
+  "hw_water_temp": 58.72,
+  "cw_water_temp": 16.27,
+  "meters_id": [
+    {
+      "$oid": "683c9830b52c6643a25c2e39"
+    },
+    {
+      "$oid": "683c9830b52c6643a25c2e3a"
+    }
+  ],
+  "update_time": {
+    "$date": "2025-06-01T21:13:04.727Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "683c9830b52c6643a25c2e3e"
+  },
+  "building_id": {
+    "$oid": "683c9830b52c6643a25c2e35"
+  },
+  "apartment_floor": 1,
+  "apartment_number": 91,
+  "total_hw_usage": 1.46,
+  "total_cw_usage": 0.53,
+  "hw_momentary_usage": 1.46,
+  "cw_momentary_usage": 0.53,
+  "hw_water_temp": 56.74,
+  "cw_water_temp": 18.92,
+  "meters_id": [
+    {
+      "$oid": "683c9830b52c6643a25c2e3c"
+    },
+    {
+      "$oid": "683c9830b52c6643a25c2e3d"
+    }
+  ],
+  "update_time": {
+    "$date": "2025-06-01T21:13:04.727Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "683c9830b52c6643a25c2e41"
+  },
+  "building_id": {
+    "$oid": "683c9830b52c6643a25c2e35"
+  },
+  "apartment_floor": 4,
+  "apartment_number": 28,
+  "total_hw_usage": 0.61,
+  "total_cw_usage": 1.96,
+  "hw_momentary_usage": 0.61,
+  "cw_momentary_usage": 1.96,
+  "hw_water_temp": 52.02,
+  "cw_water_temp": 12.23,
+  "meters_id": [
+    {
+      "$oid": "683c9830b52c6643a25c2e3f"
+    },
+    {
+      "$oid": "683c9830b52c6643a25c2e40"
+    }
+  ],
+  "update_time": {
+    "$date": "2025-06-01T21:13:04.727Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "683c9830b52c6643a25c2e44"
+  },
+  "building_id": {
+    "$oid": "683c9830b52c6643a25c2e35"
+  },
+  "apartment_floor": 3,
+  "apartment_number": 1,
+  "total_hw_usage": 1.37,
+  "total_cw_usage": 1.7,
+  "hw_momentary_usage": 1.37,
+  "cw_momentary_usage": 1.7,
+  "hw_water_temp": 57.55,
+  "cw_water_temp": 16.23,
+  "meters_id": [
+    {
+      "$oid": "683c9830b52c6643a25c2e42"
+    },
+    {
+      "$oid": "683c9830b52c6643a25c2e43"
+    }
+  ],
+  "update_time": {
+    "$date": "2025-06-01T21:13:04.727Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "683c9830b52c6643a25c2e47"
+  },
+  "building_id": {
+    "$oid": "683c9830b52c6643a25c2e35"
+  },
+  "apartment_floor": 5,
+  "apartment_number": 16,
+  "total_hw_usage": 1.3,
+  "total_cw_usage": 1.12,
+  "hw_momentary_usage": 1.3,
+  "cw_momentary_usage": 1.12,
+  "hw_water_temp": 55.36,
+  "cw_water_temp": 10.47,
+  "meters_id": [
+    {
+      "$oid": "683c9830b52c6643a25c2e45"
+    },
+    {
+      "$oid": "683c9830b52c6643a25c2e46"
+    }
+  ],
+  "update_time": {
+    "$date": "2025-06-01T21:13:04.727Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "683c9830b52c6643a25c2e4a"
+  },
+  "building_id": {
+    "$oid": "683c9830b52c6643a25c2e35"
+  },
+  "apartment_floor": 8,
+  "apartment_number": 39,
+  "total_hw_usage": 1.65,
+  "total_cw_usage": 0.52,
+  "hw_momentary_usage": 1.65,
+  "cw_momentary_usage": 0.52,
+  "hw_water_temp": 52.39,
+  "cw_water_temp": 14.39,
+  "meters_id": [
+    {
+      "$oid": "683c9830b52c6643a25c2e48"
+    },
+    {
+      "$oid": "683c9830b52c6643a25c2e49"
+    }
+  ],
+  "update_time": {
+    "$date": "2025-06-01T21:13:04.727Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "683c9830b52c6643a25c2e4d"
+  },
+  "building_id": {
+    "$oid": "683c9830b52c6643a25c2e35"
+  },
+  "apartment_floor": 10,
+  "apartment_number": 34,
+  "total_hw_usage": 0.66,
+  "total_cw_usage": 0.55,
+  "hw_momentary_usage": 0.66,
+  "cw_momentary_usage": 0.55,
+  "hw_water_temp": 56.68,
+  "cw_water_temp": 16.87,
+  "meters_id": [
+    {
+      "$oid": "683c9830b52c6643a25c2e4b"
+    },
+    {
+      "$oid": "683c9830b52c6643a25c2e4c"
+    }
+  ],
+  "update_time": {
+    "$date": "2025-06-01T21:13:04.727Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "683c9830b52c6643a25c2e50"
+  },
+  "building_id": {
+    "$oid": "683c9830b52c6643a25c2e35"
+  },
+  "apartment_floor": 5,
+  "apartment_number": 6,
+  "total_hw_usage": 1.29,
+  "total_cw_usage": 0.63,
+  "hw_momentary_usage": 1.29,
+  "cw_momentary_usage": 0.63,
+  "hw_water_temp": 51.41,
+  "cw_water_temp": 11.72,
+  "meters_id": [
+    {
+      "$oid": "683c9830b52c6643a25c2e4e"
+    },
+    {
+      "$oid": "683c9830b52c6643a25c2e4f"
+    }
+  ],
+  "update_time": {
+    "$date": "2025-06-01T21:13:04.727Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "683c9830b52c6643a25c2e53"
+  },
+  "building_id": {
+    "$oid": "683c9830b52c6643a25c2e35"
+  },
+  "apartment_floor": 2,
+  "apartment_number": 93,
+  "total_hw_usage": 1.66,
+  "total_cw_usage": 1.07,
+  "hw_momentary_usage": 1.66,
+  "cw_momentary_usage": 1.07,
+  "hw_water_temp": 59.78,
+  "cw_water_temp": 12.52,
+  "meters_id": [
+    {
+      "$oid": "683c9830b52c6643a25c2e51"
+    },
+    {
+      "$oid": "683c9830b52c6643a25c2e52"
+    }
+  ],
+  "update_time": {
+    "$date": "2025-06-01T21:13:04.728Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "683c9830b52c6643a25c2e56"
+  },
+  "building_id": {
+    "$oid": "683c9830b52c6643a25c2e35"
+  },
+  "apartment_floor": 1,
+  "apartment_number": 8,
+  "total_hw_usage": 1.03,
+  "total_cw_usage": 0.69,
+  "hw_momentary_usage": 1.03,
+  "cw_momentary_usage": 0.69,
+  "hw_water_temp": 53.66,
+  "cw_water_temp": 17.16,
+  "meters_id": [
+    {
+      "$oid": "683c9830b52c6643a25c2e54"
+    },
+    {
+      "$oid": "683c9830b52c6643a25c2e55"
+    }
+  ],
+  "update_time": {
+    "$date": "2025-06-01T21:13:04.728Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "683c9830b52c6643a25c2e59"
+  },
+  "building_id": {
+    "$oid": "683c9830b52c6643a25c2e35"
+  },
+  "apartment_floor": 9,
+  "apartment_number": 20,
+  "total_hw_usage": 1.29,
+  "total_cw_usage": 1.01,
+  "hw_momentary_usage": 1.29,
+  "cw_momentary_usage": 1.01,
+  "hw_water_temp": 56.12,
+  "cw_water_temp": 19.28,
+  "meters_id": [
+    {
+      "$oid": "683c9830b52c6643a25c2e57"
+    },
+    {
+      "$oid": "683c9830b52c6643a25c2e58"
+    }
+  ],
+  "update_time": {
+    "$date": "2025-06-01T21:13:04.728Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "683c9830b52c6643a25c2e5c"
+  },
+  "building_id": {
+    "$oid": "683c9830b52c6643a25c2e35"
+  },
+  "apartment_floor": 1,
+  "apartment_number": 1,
+  "total_hw_usage": 1.63,
+  "total_cw_usage": 0.68,
+  "hw_momentary_usage": 1.63,
+  "cw_momentary_usage": 0.68,
+  "hw_water_temp": 56.79,
+  "cw_water_temp": 17.23,
+  "meters_id": [
+    {
+      "$oid": "683c9830b52c6643a25c2e5a"
+    },
+    {
+      "$oid": "683c9830b52c6643a25c2e5b"
+    }
+  ],
+  "update_time": {
+    "$date": "2025-06-01T21:13:04.728Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "683c9830b52c6643a25c2e5f"
+  },
+  "building_id": {
+    "$oid": "683c9830b52c6643a25c2e35"
+  },
+  "apartment_floor": 8,
+  "apartment_number": 39,
+  "total_hw_usage": 0.69,
+  "total_cw_usage": 1.78,
+  "hw_momentary_usage": 0.69,
+  "cw_momentary_usage": 1.78,
+  "hw_water_temp": 52.55,
+  "cw_water_temp": 17.93,
+  "meters_id": [
+    {
+      "$oid": "683c9830b52c6643a25c2e5d"
+    },
+    {
+      "$oid": "683c9830b52c6643a25c2e5e"
+    }
+  ],
+  "update_time": {
+    "$date": "2025-06-01T21:13:04.728Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "683c9830b52c6643a25c2e62"
+  },
+  "building_id": {
+    "$oid": "683c9830b52c6643a25c2e35"
+  },
+  "apartment_floor": 10,
+  "apartment_number": 24,
+  "total_hw_usage": 1.39,
+  "total_cw_usage": 1.62,
+  "hw_momentary_usage": 1.39,
+  "cw_momentary_usage": 1.62,
+  "hw_water_temp": 55.88,
+  "cw_water_temp": 18.91,
+  "meters_id": [
+    {
+      "$oid": "683c9830b52c6643a25c2e60"
+    },
+    {
+      "$oid": "683c9830b52c6643a25c2e61"
+    }
+  ],
+  "update_time": {
+    "$date": "2025-06-01T21:13:04.728Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "683c9830b52c6643a25c2e65"
+  },
+  "building_id": {
+    "$oid": "683c9830b52c6643a25c2e35"
+  },
+  "apartment_floor": 9,
+  "apartment_number": 45,
+  "total_hw_usage": 1.55,
+  "total_cw_usage": 1.64,
+  "hw_momentary_usage": 1.55,
+  "cw_momentary_usage": 1.64,
+  "hw_water_temp": 50.8,
+  "cw_water_temp": 15.76,
+  "meters_id": [
+    {
+      "$oid": "683c9830b52c6643a25c2e63"
+    },
+    {
+      "$oid": "683c9830b52c6643a25c2e64"
+    }
+  ],
+  "update_time": {
+    "$date": "2025-06-01T21:13:04.728Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "683c9830b52c6643a25c2e68"
+  },
+  "building_id": {
+    "$oid": "683c9830b52c6643a25c2e35"
+  },
+  "apartment_floor": 5,
+  "apartment_number": 29,
+  "total_hw_usage": 1.03,
+  "total_cw_usage": 1.01,
+  "hw_momentary_usage": 1.03,
+  "cw_momentary_usage": 1.01,
+  "hw_water_temp": 58.07,
+  "cw_water_temp": 19.77,
+  "meters_id": [
+    {
+      "$oid": "683c9830b52c6643a25c2e66"
+    },
+    {
+      "$oid": "683c9830b52c6643a25c2e67"
+    }
+  ],
+  "update_time": {
+    "$date": "2025-06-01T21:13:04.728Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "683c9830b52c6643a25c2e6b"
+  },
+  "building_id": {
+    "$oid": "683c9830b52c6643a25c2e35"
+  },
+  "apartment_floor": 4,
+  "apartment_number": 7,
+  "total_hw_usage": 0.66,
+  "total_cw_usage": 1.5,
+  "hw_momentary_usage": 0.66,
+  "cw_momentary_usage": 1.5,
+  "hw_water_temp": 51.59,
+  "cw_water_temp": 11.85,
+  "meters_id": [
+    {
+      "$oid": "683c9830b52c6643a25c2e69"
+    },
+    {
+      "$oid": "683c9830b52c6643a25c2e6a"
+    }
+  ],
+  "update_time": {
+    "$date": "2025-06-01T21:13:04.728Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "683c9830b52c6643a25c2e6e"
+  },
+  "building_id": {
+    "$oid": "683c9830b52c6643a25c2e35"
+  },
+  "apartment_floor": 7,
+  "apartment_number": 38,
+  "total_hw_usage": 1.78,
+  "total_cw_usage": 1.33,
+  "hw_momentary_usage": 1.78,
+  "cw_momentary_usage": 1.33,
+  "hw_water_temp": 53.92,
+  "cw_water_temp": 16.77,
+  "meters_id": [
+    {
+      "$oid": "683c9830b52c6643a25c2e6c"
+    },
+    {
+      "$oid": "683c9830b52c6643a25c2e6d"
+    }
+  ],
+  "update_time": {
+    "$date": "2025-06-01T21:13:04.728Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "683c9830b52c6643a25c2e71"
+  },
+  "building_id": {
+    "$oid": "683c9830b52c6643a25c2e35"
+  },
+  "apartment_floor": 9,
+  "apartment_number": 64,
+  "total_hw_usage": 0.61,
+  "total_cw_usage": 1.08,
+  "hw_momentary_usage": 0.61,
+  "cw_momentary_usage": 1.08,
+  "hw_water_temp": 54.35,
+  "cw_water_temp": 19.26,
+  "meters_id": [
+    {
+      "$oid": "683c9830b52c6643a25c2e6f"
+    },
+    {
+      "$oid": "683c9830b52c6643a25c2e70"
+    }
+  ],
+  "update_time": {
+    "$date": "2025-06-01T21:13:04.728Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "683c9830b52c6643a25c2e78"
+  },
+  "building_id": {
+    "$oid": "683c9830b52c6643a25c2e75"
+  },
+  "apartment_floor": 7,
+  "apartment_number": 98,
+  "total_hw_usage": 1.68,
+  "total_cw_usage": 1.28,
+  "hw_momentary_usage": 1.68,
+  "cw_momentary_usage": 1.28,
+  "hw_water_temp": 50.83,
+  "cw_water_temp": 15.54,
+  "meters_id": [
+    {
+      "$oid": "683c9830b52c6643a25c2e76"
+    },
+    {
+      "$oid": "683c9830b52c6643a25c2e77"
+    }
+  ],
+  "update_time": {
+    "$date": "2025-06-01T21:13:04.728Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "683c9830b52c6643a25c2e7b"
+  },
+  "building_id": {
+    "$oid": "683c9830b52c6643a25c2e75"
+  },
+  "apartment_floor": 7,
+  "apartment_number": 91,
+  "total_hw_usage": 1.62,
+  "total_cw_usage": 0.93,
+  "hw_momentary_usage": 1.62,
+  "cw_momentary_usage": 0.93,
+  "hw_water_temp": 58.49,
+  "cw_water_temp": 14.97,
+  "meters_id": [
+    {
+      "$oid": "683c9830b52c6643a25c2e79"
+    },
+    {
+      "$oid": "683c9830b52c6643a25c2e7a"
+    }
+  ],
+  "update_time": {
+    "$date": "2025-06-01T21:13:04.728Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "683c9830b52c6643a25c2e7e"
+  },
+  "building_id": {
+    "$oid": "683c9830b52c6643a25c2e75"
+  },
+  "apartment_floor": 7,
+  "apartment_number": 56,
+  "total_hw_usage": 1.94,
+  "total_cw_usage": 1.2,
+  "hw_momentary_usage": 1.94,
+  "cw_momentary_usage": 1.2,
+  "hw_water_temp": 59.69,
+  "cw_water_temp": 19.13,
+  "meters_id": [
+    {
+      "$oid": "683c9830b52c6643a25c2e7c"
+    },
+    {
+      "$oid": "683c9830b52c6643a25c2e7d"
+    }
+  ],
+  "update_time": {
+    "$date": "2025-06-01T21:13:04.728Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "683c9830b52c6643a25c2e81"
+  },
+  "building_id": {
+    "$oid": "683c9830b52c6643a25c2e75"
+  },
+  "apartment_floor": 9,
+  "apartment_number": 74,
+  "total_hw_usage": 1.86,
+  "total_cw_usage": 0.51,
+  "hw_momentary_usage": 1.86,
+  "cw_momentary_usage": 0.51,
+  "hw_water_temp": 54.61,
+  "cw_water_temp": 18.52,
+  "meters_id": [
+    {
+      "$oid": "683c9830b52c6643a25c2e7f"
+    },
+    {
+      "$oid": "683c9830b52c6643a25c2e80"
+    }
+  ],
+  "update_time": {
+    "$date": "2025-06-01T21:13:04.728Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "683c9830b52c6643a25c2e84"
+  },
+  "building_id": {
+    "$oid": "683c9830b52c6643a25c2e75"
+  },
+  "apartment_floor": 9,
+  "apartment_number": 5,
+  "total_hw_usage": 0.78,
+  "total_cw_usage": 0.96,
+  "hw_momentary_usage": 0.78,
+  "cw_momentary_usage": 0.96,
+  "hw_water_temp": 55.49,
+  "cw_water_temp": 14.01,
+  "meters_id": [
+    {
+      "$oid": "683c9830b52c6643a25c2e82"
+    },
+    {
+      "$oid": "683c9830b52c6643a25c2e83"
+    }
+  ],
+  "update_time": {
+    "$date": "2025-06-01T21:13:04.728Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "683c9830b52c6643a25c2e87"
+  },
+  "building_id": {
+    "$oid": "683c9830b52c6643a25c2e75"
+  },
+  "apartment_floor": 1,
+  "apartment_number": 32,
+  "total_hw_usage": 1.3,
+  "total_cw_usage": 1.11,
+  "hw_momentary_usage": 1.3,
+  "cw_momentary_usage": 1.11,
+  "hw_water_temp": 51.5,
+  "cw_water_temp": 10.64,
+  "meters_id": [
+    {
+      "$oid": "683c9830b52c6643a25c2e85"
+    },
+    {
+      "$oid": "683c9830b52c6643a25c2e86"
+    }
+  ],
+  "update_time": {
+    "$date": "2025-06-01T21:13:04.728Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "683c9830b52c6643a25c2e8a"
+  },
+  "building_id": {
+    "$oid": "683c9830b52c6643a25c2e75"
+  },
+  "apartment_floor": 5,
+  "apartment_number": 49,
+  "total_hw_usage": 1.14,
+  "total_cw_usage": 1.1,
+  "hw_momentary_usage": 1.14,
+  "cw_momentary_usage": 1.1,
+  "hw_water_temp": 58.12,
+  "cw_water_temp": 18.23,
+  "meters_id": [
+    {
+      "$oid": "683c9830b52c6643a25c2e88"
+    },
+    {
+      "$oid": "683c9830b52c6643a25c2e89"
+    }
+  ],
+  "update_time": {
+    "$date": "2025-06-01T21:13:04.728Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "683c9830b52c6643a25c2e8d"
+  },
+  "building_id": {
+    "$oid": "683c9830b52c6643a25c2e75"
+  },
+  "apartment_floor": 2,
+  "apartment_number": 51,
+  "total_hw_usage": 1.32,
+  "total_cw_usage": 0.6,
+  "hw_momentary_usage": 1.32,
+  "cw_momentary_usage": 0.6,
+  "hw_water_temp": 59.44,
+  "cw_water_temp": 18.04,
+  "meters_id": [
+    {
+      "$oid": "683c9830b52c6643a25c2e8b"
+    },
+    {
+      "$oid": "683c9830b52c6643a25c2e8c"
+    }
+  ],
+  "update_time": {
+    "$date": "2025-06-01T21:13:04.728Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "683c9830b52c6643a25c2e90"
+  },
+  "building_id": {
+    "$oid": "683c9830b52c6643a25c2e75"
+  },
+  "apartment_floor": 1,
+  "apartment_number": 28,
+  "total_hw_usage": 0.53,
+  "total_cw_usage": 1.19,
+  "hw_momentary_usage": 0.53,
+  "cw_momentary_usage": 1.19,
+  "hw_water_temp": 56.21,
+  "cw_water_temp": 17.46,
+  "meters_id": [
+    {
+      "$oid": "683c9830b52c6643a25c2e8e"
+    },
+    {
+      "$oid": "683c9830b52c6643a25c2e8f"
+    }
+  ],
+  "update_time": {
+    "$date": "2025-06-01T21:13:04.728Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "683c9830b52c6643a25c2e93"
+  },
+  "building_id": {
+    "$oid": "683c9830b52c6643a25c2e75"
+  },
+  "apartment_floor": 10,
+  "apartment_number": 54,
+  "total_hw_usage": 0.9,
+  "total_cw_usage": 1.11,
+  "hw_momentary_usage": 0.9,
+  "cw_momentary_usage": 1.11,
+  "hw_water_temp": 54.42,
+  "cw_water_temp": 11.95,
+  "meters_id": [
+    {
+      "$oid": "683c9830b52c6643a25c2e91"
+    },
+    {
+      "$oid": "683c9830b52c6643a25c2e92"
+    }
+  ],
+  "update_time": {
+    "$date": "2025-06-01T21:13:04.728Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "683c9830b52c6643a25c2e96"
+  },
+  "building_id": {
+    "$oid": "683c9830b52c6643a25c2e75"
+  },
+  "apartment_floor": 8,
+  "apartment_number": 23,
+  "total_hw_usage": 1.05,
+  "total_cw_usage": 1.23,
+  "hw_momentary_usage": 1.05,
+  "cw_momentary_usage": 1.23,
+  "hw_water_temp": 55.22,
+  "cw_water_temp": 14.77,
+  "meters_id": [
+    {
+      "$oid": "683c9830b52c6643a25c2e94"
+    },
+    {
+      "$oid": "683c9830b52c6643a25c2e95"
+    }
+  ],
+  "update_time": {
+    "$date": "2025-06-01T21:13:04.728Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "683c9830b52c6643a25c2e99"
+  },
+  "building_id": {
+    "$oid": "683c9830b52c6643a25c2e75"
+  },
+  "apartment_floor": 2,
+  "apartment_number": 33,
+  "total_hw_usage": 1.03,
+  "total_cw_usage": 1.47,
+  "hw_momentary_usage": 1.03,
+  "cw_momentary_usage": 1.47,
+  "hw_water_temp": 53.15,
+  "cw_water_temp": 13.29,
+  "meters_id": [
+    {
+      "$oid": "683c9830b52c6643a25c2e97"
+    },
+    {
+      "$oid": "683c9830b52c6643a25c2e98"
+    }
+  ],
+  "update_time": {
+    "$date": "2025-06-01T21:13:04.728Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "683c9830b52c6643a25c2e9c"
+  },
+  "building_id": {
+    "$oid": "683c9830b52c6643a25c2e75"
+  },
+  "apartment_floor": 7,
+  "apartment_number": 51,
+  "total_hw_usage": 1.34,
+  "total_cw_usage": 1.72,
+  "hw_momentary_usage": 1.34,
+  "cw_momentary_usage": 1.72,
+  "hw_water_temp": 56.29,
+  "cw_water_temp": 17.23,
+  "meters_id": [
+    {
+      "$oid": "683c9830b52c6643a25c2e9a"
+    },
+    {
+      "$oid": "683c9830b52c6643a25c2e9b"
+    }
+  ],
+  "update_time": {
+    "$date": "2025-06-01T21:13:04.728Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "683c9830b52c6643a25c2e9f"
+  },
+  "building_id": {
+    "$oid": "683c9830b52c6643a25c2e75"
+  },
+  "apartment_floor": 3,
+  "apartment_number": 24,
+  "total_hw_usage": 1.77,
+  "total_cw_usage": 0.91,
+  "hw_momentary_usage": 1.77,
+  "cw_momentary_usage": 0.91,
+  "hw_water_temp": 53.54,
+  "cw_water_temp": 11.43,
+  "meters_id": [
+    {
+      "$oid": "683c9830b52c6643a25c2e9d"
+    },
+    {
+      "$oid": "683c9830b52c6643a25c2e9e"
+    }
+  ],
+  "update_time": {
+    "$date": "2025-06-01T21:13:04.728Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "683c9830b52c6643a25c2ea2"
+  },
+  "building_id": {
+    "$oid": "683c9830b52c6643a25c2e75"
+  },
+  "apartment_floor": 5,
+  "apartment_number": 96,
+  "total_hw_usage": 1.74,
+  "total_cw_usage": 0.95,
+  "hw_momentary_usage": 1.74,
+  "cw_momentary_usage": 0.95,
+  "hw_water_temp": 57.96,
+  "cw_water_temp": 15.39,
+  "meters_id": [
+    {
+      "$oid": "683c9830b52c6643a25c2ea0"
+    },
+    {
+      "$oid": "683c9830b52c6643a25c2ea1"
+    }
+  ],
+  "update_time": {
+    "$date": "2025-06-01T21:13:04.728Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "683c9830b52c6643a25c2ea5"
+  },
+  "building_id": {
+    "$oid": "683c9830b52c6643a25c2e75"
+  },
+  "apartment_floor": 4,
+  "apartment_number": 88,
+  "total_hw_usage": 1.09,
+  "total_cw_usage": 1.78,
+  "hw_momentary_usage": 1.09,
+  "cw_momentary_usage": 1.78,
+  "hw_water_temp": 55.41,
+  "cw_water_temp": 17.59,
+  "meters_id": [
+    {
+      "$oid": "683c9830b52c6643a25c2ea3"
+    },
+    {
+      "$oid": "683c9830b52c6643a25c2ea4"
+    }
+  ],
+  "update_time": {
+    "$date": "2025-06-01T21:13:04.728Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "683c9830b52c6643a25c2ea8"
+  },
+  "building_id": {
+    "$oid": "683c9830b52c6643a25c2e75"
+  },
+  "apartment_floor": 6,
+  "apartment_number": 65,
+  "total_hw_usage": 1.62,
+  "total_cw_usage": 0.95,
+  "hw_momentary_usage": 1.62,
+  "cw_momentary_usage": 0.95,
+  "hw_water_temp": 59.63,
+  "cw_water_temp": 11.5,
+  "meters_id": [
+    {
+      "$oid": "683c9830b52c6643a25c2ea6"
+    },
+    {
+      "$oid": "683c9830b52c6643a25c2ea7"
+    }
+  ],
+  "update_time": {
+    "$date": "2025-06-01T21:13:04.728Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "683c9830b52c6643a25c2eab"
+  },
+  "building_id": {
+    "$oid": "683c9830b52c6643a25c2e75"
+  },
+  "apartment_floor": 6,
+  "apartment_number": 37,
+  "total_hw_usage": 0.57,
+  "total_cw_usage": 1.93,
+  "hw_momentary_usage": 0.57,
+  "cw_momentary_usage": 1.93,
+  "hw_water_temp": 59.4,
+  "cw_water_temp": 12.24,
+  "meters_id": [
+    {
+      "$oid": "683c9830b52c6643a25c2ea9"
+    },
+    {
+      "$oid": "683c9830b52c6643a25c2eaa"
+    }
+  ],
+  "update_time": {
+    "$date": "2025-06-01T21:13:04.728Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "683c9830b52c6643a25c2eae"
+  },
+  "building_id": {
+    "$oid": "683c9830b52c6643a25c2e75"
+  },
+  "apartment_floor": 6,
+  "apartment_number": 38,
+  "total_hw_usage": 1.01,
+  "total_cw_usage": 1.49,
+  "hw_momentary_usage": 1.01,
+  "cw_momentary_usage": 1.49,
+  "hw_water_temp": 58.43,
+  "cw_water_temp": 14.75,
+  "meters_id": [
+    {
+      "$oid": "683c9830b52c6643a25c2eac"
+    },
+    {
+      "$oid": "683c9830b52c6643a25c2ead"
+    }
+  ],
+  "update_time": {
+    "$date": "2025-06-01T21:13:04.728Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "683c9830b52c6643a25c2eb1"
+  },
+  "building_id": {
+    "$oid": "683c9830b52c6643a25c2e75"
+  },
+  "apartment_floor": 4,
+  "apartment_number": 74,
+  "total_hw_usage": 1.39,
+  "total_cw_usage": 0.57,
+  "hw_momentary_usage": 1.39,
+  "cw_momentary_usage": 0.57,
+  "hw_water_temp": 54.7,
+  "cw_water_temp": 10.26,
+  "meters_id": [
+    {
+      "$oid": "683c9830b52c6643a25c2eaf"
+    },
+    {
+      "$oid": "683c9830b52c6643a25c2eb0"
+    }
+  ],
+  "update_time": {
+    "$date": "2025-06-01T21:13:04.728Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "683c9830b52c6643a25c2eb5"
+  },
+  "building_id": {
+    "$oid": "683c9830b52c6643a25c2eb2"
+  },
+  "apartment_floor": 5,
+  "apartment_number": 62,
+  "total_hw_usage": 1.6,
+  "total_cw_usage": 1.01,
+  "hw_momentary_usage": 1.6,
+  "cw_momentary_usage": 1.01,
+  "hw_water_temp": 55.74,
+  "cw_water_temp": 15.05,
+  "meters_id": [
+    {
+      "$oid": "683c9830b52c6643a25c2eb3"
+    },
+    {
+      "$oid": "683c9830b52c6643a25c2eb4"
+    }
+  ],
+  "update_time": {
+    "$date": "2025-06-01T21:13:04.728Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "683c9830b52c6643a25c2eb8"
+  },
+  "building_id": {
+    "$oid": "683c9830b52c6643a25c2eb2"
+  },
+  "apartment_floor": 4,
+  "apartment_number": 61,
+  "total_hw_usage": 0.85,
+  "total_cw_usage": 0.51,
+  "hw_momentary_usage": 0.85,
+  "cw_momentary_usage": 0.51,
+  "hw_water_temp": 58.7,
+  "cw_water_temp": 15.37,
+  "meters_id": [
+    {
+      "$oid": "683c9830b52c6643a25c2eb6"
+    },
+    {
+      "$oid": "683c9830b52c6643a25c2eb7"
+    }
+  ],
+  "update_time": {
+    "$date": "2025-06-01T21:13:04.728Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "683c9830b52c6643a25c2ebb"
+  },
+  "building_id": {
+    "$oid": "683c9830b52c6643a25c2eb2"
+  },
+  "apartment_floor": 1,
+  "apartment_number": 80,
+  "total_hw_usage": 0.78,
+  "total_cw_usage": 1.79,
+  "hw_momentary_usage": 0.78,
+  "cw_momentary_usage": 1.79,
+  "hw_water_temp": 56.94,
+  "cw_water_temp": 16.34,
+  "meters_id": [
+    {
+      "$oid": "683c9830b52c6643a25c2eb9"
+    },
+    {
+      "$oid": "683c9830b52c6643a25c2eba"
+    }
+  ],
+  "update_time": {
+    "$date": "2025-06-01T21:13:04.728Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "683c9830b52c6643a25c2ebe"
+  },
+  "building_id": {
+    "$oid": "683c9830b52c6643a25c2eb2"
+  },
+  "apartment_floor": 8,
+  "apartment_number": 31,
+  "total_hw_usage": 1.12,
+  "total_cw_usage": 0.65,
+  "hw_momentary_usage": 1.12,
+  "cw_momentary_usage": 0.65,
+  "hw_water_temp": 59.12,
+  "cw_water_temp": 19.65,
+  "meters_id": [
+    {
+      "$oid": "683c9830b52c6643a25c2ebc"
+    },
+    {
+      "$oid": "683c9830b52c6643a25c2ebd"
+    }
+  ],
+  "update_time": {
+    "$date": "2025-06-01T21:13:04.728Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "683c9830b52c6643a25c2ec1"
+  },
+  "building_id": {
+    "$oid": "683c9830b52c6643a25c2eb2"
+  },
+  "apartment_floor": 2,
+  "apartment_number": 55,
+  "total_hw_usage": 1.99,
+  "total_cw_usage": 0.86,
+  "hw_momentary_usage": 1.99,
+  "cw_momentary_usage": 0.86,
+  "hw_water_temp": 52.15,
+  "cw_water_temp": 14.28,
+  "meters_id": [
+    {
+      "$oid": "683c9830b52c6643a25c2ebf"
+    },
+    {
+      "$oid": "683c9830b52c6643a25c2ec0"
+    }
+  ],
+  "update_time": {
+    "$date": "2025-06-01T21:13:04.728Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "683c9830b52c6643a25c2ec4"
+  },
+  "building_id": {
+    "$oid": "683c9830b52c6643a25c2eb2"
+  },
+  "apartment_floor": 6,
+  "apartment_number": 100,
+  "total_hw_usage": 0.79,
+  "total_cw_usage": 1.42,
+  "hw_momentary_usage": 0.79,
+  "cw_momentary_usage": 1.42,
+  "hw_water_temp": 59.86,
+  "cw_water_temp": 13.07,
+  "meters_id": [
+    {
+      "$oid": "683c9830b52c6643a25c2ec2"
+    },
+    {
+      "$oid": "683c9830b52c6643a25c2ec3"
+    }
+  ],
+  "update_time": {
+    "$date": "2025-06-01T21:13:04.728Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "683c9830b52c6643a25c2ec7"
+  },
+  "building_id": {
+    "$oid": "683c9830b52c6643a25c2eb2"
+  },
+  "apartment_floor": 1,
+  "apartment_number": 63,
+  "total_hw_usage": 1.7,
+  "total_cw_usage": 1.84,
+  "hw_momentary_usage": 1.7,
+  "cw_momentary_usage": 1.84,
+  "hw_water_temp": 52.87,
+  "cw_water_temp": 15.62,
+  "meters_id": [
+    {
+      "$oid": "683c9830b52c6643a25c2ec5"
+    },
+    {
+      "$oid": "683c9830b52c6643a25c2ec6"
+    }
+  ],
+  "update_time": {
+    "$date": "2025-06-01T21:13:04.728Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "683c9830b52c6643a25c2eca"
+  },
+  "building_id": {
+    "$oid": "683c9830b52c6643a25c2eb2"
+  },
+  "apartment_floor": 5,
+  "apartment_number": 96,
+  "total_hw_usage": 0.97,
+  "total_cw_usage": 0.72,
+  "hw_momentary_usage": 0.97,
+  "cw_momentary_usage": 0.72,
+  "hw_water_temp": 57.77,
+  "cw_water_temp": 14.06,
+  "meters_id": [
+    {
+      "$oid": "683c9830b52c6643a25c2ec8"
+    },
+    {
+      "$oid": "683c9830b52c6643a25c2ec9"
+    }
+  ],
+  "update_time": {
+    "$date": "2025-06-01T21:13:04.728Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "683c9830b52c6643a25c2ecd"
+  },
+  "building_id": {
+    "$oid": "683c9830b52c6643a25c2eb2"
+  },
+  "apartment_floor": 4,
+  "apartment_number": 12,
+  "total_hw_usage": 1.29,
+  "total_cw_usage": 1.14,
+  "hw_momentary_usage": 1.29,
+  "cw_momentary_usage": 1.14,
+  "hw_water_temp": 50.76,
+  "cw_water_temp": 15.35,
+  "meters_id": [
+    {
+      "$oid": "683c9830b52c6643a25c2ecb"
+    },
+    {
+      "$oid": "683c9830b52c6643a25c2ecc"
+    }
+  ],
+  "update_time": {
+    "$date": "2025-06-01T21:13:04.728Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "683c9830b52c6643a25c2ed0"
+  },
+  "building_id": {
+    "$oid": "683c9830b52c6643a25c2eb2"
+  },
+  "apartment_floor": 5,
+  "apartment_number": 19,
+  "total_hw_usage": 0.59,
+  "total_cw_usage": 1.61,
+  "hw_momentary_usage": 0.59,
+  "cw_momentary_usage": 1.61,
+  "hw_water_temp": 58.42,
+  "cw_water_temp": 13.31,
+  "meters_id": [
+    {
+      "$oid": "683c9830b52c6643a25c2ece"
+    },
+    {
+      "$oid": "683c9830b52c6643a25c2ecf"
+    }
+  ],
+  "update_time": {
+    "$date": "2025-06-01T21:13:04.728Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "683c9830b52c6643a25c2ed3"
+  },
+  "building_id": {
+    "$oid": "683c9830b52c6643a25c2eb2"
+  },
+  "apartment_floor": 6,
+  "apartment_number": 18,
+  "total_hw_usage": 0.79,
+  "total_cw_usage": 1.5,
+  "hw_momentary_usage": 0.79,
+  "cw_momentary_usage": 1.5,
+  "hw_water_temp": 53.88,
+  "cw_water_temp": 12.77,
+  "meters_id": [
+    {
+      "$oid": "683c9830b52c6643a25c2ed1"
+    },
+    {
+      "$oid": "683c9830b52c6643a25c2ed2"
+    }
+  ],
+  "update_time": {
+    "$date": "2025-06-01T21:13:04.728Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "683c9830b52c6643a25c2ed6"
+  },
+  "building_id": {
+    "$oid": "683c9830b52c6643a25c2eb2"
+  },
+  "apartment_floor": 7,
+  "apartment_number": 29,
+  "total_hw_usage": 1.21,
+  "total_cw_usage": 0.88,
+  "hw_momentary_usage": 1.21,
+  "cw_momentary_usage": 0.88,
+  "hw_water_temp": 57,
+  "cw_water_temp": 11.56,
+  "meters_id": [
+    {
+      "$oid": "683c9830b52c6643a25c2ed4"
+    },
+    {
+      "$oid": "683c9830b52c6643a25c2ed5"
+    }
+  ],
+  "update_time": {
+    "$date": "2025-06-01T21:13:04.728Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "683c9830b52c6643a25c2ed9"
+  },
+  "building_id": {
+    "$oid": "683c9830b52c6643a25c2eb2"
+  },
+  "apartment_floor": 7,
+  "apartment_number": 93,
+  "total_hw_usage": 0.67,
+  "total_cw_usage": 0.65,
+  "hw_momentary_usage": 0.67,
+  "cw_momentary_usage": 0.65,
+  "hw_water_temp": 51.13,
+  "cw_water_temp": 10.89,
+  "meters_id": [
+    {
+      "$oid": "683c9830b52c6643a25c2ed7"
+    },
+    {
+      "$oid": "683c9830b52c6643a25c2ed8"
+    }
+  ],
+  "update_time": {
+    "$date": "2025-06-01T21:13:04.728Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "683c9830b52c6643a25c2edc"
+  },
+  "building_id": {
+    "$oid": "683c9830b52c6643a25c2eb2"
+  },
+  "apartment_floor": 10,
+  "apartment_number": 21,
+  "total_hw_usage": 0.85,
+  "total_cw_usage": 1.66,
+  "hw_momentary_usage": 0.85,
+  "cw_momentary_usage": 1.66,
+  "hw_water_temp": 58.95,
+  "cw_water_temp": 12.36,
+  "meters_id": [
+    {
+      "$oid": "683c9830b52c6643a25c2eda"
+    },
+    {
+      "$oid": "683c9830b52c6643a25c2edb"
+    }
+  ],
+  "update_time": {
+    "$date": "2025-06-01T21:13:04.728Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "683c9830b52c6643a25c2edf"
+  },
+  "building_id": {
+    "$oid": "683c9830b52c6643a25c2eb2"
+  },
+  "apartment_floor": 10,
+  "apartment_number": 39,
+  "total_hw_usage": 1.65,
+  "total_cw_usage": 0.56,
+  "hw_momentary_usage": 1.65,
+  "cw_momentary_usage": 0.56,
+  "hw_water_temp": 52.4,
+  "cw_water_temp": 13.38,
+  "meters_id": [
+    {
+      "$oid": "683c9830b52c6643a25c2edd"
+    },
+    {
+      "$oid": "683c9830b52c6643a25c2ede"
+    }
+  ],
+  "update_time": {
+    "$date": "2025-06-01T21:13:04.728Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "683c9830b52c6643a25c2ee2"
+  },
+  "building_id": {
+    "$oid": "683c9830b52c6643a25c2eb2"
+  },
+  "apartment_floor": 5,
+  "apartment_number": 61,
+  "total_hw_usage": 0.62,
+  "total_cw_usage": 0.67,
+  "hw_momentary_usage": 0.62,
+  "cw_momentary_usage": 0.67,
+  "hw_water_temp": 58.69,
+  "cw_water_temp": 16.28,
+  "meters_id": [
+    {
+      "$oid": "683c9830b52c6643a25c2ee0"
+    },
+    {
+      "$oid": "683c9830b52c6643a25c2ee1"
+    }
+  ],
+  "update_time": {
+    "$date": "2025-06-01T21:13:04.728Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "683c9830b52c6643a25c2ee5"
+  },
+  "building_id": {
+    "$oid": "683c9830b52c6643a25c2eb2"
+  },
+  "apartment_floor": 9,
+  "apartment_number": 30,
+  "total_hw_usage": 1.75,
+  "total_cw_usage": 1.84,
+  "hw_momentary_usage": 1.75,
+  "cw_momentary_usage": 1.84,
+  "hw_water_temp": 54.14,
+  "cw_water_temp": 17.91,
+  "meters_id": [
+    {
+      "$oid": "683c9830b52c6643a25c2ee3"
+    },
+    {
+      "$oid": "683c9830b52c6643a25c2ee4"
+    }
+  ],
+  "update_time": {
+    "$date": "2025-06-01T21:13:04.728Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "683c9830b52c6643a25c2ee8"
+  },
+  "building_id": {
+    "$oid": "683c9830b52c6643a25c2eb2"
+  },
+  "apartment_floor": 8,
+  "apartment_number": 7,
+  "total_hw_usage": 1.35,
+  "total_cw_usage": 0.92,
+  "hw_momentary_usage": 1.35,
+  "cw_momentary_usage": 0.92,
+  "hw_water_temp": 58.12,
+  "cw_water_temp": 16.42,
+  "meters_id": [
+    {
+      "$oid": "683c9830b52c6643a25c2ee6"
+    },
+    {
+      "$oid": "683c9830b52c6643a25c2ee7"
+    }
+  ],
+  "update_time": {
+    "$date": "2025-06-01T21:13:04.728Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "683c9830b52c6643a25c2eeb"
+  },
+  "building_id": {
+    "$oid": "683c9830b52c6643a25c2eb2"
+  },
+  "apartment_floor": 1,
+  "apartment_number": 6,
+  "total_hw_usage": 1.77,
+  "total_cw_usage": 1.99,
+  "hw_momentary_usage": 1.77,
+  "cw_momentary_usage": 1.99,
+  "hw_water_temp": 58.89,
+  "cw_water_temp": 14.08,
+  "meters_id": [
+    {
+      "$oid": "683c9830b52c6643a25c2ee9"
+    },
+    {
+      "$oid": "683c9830b52c6643a25c2eea"
+    }
+  ],
+  "update_time": {
+    "$date": "2025-06-01T21:13:04.728Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "683c9830b52c6643a25c2eee"
+  },
+  "building_id": {
+    "$oid": "683c9830b52c6643a25c2eb2"
+  },
+  "apartment_floor": 3,
+  "apartment_number": 43,
+  "total_hw_usage": 1.25,
+  "total_cw_usage": 1.73,
+  "hw_momentary_usage": 1.25,
+  "cw_momentary_usage": 1.73,
+  "hw_water_temp": 59.31,
+  "cw_water_temp": 12.29,
+  "meters_id": [
+    {
+      "$oid": "683c9830b52c6643a25c2eec"
+    },
+    {
+      "$oid": "683c9830b52c6643a25c2eed"
+    }
+  ],
+  "update_time": {
+    "$date": "2025-06-01T21:13:04.728Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "683c9830b52c6643a25c2ef2"
+  },
+  "building_id": {
+    "$oid": "683c9830b52c6643a25c2eef"
+  },
+  "apartment_floor": 5,
+  "apartment_number": 58,
+  "total_hw_usage": 1.52,
+  "total_cw_usage": 1.51,
+  "hw_momentary_usage": 1.52,
+  "cw_momentary_usage": 1.51,
+  "hw_water_temp": 58.61,
+  "cw_water_temp": 10.95,
+  "meters_id": [
+    {
+      "$oid": "683c9830b52c6643a25c2ef0"
+    },
+    {
+      "$oid": "683c9830b52c6643a25c2ef1"
+    }
+  ],
+  "update_time": {
+    "$date": "2025-06-01T21:13:04.728Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "683c9830b52c6643a25c2ef5"
+  },
+  "building_id": {
+    "$oid": "683c9830b52c6643a25c2eef"
+  },
+  "apartment_floor": 8,
+  "apartment_number": 61,
+  "total_hw_usage": 0.81,
+  "total_cw_usage": 1.09,
+  "hw_momentary_usage": 0.81,
+  "cw_momentary_usage": 1.09,
+  "hw_water_temp": 50.64,
+  "cw_water_temp": 15.86,
+  "meters_id": [
+    {
+      "$oid": "683c9830b52c6643a25c2ef3"
+    },
+    {
+      "$oid": "683c9830b52c6643a25c2ef4"
+    }
+  ],
+  "update_time": {
+    "$date": "2025-06-01T21:13:04.728Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "683c9830b52c6643a25c2ef8"
+  },
+  "building_id": {
+    "$oid": "683c9830b52c6643a25c2eef"
+  },
+  "apartment_floor": 5,
+  "apartment_number": 73,
+  "total_hw_usage": 0.51,
+  "total_cw_usage": 1.48,
+  "hw_momentary_usage": 0.51,
+  "cw_momentary_usage": 1.48,
+  "hw_water_temp": 57.53,
+  "cw_water_temp": 16.94,
+  "meters_id": [
+    {
+      "$oid": "683c9830b52c6643a25c2ef6"
+    },
+    {
+      "$oid": "683c9830b52c6643a25c2ef7"
+    }
+  ],
+  "update_time": {
+    "$date": "2025-06-01T21:13:04.728Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "683c9830b52c6643a25c2efb"
+  },
+  "building_id": {
+    "$oid": "683c9830b52c6643a25c2eef"
+  },
+  "apartment_floor": 1,
+  "apartment_number": 68,
+  "total_hw_usage": 1.23,
+  "total_cw_usage": 1.43,
+  "hw_momentary_usage": 1.23,
+  "cw_momentary_usage": 1.43,
+  "hw_water_temp": 51.3,
+  "cw_water_temp": 17.74,
+  "meters_id": [
+    {
+      "$oid": "683c9830b52c6643a25c2ef9"
+    },
+    {
+      "$oid": "683c9830b52c6643a25c2efa"
+    }
+  ],
+  "update_time": {
+    "$date": "2025-06-01T21:13:04.728Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "683c9830b52c6643a25c2efe"
+  },
+  "building_id": {
+    "$oid": "683c9830b52c6643a25c2eef"
+  },
+  "apartment_floor": 3,
+  "apartment_number": 24,
+  "total_hw_usage": 1.76,
+  "total_cw_usage": 1.86,
+  "hw_momentary_usage": 1.76,
+  "cw_momentary_usage": 1.86,
+  "hw_water_temp": 50.87,
+  "cw_water_temp": 15.75,
+  "meters_id": [
+    {
+      "$oid": "683c9830b52c6643a25c2efc"
+    },
+    {
+      "$oid": "683c9830b52c6643a25c2efd"
+    }
+  ],
+  "update_time": {
+    "$date": "2025-06-01T21:13:04.728Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "683c9830b52c6643a25c2f01"
+  },
+  "building_id": {
+    "$oid": "683c9830b52c6643a25c2eef"
+  },
+  "apartment_floor": 2,
+  "apartment_number": 58,
+  "total_hw_usage": 1.5,
+  "total_cw_usage": 1.33,
+  "hw_momentary_usage": 1.5,
+  "cw_momentary_usage": 1.33,
+  "hw_water_temp": 58.94,
+  "cw_water_temp": 16.47,
+  "meters_id": [
+    {
+      "$oid": "683c9830b52c6643a25c2eff"
+    },
+    {
+      "$oid": "683c9830b52c6643a25c2f00"
+    }
+  ],
+  "update_time": {
+    "$date": "2025-06-01T21:13:04.728Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "683c9830b52c6643a25c2f04"
+  },
+  "building_id": {
+    "$oid": "683c9830b52c6643a25c2eef"
+  },
+  "apartment_floor": 1,
+  "apartment_number": 68,
+  "total_hw_usage": 1.68,
+  "total_cw_usage": 1.3,
+  "hw_momentary_usage": 1.68,
+  "cw_momentary_usage": 1.3,
+  "hw_water_temp": 56.73,
+  "cw_water_temp": 11.1,
+  "meters_id": [
+    {
+      "$oid": "683c9830b52c6643a25c2f02"
+    },
+    {
+      "$oid": "683c9830b52c6643a25c2f03"
+    }
+  ],
+  "update_time": {
+    "$date": "2025-06-01T21:13:04.728Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "683c9830b52c6643a25c2f07"
+  },
+  "building_id": {
+    "$oid": "683c9830b52c6643a25c2eef"
+  },
+  "apartment_floor": 4,
+  "apartment_number": 81,
+  "total_hw_usage": 1.34,
+  "total_cw_usage": 1.55,
+  "hw_momentary_usage": 1.34,
+  "cw_momentary_usage": 1.55,
+  "hw_water_temp": 54.74,
+  "cw_water_temp": 10.2,
+  "meters_id": [
+    {
+      "$oid": "683c9830b52c6643a25c2f05"
+    },
+    {
+      "$oid": "683c9830b52c6643a25c2f06"
+    }
+  ],
+  "update_time": {
+    "$date": "2025-06-01T21:13:04.728Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "683c9830b52c6643a25c2f0a"
+  },
+  "building_id": {
+    "$oid": "683c9830b52c6643a25c2eef"
+  },
+  "apartment_floor": 8,
+  "apartment_number": 44,
+  "total_hw_usage": 1.18,
+  "total_cw_usage": 1.39,
+  "hw_momentary_usage": 1.18,
+  "cw_momentary_usage": 1.39,
+  "hw_water_temp": 53.56,
+  "cw_water_temp": 17.41,
+  "meters_id": [
+    {
+      "$oid": "683c9830b52c6643a25c2f08"
+    },
+    {
+      "$oid": "683c9830b52c6643a25c2f09"
+    }
+  ],
+  "update_time": {
+    "$date": "2025-06-01T21:13:04.728Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "683c9830b52c6643a25c2f0d"
+  },
+  "building_id": {
+    "$oid": "683c9830b52c6643a25c2eef"
+  },
+  "apartment_floor": 3,
+  "apartment_number": 66,
+  "total_hw_usage": 1.06,
+  "total_cw_usage": 1.69,
+  "hw_momentary_usage": 1.06,
+  "cw_momentary_usage": 1.69,
+  "hw_water_temp": 58.18,
+  "cw_water_temp": 19.67,
+  "meters_id": [
+    {
+      "$oid": "683c9830b52c6643a25c2f0b"
+    },
+    {
+      "$oid": "683c9830b52c6643a25c2f0c"
+    }
+  ],
+  "update_time": {
+    "$date": "2025-06-01T21:13:04.728Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "683c9830b52c6643a25c2f10"
+  },
+  "building_id": {
+    "$oid": "683c9830b52c6643a25c2eef"
+  },
+  "apartment_floor": 7,
+  "apartment_number": 43,
+  "total_hw_usage": 1.62,
+  "total_cw_usage": 1.85,
+  "hw_momentary_usage": 1.62,
+  "cw_momentary_usage": 1.85,
+  "hw_water_temp": 55.77,
+  "cw_water_temp": 13.72,
+  "meters_id": [
+    {
+      "$oid": "683c9830b52c6643a25c2f0e"
+    },
+    {
+      "$oid": "683c9830b52c6643a25c2f0f"
+    }
+  ],
+  "update_time": {
+    "$date": "2025-06-01T21:13:04.728Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "683c9830b52c6643a25c2f13"
+  },
+  "building_id": {
+    "$oid": "683c9830b52c6643a25c2eef"
+  },
+  "apartment_floor": 1,
+  "apartment_number": 96,
+  "total_hw_usage": 1.56,
+  "total_cw_usage": 0.92,
+  "hw_momentary_usage": 1.56,
+  "cw_momentary_usage": 0.92,
+  "hw_water_temp": 50.33,
+  "cw_water_temp": 16.51,
+  "meters_id": [
+    {
+      "$oid": "683c9830b52c6643a25c2f11"
+    },
+    {
+      "$oid": "683c9830b52c6643a25c2f12"
+    }
+  ],
+  "update_time": {
+    "$date": "2025-06-01T21:13:04.728Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "683c9830b52c6643a25c2f16"
+  },
+  "building_id": {
+    "$oid": "683c9830b52c6643a25c2eef"
+  },
+  "apartment_floor": 5,
+  "apartment_number": 26,
+  "total_hw_usage": 1.35,
+  "total_cw_usage": 1.71,
+  "hw_momentary_usage": 1.35,
+  "cw_momentary_usage": 1.71,
+  "hw_water_temp": 58.45,
+  "cw_water_temp": 17.29,
+  "meters_id": [
+    {
+      "$oid": "683c9830b52c6643a25c2f14"
+    },
+    {
+      "$oid": "683c9830b52c6643a25c2f15"
+    }
+  ],
+  "update_time": {
+    "$date": "2025-06-01T21:13:04.728Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "683c9830b52c6643a25c2f19"
+  },
+  "building_id": {
+    "$oid": "683c9830b52c6643a25c2eef"
+  },
+  "apartment_floor": 10,
+  "apartment_number": 25,
+  "total_hw_usage": 0.92,
+  "total_cw_usage": 1.15,
+  "hw_momentary_usage": 0.92,
+  "cw_momentary_usage": 1.15,
+  "hw_water_temp": 52.61,
+  "cw_water_temp": 18.65,
+  "meters_id": [
+    {
+      "$oid": "683c9830b52c6643a25c2f17"
+    },
+    {
+      "$oid": "683c9830b52c6643a25c2f18"
+    }
+  ],
+  "update_time": {
+    "$date": "2025-06-01T21:13:04.728Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "683c9830b52c6643a25c2f1c"
+  },
+  "building_id": {
+    "$oid": "683c9830b52c6643a25c2eef"
+  },
+  "apartment_floor": 9,
+  "apartment_number": 24,
+  "total_hw_usage": 1.85,
+  "total_cw_usage": 1.41,
+  "hw_momentary_usage": 1.85,
+  "cw_momentary_usage": 1.41,
+  "hw_water_temp": 59.09,
+  "cw_water_temp": 13.18,
+  "meters_id": [
+    {
+      "$oid": "683c9830b52c6643a25c2f1a"
+    },
+    {
+      "$oid": "683c9830b52c6643a25c2f1b"
+    }
+  ],
+  "update_time": {
+    "$date": "2025-06-01T21:13:04.728Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "683c9830b52c6643a25c2f1f"
+  },
+  "building_id": {
+    "$oid": "683c9830b52c6643a25c2eef"
+  },
+  "apartment_floor": 4,
+  "apartment_number": 70,
+  "total_hw_usage": 1.48,
+  "total_cw_usage": 0.73,
+  "hw_momentary_usage": 1.48,
+  "cw_momentary_usage": 0.73,
+  "hw_water_temp": 55.16,
+  "cw_water_temp": 14.36,
+  "meters_id": [
+    {
+      "$oid": "683c9830b52c6643a25c2f1d"
+    },
+    {
+      "$oid": "683c9830b52c6643a25c2f1e"
+    }
+  ],
+  "update_time": {
+    "$date": "2025-06-01T21:13:04.728Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "683c9830b52c6643a25c2f22"
+  },
+  "building_id": {
+    "$oid": "683c9830b52c6643a25c2eef"
+  },
+  "apartment_floor": 5,
+  "apartment_number": 44,
+  "total_hw_usage": 1.34,
+  "total_cw_usage": 1.97,
+  "hw_momentary_usage": 1.34,
+  "cw_momentary_usage": 1.97,
+  "hw_water_temp": 51.67,
+  "cw_water_temp": 18.39,
+  "meters_id": [
+    {
+      "$oid": "683c9830b52c6643a25c2f20"
+    },
+    {
+      "$oid": "683c9830b52c6643a25c2f21"
+    }
+  ],
+  "update_time": {
+    "$date": "2025-06-01T21:13:04.728Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "683c9830b52c6643a25c2f25"
+  },
+  "building_id": {
+    "$oid": "683c9830b52c6643a25c2eef"
+  },
+  "apartment_floor": 8,
+  "apartment_number": 15,
+  "total_hw_usage": 1.78,
+  "total_cw_usage": 1.59,
+  "hw_momentary_usage": 1.78,
+  "cw_momentary_usage": 1.59,
+  "hw_water_temp": 59.04,
+  "cw_water_temp": 13.26,
+  "meters_id": [
+    {
+      "$oid": "683c9830b52c6643a25c2f23"
+    },
+    {
+      "$oid": "683c9830b52c6643a25c2f24"
+    }
+  ],
+  "update_time": {
+    "$date": "2025-06-01T21:13:04.728Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "683c9830b52c6643a25c2f28"
+  },
+  "building_id": {
+    "$oid": "683c9830b52c6643a25c2eef"
+  },
+  "apartment_floor": 5,
+  "apartment_number": 68,
+  "total_hw_usage": 1.22,
+  "total_cw_usage": 1.96,
+  "hw_momentary_usage": 1.22,
+  "cw_momentary_usage": 1.96,
+  "hw_water_temp": 52.95,
+  "cw_water_temp": 12.64,
+  "meters_id": [
+    {
+      "$oid": "683c9830b52c6643a25c2f26"
+    },
+    {
+      "$oid": "683c9830b52c6643a25c2f27"
+    }
+  ],
+  "update_time": {
+    "$date": "2025-06-01T21:13:04.728Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "683c9830b52c6643a25c2f2b"
+  },
+  "building_id": {
+    "$oid": "683c9830b52c6643a25c2eef"
+  },
+  "apartment_floor": 4,
+  "apartment_number": 18,
+  "total_hw_usage": 1.37,
+  "total_cw_usage": 0.76,
+  "hw_momentary_usage": 1.37,
+  "cw_momentary_usage": 0.76,
+  "hw_water_temp": 51.94,
+  "cw_water_temp": 11.33,
+  "meters_id": [
+    {
+      "$oid": "683c9830b52c6643a25c2f29"
+    },
+    {
+      "$oid": "683c9830b52c6643a25c2f2a"
+    }
+  ],
+  "update_time": {
+    "$date": "2025-06-01T21:13:04.728Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "683c9830b52c6643a25c2f2f"
+  },
+  "building_id": {
+    "$oid": "683c9830b52c6643a25c2f2c"
+  },
+  "apartment_floor": 6,
+  "apartment_number": 37,
+  "total_hw_usage": 0.87,
+  "total_cw_usage": 1.5,
+  "hw_momentary_usage": 0.87,
+  "cw_momentary_usage": 1.5,
+  "hw_water_temp": 58.27,
+  "cw_water_temp": 16.6,
+  "meters_id": [
+    {
+      "$oid": "683c9830b52c6643a25c2f2d"
+    },
+    {
+      "$oid": "683c9830b52c6643a25c2f2e"
+    }
+  ],
+  "update_time": {
+    "$date": "2025-06-01T21:13:04.728Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "683c9830b52c6643a25c2f32"
+  },
+  "building_id": {
+    "$oid": "683c9830b52c6643a25c2f2c"
+  },
+  "apartment_floor": 8,
+  "apartment_number": 7,
+  "total_hw_usage": 1.03,
+  "total_cw_usage": 0.75,
+  "hw_momentary_usage": 1.03,
+  "cw_momentary_usage": 0.75,
+  "hw_water_temp": 58.11,
+  "cw_water_temp": 19.64,
+  "meters_id": [
+    {
+      "$oid": "683c9830b52c6643a25c2f30"
+    },
+    {
+      "$oid": "683c9830b52c6643a25c2f31"
+    }
+  ],
+  "update_time": {
+    "$date": "2025-06-01T21:13:04.728Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "683c9830b52c6643a25c2f35"
+  },
+  "building_id": {
+    "$oid": "683c9830b52c6643a25c2f2c"
+  },
+  "apartment_floor": 3,
+  "apartment_number": 72,
+  "total_hw_usage": 1.37,
+  "total_cw_usage": 1.87,
+  "hw_momentary_usage": 1.37,
+  "cw_momentary_usage": 1.87,
+  "hw_water_temp": 54.59,
+  "cw_water_temp": 13.19,
+  "meters_id": [
+    {
+      "$oid": "683c9830b52c6643a25c2f33"
+    },
+    {
+      "$oid": "683c9830b52c6643a25c2f34"
+    }
+  ],
+  "update_time": {
+    "$date": "2025-06-01T21:13:04.729Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "683c9830b52c6643a25c2f38"
+  },
+  "building_id": {
+    "$oid": "683c9830b52c6643a25c2f2c"
+  },
+  "apartment_floor": 1,
+  "apartment_number": 21,
+  "total_hw_usage": 1,
+  "total_cw_usage": 1.48,
+  "hw_momentary_usage": 1,
+  "cw_momentary_usage": 1.48,
+  "hw_water_temp": 50.5,
+  "cw_water_temp": 17.2,
+  "meters_id": [
+    {
+      "$oid": "683c9830b52c6643a25c2f36"
+    },
+    {
+      "$oid": "683c9830b52c6643a25c2f37"
+    }
+  ],
+  "update_time": {
+    "$date": "2025-06-01T21:13:04.729Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "683c9830b52c6643a25c2f3b"
+  },
+  "building_id": {
+    "$oid": "683c9830b52c6643a25c2f2c"
+  },
+  "apartment_floor": 2,
+  "apartment_number": 13,
+  "total_hw_usage": 1.12,
+  "total_cw_usage": 0.59,
+  "hw_momentary_usage": 1.12,
+  "cw_momentary_usage": 0.59,
+  "hw_water_temp": 56.85,
+  "cw_water_temp": 15.09,
+  "meters_id": [
+    {
+      "$oid": "683c9830b52c6643a25c2f39"
+    },
+    {
+      "$oid": "683c9830b52c6643a25c2f3a"
+    }
+  ],
+  "update_time": {
+    "$date": "2025-06-01T21:13:04.729Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "683c9830b52c6643a25c2f3e"
+  },
+  "building_id": {
+    "$oid": "683c9830b52c6643a25c2f2c"
+  },
+  "apartment_floor": 8,
+  "apartment_number": 5,
+  "total_hw_usage": 1.28,
+  "total_cw_usage": 1.33,
+  "hw_momentary_usage": 1.28,
+  "cw_momentary_usage": 1.33,
+  "hw_water_temp": 50.22,
+  "cw_water_temp": 16.02,
+  "meters_id": [
+    {
+      "$oid": "683c9830b52c6643a25c2f3c"
+    },
+    {
+      "$oid": "683c9830b52c6643a25c2f3d"
+    }
+  ],
+  "update_time": {
+    "$date": "2025-06-01T21:13:04.729Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "683c9830b52c6643a25c2f41"
+  },
+  "building_id": {
+    "$oid": "683c9830b52c6643a25c2f2c"
+  },
+  "apartment_floor": 7,
+  "apartment_number": 90,
+  "total_hw_usage": 0.86,
+  "total_cw_usage": 1.59,
+  "hw_momentary_usage": 0.86,
+  "cw_momentary_usage": 1.59,
+  "hw_water_temp": 52.7,
+  "cw_water_temp": 10.19,
+  "meters_id": [
+    {
+      "$oid": "683c9830b52c6643a25c2f3f"
+    },
+    {
+      "$oid": "683c9830b52c6643a25c2f40"
+    }
+  ],
+  "update_time": {
+    "$date": "2025-06-01T21:13:04.729Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "683c9830b52c6643a25c2f44"
+  },
+  "building_id": {
+    "$oid": "683c9830b52c6643a25c2f2c"
+  },
+  "apartment_floor": 4,
+  "apartment_number": 4,
+  "total_hw_usage": 1.7,
+  "total_cw_usage": 1.6,
+  "hw_momentary_usage": 1.7,
+  "cw_momentary_usage": 1.6,
+  "hw_water_temp": 50.93,
+  "cw_water_temp": 10.22,
+  "meters_id": [
+    {
+      "$oid": "683c9830b52c6643a25c2f42"
+    },
+    {
+      "$oid": "683c9830b52c6643a25c2f43"
+    }
+  ],
+  "update_time": {
+    "$date": "2025-06-01T21:13:04.729Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "683c9830b52c6643a25c2f47"
+  },
+  "building_id": {
+    "$oid": "683c9830b52c6643a25c2f2c"
+  },
+  "apartment_floor": 10,
+  "apartment_number": 35,
+  "total_hw_usage": 0.54,
+  "total_cw_usage": 1.48,
+  "hw_momentary_usage": 0.54,
+  "cw_momentary_usage": 1.48,
+  "hw_water_temp": 58.91,
+  "cw_water_temp": 11.12,
+  "meters_id": [
+    {
+      "$oid": "683c9830b52c6643a25c2f45"
+    },
+    {
+      "$oid": "683c9830b52c6643a25c2f46"
+    }
+  ],
+  "update_time": {
+    "$date": "2025-06-01T21:13:04.729Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "683c9830b52c6643a25c2f4a"
+  },
+  "building_id": {
+    "$oid": "683c9830b52c6643a25c2f2c"
+  },
+  "apartment_floor": 6,
+  "apartment_number": 56,
+  "total_hw_usage": 1.61,
+  "total_cw_usage": 1.84,
+  "hw_momentary_usage": 1.61,
+  "cw_momentary_usage": 1.84,
+  "hw_water_temp": 59.05,
+  "cw_water_temp": 10.86,
+  "meters_id": [
+    {
+      "$oid": "683c9830b52c6643a25c2f48"
+    },
+    {
+      "$oid": "683c9830b52c6643a25c2f49"
+    }
+  ],
+  "update_time": {
+    "$date": "2025-06-01T21:13:04.729Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "683c9830b52c6643a25c2f4d"
+  },
+  "building_id": {
+    "$oid": "683c9830b52c6643a25c2f2c"
+  },
+  "apartment_floor": 9,
+  "apartment_number": 66,
+  "total_hw_usage": 0.72,
+  "total_cw_usage": 1.44,
+  "hw_momentary_usage": 0.72,
+  "cw_momentary_usage": 1.44,
+  "hw_water_temp": 54.03,
+  "cw_water_temp": 11.9,
+  "meters_id": [
+    {
+      "$oid": "683c9830b52c6643a25c2f4b"
+    },
+    {
+      "$oid": "683c9830b52c6643a25c2f4c"
+    }
+  ],
+  "update_time": {
+    "$date": "2025-06-01T21:13:04.729Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "683c9830b52c6643a25c2f50"
+  },
+  "building_id": {
+    "$oid": "683c9830b52c6643a25c2f2c"
+  },
+  "apartment_floor": 2,
+  "apartment_number": 92,
+  "total_hw_usage": 0.69,
+  "total_cw_usage": 1.71,
+  "hw_momentary_usage": 0.69,
+  "cw_momentary_usage": 1.71,
+  "hw_water_temp": 59.69,
+  "cw_water_temp": 19.42,
+  "meters_id": [
+    {
+      "$oid": "683c9830b52c6643a25c2f4e"
+    },
+    {
+      "$oid": "683c9830b52c6643a25c2f4f"
+    }
+  ],
+  "update_time": {
+    "$date": "2025-06-01T21:13:04.729Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "683c9830b52c6643a25c2f53"
+  },
+  "building_id": {
+    "$oid": "683c9830b52c6643a25c2f2c"
+  },
+  "apartment_floor": 8,
+  "apartment_number": 81,
+  "total_hw_usage": 0.98,
+  "total_cw_usage": 1.09,
+  "hw_momentary_usage": 0.98,
+  "cw_momentary_usage": 1.09,
+  "hw_water_temp": 51.73,
+  "cw_water_temp": 16.78,
+  "meters_id": [
+    {
+      "$oid": "683c9830b52c6643a25c2f51"
+    },
+    {
+      "$oid": "683c9830b52c6643a25c2f52"
+    }
+  ],
+  "update_time": {
+    "$date": "2025-06-01T21:13:04.729Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "683c9830b52c6643a25c2f56"
+  },
+  "building_id": {
+    "$oid": "683c9830b52c6643a25c2f2c"
+  },
+  "apartment_floor": 10,
+  "apartment_number": 36,
+  "total_hw_usage": 0.99,
+  "total_cw_usage": 1.87,
+  "hw_momentary_usage": 0.99,
+  "cw_momentary_usage": 1.87,
+  "hw_water_temp": 59.47,
+  "cw_water_temp": 16.65,
+  "meters_id": [
+    {
+      "$oid": "683c9830b52c6643a25c2f54"
+    },
+    {
+      "$oid": "683c9830b52c6643a25c2f55"
+    }
+  ],
+  "update_time": {
+    "$date": "2025-06-01T21:13:04.729Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "683c9830b52c6643a25c2f59"
+  },
+  "building_id": {
+    "$oid": "683c9830b52c6643a25c2f2c"
+  },
+  "apartment_floor": 3,
+  "apartment_number": 39,
+  "total_hw_usage": 1.76,
+  "total_cw_usage": 1.13,
+  "hw_momentary_usage": 1.76,
+  "cw_momentary_usage": 1.13,
+  "hw_water_temp": 55.67,
+  "cw_water_temp": 11.56,
+  "meters_id": [
+    {
+      "$oid": "683c9830b52c6643a25c2f57"
+    },
+    {
+      "$oid": "683c9830b52c6643a25c2f58"
+    }
+  ],
+  "update_time": {
+    "$date": "2025-06-01T21:13:04.729Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "683c9830b52c6643a25c2f5c"
+  },
+  "building_id": {
+    "$oid": "683c9830b52c6643a25c2f2c"
+  },
+  "apartment_floor": 5,
+  "apartment_number": 40,
+  "total_hw_usage": 1.94,
+  "total_cw_usage": 1.42,
+  "hw_momentary_usage": 1.94,
+  "cw_momentary_usage": 1.42,
+  "hw_water_temp": 56.09,
+  "cw_water_temp": 12.73,
+  "meters_id": [
+    {
+      "$oid": "683c9830b52c6643a25c2f5a"
+    },
+    {
+      "$oid": "683c9830b52c6643a25c2f5b"
+    }
+  ],
+  "update_time": {
+    "$date": "2025-06-01T21:13:04.729Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "683c9830b52c6643a25c2f5f"
+  },
+  "building_id": {
+    "$oid": "683c9830b52c6643a25c2f2c"
+  },
+  "apartment_floor": 1,
+  "apartment_number": 46,
+  "total_hw_usage": 0.68,
+  "total_cw_usage": 0.87,
+  "hw_momentary_usage": 0.68,
+  "cw_momentary_usage": 0.87,
+  "hw_water_temp": 53.99,
+  "cw_water_temp": 15.87,
+  "meters_id": [
+    {
+      "$oid": "683c9830b52c6643a25c2f5d"
+    },
+    {
+      "$oid": "683c9830b52c6643a25c2f5e"
+    }
+  ],
+  "update_time": {
+    "$date": "2025-06-01T21:13:04.729Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "683c9830b52c6643a25c2f62"
+  },
+  "building_id": {
+    "$oid": "683c9830b52c6643a25c2f2c"
+  },
+  "apartment_floor": 6,
+  "apartment_number": 41,
+  "total_hw_usage": 0.6,
+  "total_cw_usage": 1.81,
+  "hw_momentary_usage": 0.6,
+  "cw_momentary_usage": 1.81,
+  "hw_water_temp": 51.83,
+  "cw_water_temp": 14.52,
+  "meters_id": [
+    {
+      "$oid": "683c9830b52c6643a25c2f60"
+    },
+    {
+      "$oid": "683c9830b52c6643a25c2f61"
+    }
+  ],
+  "update_time": {
+    "$date": "2025-06-01T21:13:04.729Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "683c9830b52c6643a25c2f65"
+  },
+  "building_id": {
+    "$oid": "683c9830b52c6643a25c2f2c"
+  },
+  "apartment_floor": 7,
+  "apartment_number": 4,
+  "total_hw_usage": 1.13,
+  "total_cw_usage": 1.35,
+  "hw_momentary_usage": 1.13,
+  "cw_momentary_usage": 1.35,
+  "hw_water_temp": 57.71,
+  "cw_water_temp": 12.05,
+  "meters_id": [
+    {
+      "$oid": "683c9830b52c6643a25c2f63"
+    },
+    {
+      "$oid": "683c9830b52c6643a25c2f64"
+    }
+  ],
+  "update_time": {
+    "$date": "2025-06-01T21:13:04.729Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "683c9830b52c6643a25c2f68"
+  },
+  "building_id": {
+    "$oid": "683c9830b52c6643a25c2f2c"
+  },
+  "apartment_floor": 2,
+  "apartment_number": 41,
+  "total_hw_usage": 1.73,
+  "total_cw_usage": 0.63,
+  "hw_momentary_usage": 1.73,
+  "cw_momentary_usage": 0.63,
+  "hw_water_temp": 56.51,
+  "cw_water_temp": 18.37,
+  "meters_id": [
+    {
+      "$oid": "683c9830b52c6643a25c2f66"
+    },
+    {
+      "$oid": "683c9830b52c6643a25c2f67"
+    }
+  ],
+  "update_time": {
+    "$date": "2025-06-01T21:13:04.729Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "683c9830b52c6643a25c2f6c"
+  },
+  "building_id": {
+    "$oid": "683c9830b52c6643a25c2f69"
+  },
+  "apartment_floor": 10,
+  "apartment_number": 58,
+  "total_hw_usage": 1.16,
+  "total_cw_usage": 1.43,
+  "hw_momentary_usage": 1.16,
+  "cw_momentary_usage": 1.43,
+  "hw_water_temp": 51.95,
+  "cw_water_temp": 13.58,
+  "meters_id": [
+    {
+      "$oid": "683c9830b52c6643a25c2f6a"
+    },
+    {
+      "$oid": "683c9830b52c6643a25c2f6b"
+    }
+  ],
+  "update_time": {
+    "$date": "2025-06-01T21:13:04.729Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "683c9830b52c6643a25c2f6f"
+  },
+  "building_id": {
+    "$oid": "683c9830b52c6643a25c2f69"
+  },
+  "apartment_floor": 4,
+  "apartment_number": 23,
+  "total_hw_usage": 0.84,
+  "total_cw_usage": 0.96,
+  "hw_momentary_usage": 0.84,
+  "cw_momentary_usage": 0.96,
+  "hw_water_temp": 51.09,
+  "cw_water_temp": 12.88,
+  "meters_id": [
+    {
+      "$oid": "683c9830b52c6643a25c2f6d"
+    },
+    {
+      "$oid": "683c9830b52c6643a25c2f6e"
+    }
+  ],
+  "update_time": {
+    "$date": "2025-06-01T21:13:04.729Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "683c9830b52c6643a25c2f72"
+  },
+  "building_id": {
+    "$oid": "683c9830b52c6643a25c2f69"
+  },
+  "apartment_floor": 5,
+  "apartment_number": 81,
+  "total_hw_usage": 1.18,
+  "total_cw_usage": 0.8,
+  "hw_momentary_usage": 1.18,
+  "cw_momentary_usage": 0.8,
+  "hw_water_temp": 57.91,
+  "cw_water_temp": 12.69,
+  "meters_id": [
+    {
+      "$oid": "683c9830b52c6643a25c2f70"
+    },
+    {
+      "$oid": "683c9830b52c6643a25c2f71"
+    }
+  ],
+  "update_time": {
+    "$date": "2025-06-01T21:13:04.729Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "683c9830b52c6643a25c2f75"
+  },
+  "building_id": {
+    "$oid": "683c9830b52c6643a25c2f69"
+  },
+  "apartment_floor": 4,
+  "apartment_number": 37,
+  "total_hw_usage": 1.55,
+  "total_cw_usage": 0.86,
+  "hw_momentary_usage": 1.55,
+  "cw_momentary_usage": 0.86,
+  "hw_water_temp": 55.26,
+  "cw_water_temp": 11.65,
+  "meters_id": [
+    {
+      "$oid": "683c9830b52c6643a25c2f73"
+    },
+    {
+      "$oid": "683c9830b52c6643a25c2f74"
+    }
+  ],
+  "update_time": {
+    "$date": "2025-06-01T21:13:04.729Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "683c9830b52c6643a25c2f78"
+  },
+  "building_id": {
+    "$oid": "683c9830b52c6643a25c2f69"
+  },
+  "apartment_floor": 10,
+  "apartment_number": 28,
+  "total_hw_usage": 1.59,
+  "total_cw_usage": 1.46,
+  "hw_momentary_usage": 1.59,
+  "cw_momentary_usage": 1.46,
+  "hw_water_temp": 55.83,
+  "cw_water_temp": 10.51,
+  "meters_id": [
+    {
+      "$oid": "683c9830b52c6643a25c2f76"
+    },
+    {
+      "$oid": "683c9830b52c6643a25c2f77"
+    }
+  ],
+  "update_time": {
+    "$date": "2025-06-01T21:13:04.729Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "683c9830b52c6643a25c2f7b"
+  },
+  "building_id": {
+    "$oid": "683c9830b52c6643a25c2f69"
+  },
+  "apartment_floor": 6,
+  "apartment_number": 46,
+  "total_hw_usage": 1.47,
+  "total_cw_usage": 0.59,
+  "hw_momentary_usage": 1.47,
+  "cw_momentary_usage": 0.59,
+  "hw_water_temp": 51.04,
+  "cw_water_temp": 11.43,
+  "meters_id": [
+    {
+      "$oid": "683c9830b52c6643a25c2f79"
+    },
+    {
+      "$oid": "683c9830b52c6643a25c2f7a"
+    }
+  ],
+  "update_time": {
+    "$date": "2025-06-01T21:13:04.729Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "683c9830b52c6643a25c2f7e"
+  },
+  "building_id": {
+    "$oid": "683c9830b52c6643a25c2f69"
+  },
+  "apartment_floor": 5,
+  "apartment_number": 20,
+  "total_hw_usage": 1.77,
+  "total_cw_usage": 1.18,
+  "hw_momentary_usage": 1.77,
+  "cw_momentary_usage": 1.18,
+  "hw_water_temp": 51.22,
+  "cw_water_temp": 12.6,
+  "meters_id": [
+    {
+      "$oid": "683c9830b52c6643a25c2f7c"
+    },
+    {
+      "$oid": "683c9830b52c6643a25c2f7d"
+    }
+  ],
+  "update_time": {
+    "$date": "2025-06-01T21:13:04.729Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "683c9830b52c6643a25c2f81"
+  },
+  "building_id": {
+    "$oid": "683c9830b52c6643a25c2f69"
+  },
+  "apartment_floor": 5,
+  "apartment_number": 13,
+  "total_hw_usage": 0.6,
+  "total_cw_usage": 1.67,
+  "hw_momentary_usage": 0.6,
+  "cw_momentary_usage": 1.67,
+  "hw_water_temp": 56.76,
+  "cw_water_temp": 12.47,
+  "meters_id": [
+    {
+      "$oid": "683c9830b52c6643a25c2f7f"
+    },
+    {
+      "$oid": "683c9830b52c6643a25c2f80"
+    }
+  ],
+  "update_time": {
+    "$date": "2025-06-01T21:13:04.729Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "683c9830b52c6643a25c2f84"
+  },
+  "building_id": {
+    "$oid": "683c9830b52c6643a25c2f69"
+  },
+  "apartment_floor": 5,
+  "apartment_number": 95,
+  "total_hw_usage": 1.78,
+  "total_cw_usage": 1.76,
+  "hw_momentary_usage": 1.78,
+  "cw_momentary_usage": 1.76,
+  "hw_water_temp": 50.39,
+  "cw_water_temp": 14.15,
+  "meters_id": [
+    {
+      "$oid": "683c9830b52c6643a25c2f82"
+    },
+    {
+      "$oid": "683c9830b52c6643a25c2f83"
+    }
+  ],
+  "update_time": {
+    "$date": "2025-06-01T21:13:04.729Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "683c9830b52c6643a25c2f87"
+  },
+  "building_id": {
+    "$oid": "683c9830b52c6643a25c2f69"
+  },
+  "apartment_floor": 5,
+  "apartment_number": 88,
+  "total_hw_usage": 0.78,
+  "total_cw_usage": 1.04,
+  "hw_momentary_usage": 0.78,
+  "cw_momentary_usage": 1.04,
+  "hw_water_temp": 53.36,
+  "cw_water_temp": 10.13,
+  "meters_id": [
+    {
+      "$oid": "683c9830b52c6643a25c2f85"
+    },
+    {
+      "$oid": "683c9830b52c6643a25c2f86"
+    }
+  ],
+  "update_time": {
+    "$date": "2025-06-01T21:13:04.729Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "683c9830b52c6643a25c2f8a"
+  },
+  "building_id": {
+    "$oid": "683c9830b52c6643a25c2f69"
+  },
+  "apartment_floor": 3,
+  "apartment_number": 41,
+  "total_hw_usage": 1.58,
+  "total_cw_usage": 1.58,
+  "hw_momentary_usage": 1.58,
+  "cw_momentary_usage": 1.58,
+  "hw_water_temp": 54.22,
+  "cw_water_temp": 12.33,
+  "meters_id": [
+    {
+      "$oid": "683c9830b52c6643a25c2f88"
+    },
+    {
+      "$oid": "683c9830b52c6643a25c2f89"
+    }
+  ],
+  "update_time": {
+    "$date": "2025-06-01T21:13:04.729Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "683c9830b52c6643a25c2f8d"
+  },
+  "building_id": {
+    "$oid": "683c9830b52c6643a25c2f69"
+  },
+  "apartment_floor": 2,
+  "apartment_number": 74,
+  "total_hw_usage": 1.32,
+  "total_cw_usage": 0.62,
+  "hw_momentary_usage": 1.32,
+  "cw_momentary_usage": 0.62,
+  "hw_water_temp": 58.89,
+  "cw_water_temp": 13.02,
+  "meters_id": [
+    {
+      "$oid": "683c9830b52c6643a25c2f8b"
+    },
+    {
+      "$oid": "683c9830b52c6643a25c2f8c"
+    }
+  ],
+  "update_time": {
+    "$date": "2025-06-01T21:13:04.729Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "683c9830b52c6643a25c2f90"
+  },
+  "building_id": {
+    "$oid": "683c9830b52c6643a25c2f69"
+  },
+  "apartment_floor": 5,
+  "apartment_number": 1,
+  "total_hw_usage": 1.28,
+  "total_cw_usage": 0.61,
+  "hw_momentary_usage": 1.28,
+  "cw_momentary_usage": 0.61,
+  "hw_water_temp": 50.45,
+  "cw_water_temp": 12.5,
+  "meters_id": [
+    {
+      "$oid": "683c9830b52c6643a25c2f8e"
+    },
+    {
+      "$oid": "683c9830b52c6643a25c2f8f"
+    }
+  ],
+  "update_time": {
+    "$date": "2025-06-01T21:13:04.729Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "683c9830b52c6643a25c2f93"
+  },
+  "building_id": {
+    "$oid": "683c9830b52c6643a25c2f69"
+  },
+  "apartment_floor": 5,
+  "apartment_number": 86,
+  "total_hw_usage": 1.92,
+  "total_cw_usage": 0.66,
+  "hw_momentary_usage": 1.92,
+  "cw_momentary_usage": 0.66,
+  "hw_water_temp": 50.26,
+  "cw_water_temp": 12.75,
+  "meters_id": [
+    {
+      "$oid": "683c9830b52c6643a25c2f91"
+    },
+    {
+      "$oid": "683c9830b52c6643a25c2f92"
+    }
+  ],
+  "update_time": {
+    "$date": "2025-06-01T21:13:04.729Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "683c9830b52c6643a25c2f96"
+  },
+  "building_id": {
+    "$oid": "683c9830b52c6643a25c2f69"
+  },
+  "apartment_floor": 2,
+  "apartment_number": 1,
+  "total_hw_usage": 1.1,
+  "total_cw_usage": 1.85,
+  "hw_momentary_usage": 1.1,
+  "cw_momentary_usage": 1.85,
+  "hw_water_temp": 54.86,
+  "cw_water_temp": 14.08,
+  "meters_id": [
+    {
+      "$oid": "683c9830b52c6643a25c2f94"
+    },
+    {
+      "$oid": "683c9830b52c6643a25c2f95"
+    }
+  ],
+  "update_time": {
+    "$date": "2025-06-01T21:13:04.729Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "683c9830b52c6643a25c2f99"
+  },
+  "building_id": {
+    "$oid": "683c9830b52c6643a25c2f69"
+  },
+  "apartment_floor": 1,
+  "apartment_number": 14,
+  "total_hw_usage": 1.4,
+  "total_cw_usage": 1.34,
+  "hw_momentary_usage": 1.4,
+  "cw_momentary_usage": 1.34,
+  "hw_water_temp": 58.54,
+  "cw_water_temp": 16.43,
+  "meters_id": [
+    {
+      "$oid": "683c9830b52c6643a25c2f97"
+    },
+    {
+      "$oid": "683c9830b52c6643a25c2f98"
+    }
+  ],
+  "update_time": {
+    "$date": "2025-06-01T21:13:04.729Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "683c9830b52c6643a25c2f9c"
+  },
+  "building_id": {
+    "$oid": "683c9830b52c6643a25c2f69"
+  },
+  "apartment_floor": 5,
+  "apartment_number": 81,
+  "total_hw_usage": 1.24,
+  "total_cw_usage": 1.66,
+  "hw_momentary_usage": 1.24,
+  "cw_momentary_usage": 1.66,
+  "hw_water_temp": 56.49,
+  "cw_water_temp": 12.71,
+  "meters_id": [
+    {
+      "$oid": "683c9830b52c6643a25c2f9a"
+    },
+    {
+      "$oid": "683c9830b52c6643a25c2f9b"
+    }
+  ],
+  "update_time": {
+    "$date": "2025-06-01T21:13:04.729Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "683c9830b52c6643a25c2f9f"
+  },
+  "building_id": {
+    "$oid": "683c9830b52c6643a25c2f69"
+  },
+  "apartment_floor": 1,
+  "apartment_number": 91,
+  "total_hw_usage": 1.6,
+  "total_cw_usage": 1.99,
+  "hw_momentary_usage": 1.6,
+  "cw_momentary_usage": 1.99,
+  "hw_water_temp": 53.01,
+  "cw_water_temp": 16.22,
+  "meters_id": [
+    {
+      "$oid": "683c9830b52c6643a25c2f9d"
+    },
+    {
+      "$oid": "683c9830b52c6643a25c2f9e"
+    }
+  ],
+  "update_time": {
+    "$date": "2025-06-01T21:13:04.729Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "683c9830b52c6643a25c2fa2"
+  },
+  "building_id": {
+    "$oid": "683c9830b52c6643a25c2f69"
+  },
+  "apartment_floor": 8,
+  "apartment_number": 93,
+  "total_hw_usage": 1.11,
+  "total_cw_usage": 1.85,
+  "hw_momentary_usage": 1.11,
+  "cw_momentary_usage": 1.85,
+  "hw_water_temp": 58.04,
+  "cw_water_temp": 10.02,
+  "meters_id": [
+    {
+      "$oid": "683c9830b52c6643a25c2fa0"
+    },
+    {
+      "$oid": "683c9830b52c6643a25c2fa1"
+    }
+  ],
+  "update_time": {
+    "$date": "2025-06-01T21:13:04.729Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "683c9830b52c6643a25c2fa5"
+  },
+  "building_id": {
+    "$oid": "683c9830b52c6643a25c2f69"
+  },
+  "apartment_floor": 2,
+  "apartment_number": 96,
+  "total_hw_usage": 1.76,
+  "total_cw_usage": 1.09,
+  "hw_momentary_usage": 1.76,
+  "cw_momentary_usage": 1.09,
+  "hw_water_temp": 56.41,
+  "cw_water_temp": 18.41,
+  "meters_id": [
+    {
+      "$oid": "683c9830b52c6643a25c2fa3"
+    },
+    {
+      "$oid": "683c9830b52c6643a25c2fa4"
+    }
+  ],
+  "update_time": {
+    "$date": "2025-06-01T21:13:04.729Z"
+  }
+}]

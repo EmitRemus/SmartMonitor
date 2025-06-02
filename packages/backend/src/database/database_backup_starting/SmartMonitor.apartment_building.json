@@ -1,0 +1,250 @@
+[{
+  "_id": {
+    "$oid": "683c9830b52c6643a25c2d41"
+  },
+  "build_year": 1993,
+  "address": "683c9830b52c6643a25c2d40-Addr-1",
+  "pipe_id": {
+    "$oid": "683c9830b52c6643a25c2d3e"
+  },
+  "pump_station_id": {
+    "$oid": "683c9830b52c6643a25c2d40"
+  },
+  "appartments_count": 0,
+  "floors_count": 10,
+  "total_hw_usage": 0,
+  "total_cw_usage": 0,
+  "hw_momentary_usage": 0,
+  "cw_momentary_usage": 0,
+  "hw_water_temp": 0,
+  "cw_water_temp": 0,
+  "pressure": 2.14,
+  "update_time": {
+    "$date": "2025-06-01T21:13:04.726Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "683c9830b52c6643a25c2d7e"
+  },
+  "build_year": 1997,
+  "address": "683c9830b52c6643a25c2d40-Addr-2",
+  "pipe_id": {
+    "$oid": "683c9830b52c6643a25c2d3e"
+  },
+  "pump_station_id": {
+    "$oid": "683c9830b52c6643a25c2d40"
+  },
+  "appartments_count": 0,
+  "floors_count": 3,
+  "total_hw_usage": 0,
+  "total_cw_usage": 0,
+  "hw_momentary_usage": 0,
+  "cw_momentary_usage": 0,
+  "hw_water_temp": 0,
+  "cw_water_temp": 0,
+  "pressure": 2.3,
+  "update_time": {
+    "$date": "2025-06-01T21:13:04.726Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "683c9830b52c6643a25c2dbb"
+  },
+  "build_year": 2001,
+  "address": "683c9830b52c6643a25c2d40-Addr-3",
+  "pipe_id": {
+    "$oid": "683c9830b52c6643a25c2d3e"
+  },
+  "pump_station_id": {
+    "$oid": "683c9830b52c6643a25c2d40"
+  },
+  "appartments_count": 0,
+  "floors_count": 8,
+  "total_hw_usage": 0,
+  "total_cw_usage": 0,
+  "hw_momentary_usage": 0,
+  "cw_momentary_usage": 0,
+  "hw_water_temp": 0,
+  "cw_water_temp": 0,
+  "pressure": 2.11,
+  "update_time": {
+    "$date": "2025-06-01T21:13:04.727Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "683c9830b52c6643a25c2df8"
+  },
+  "build_year": 2006,
+  "address": "683c9830b52c6643a25c2d40-Addr-4",
+  "pipe_id": {
+    "$oid": "683c9830b52c6643a25c2d3e"
+  },
+  "pump_station_id": {
+    "$oid": "683c9830b52c6643a25c2d40"
+  },
+  "appartments_count": 0,
+  "floors_count": 10,
+  "total_hw_usage": 0,
+  "total_cw_usage": 0,
+  "hw_momentary_usage": 0,
+  "cw_momentary_usage": 0,
+  "hw_water_temp": 0,
+  "cw_water_temp": 0,
+  "pressure": 2.37,
+  "update_time": {
+    "$date": "2025-06-01T21:13:04.727Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "683c9830b52c6643a25c2e35"
+  },
+  "build_year": 2004,
+  "address": "683c9830b52c6643a25c2d40-Addr-5",
+  "pipe_id": {
+    "$oid": "683c9830b52c6643a25c2d3e"
+  },
+  "pump_station_id": {
+    "$oid": "683c9830b52c6643a25c2d40"
+  },
+  "appartments_count": 0,
+  "floors_count": 6,
+  "total_hw_usage": 0,
+  "total_cw_usage": 0,
+  "hw_momentary_usage": 0,
+  "cw_momentary_usage": 0,
+  "hw_water_temp": 0,
+  "cw_water_temp": 0,
+  "pressure": 2.59,
+  "update_time": {
+    "$date": "2025-06-01T21:13:04.727Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "683c9830b52c6643a25c2e75"
+  },
+  "build_year": 2015,
+  "address": "683c9830b52c6643a25c2e74-Addr-1",
+  "pipe_id": {
+    "$oid": "683c9830b52c6643a25c2e72"
+  },
+  "pump_station_id": {
+    "$oid": "683c9830b52c6643a25c2e74"
+  },
+  "appartments_count": 0,
+  "floors_count": 4,
+  "total_hw_usage": 0,
+  "total_cw_usage": 0,
+  "hw_momentary_usage": 0,
+  "cw_momentary_usage": 0,
+  "hw_water_temp": 0,
+  "cw_water_temp": 0,
+  "pressure": 2.42,
+  "update_time": {
+    "$date": "2025-06-01T21:13:04.728Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "683c9830b52c6643a25c2eb2"
+  },
+  "build_year": 2016,
+  "address": "683c9830b52c6643a25c2e74-Addr-2",
+  "pipe_id": {
+    "$oid": "683c9830b52c6643a25c2e72"
+  },
+  "pump_station_id": {
+    "$oid": "683c9830b52c6643a25c2e74"
+  },
+  "appartments_count": 0,
+  "floors_count": 10,
+  "total_hw_usage": 0,
+  "total_cw_usage": 0,
+  "hw_momentary_usage": 0,
+  "cw_momentary_usage": 0,
+  "hw_water_temp": 0,
+  "cw_water_temp": 0,
+  "pressure": 2.03,
+  "update_time": {
+    "$date": "2025-06-01T21:13:04.728Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "683c9830b52c6643a25c2eef"
+  },
+  "build_year": 2015,
+  "address": "683c9830b52c6643a25c2e74-Addr-3",
+  "pipe_id": {
+    "$oid": "683c9830b52c6643a25c2e72"
+  },
+  "pump_station_id": {
+    "$oid": "683c9830b52c6643a25c2e74"
+  },
+  "appartments_count": 0,
+  "floors_count": 6,
+  "total_hw_usage": 0,
+  "total_cw_usage": 0,
+  "hw_momentary_usage": 0,
+  "cw_momentary_usage": 0,
+  "hw_water_temp": 0,
+  "cw_water_temp": 0,
+  "pressure": 2.39,
+  "update_time": {
+    "$date": "2025-06-01T21:13:04.728Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "683c9830b52c6643a25c2f2c"
+  },
+  "build_year": 2018,
+  "address": "683c9830b52c6643a25c2e74-Addr-4",
+  "pipe_id": {
+    "$oid": "683c9830b52c6643a25c2e72"
+  },
+  "pump_station_id": {
+    "$oid": "683c9830b52c6643a25c2e74"
+  },
+  "appartments_count": 0,
+  "floors_count": 4,
+  "total_hw_usage": 0,
+  "total_cw_usage": 0,
+  "hw_momentary_usage": 0,
+  "cw_momentary_usage": 0,
+  "hw_water_temp": 0,
+  "cw_water_temp": 0,
+  "pressure": 2.68,
+  "update_time": {
+    "$date": "2025-06-01T21:13:04.728Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "683c9830b52c6643a25c2f69"
+  },
+  "build_year": 2011,
+  "address": "683c9830b52c6643a25c2e74-Addr-5",
+  "pipe_id": {
+    "$oid": "683c9830b52c6643a25c2e72"
+  },
+  "pump_station_id": {
+    "$oid": "683c9830b52c6643a25c2e74"
+  },
+  "appartments_count": 0,
+  "floors_count": 3,
+  "total_hw_usage": 0,
+  "total_cw_usage": 0,
+  "hw_momentary_usage": 0,
+  "cw_momentary_usage": 0,
+  "hw_water_temp": 0,
+  "cw_water_temp": 0,
+  "pressure": 2.66,
+  "update_time": {
+    "$date": "2025-06-01T21:13:04.729Z"
+  }
+}]
