@@ -1,6 +1,5 @@
 from fastapi import FastAPI
 
-from src.routers.route1 import router as router1
 from src.routers.apartment import router as apartment_router
 from src.routers.building import router as building_router
 from src.routers.pipe import router as pipe_router
@@ -11,8 +10,6 @@ from src.routers.total_hot_water import router as hot_total
 from src.routers.update_stations_buildings import router as update_rest
 
 app = FastAPI()
-
-app.include_router(router1, prefix="/admin")
 
 app.include_router(apartment_router, prefix="/apartment")
 
