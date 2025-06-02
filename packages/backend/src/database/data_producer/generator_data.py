@@ -1,7 +1,7 @@
 import math
 from datetime import datetime
 import random
-
+from collections import defaultdict
 from src.database.database import client
 from src.database.tables.apartment import get_apartments
 from src.database.specific_queries.apartment_building import get_apartment_buildings
@@ -85,6 +85,69 @@ async def aggregate_building_momentary_usage(generated_meter_values: dict):
     return result
 
 
+async def aggregate_building_momentary_usage_by_date():
+    db = client.SmartMonitor
+    apartments = await get_apartments()
+
+    meter_type_cache = {}
+    building_meter_map = defaultdict(list)
+
+    for apt in apartments:
+        building_id = str(apt.get("building_id"))
+        for mid in apt.get("meters_id", []):
+            building_meter_map[building_id].append(str(mid))
+
+    all_meter_ids = list({mid for mids in building_meter_map.values() for mid in mids})
+
+    # Fetch meter type for each meter
+    async for meter in db["meter"].find(
+        {"_id": {"$in": [ObjectId(mid) for mid in all_meter_ids]}}, {"_id": 1, "meter_type": 1}
+    ):
+        meter_type_cache[str(meter["_id"])] = meter.get("meter_type", "unknown")
+
+    # Fetch all history for those meters
+    meter_histories_cursor = await db["meter"].aggregate(
+        [
+            {"$match": {"_id": {"$in": [ObjectId(mid) for mid in all_meter_ids]}}},
+            {"$unwind": "$history"},
+            {"$project": {"meter_id": "$_id", "date": "$history.date", "value": "$history.value"}},
+        ]
+    )
+
+    building_usage_by_date = defaultdict(
+        lambda: defaultdict(lambda: {"hw_momentary_usage": 0.0, "cw_momentary_usage": 0.0})
+    )
+
+    async for record in meter_histories_cursor:
+        meter_id = str(record["meter_id"])
+        date = record["date"]
+        timestamp = date.replace(second=0, microsecond=0)
+        value = record["value"]
+        meter_type = meter_type_cache.get(meter_id)
+
+        for building_id, meter_ids in building_meter_map.items():
+            if meter_id in meter_ids:
+                if meter_type == "hot":
+                    building_usage_by_date[building_id][timestamp]["hw_momentary_usage"] += value
+                elif meter_type == "cold":
+                    building_usage_by_date[building_id][timestamp]["cw_momentary_usage"] += value
+
+    # Format result
+    result = defaultdict(list)
+    for building_id, usage_per_time in building_usage_by_date.items():
+        for timestamp, usage in sorted(usage_per_time.items()):
+            result[building_id].append(
+                {
+                    "id": building_id,
+                    "date": timestamp,
+                    "hw_momentary_usage": round(usage["hw_momentary_usage"], 4),
+                    "cw_momentary_usage": round(usage["cw_momentary_usage"], 4),
+                }
+            )
+
+    return result
+
+
 async def aggregate_all_pump_station_momentary_usage(building_usage: dict):
     buildings = await get_apartment_buildings()
 
@@ -109,5 +172,42 @@ async def aggregate_all_pump_station_momentary_usage(building_usage: dict):
 
         result[pump_station_id]["hw_momentary_usage"] += usage.get("hw_momentary_usage", 0.0)
         result[pump_station_id]["cw_momentary_usage"] += usage.get("cw_momentary_usage", 0.0)
+
+    return result
+
+
+async def aggregate_all_pump_station_momentary_usage_by_date(building_usage_by_date: dict):
+    buildings = await get_apartment_buildings()
+
+    building_to_station = {
+        str(b["_id"]): str(b["pump_station_id"]) for b in buildings if "_id" in b and "pump_station_id" in b
+    }
+
+    station_usage_by_date = defaultdict(
+        lambda: defaultdict(lambda: {"hw_momentary_usage": 0.0, "cw_momentary_usage": 0.0})
+    )
+
+    for building_id, usage_list in building_usage_by_date.items():
+        station_id = building_to_station.get(building_id)
+        if not station_id:
+            continue
+
+        for usage in usage_list:
+            timestamp = usage["date"]
+            station_usage_by_date[station_id][timestamp]["hw_momentary_usage"] += usage.get("hw_momentary_usage", 0.0)
+            station_usage_by_date[station_id][timestamp]["cw_momentary_usage"] += usage.get("cw_momentary_usage", 0.0)
+
+    # Format result
+    result = defaultdict(list)
+    for station_id, usage_per_time in station_usage_by_date.items():
+        for timestamp, usage in sorted(usage_per_time.items()):
+            result[station_id].append(
+                {
+                    "id": station_id,
+                    "date": timestamp,
+                    "hw_momentary_usage": round(usage["hw_momentary_usage"], 4),
+                    "cw_momentary_usage": round(usage["cw_momentary_usage"], 4),
+                }
+            )
 
     return result
