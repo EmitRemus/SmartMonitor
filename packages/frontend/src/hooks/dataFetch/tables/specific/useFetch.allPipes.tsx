@@ -67,16 +67,16 @@ function _parseData(
   ) {
     return null;
   }
-
   // parse data (and value validation)
-  const result: [string | null][] = [];
+  const result: [string | null, string | null][] = [];
 
   for (const row of data.data) {
     if (row.some((cell, i) => typeof cell !== _columnTypes[i])) return null;
 
     const pipesId = row[0] as string | null;
+    const buildYear = row[1] as string | null;
 
-    result.push([pipesId as string]);
+    result.push([pipesId as string, buildYear as string]);
   }
 
   // formatting result
@@ -85,12 +85,16 @@ function _parseData(
     row[0] === null
       ? tableDataPresentationItemNone
       : { type: 'string', value: row[0] },
+    row[1] === null
+      ? tableDataPresentationItemNone
+      : { type: 'string', value: row[1] },
   ]);
 }
 
 const _columns: Record<string, TableDataPresentationItemType> = {
   'Pipe ID': 'string',
+  'Build year': 'string',
 };
 
-const _columnNames = Object.keys(_columns).sort();
-const _columnTypes = ['string'];
+const _columnNames = Object.keys(_columns);
+const _columnTypes = ['string', 'string'];

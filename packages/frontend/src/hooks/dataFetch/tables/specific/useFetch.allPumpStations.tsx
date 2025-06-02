@@ -124,12 +124,12 @@ function _parseData(
 }
 
 const _columns: Record<string, TableDataPresentationItemType> = {
-  'Pump Station ID': 'string',
+  'Station ID': 'string',
   'Cold Water': 'meter',
   'Hot Water': 'meter',
   Pressure: 'pressure',
   'Updated at': 'date',
 };
 
-const _columnNames = Object.keys(_columns).sort();
+const _columnNames = Object.keys(_columns);
 const _columnTypes = ['string', 'number', 'number', 'number', 'string'];

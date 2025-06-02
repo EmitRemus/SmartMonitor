@@ -56,7 +56,7 @@ async def get_pipe_list(last_id=None, limit: int = 20):
 
     async for doc in cursor:
         data_id.append(str(doc["_id"]))
-        data.append([str(doc.get("_id")), doc.get("build_year", None)])
+        data.append([str(doc.get("_id")), str(doc.get("build_year", None))])
 
     last_object_id = ObjectId(data_id[-1]) if data_id else None
     remaining_docs = await col.count_documents({"_id": {"$gt": last_object_id}}) if last_object_id else 0
@@ -69,5 +69,4 @@ async def get_pipe_list(last_id=None, limit: int = 20):
         "lastId": data_id[-1] if data_id else None,
         "isFinished": is_finished,
     }
-    print(response)
     return response

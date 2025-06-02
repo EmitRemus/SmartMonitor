@@ -222,7 +222,6 @@ async def get_pump_station_list(last_id=None, limit: int = 20):
         "lastId": data_id[-1] if data_id else None,
         "isFinished": is_finished,
     }
-    print(response)
     return response
 
 

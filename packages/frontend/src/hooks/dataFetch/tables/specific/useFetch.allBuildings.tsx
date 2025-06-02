@@ -131,5 +131,5 @@ const _columns: Record<string, TableDataPresentationItemType> = {
   'Updated at': 'date',
 };
 
-const _columnNames = Object.keys(_columns).sort();
+const _columnNames = Object.keys(_columns);
 const _columnTypes = ['string', 'number', 'number', 'number', 'string'];

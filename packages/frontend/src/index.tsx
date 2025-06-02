@@ -26,6 +26,14 @@ if (environment.USE_MOCKED_BACKEND) {
     .then(() => {
       createRoot(document.getElementById('root')!).render(_App);
     });
+} else if (environment.USE_MOCKED_BACKEND_GRAPH) {
+  import('@test/mockBackend/browserWorker')
+    .then(({ workerFraudGraph }) => {
+      workerFraudGraph.start();
+    })
+    .then(() => {
+      createRoot(document.getElementById('root')!).render(_App);
+    });
 } else {
   createRoot(document.getElementById('root')!).render(_App);
 }

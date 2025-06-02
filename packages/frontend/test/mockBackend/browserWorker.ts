@@ -22,3 +22,5 @@ export const worker = setupWorker(
 
   fraudGraphHandler,
 );
+
+export const workerFraudGraph = setupWorker(fraudGraphHandler);
