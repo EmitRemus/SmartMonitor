@@ -135,3 +135,8 @@ async def get_all_meter_ids():
     return meter_ids
 
     # asyncio.run(get_meter_history_by_range(datetime.date(2023, 2, 1), datetime.date(2023,12,31)))
+
+
+# async def get_all_meter_ids_and_water_usage() -> list[tuple[str, float]]:
+#     db = client.SmartMonitor
+#     col = db.meter
