@@ -15,7 +15,7 @@ export const TotalWaterChartInput = z.array(
             });
             return z.NEVER;
           }
-          if (date.toISOString() != val) {
+          if (date.toISOString() !== val) {
             ctx.issues.push({
               code: 'invalid_format',
               input: val,
