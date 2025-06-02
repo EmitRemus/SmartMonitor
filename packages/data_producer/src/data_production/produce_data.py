@@ -6,10 +6,10 @@ import paho.mqtt
 import paho.mqtt.client
 from src.get_mongo_info.meter_get_info_database import get_all_meter_ids_and_water_usage
 
-MIN_SLEEP_SECONDS = 10 * 60
-MAX_SLEEP_SECONDS = 1 * 60 * 60
-# MIN_SLEEP_SECONDS = 1 * 2
-# MAX_SLEEP_SECONDS = 1 * 8
+# MIN_SLEEP_SECONDS = 10 * 60
+# MAX_SLEEP_SECONDS = 1 * 60 * 60
+MIN_SLEEP_SECONDS = 1 * 2
+MAX_SLEEP_SECONDS = 1 * 8
 
 MIN_WATER_USAGE = 0.1
 MAX_WATER_USAGE = 1

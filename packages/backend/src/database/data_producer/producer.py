@@ -27,6 +27,15 @@ async def produce_data(meter_ids, to_mutate):
     return (mutated_meter_values, mutated_building_usage, true_station_usage)
 
 
+async def produce_data_no_mutate(meter_value):
+
+    building_usage = await aggregate_building_momentary_usage(meter_value)
+
+    station_usage = await aggregate_all_pump_station_momentary_usage(building_usage)
+
+    return (meter_value, building_usage, station_usage)
+
+
 async def get_data_from_mqtt(received_data: tuple):
     meters, apartment_buildings, pipe_stations = received_data
 
