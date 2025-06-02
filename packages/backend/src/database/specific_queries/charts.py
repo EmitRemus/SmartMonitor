@@ -10,7 +10,7 @@ async def aggregate_cold_water_by_date():
         pump_cursor = await db.pump_station.aggregate(
             [
                 {"$unwind": "$history"},
-                {"$group": {"_id": "$history.date", "expected_total": {"$sum": "$history.value"}}},
+                {"$group": {"_id": "$history.date", "expected_total": {"$sum": "$history.value cold"}}},
             ]
         )
 
@@ -21,7 +21,7 @@ async def aggregate_cold_water_by_date():
 
         meter_cursor = await db.meter.aggregate(
             [
-                {"$match": {"type": "cold"}},
+                {"$match": {"meter_type": "cold"}},
                 {"$unwind": "$history"},
                 {"$group": {"_id": "$history.date", "apartment_total": {"$sum": "$history.value"}}},
             ]
@@ -37,7 +37,7 @@ async def aggregate_cold_water_by_date():
         meter_series = []
 
         for timestamp_ms in sorted(all_timestamps):
-            iso_time = datetime.utcfromtimestamp(timestamp_ms / 1000).isoformat() + "Z"
+            iso_time = datetime.utcfromtimestamp(timestamp_ms / 1000).isoformat()[:-3] + "Z"
             pump_series.append([iso_time, pump_data.get(timestamp_ms, 0)])
             meter_series.append([iso_time, meter_data.get(timestamp_ms, 0)])
 
@@ -59,18 +59,19 @@ async def aggregate_hot_water_by_date():
         pump_cursor = await db.pump_station.aggregate(
             [
                 {"$unwind": "$history"},
-                {"$group": {"_id": "$history.date", "expected_total": {"$sum": "$history.value"}}},
+                {"$group": {"_id": "$history.date", "expected_total": {"$sum": "$history.value hot"}}},
             ]
         )
 
         pump_data = {}
         async for doc in pump_cursor:
             timestamp = int(doc["_id"].timestamp() * 1000)
+            print(doc["expected_total"])
             pump_data[timestamp] = doc["expected_total"]
 
         meter_cursor = await db.meter.aggregate(
             [
-                {"$match": {"type": "hot"}},
+                {"$match": {"meter_type": "hot"}},
                 {"$unwind": "$history"},
                 {"$group": {"_id": "$history.date", "apartment_total": {"$sum": "$history.value"}}},
             ]
@@ -86,7 +87,7 @@ async def aggregate_hot_water_by_date():
         meter_series = []
 
         for timestamp_ms in sorted(all_timestamps):
-            iso_time = datetime.utcfromtimestamp(timestamp_ms / 1000).isoformat() + "Z"
+            iso_time = datetime.utcfromtimestamp(timestamp_ms / 1000).isoformat()[:-3] + "Z"
             pump_series.append([iso_time, pump_data.get(timestamp_ms, 0)])
             meter_series.append([iso_time, meter_data.get(timestamp_ms, 0)])
 

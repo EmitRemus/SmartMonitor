@@ -1,6 +1,6 @@
 import { HttpResponse, http } from 'msw';
 
-export const fraudGraphHandler = http.get(/.*\/api\/graph\/fraud$/, () =>
+export const fraudGraphHandler = http.get(/.*\/graph\/fraud$/, () =>
   HttpResponse.json(_mockedGraph),
 );
 

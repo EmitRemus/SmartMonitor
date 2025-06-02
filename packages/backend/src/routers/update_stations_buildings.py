@@ -29,8 +29,8 @@ async def aggregate_and_update_usage_histories():
                         "$push": {
                             "history": {
                                 "date": usage["date"],
-                                "hw_momentary_usage": usage["hw_momentary_usage"],
-                                "cw_momentary_usage": usage["cw_momentary_usage"],
+                                "value hot": usage["hw_momentary_usage"],
+                                "value cold": usage["cw_momentary_usage"],
                             }
                         },
                         "$inc": {
@@ -49,8 +49,8 @@ async def aggregate_and_update_usage_histories():
                         "$push": {
                             "history": {
                                 "date": usage["date"],
-                                "hw_momentary_usage": usage["hw_momentary_usage"],
-                                "cw_momentary_usage": usage["cw_momentary_usage"],
+                                "value hot": usage["hw_momentary_usage"],
+                                "value cold": usage["cw_momentary_usage"],
                             }
                         },
                         "$inc": {

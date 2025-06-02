@@ -14,8 +14,9 @@ async function fetcher() {
     `${environment.API_BASE_URL}/charts/cold-water/totals`,
   );
   if (!data.ok) return failed;
-
-  const result = TotalWaterChartInput.safeParse(await data.json());
+  const a = await data.json();
+  console.log(a);
+  const result = TotalWaterChartInput.safeParse(a);
   if (!result.success) return failed;
   return { isSuccess: true, data: result.data };
 }

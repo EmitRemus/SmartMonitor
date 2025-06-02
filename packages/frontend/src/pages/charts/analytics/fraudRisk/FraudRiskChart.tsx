@@ -38,7 +38,7 @@ const FraudRiskChart = () => {
         direction="column"
         className="pt-5 h-120 w-full gap-1 pb-3 px-10"
       >
-        <Text className="text-2xl font-medium">Hot water consumption</Text>
+        <Text className="text-2xl font-medium">Fraud risk heatmap</Text>
         {Chart}
       </Flex>
     </>
